@@ -1,0 +1,162 @@
+{
+ "model": {
+  "name": "TRACE-X entity risk classifier",
+  "family": "XGBoost binary classifier (gradient-boosted trees)",
+  "fallback": "transparent rule scorer, used when XGBoost is unavailable",
+  "features": [
+   "n_phones",
+   "n_devices",
+   "n_accounts",
+   "n_ips_shared",
+   "max_imei_sim_count",
+   "has_call_debit_coupling",
+   "call_debit_speed_score",
+   "n_call_debit_links",
+   "max_passthrough_ratio",
+   "max_fanout_hop_count",
+   "total_fanout_inbound_inr",
+   "inbound_txn_count",
+   "outbound_txn_count",
+   "distinct_counterparties",
+   "counterparty_stability",
+   "txn_velocity",
+   "coupled_calls_out",
+   "callee_money_movers"
+  ],
+  "feature_count": 18,
+  "training_data": "Synthetic feature vectors sampled around four openly declared archetypes (fraud_core, mule, red_herring, bystander) with 6% label noise, fixed seed 42. No confirmed fraud outcomes exist in the seed dataset.",
+  "archetypes": [
+   "bystander",
+   "fraud_core",
+   "handler",
+   "mule",
+   "red_herring"
+  ],
+  "explainability": "SHAP TreeExplainer — top six signed factors per entity",
+  "bands": {
+   "low": [
+    0,
+    0.33
+   ],
+   "elevated": [
+    0.33,
+    0.66
+   ],
+   "high": [
+    0.66,
+    1
+   ]
+  },
+  "decision_role": "Ranks the review queue. The score is never a decision and never changes an action state on its own; a named human reviews every entity before any disposition is recorded.",
+  "caveat": "Any separation figure below is measured against the seed generator's own declared labels. It shows the pipeline distinguishes archetypes that were built to be distinguishable. It is not a real-world detection rate and must not be presented as one."
+ },
+ "distribution": {
+  "scored_entities": 20,
+  "by_band": {
+   "high": 4,
+   "elevated": 2,
+   "low": 14
+  },
+  "histogram": [
+   {
+    "from": 0,
+    "to": 0.1,
+    "count": 9
+   },
+   {
+    "from": 0.1,
+    "to": 0.2,
+    "count": 4
+   },
+   {
+    "from": 0.2,
+    "to": 0.3,
+    "count": 1
+   },
+   {
+    "from": 0.3,
+    "to": 0.4,
+    "count": 0
+   },
+   {
+    "from": 0.4,
+    "to": 0.5,
+    "count": 1
+   },
+   {
+    "from": 0.5,
+    "to": 0.6,
+    "count": 1
+   },
+   {
+    "from": 0.6,
+    "to": 0.7,
+    "count": 0
+   },
+   {
+    "from": 0.7,
+    "to": 0.8,
+    "count": 1
+   },
+   {
+    "from": 0.8,
+    "to": 0.9,
+    "count": 3
+   },
+   {
+    "from": 0.9,
+    "to": 1,
+    "count": 0
+   }
+  ],
+  "mean": 0.2691,
+  "min": 0.0043,
+  "max": 0.8673,
+  "models_used": {
+   "xgboost": 20
+  }
+ },
+ "separation": {
+  "available": true,
+  "auc": 0.9861,
+  "matched_entities": 18,
+  "unmatched_entities": 0,
+  "positive_labels": [
+   "collector",
+   "fraud",
+   "fraud_core",
+   "handler",
+   "mule",
+   "scam_associate"
+  ],
+  "threshold": 0.33,
+  "confusion": {
+   "true_positive": 6,
+   "false_negative": 6,
+   "false_positive": 0,
+   "true_negative": 6
+  },
+  "recall": 0.5,
+  "precision": 1,
+  "excluded": {
+   "labels": [
+    "victim"
+   ],
+   "count": 2,
+   "entities": [
+    {
+     "entity_id": "P0001",
+     "label": "victim",
+     "score": 0.0196
+    },
+    {
+     "entity_id": "P0015",
+     "label": "victim",
+     "score": 0.2248
+    }
+   ],
+   "note": "Victims are scored but never counted as fraud or as false positives — a victim legitimately appears in the data."
+  },
+  "caveat": "Any separation figure below is measured against the seed generator's own declared labels. It shows the pipeline distinguishes archetypes that were built to be distinguishable. It is not a real-world detection rate and must not be presented as one."
+ }
+}

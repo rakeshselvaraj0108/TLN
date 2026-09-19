@@ -1,0 +1,11 @@
+{
+ "examples": [
+  "Who are the highest-risk entities?",
+  "Why is P0006 risky?",
+  "Show the transactions behind P0006",
+  "How many records have we ingested?",
+  "Show the fan-out patterns",
+  "Which calls were followed by a debit?",
+  "What has the agent found?"
+ ]
+}

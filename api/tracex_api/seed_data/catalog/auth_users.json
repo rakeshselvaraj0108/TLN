@@ -1,0 +1,14 @@
+{
+ "users": [
+  {
+   "username": "investigator",
+   "display_name": "Demo Investigator",
+   "role": "investigator"
+  },
+  {
+   "username": "supervisor",
+   "display_name": "Demo Supervisor",
+   "role": "supervisor"
+  }
+ ]
+}

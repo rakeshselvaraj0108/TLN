@@ -1,0 +1,51 @@
+{
+ "name": "TRACE-X entity risk classifier",
+ "family": "XGBoost binary classifier (gradient-boosted trees)",
+ "fallback": "transparent rule scorer, used when XGBoost is unavailable",
+ "features": [
+  "n_phones",
+  "n_devices",
+  "n_accounts",
+  "n_ips_shared",
+  "max_imei_sim_count",
+  "has_call_debit_coupling",
+  "call_debit_speed_score",
+  "n_call_debit_links",
+  "max_passthrough_ratio",
+  "max_fanout_hop_count",
+  "total_fanout_inbound_inr",
+  "inbound_txn_count",
+  "outbound_txn_count",
+  "distinct_counterparties",
+  "counterparty_stability",
+  "txn_velocity",
+  "coupled_calls_out",
+  "callee_money_movers"
+ ],
+ "feature_count": 18,
+ "training_data": "Synthetic feature vectors sampled around four openly declared archetypes (fraud_core, mule, red_herring, bystander) with 6% label noise, fixed seed 42. No confirmed fraud outcomes exist in the seed dataset.",
+ "archetypes": [
+  "bystander",
+  "fraud_core",
+  "handler",
+  "mule",
+  "red_herring"
+ ],
+ "explainability": "SHAP TreeExplainer — top six signed factors per entity",
+ "bands": {
+  "low": [
+   0,
+   0.33
+  ],
+  "elevated": [
+   0.33,
+   0.66
+  ],
+  "high": [
+   0.66,
+   1
+  ]
+ },
+ "decision_role": "Ranks the review queue. The score is never a decision and never changes an action state on its own; a named human reviews every entity before any disposition is recorded.",
+ "caveat": "Any separation figure below is measured against the seed generator's own declared labels. It shows the pipeline distinguishes archetypes that were built to be distinguishable. It is not a real-world detection rate and must not be presented as one."
+}

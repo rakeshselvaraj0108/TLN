@@ -1,0 +1,11 @@
+{
+ "windows": {
+  "records_days": 0,
+  "audit_days": 0,
+  "sessions_days": 0
+ },
+ "dry_run_default": true,
+ "configured_classes": [],
+ "enforcing": false,
+ "note": "Zero means retained indefinitely. A window of 0 is a deliberate default — the agency sets its own schedule against its evidential requirements; the system does not invent one."
+}

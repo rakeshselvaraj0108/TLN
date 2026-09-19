@@ -1,0 +1,527 @@
+{
+ "run_id": "BM-20260917T044155",
+ "started_at": "2026-09-17T04:41:55.719851+00:00",
+ "elapsed_ms": 1,
+ "scorer": "xgboost",
+ "seed_counts": {
+  "entities": 20,
+  "cdr": 1119,
+  "ipdr": 449,
+  "bank": 407,
+  "social": 4
+ },
+ "detection": {
+  "confusion_matrix": {
+   "true_positive": 4,
+   "false_positive": 0,
+   "true_negative": 6,
+   "false_negative": 8,
+   "precision": 1,
+   "recall": 0.3333,
+   "f1": 0.5,
+   "accuracy": 0.5556
+  },
+  "red_herrings": {
+   "total": 5,
+   "flagged": 0,
+   "false_positive_rate": 0
+  },
+  "victims": {
+   "total": 2,
+   "flagged": 0,
+   "note": "victims are excluded from the fraud matrix by design"
+  },
+  "entities": [
+   {
+    "entity_id": "E01",
+    "role": "victim",
+    "truth_label": "victim",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.021,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "victim — scored separately, never counted as fraud"
+   },
+   {
+    "entity_id": "E02",
+    "role": "victim",
+    "truth_label": "victim",
+    "expected_risk": "low",
+    "is_red_herring": false,
+    "score": 0.1255,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": "victim — scored separately, never counted as fraud"
+   },
+   {
+    "entity_id": "E03",
+    "role": "handler",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.796,
+    "predicted_band": "high",
+    "predicted_fraud": true,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E04",
+    "role": "associate",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.8474,
+    "predicted_band": "high",
+    "predicted_fraud": true,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E05",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.1168,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E06",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.1448,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E07",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.313,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E08",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.036,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E09",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.7619,
+    "predicted_band": "high",
+    "predicted_fraud": true,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E10",
+    "role": "mule",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.2725,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E11",
+    "role": "legit_business",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": true,
+    "score": 0.1558,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E12",
+    "role": "legit_family",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": true,
+    "score": 0.0887,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E13",
+    "role": "legit_family",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": true,
+    "score": 0.0227,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E14",
+    "role": "legit_household",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": true,
+    "score": 0.0142,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E15",
+    "role": "associate",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.1456,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E16",
+    "role": "associate",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.161,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E17",
+    "role": "sim_farm",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.4446,
+    "predicted_band": "elevated",
+    "predicted_fraud": true,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E18",
+    "role": "layering",
+    "truth_label": "fraud",
+    "expected_risk": "high",
+    "is_red_herring": false,
+    "score": 0.1107,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": false,
+    "note": "MISSED — a real fraud entity was not flagged"
+   },
+   {
+    "entity_id": "E19",
+    "role": "legit_charity",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": true,
+    "score": 0.0307,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   },
+   {
+    "entity_id": "E20",
+    "role": "bystander",
+    "truth_label": "legitimate",
+    "expected_risk": "low",
+    "is_red_herring": false,
+    "score": 0.0043,
+    "predicted_band": "low",
+    "predicted_fraud": false,
+    "correct": true,
+    "note": ""
+   }
+  ]
+ },
+ "banding": {
+  "total": 20,
+  "correct": 10,
+  "accuracy": 0.5,
+  "misses": [
+   {
+    "entity_id": "E01",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E05",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E06",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E07",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E08",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E10",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E15",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E16",
+    "expected": "high",
+    "got": "low"
+   },
+   {
+    "entity_id": "E17",
+    "expected": "high",
+    "got": "elevated"
+   },
+   {
+    "entity_id": "E18",
+    "expected": "high",
+    "got": "low"
+   }
+  ]
+ },
+ "patterns": {
+  "total": 7,
+  "correct": 6,
+  "accuracy": 0.8571,
+  "checks": [
+   {
+    "field": "call_to_debit_latency_sec",
+    "expected": 360,
+    "observed": 360,
+    "correct": true,
+    "detail": "tolerance +/-30.0"
+   },
+   {
+    "field": "principal_inr",
+    "expected": 480000,
+    "observed": 480000,
+    "correct": true,
+    "detail": "tolerance +/-1.0"
+   },
+   {
+    "field": "passthrough_ratio",
+    "expected": 0.96,
+    "observed": 0.96,
+    "correct": true,
+    "detail": "tolerance +/-0.02"
+   },
+   {
+    "field": "fanout_width",
+    "expected": 6,
+    "observed": 6,
+    "correct": true,
+    "detail": "tolerance +/-0.0"
+   },
+   {
+    "field": "fanout_window_min",
+    "expected": 11,
+    "observed": 19,
+    "correct": false,
+    "detail": "tolerance +/-2.0"
+   },
+   {
+    "field": "handler_imei",
+    "expected": "287101226916693",
+    "observed": "287101226916693",
+    "correct": true,
+    "detail": "exact string match"
+   },
+   {
+    "field": "handler_sim_count",
+    "expected": 7,
+    "observed": 7,
+    "correct": true,
+    "detail": "tolerance +/-0.0"
+   }
+  ]
+ },
+ "efficiency": {
+  "actions": 21,
+  "entities": 20,
+  "actions_per_entity": 1.05,
+  "baseline_actions_per_entity": 7,
+  "baseline_total_actions": 140,
+  "reduction_vs_baseline": 0.85,
+  "baseline_source": "declared assumption from the demo walkthrough, not a measured human trial"
+ },
+ "hallucination": {
+  "total": 9,
+  "correct": 9,
+  "accuracy": 1,
+  "per_kind": {
+   "missing": {
+    "total": 2,
+    "correct": 2
+   },
+   "altered": {
+    "total": 1,
+    "correct": 1
+   },
+   "unsupported_figure": {
+    "total": 2,
+    "correct": 2
+   },
+   "resolvable": {
+    "total": 2,
+    "correct": 2
+   },
+   "honest_refusal": {
+    "total": 2,
+    "correct": 2
+   }
+  },
+  "cases": [
+   {
+    "trap_id": "TRAP-FAB-01",
+    "claim": "A transfer of 250000 was made to account HDFC0000000000.",
+    "expected": "fabricated",
+    "predicted": "fabricated",
+    "correct": true,
+    "reason": "1 of 1 cited record(s) do not exist: TRAP-NONEXISTENT-RECORD. A citation that resolves to nothing is a fabrication, not a judgement call.",
+    "why_it_matters": "Cites a record id that was never ingested. This is the canonical hallucination: a fluent, specific, entirely invented claim. It must be caught by arithmetic alone, with no model involved."
+   },
+   {
+    "trap_id": "TRAP-FAB-02",
+    "claim": "The subject received 3 payments from account SBIN0000000001 on 12 August.",
+    "expected": "fabricated",
+    "predicted": "fabricated",
+    "correct": true,
+    "reason": "1 of 1 cited record(s) do not exist: TRAP-NONEXISTENT-RECORD. A citation that resolves to nothing is a fabrication, not a judgement call.",
+    "why_it_matters": "A second invented citation, phrased with the specificity that makes it convincing."
+   },
+   {
+    "trap_id": "TRAP-TAM-01",
+    "claim": "A transfer of 480000 was made from SBIN1234567890 to HDFC9988776655.",
+    "expected": "tampered",
+    "predicted": "tampered",
+    "correct": true,
+    "reason": "1 cited record(s) no longer hash to their ingest value. The evidence under this claim was altered after entry.",
+    "why_it_matters": "The claim is faithful to what was ingested, but the stored record no longer hashes to its ingest value. The verifier must report the evidence as altered rather than pass the claim — an accurate statement resting on tampered evidence is not usable in court."
+   },
+   {
+    "trap_id": "TRAP-UNS-01",
+    "claim": "A transfer of 999999 was made from SBIN1234567890.",
+    "expected": "unsupported",
+    "predicted": "unsupported",
+    "correct": true,
+    "reason": "The claim asserts 999999, which does not appear in the evidence resolved for it.",
+    "why_it_matters": "The cited record exists and is intact, but asserts a figure the evidence does not contain. Grounding alone would pass this — it is what the judged layer is for."
+   },
+   {
+    "trap_id": "TRAP-UNS-02",
+    "claim": "The account SBIN1234567890 sent 47 separate transfers totalling 12000000.",
+    "expected": "unsupported",
+    "predicted": "unsupported",
+    "correct": true,
+    "reason": "The claim asserts 12000000, which does not appear in the evidence resolved for it.",
+    "why_it_matters": "A quantified claim vastly exceeding what the single cited record supports."
+   },
+   {
+    "trap_id": "TRAP-OK-01",
+    "claim": "A transfer of 480000 was made from SBIN1234567890 to HDFC9988776655 by IMPS.",
+    "expected": "verified",
+    "predicted": "verified",
+    "correct": true,
+    "reason": "All 1 cited record(s) resolved and every content hash matches the value recorded at ingest.",
+    "why_it_matters": "Faithful to the cited record, which resolves and hashes correctly. A verifier that flags this is useless: over-flagging trains investigators to ignore it."
+   },
+   {
+    "trap_id": "TRAP-OK-02",
+    "claim": "Account HDFC9988776655 received 480000 on 14 August 2026.",
+    "expected": "verified",
+    "predicted": "verified",
+    "correct": true,
+    "reason": "All 1 cited record(s) resolved and every content hash matches the value recorded at ingest.",
+    "why_it_matters": "The same fact stated from the other side; still fully supported."
+   },
+   {
+    "trap_id": "TRAP-HON-01",
+    "claim": "I can't answer that from the data available.",
+    "expected": "not_a_claim",
+    "predicted": "not_a_claim",
+    "correct": true,
+    "reason": "Correctly not treated as a factual assertion.",
+    "why_it_matters": "An honest refusal is the behaviour this whole system exists to encourage. A verifier that penalises it teaches the agent to guess instead of hedge, producing exactly the confident fabrication we are defending against."
+   },
+   {
+    "trap_id": "TRAP-HON-02",
+    "claim": "No data was found for that account. Try asking about a different identifier.",
+    "expected": "not_a_claim",
+    "predicted": "not_a_claim",
+    "correct": true,
+    "reason": "Correctly not treated as a factual assertion.",
+    "why_it_matters": "A refusal that offers a next step is still a refusal, not an assertion to audit."
+   }
+  ],
+  "judges_used": [
+   "rule"
+  ],
+  "evaluated_at": "2026-09-17T04:41:55.718268+00:00",
+  "fabrication_recall": 1,
+  "honest_refusal_respected": true,
+  "note": "Measured by running the production verifier over hand-labelled cases whose correct verdict is known in advance. Trap records are written inside a rolled-back transaction and never persist. Reported as measured — a poor score here is a finding about the verifier, not something to suppress."
+ },
+ "headline": {
+  "detection_f1": 0.5,
+  "detection_precision": 1,
+  "detection_recall": 0.3333,
+  "red_herring_false_positive_rate": 0,
+  "band_accuracy": 0.5,
+  "pattern_accuracy": 0.8571,
+  "actions_per_entity": 1.05,
+  "verifier_accuracy": 1,
+  "fabrication_recall": 1
+ }
+}

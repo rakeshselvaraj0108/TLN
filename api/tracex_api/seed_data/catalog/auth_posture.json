@@ -1,0 +1,6 @@
+{
+ "demo_mode": true,
+ "auth_mode": "trusted_header",
+ "rate_limit_enabled": true,
+ "problems": []
+}

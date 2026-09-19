@@ -1,0 +1,653 @@
+{
+ "P0001": {
+  "entity_id": "P0001",
+  "risk_score": 0.0196,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 10 minutes, and counterparty stability were above 0.50, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 1,
+    "observed": "Rs 480,000 was debited 6 minutes after an inbound call from +916489325288 (\"SECURITY DEPOSIT CASE CLEARANCE\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.5,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.50)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0002": {
+  "entity_id": "P0002",
+  "risk_score": 0.1737,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if onward movement were under 95%, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "max_passthrough_ratio",
+    "feature": "max_passthrough_ratio",
+    "observed_value": 0.95,
+    "observed": "95% of an inbound Rs 76,800 credit was moved onward across 1 account(s) within 30 minutes",
+    "boundary": "Reducing the onward share alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.3189,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0003": {
+  "entity_id": "P0003",
+  "risk_score": 0.0144,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 10 minutes, and counterparty stability were above 0.88, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 1,
+    "observed": "Rs 7,853 was debited 1 minutes after an inbound call from +917787133150 (\"relief disbursement\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.875,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.88)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0004": {
+  "entity_id": "P0004",
+  "risk_score": 0.8425,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "max_passthrough_ratio",
+    "feature": "max_passthrough_ratio",
+    "observed_value": 0.95,
+    "observed": "95% of an inbound Rs 76,800 credit was moved onward across 1 account(s) within 30 minutes",
+    "boundary": "Reducing the onward share alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.2974,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0005": {
+  "entity_id": "P0005",
+  "risk_score": 0.0438,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 17 minutes, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9588,
+    "observed": "Rs 1,200 was debited 17 minutes after an inbound call from +918701436349 (\"Recharge\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0006": {
+  "entity_id": "P0006",
+  "risk_score": 0.8673,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "Removing the shared infrastructure alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.4364,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0007": {
+  "entity_id": "P0007",
+  "risk_score": 0.0171,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 24 minutes, and counterparty stability were above 0.50, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9164,
+    "observed": "Rs 1,999 was debited 24 minutes after an inbound call from +916271937452 (\"Electricity\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.5,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.50)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0008": {
+  "entity_id": "P0008",
+  "risk_score": 0.8604,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the amount were under Rs 139,584, and funds reached fewer than 1.7 accounts, this entity would not have been flagged.",
+    "flip_value": 0.7092,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "total_fanout_inbound_inr",
+    "feature": "total_fanout_inbound_inr",
+    "observed_value": 480000,
+    "observed": "Rs 480,000 passed through accounts under this entity's control",
+    "boundary": "A smaller amount alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 1.1435,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_fanout_hop_count",
+    "feature": "max_fanout_hop_count",
+    "observed_value": 6,
+    "observed": "Funds reached 6 account(s) in a single hop-out",
+    "boundary": "Narrowing the fan-out alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.7119,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0009": {
+  "entity_id": "P0009",
+  "risk_score": 0.1578,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if fewer than 1.0 IPs were shared, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "Removing the shared infrastructure alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.4805,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0010": {
+  "entity_id": "P0010",
+  "risk_score": 0.02,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 14 minutes, and counterparty stability were above 0.90, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.974,
+    "observed": "Rs 52,000 was debited 14 minutes after an inbound call from +919044997278 (\"supplier settlement\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.9,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.90)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0011": {
+  "entity_id": "P0011",
+  "risk_score": 0.1031,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 86 minutes, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.5537,
+    "observed": "Rs 3,200 was debited 86 minutes after an inbound call from +916936183242 (\"Recharge\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0012": {
+  "entity_id": "P0012",
+  "risk_score": 0.5165,
+  "band": "elevated",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "If fewer than 0.9 IPs were shared, this would be treated as coincidental.",
+    "flip_value": 0.9196,
+    "flip_reachable": true,
+    "weight_hint": 0.4796,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0013": {
+  "entity_id": "P0013",
+  "risk_score": 0.0507,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 5 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 22 minutes, onward movement were under 95%, funds reached fewer than 1.0 accounts, the amount were under Rs 76,800, and counterparty stability were above 0.60, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9294,
+    "observed": "Rs 3,200 was debited 22 minutes after an inbound call from +917455623869 (\"Fuel\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_passthrough_ratio",
+    "feature": "max_passthrough_ratio",
+    "observed_value": 0.95,
+    "observed": "95% of an inbound Rs 76,800 credit was moved onward across 1 account(s) within 30 minutes",
+    "boundary": "Reducing the onward share alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_fanout_hop_count",
+    "feature": "max_fanout_hop_count",
+    "observed_value": 1,
+    "observed": "Funds reached 1 account(s) in a single hop-out",
+    "boundary": "Narrowing the fan-out alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "total_fanout_inbound_inr",
+    "feature": "total_fanout_inbound_inr",
+    "observed_value": 76800,
+    "observed": "Rs 76,800 passed through accounts under this entity's control",
+    "boundary": "A smaller amount alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.6,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.60)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0014": {
+  "entity_id": "P0014",
+  "risk_score": 0.0427,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 21 minutes, and counterparty stability were above 0.83, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9326,
+    "observed": "Rs 50,904 was debited 21 minutes after an inbound call from +919044997278 (\"split 1\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.8333,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.83)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0015": {
+  "entity_id": "P0015",
+  "risk_score": 0.2248,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": []
+ },
+ "P0016": {
+  "entity_id": "P0016",
+  "risk_score": 0.0214,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 10 minutes, and the handset carried fewer than 3.0 SIMs, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 1,
+    "observed": "Rs 2,500 was debited 5 minutes after an inbound call from +919044997278 (\"Fuel\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_imei_sim_count",
+    "feature": "max_imei_sim_count",
+    "observed_value": 3,
+    "observed": "A single handset was seen with 3 different SIMs",
+    "boundary": "Fewer SIMs alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0017": {
+  "entity_id": "P0017",
+  "risk_score": 0.161,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if fewer than 1.0 IPs were shared, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "Removing the shared infrastructure alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.6459,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0018": {
+  "entity_id": "P0018",
+  "risk_score": 0.4446,
+  "band": "elevated",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "If fewer than 0.9 IPs were shared, this would be treated as coincidental.",
+    "flip_value": 0.9376,
+    "flip_reachable": true,
+    "weight_hint": 0.6143,
+    "method": "model_probe"
+   }
+  ]
+ },
+ "P0019": {
+  "entity_id": "P0019",
+  "risk_score": 0.0043,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": []
+ },
+ "P0020": {
+  "entity_id": "P0020",
+  "risk_score": 0.796,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "If fewer than 0.1 IPs were shared, this would be treated as coincidental.",
+    "flip_value": 0.0655,
+    "flip_reachable": true,
+    "weight_hint": 0.8153,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_imei_sim_count",
+    "feature": "max_imei_sim_count",
+    "observed_value": 7,
+    "observed": "A single handset was seen with 7 different SIMs",
+    "boundary": "If the handset had used fewer than 1.0 SIMs, this would not have been flagged as burner rotation.",
+    "flip_value": 1.0452,
+    "flip_reachable": true,
+    "weight_hint": 0.6136,
+    "method": "model_probe"
+   }
+  ]
+ }
+}
