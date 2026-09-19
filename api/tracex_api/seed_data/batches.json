@@ -1,0 +1,47 @@
+[
+ {
+  "source_type": "bank",
+  "batch_id": "835be63e0925b0610253c258636be036",
+  "filename": "bank_statements.csv",
+  "ingested_at": "2026-09-08T13:03:24.092210+00:00",
+  "records": 407,
+  "last_ingested_at": "2026-09-08T13:03:24.092507+00:00",
+  "storage_order": 0
+ },
+ {
+  "source_type": "alpr",
+  "batch_id": "f0c3221018ce13fc115155965cae5061",
+  "filename": "alpr.csv",
+  "ingested_at": "2026-09-08T13:03:24.493765+00:00",
+  "records": 140,
+  "last_ingested_at": "2026-09-08T13:03:24.493894+00:00",
+  "storage_order": 1
+ },
+ {
+  "source_type": "social",
+  "batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+  "filename": "social_posts.csv",
+  "ingested_at": "2026-09-08T13:03:24.388223+00:00",
+  "records": 4,
+  "last_ingested_at": "2026-09-08T13:03:24.388231+00:00",
+  "storage_order": 2
+ },
+ {
+  "source_type": "ipdr",
+  "batch_id": "951295eb92521845564dfa6eb48f60cd",
+  "filename": "ipdr.csv",
+  "ingested_at": "2026-09-08T13:03:23.676494+00:00",
+  "records": 449,
+  "last_ingested_at": "2026-09-08T13:03:23.676830+00:00",
+  "storage_order": 3
+ },
+ {
+  "source_type": "cdr",
+  "batch_id": "832279ccb407938aa069e20008b4e250",
+  "filename": "cdr.csv",
+  "ingested_at": "2026-09-08T13:03:22.078641+00:00",
+  "records": 1119,
+  "last_ingested_at": "2026-09-08T13:03:22.079274+00:00",
+  "storage_order": 4
+ }
+]

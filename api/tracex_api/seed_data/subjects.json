@@ -1,0 +1,806 @@
+[
+ {
+  "entity_id": "P0001",
+  "name": "Ramesh Gupta",
+  "role": "victim",
+  "member_count": 4,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "HDFC61559407816",
+    "props": {
+     "number": "HDFC61559407816",
+     "ifsc": "HDFC0000123"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "001338908386376",
+    "props": {
+     "imei": "001338908386376"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+919104332181",
+    "props": {
+     "msisdn": "+919104332181"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "SocialHandle",
+    "value": "@RameshG_official",
+    "props": {
+     "handle": "@RameshG_official",
+     "platform": "x"
+    },
+    "resolved_by": "R4"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0002",
+  "name": "Meera Singh",
+  "role": "mule",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "ICIC17080531003",
+    "props": {
+     "number": "ICIC17080531003",
+     "ifsc": "ICIC0008901"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "729806990162729",
+    "props": {
+     "imei": "729806990162729"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917734670656",
+    "props": {
+     "msisdn": "+917734670656"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0003",
+  "name": "Seva Relief Trust",
+  "role": "legit_charity",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "ICIC27111161528",
+    "props": {
+     "number": "ICIC27111161528",
+     "ifsc": "ICIC0008901"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "698478961183676",
+    "props": {
+     "imei": "698478961183676"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918159212499",
+    "props": {
+     "msisdn": "+918159212499"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0004",
+  "name": "Deepa Chopra",
+  "role": "mule",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "ICIC41458685014",
+    "props": {
+     "number": "ICIC41458685014",
+     "ifsc": "ICIC0008901"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "322602563421605",
+    "props": {
+     "imei": "322602563421605"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917053315869",
+    "props": {
+     "msisdn": "+917053315869"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0005",
+  "name": "Ritu Reddy",
+  "role": "legit_family",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "ICIC96499091334",
+    "props": {
+     "number": "ICIC96499091334",
+     "ifsc": "ICIC0008901"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "711671902294137",
+    "props": {
+     "imei": "711671902294137"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918094777520",
+    "props": {
+     "msisdn": "+918094777520"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0006",
+  "name": "Meera Kulkarni",
+  "role": "mule",
+  "member_count": 4,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "KKBK01128059826",
+    "props": {
+     "number": "KKBK01128059826",
+     "ifsc": "KKBK0000234"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "824493534874017",
+    "props": {
+     "imei": "824493534874017"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916980841241",
+    "props": {
+     "msisdn": "+916980841241"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "SocialHandle",
+    "value": "Meera Kulkarni",
+    "props": {
+     "handle": "Meera Kulkarni",
+     "platform": "whatsapp"
+    },
+    "resolved_by": "R4"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0007",
+  "name": "Ritu Mehta",
+  "role": "legit_family",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "KKBK41343524082",
+    "props": {
+     "number": "KKBK41343524082",
+     "ifsc": "KKBK0000234"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "788568557444310",
+    "props": {
+     "imei": "788568557444310"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918701436349",
+    "props": {
+     "msisdn": "+918701436349"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0008",
+  "name": "Ritu Iyer",
+  "role": "associate",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "KKBK91183842513",
+    "props": {
+     "number": "KKBK91183842513",
+     "ifsc": "KKBK0000234"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "939909169985432",
+    "props": {
+     "imei": "939909169985432"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916081219136",
+    "props": {
+     "msisdn": "+916081219136"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0009",
+  "name": "Neha Chopra",
+  "role": "mule",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "KKBK94680443699",
+    "props": {
+     "number": "KKBK94680443699",
+     "ifsc": "KKBK0000234"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "608835615951489",
+    "props": {
+     "imei": "608835615951489"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916569816934",
+    "props": {
+     "msisdn": "+916569816934"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0010",
+  "name": "Sharma Traders",
+  "role": "legit_business",
+  "member_count": 5,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "PUNB35454948083",
+    "props": {
+     "number": "PUNB35454948083",
+     "ifsc": "PUNB0234500"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "193149190586514",
+    "props": {
+     "imei": "193149190586514"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Device",
+    "value": "850671657262845",
+    "props": {
+     "imei": "850671657262845"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916271937452",
+    "props": {
+     "msisdn": "+916271937452"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917241904966",
+    "props": {
+     "msisdn": "+917241904966"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0011",
+  "name": "Priya Gupta",
+  "role": "associate",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "PUNB37826398214",
+    "props": {
+     "number": "PUNB37826398214",
+     "ifsc": "PUNB0234500"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "477109324808614",
+    "props": {
+     "imei": "477109324808614"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917859770348",
+    "props": {
+     "msisdn": "+917859770348"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0012",
+  "name": "Meera Joshi",
+  "role": "mule",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "PUNB90967054668",
+    "props": {
+     "number": "PUNB90967054668",
+     "ifsc": "PUNB0234500"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "714345581223625",
+    "props": {
+     "imei": "714345581223625"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918277434873",
+    "props": {
+     "msisdn": "+918277434873"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0013",
+  "name": "Sanjay Joshi",
+  "role": "mule",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "SBIN87083172788",
+    "props": {
+     "number": "SBIN87083172788",
+     "ifsc": "SBIN0004567"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "134332003791762",
+    "props": {
+     "imei": "134332003791762"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918738721489",
+    "props": {
+     "msisdn": "+918738721489"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0014",
+  "name": "Rohit Singh",
+  "role": "layering",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "SBIN90847007661",
+    "props": {
+     "number": "SBIN90847007661",
+     "ifsc": "SBIN0004567"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "102053950240266",
+    "props": {
+     "imei": "102053950240266"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917529042284",
+    "props": {
+     "msisdn": "+917529042284"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0015",
+  "name": "Amit Verma",
+  "role": "victim",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "UTIB53767242388",
+    "props": {
+     "number": "UTIB53767242388",
+     "ifsc": "UTIB0000456"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "553419283276486",
+    "props": {
+     "imei": "553419283276486"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917341316475",
+    "props": {
+     "msisdn": "+917341316475"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0016",
+  "name": "Amit Iyer",
+  "role": "legit_household",
+  "member_count": 5,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "UTIB68071545168",
+    "props": {
+     "number": "UTIB68071545168",
+     "ifsc": "UTIB0000456"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "067974034471340",
+    "props": {
+     "imei": "067974034471340"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916936183242",
+    "props": {
+     "msisdn": "+916936183242"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918024994717",
+    "props": {
+     "msisdn": "+918024994717"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+919648877190",
+    "props": {
+     "msisdn": "+919648877190"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0017",
+  "name": "Karthik Das",
+  "role": "associate",
+  "member_count": 3,
+  "identifiers": [
+   {
+    "kind": "Account",
+    "value": "YESB17187026217",
+    "props": {
+     "number": "YESB17187026217",
+     "ifsc": "YESB0000678"
+    },
+    "resolved_by": "R2"
+   },
+   {
+    "kind": "Device",
+    "value": "558867533963601",
+    "props": {
+     "imei": "558867533963601"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+919044997278",
+    "props": {
+     "msisdn": "+919044997278"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0018",
+  "name": "Manish Bose",
+  "role": "sim_farm",
+  "member_count": 10,
+  "identifiers": [
+   {
+    "kind": "Device",
+    "value": "158657809134318",
+    "props": {
+     "imei": "158657809134318"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916611724005",
+    "props": {
+     "msisdn": "+916611724005"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917064090974",
+    "props": {
+     "msisdn": "+917064090974"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917175946474",
+    "props": {
+     "msisdn": "+917175946474"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917221969379",
+    "props": {
+     "msisdn": "+917221969379"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917374740748",
+    "props": {
+     "msisdn": "+917374740748"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917455623869",
+    "props": {
+     "msisdn": "+917455623869"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917709521456",
+    "props": {
+     "msisdn": "+917709521456"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918671369594",
+    "props": {
+     "msisdn": "+918671369594"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918953394210",
+    "props": {
+     "msisdn": "+918953394210"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0019",
+  "name": "Pooja Rao",
+  "role": "bystander",
+  "member_count": 2,
+  "identifiers": [
+   {
+    "kind": "Device",
+    "value": "731585149368996",
+    "props": {
+     "imei": "731585149368996"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917049451983",
+    "props": {
+     "msisdn": "+917049451983"
+    },
+    "resolved_by": "R1"
+   }
+  ]
+ },
+ {
+  "entity_id": "P0020",
+  "name": "Unknown Handler",
+  "role": "handler",
+  "member_count": 9,
+  "identifiers": [
+   {
+    "kind": "Device",
+    "value": "287101226916693",
+    "props": {
+     "imei": "287101226916693"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916462704828",
+    "props": {
+     "msisdn": "+916462704828"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916489325288",
+    "props": {
+     "msisdn": "+916489325288"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+916784801845",
+    "props": {
+     "msisdn": "+916784801845"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917787133150",
+    "props": {
+     "msisdn": "+917787133150"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917911718227",
+    "props": {
+     "msisdn": "+917911718227"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+917957015430",
+    "props": {
+     "msisdn": "+917957015430"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "Phone",
+    "value": "+918489638346",
+    "props": {
+     "msisdn": "+918489638346"
+    },
+    "resolved_by": "R1"
+   },
+   {
+    "kind": "SocialHandle",
+    "value": "@quickcash_jobs",
+    "props": {
+     "handle": "@quickcash_jobs",
+     "platform": "telegram"
+    },
+    "resolved_by": "R4"
+   }
+  ]
+ }
+]

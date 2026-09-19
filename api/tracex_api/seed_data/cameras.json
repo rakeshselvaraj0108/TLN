@@ -1,0 +1,82 @@
+[
+ {
+  "camera_id": "CAM01",
+  "name": "Sector 17 Plaza entry",
+  "lat": 30.736713,
+  "lon": 76.778267,
+  "facing": "N",
+  "poi_id": "POI001",
+  "poi_name": "HDFC ATM Sector 17",
+  "poi_category": "atm"
+ },
+ {
+  "camera_id": "CAM02",
+  "name": "Sector 22 market approach",
+  "lat": 30.723866,
+  "lon": 76.782839,
+  "facing": "E",
+  "poi_id": "POI002",
+  "poi_name": "Kotak ATM Sector 22",
+  "poi_category": "atm"
+ },
+ {
+  "camera_id": "CAM03",
+  "name": "Sector 35 rotary",
+  "lat": 30.720313,
+  "lon": 76.757693,
+  "facing": "S",
+  "poi_id": "POI003",
+  "poi_name": "ICICI ATM Sector 35",
+  "poi_category": "atm"
+ },
+ {
+  "camera_id": "CAM04",
+  "name": "Mohali Phase 7 junction",
+  "lat": 30.705024,
+  "lon": 76.722921,
+  "facing": "W",
+  "poi_id": "POI004",
+  "poi_name": "Kotak ATM Mohali Phase 7",
+  "poi_category": "atm"
+ },
+ {
+  "camera_id": "CAM05",
+  "name": "Elante approach road",
+  "lat": 30.705537,
+  "lon": 76.800405,
+  "facing": "N",
+  "poi_id": "POI006",
+  "poi_name": "Elante Mall",
+  "poi_category": "retail"
+ },
+ {
+  "camera_id": "CAM06",
+  "name": "ISBT 43 exit",
+  "lat": 30.711776,
+  "lon": 76.750211,
+  "facing": "S",
+  "poi_id": "POI007",
+  "poi_name": "ISBT Sector 43",
+  "poi_category": "transport_hub"
+ },
+ {
+  "camera_id": "CAM07",
+  "name": "Madhya Marg checkpoint",
+  "lat": 30.747816,
+  "lon": 76.783482,
+  "facing": "E",
+  "poi_id": null,
+  "poi_name": null,
+  "poi_category": null
+ },
+ {
+  "camera_id": "CAM08",
+  "name": "Airport Road toll",
+  "lat": 30.673108,
+  "lon": 76.797825,
+  "facing": "S",
+  "poi_id": null,
+  "poi_name": null,
+  "poi_category": null
+ }
+]
