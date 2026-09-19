@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-019",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-019",
+  "domain": "Infrastructure Security",
+  "name": "VPN used",
+  "description": "Remote access is tunnelled.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: remote access VPN.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

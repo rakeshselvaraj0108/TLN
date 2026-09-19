@@ -1,0 +1,36 @@
+{
+ "url": "/evidence/counterfactual/P0002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0002",
+  "risk_score": 0.1737,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if onward movement were under 95%, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "max_passthrough_ratio",
+    "feature": "max_passthrough_ratio",
+    "observed_value": 0.95,
+    "observed": "95% of an inbound Rs 76,800 credit was moved onward across 1 account(s) within 30 minutes",
+    "boundary": "Reducing the onward share alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.3189,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

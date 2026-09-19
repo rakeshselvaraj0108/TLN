@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-DAT-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-002",
+  "domain": "Data Management and Protection",
+  "name": "Data deletion enforced",
+  "description": "Data is securely deleted when no longer needed.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Case workspace data is deletable; ingested evidence deliberately is not.",
+  "observations": [
+   "Cases cascade-delete their pinned entities and notes.",
+   "ingested_record is append-only on purpose: a hash chain that permits silent deletion is not tamper-evident. Removing a row breaks the chain, and /integrity/verify reports exactly where.",
+   "TENSION, STATED: retention-driven erasure therefore means disposing of a whole batch and recording the disposal, not editing rows. That procedure is the agency's to write."
+  ]
+ }
+}

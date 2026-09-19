@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-001",
+  "domain": "Data Management and Protection",
+  "name": "Consent for collecting and managing data obtained",
+  "description": "A lawful basis for processing is established and recorded.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Data here is obtained under lawful authority, not consent.",
+  "observations": [
+   "CDR/IPDR, banking and social records reach an investigation via legal process. Consent is the wrong lawful basis, and claiming it would misdescribe the deployment.",
+   "The control that actually applies is authorisation and audit — see CTL-MON-002."
+  ]
+ }
+}

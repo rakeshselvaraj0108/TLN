@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-011",
+  "domain": "Data Management and Protection",
+  "name": "External privacy inquiries managed",
+  "description": "Subject and third-party privacy inquiries are handled.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: external privacy inquiries are handled by the agency's information-rights team.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

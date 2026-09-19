@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-004",
+  "domain": "Data Management and Protection",
+  "name": "Data encrypted in-transit",
+  "description": "Data is encrypted across internal and external networks.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "No plaintext non-local origin is configured, but the app serves HTTP and relies on a TLS terminator in front of it.",
+  "observations": [
+   "CORS origins: https://tracex-web.onrender.com, http://localhost:3000, http://127.0.0.1:3000",
+   "Inter-service traffic runs on a private container network."
+  ]
+ }
+}

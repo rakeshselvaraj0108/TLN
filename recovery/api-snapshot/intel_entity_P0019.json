@@ -1,0 +1,86 @@
+{
+ "url": "/intel/entity/P0019",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0019",
+  "risk_score": 0.0043,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 0,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 0,
+   "call_debit_speed_score": 0,
+   "n_call_debit_links": 0,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 0,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 0,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.4784,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0,
+    "shap": -0.6695,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 0,
+    "shap": -0.5619,
+    "direction": "lowers"
+   },
+   {
+    "feature": "txn_velocity",
+    "value": 0,
+    "shap": -0.4266,
+    "direction": "lowers"
+   },
+   {
+    "feature": "callee_money_movers",
+    "value": 0,
+    "shap": -0.4078,
+    "direction": "lowers"
+   },
+   {
+    "feature": "distinct_counterparties",
+    "value": 0,
+    "shap": -0.3815,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "731585149368996"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917049451983"
+    }
+   }
+  ],
+  "call_to_debit_links": [],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

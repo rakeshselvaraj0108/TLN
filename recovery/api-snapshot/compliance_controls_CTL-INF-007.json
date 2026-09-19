@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-INF-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-007",
+  "domain": "Infrastructure Security",
+  "name": "Configuration management system established",
+  "description": "Configuration is managed and version-controlled.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "All runtime configuration is environment-driven through a single typed settings object, with defaults visible in source.",
+  "observations": [
+   "No configuration is read from an unversioned host file.",
+   "A reviewer can see which values produced a given verdict — analysis thresholds are echoed in the responses that used them."
+  ]
+ }
+}

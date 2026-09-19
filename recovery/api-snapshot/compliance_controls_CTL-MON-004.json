@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-004",
+  "domain": "Monitoring and Incident Response",
+  "name": "Compliance monitoring processes defined and implemented",
+  "description": "Control effectiveness is monitored on an ongoing basis.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Compliance posture is computed from the live system on request, not maintained as a spreadsheet.",
+  "observations": [
+   "Every control in this catalogue carries a verifier that inspects the running deployment; results are recomputed on each call.",
+   "Controls nothing can verify are reported as unclaimed rather than assumed to pass, and they lower the readiness score."
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-EML-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-EML-003",
+  "domain": "Email Security",
+  "name": "Email settings block malicious content",
+  "description": "Malicious attachments, links and scripts are filtered.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: corporate mail filtering.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

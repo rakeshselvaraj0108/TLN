@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-019",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-019",
+  "domain": "Organizational Security",
+  "name": "Management review implemented",
+  "description": "Management reviews the programme periodically.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: management review is an agency governance activity.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

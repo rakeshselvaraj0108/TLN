@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-008",
+  "domain": "Data Management and Protection",
+  "name": "Data masking procedures used",
+  "description": "Non-production environments do not contain live sensitive data.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Non-production data is synthetic, not masked production data.",
+  "observations": [
+   "The seed corpus is generated, so there is no real subject to re-identify.",
+   "This is the stronger form of the control: masking can be undone by correlation, and synthetic data has nothing to be undone to."
+  ]
+ }
+}

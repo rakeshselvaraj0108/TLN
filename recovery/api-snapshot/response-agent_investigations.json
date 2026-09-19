@@ -1,0 +1,23 @@
+{
+ "url": "/response-agent/investigations",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "items": [
+   {
+    "id": 1,
+    "entity_id": "P0006",
+    "trigger": "manual",
+    "risk_score": 86.72999999999999,
+    "confidence": 1,
+    "tier": "critical",
+    "hypothesis": "legitimate",
+    "dna_signature": null,
+    "campaign_id": null,
+    "elapsed_ms": 7,
+    "created_by": "investigator",
+    "created_at": "2026-09-08T13:37:57.278916+00:00"
+   }
+  ]
+ }
+}

@@ -1,0 +1,67 @@
+{
+ "url": "/reasoning/sessions/S-eaa6eae665d8/hypotheses",
+ "status": 200,
+ "contentType": "application/json",
+ "body": [
+  {
+   "id": 1,
+   "statement": "P0006 warrants review for coordinated fraud involvement",
+   "status": "contradicted",
+   "prior": 0.867,
+   "confidence": 0.852,
+   "support_count": 0,
+   "contradiction_count": 1,
+   "subject_entity_id": "P0006"
+  },
+  {
+   "id": 2,
+   "statement": "P0008 warrants review for coordinated fraud involvement",
+   "status": "contradicted",
+   "prior": 0.86,
+   "confidence": 0.847,
+   "support_count": 0,
+   "contradiction_count": 1,
+   "subject_entity_id": "P0008"
+  },
+  {
+   "id": 3,
+   "statement": "P0004 warrants review for coordinated fraud involvement",
+   "status": "open",
+   "prior": 0.843,
+   "confidence": 0.843,
+   "support_count": 0,
+   "contradiction_count": 0,
+   "subject_entity_id": "P0004"
+  },
+  {
+   "id": 4,
+   "statement": "P0020 warrants review for coordinated fraud involvement",
+   "status": "contradicted",
+   "prior": 0.796,
+   "confidence": 0.777,
+   "support_count": 0,
+   "contradiction_count": 1,
+   "subject_entity_id": "P0020"
+  },
+  {
+   "id": 5,
+   "statement": "P0012 warrants review for coordinated fraud involvement",
+   "status": "open",
+   "prior": 0.516,
+   "confidence": 0.516,
+   "support_count": 0,
+   "contradiction_count": 0,
+   "subject_entity_id": "P0012"
+  },
+  {
+   "id": 6,
+   "statement": "P0018 warrants review for coordinated fraud involvement",
+   "status": "open",
+   "prior": 0.445,
+   "confidence": 0.445,
+   "support_count": 0,
+   "contradiction_count": 0,
+   "subject_entity_id": "P0018"
+  }
+ ]
+}

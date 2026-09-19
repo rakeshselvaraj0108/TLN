@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-INF-014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-014",
+  "domain": "Infrastructure Security",
+  "name": "Network security policy established",
+  "description": "Network security requirements are documented.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the network security policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

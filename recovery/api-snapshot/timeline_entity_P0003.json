@@ -1,0 +1,2337 @@
+{
+ "url": "/timeline/entity/P0003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0003",
+  "count": 172,
+  "events": [
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T08:16:00",
+    "rec_id": "TXN00326",
+    "row_sha256": "9555fa30590cd0a653a22b7e13b258473878c0f8cce99f3af3cdb777adca9367",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T09:05:00",
+    "rec_id": "TXN00335",
+    "row_sha256": "518da698935917a949ace8c2c5529322a2321c46beb9df1961b4ca555858fca0",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T10:22:00",
+    "rec_id": "IPDR00040",
+    "row_sha256": "57c5a3138fe67ed340cc221c00d74e10d0554d22e91daca5ed49a5987d71d7b7",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 18900000,
+     "bytes_down": 55900000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T13:39:00",
+    "rec_id": "CDR01113",
+    "row_sha256": "b8f05be7dc160dded24f971be524f69630ed2a80db7f8a88164d374b92c368f4",
+    "detail": {
+     "direction": "out",
+     "other": "+916936183242",
+     "from": "+918159212499",
+     "duration_sec": 165,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T14:02:00",
+    "rec_id": "TXN00332",
+    "row_sha256": "3a4db221111e626d7f4ddfe7a850b242da5da906f942b36a4805afb8b0b2b9e8",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T14:19:00",
+    "rec_id": "IPDR00041",
+    "row_sha256": "b7270108ed44391d5b62c9edd4c90963782ce7c2db9e070f9d08f7e6fdb9fc29",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 15600000,
+     "bytes_down": 46700000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T14:44:00",
+    "rec_id": "TXN00329",
+    "row_sha256": "c7ed0f9484d46a9929344f4e82fe77264e0c9f1b146933856cd284f06cd5171b",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T15:16:00",
+    "rec_id": "TXN00334",
+    "row_sha256": "bdcf81e30386ccc1044e2c245cd687ac23b9dac9379b05734bb6fa044c257499",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T15:20:00",
+    "rec_id": "TXN00325",
+    "row_sha256": "a2ef4d9f648197b7f3ed1c7ac1a9cc1589d8f56753ba22fda0becfae8875ee8c",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T15:52:00",
+    "rec_id": "CDR00050",
+    "row_sha256": "860b4e253d03691eb0fba6380caa752252424ce4c2abf39c92c67856b57733a3",
+    "detail": {
+     "direction": "in",
+     "other": "+916936183242",
+     "to": "+918159212499",
+     "duration_sec": 339,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T15:55:00",
+    "rec_id": "TXN00327",
+    "row_sha256": "0650dcd939cf35b52c47eb641c635145d0b0342fbb8e1989db20caeaf90f71a3",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T17:02:00",
+    "rec_id": "CDR01112",
+    "row_sha256": "85bfd6fe1e137983fb5e40ae59f6fe7b0167bcd15f65ec20d0dd40c97275397c",
+    "detail": {
+     "direction": "out",
+     "other": "+918094777520",
+     "from": "+918159212499",
+     "duration_sec": 142,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T17:56:00",
+    "rec_id": "TXN00330",
+    "row_sha256": "818cc038155ac04fec5d4db510e71481db8014da541c0c5cc41533d3cc412988",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T18:03:00",
+    "rec_id": "CDR00956",
+    "row_sha256": "2ce158de7c2386622c50bd6ab557d0c68fa284c861fee79d0af1a49a2e7d687b",
+    "detail": {
+     "direction": "in",
+     "other": "+917455623869",
+     "to": "+918159212499",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T18:31:00",
+    "rec_id": "TXN00324",
+    "row_sha256": "e8e7edc2128bb8e476e78a8a6f682dbc3b21561658a8d6b3d5f83132e21d9877",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T18:31:00",
+    "rec_id": "TXN00331",
+    "row_sha256": "b46d7efc2cee6f7b98342ca636f364f8dfd9c18e3d2a860b3c6d047f8a8609ea",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T18:59:00",
+    "rec_id": "TXN00337",
+    "row_sha256": "6f179e64b38cd099dee470dbc07fafef42c4cc04bca9d886985791380b41c946",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T19:53:00",
+    "rec_id": "TXN00336",
+    "row_sha256": "a24db757cf423dc814c31a951b2675b5862b59251ebda7a8be32f884671edb93",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T20:11:00",
+    "rec_id": "IPDR00042",
+    "row_sha256": "b3196e13f1f8b33c228f8e643f451a1d5b9007ffefd93797a1665140eb32d173",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "video",
+     "bytes_up": 22000000,
+     "bytes_down": 276200000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T20:34:00",
+    "rec_id": "TXN00328",
+    "row_sha256": "2c5afc274b413601594edd79a8eec1e52b1497b78a289563c0f63b4d840aa732",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T20:38:00",
+    "rec_id": "TXN00342",
+    "row_sha256": "d8af5937a8534593f16ed583e6b5d8bf25bf1f2169767244766ab0d49e8ac9fe",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T20:38:00",
+    "rec_id": "TXN00343",
+    "row_sha256": "bed81c72b1688d053c51248798fa65e6b276108342927c52be1b94ec0addb08c",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T20:39:00",
+    "rec_id": "CDR00098",
+    "row_sha256": "0196d0538d40df45b375f1adcce956fb6dbfd94e460b052d5a84a6c85d0fba4c",
+    "detail": {
+     "direction": "out",
+     "other": "+916784801845",
+     "from": "+918159212499",
+     "duration_sec": 28,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T20:57:00",
+    "rec_id": "TXN00333",
+    "row_sha256": "2e21a80c287d68a7947170fa1d807e2ee41130a0b14f06b2949a277285c06d99",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T21:24:00",
+    "rec_id": "TXN00338",
+    "row_sha256": "eb76158bfbb1942f5a57113f920588e504b159fd41ed826fdedce526af944320",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T21:24:00",
+    "rec_id": "TXN00339",
+    "row_sha256": "8718328cc9b7b63a643c6431ea35e51c2ccea06b88fe6579a456ab88cdb9109d",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T22:21:00",
+    "rec_id": "TXN00340",
+    "row_sha256": "adf4c5c4a2b29f4dc45b2481e001751f2e8559b49c6cb6c2906f23ff81e72bcf",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T22:21:00",
+    "rec_id": "TXN00341",
+    "row_sha256": "0791cc629c9f2debf6072b00f6e8fc46fbf3a69538b1cfd3d78c07f4510b58a9",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T10:54:00",
+    "rec_id": "CDR00177",
+    "row_sha256": "d87362ba8135bc916dabe6a20fc152eff79c368a1b6f617ac5f578c0115a8172",
+    "detail": {
+     "direction": "out",
+     "other": "+916081219136",
+     "from": "+918159212499",
+     "duration_sec": 289,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-11T11:20:00",
+    "rec_id": "TXN00081",
+    "row_sha256": "ee389f5cfd4848bcceff8f37151c151c25ebbc156ffe9e518a55cbea61cb9f54",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": null,
+     "amount": 150,
+     "channel": "IMPS",
+     "narration": "DTH"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-11T11:26:00",
+    "rec_id": "IPDR00086",
+    "row_sha256": "79b299e338a3d9915bc0dc41298333a65c626034f367ed636eb8151bd9ab4acb",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 29000000,
+     "bytes_down": 39700000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-11T15:49:00",
+    "rec_id": "IPDR00084",
+    "row_sha256": "4aca442bbb632f63a91f01f55aaa114ffcd8eb654f053a7183df43b30b5633c9",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 39800000,
+     "bytes_down": 200300000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T17:45:00",
+    "rec_id": "CDR00176",
+    "row_sha256": "09580bd2213510372ed11f6fe3d2bed8bcf906c54b5ab3aa2f01d0fdc964e54f",
+    "detail": {
+     "direction": "out",
+     "other": "+917787133150",
+     "from": "+918159212499",
+     "duration_sec": 110,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-11T19:07:00",
+    "rec_id": "IPDR00085",
+    "row_sha256": "420545943d020efc49d3f19586a502be070a067493f13b008bec4e6d366a5203",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 28400000,
+     "bytes_down": 65599999
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T07:07:00",
+    "rec_id": "CDR00224",
+    "row_sha256": "f88698b22db35819079b05001e679ecce52bc0e6c2ef06910db60cf61e4bc66b",
+    "detail": {
+     "direction": "in",
+     "other": "+916936183242",
+     "to": "+918159212499",
+     "duration_sec": 362,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-12T07:31:00",
+    "rec_id": "IPDR00130",
+    "row_sha256": "831ae0e1dc48eeddc145aaa0893244feadff366d9b9cfe9482fbb26fca54f96b",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 17400000,
+     "bytes_down": 236800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T09:13:00",
+    "rec_id": "CDR00267",
+    "row_sha256": "0c89e3225f4ab9a615ca596d30459a185cab4a89e6dd8de6e2ec7aa97f371987",
+    "detail": {
+     "direction": "out",
+     "other": "+918701436349",
+     "from": "+918159212499",
+     "duration_sec": 249,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T14:47:00",
+    "rec_id": "CDR00213",
+    "row_sha256": "987fcb30892daa77a5fa5fe8e7284d4aca98d9dd12a817eee25bec0ab65d78bc",
+    "detail": {
+     "direction": "in",
+     "other": "+917734670656",
+     "to": "+918159212499",
+     "duration_sec": 351,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T15:08:00",
+    "rec_id": "CDR00218",
+    "row_sha256": "4dcb5512c0b05aac026e12bc56b34fd41843258c30241f46942c7f4316b1e3c0",
+    "detail": {
+     "direction": "in",
+     "other": "+918701436349",
+     "to": "+918159212499",
+     "duration_sec": 102,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T18:44:00",
+    "rec_id": "CDR00199",
+    "row_sha256": "527a6055ed47b393eac3bc6b4da6926f0bef483e8518f89964bc29bb912b78a4",
+    "detail": {
+     "direction": "in",
+     "other": "+918489638346",
+     "to": "+918159212499",
+     "duration_sec": 74,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T20:53:00",
+    "rec_id": "CDR00203",
+    "row_sha256": "0f35228df7dc9ed524ac50440f4ec36aeeb94e1a300cae0f1eb8627ebdc10a69",
+    "detail": {
+     "direction": "in",
+     "other": "+916081219136",
+     "to": "+918159212499",
+     "duration_sec": 319,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-13T07:18:00",
+    "rec_id": "IPDR00166",
+    "row_sha256": "b33637942598dee1c36fa455a6ad3f0860e7097ca6dad6fabc7caf9a9ea6c779",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 5900000,
+     "bytes_down": 27700000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-13T07:30:00",
+    "rec_id": "IPDR00164",
+    "row_sha256": "1ef1c9e9d76a2dc592564965310b967504681ccf3440e338ef3db9f6929eca81",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 36300000,
+     "bytes_down": 174300000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T08:18:00",
+    "rec_id": "TXN00355",
+    "row_sha256": "01979a46eee03b56b5926a776947d35d74f72626b7b6aac358919eaf7652d0ae",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T10:16:00",
+    "rec_id": "CDR00272",
+    "row_sha256": "4b79db9e390a72daa97745ce301804198f8c81a394342da59e4d57da81a456f9",
+    "detail": {
+     "direction": "in",
+     "other": "+919104332181",
+     "to": "+918159212499",
+     "duration_sec": 266,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T10:29:00",
+    "rec_id": "TXN00347",
+    "row_sha256": "d6983b5727edd9dc25873024304618763975c5ed1fbadc5cc0a911dc98bb1c90",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T10:57:00",
+    "rec_id": "TXN00353",
+    "row_sha256": "89918460fd359ba4d22cf9754ff26325eda37ca8644d2b7f366548e300340962",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T11:00:00",
+    "rec_id": "TXN00359",
+    "row_sha256": "2ac36a24f021d488f14225c4a4122209fc8b150c26afff4eabaec48918ad9161",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T11:06:00",
+    "rec_id": "CDR00299",
+    "row_sha256": "06397638b35cbd8facda8d665826eda75847d6c351ccbc00345a22099cb38bb9",
+    "detail": {
+     "direction": "in",
+     "other": "+917053315869",
+     "to": "+918159212499",
+     "duration_sec": 39,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T11:30:00",
+    "rec_id": "TXN00358",
+    "row_sha256": "cd8cfe57603128ff74fa3012ed7f5ca67773e807f05652f4166241703ff780ca",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T12:37:00",
+    "rec_id": "TXN00351",
+    "row_sha256": "f87657c0990bbe906c6edd92f470ebcb8601b024d7dcf45b26f8edac127eab88",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T12:54:00",
+    "rec_id": "TXN00354",
+    "row_sha256": "a4f3ebac6a43bf632079e6e8655dc290eec02fe28d42a6a8bf381da39554729c",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T13:27:00",
+    "rec_id": "TXN00356",
+    "row_sha256": "5564a233d16dfec1602e24d4d62493a25108860448a9debd3533496820d2f7e8",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T13:31:00",
+    "rec_id": "CDR00310",
+    "row_sha256": "95452f35fdbd877a4148163c2995c743028116f6b72f799c123437989a219804",
+    "detail": {
+     "direction": "in",
+     "other": "+918277434873",
+     "to": "+918159212499",
+     "duration_sec": 222,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T15:04:00",
+    "rec_id": "TXN00346",
+    "row_sha256": "7bf45e0b27f740e4ca7780ca27d0e8bfb5ceb350ca4414fc7dbeb3127fe5547b",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T16:02:00",
+    "rec_id": "CDR01114",
+    "row_sha256": "25868d774c4bc18e7ab8e14c8af3406ef25e98aa4f83d40cd19da3bd5dfbe4d8",
+    "detail": {
+     "direction": "out",
+     "other": "+918094777520",
+     "from": "+918159212499",
+     "duration_sec": 137,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T16:02:00",
+    "rec_id": "TXN00082",
+    "row_sha256": "e9b1ec3383686407352e1155d59b31567b8e94ba9e8af75f3e5989c37060893f",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": null,
+     "amount": 1200,
+     "channel": "IMPS",
+     "narration": "Fuel"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T16:21:00",
+    "rec_id": "CDR00354",
+    "row_sha256": "8b2872bd0994ba5ff7c84c3dd36f270588d7cb3fc2bf357091349fdd15feb64d",
+    "detail": {
+     "direction": "out",
+     "other": "+916784801845",
+     "from": "+918159212499",
+     "duration_sec": 64,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T16:39:00",
+    "rec_id": "CDR00355",
+    "row_sha256": "e7965d1a8918d4f2c13a8de061e9125e4a9d99cc8276dafcc3a0fb374edfb915",
+    "detail": {
+     "direction": "out",
+     "other": "+916980841241",
+     "from": "+918159212499",
+     "duration_sec": 358,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-13T16:46:00",
+    "rec_id": "IPDR00165",
+    "row_sha256": "3a0ac36c2e9d8a52b40993c37068eda59e7f166d4f722791f1b279b656b7f82d",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "email",
+     "bytes_up": 25500000,
+     "bytes_down": 175600000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T17:14:00",
+    "rec_id": "CDR01115",
+    "row_sha256": "b531cde817dc1412bdbaca4e9c205d692bce0f3946e1e60a1d9c127a398ed0d6",
+    "detail": {
+     "direction": "out",
+     "other": "+916936183242",
+     "from": "+918159212499",
+     "duration_sec": 173,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T17:55:00",
+    "rec_id": "TXN00344",
+    "row_sha256": "3ff960102df4748dd53ec8982dd6938e23bf7d81b820e6b8a4cbe103e00f5741",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T18:09:00",
+    "rec_id": "TXN00357",
+    "row_sha256": "14a4982fa3f4245447d6666daa0a490e0418ce43b600f89a3512248a392680f5",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T18:46:00",
+    "rec_id": "TXN00350",
+    "row_sha256": "f522da30601220d931315fb0532adb24e8c1d78976ecbeeaabeb1e08eb75d355",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T19:33:00",
+    "rec_id": "TXN00352",
+    "row_sha256": "bbab87076c2bce85837bcc1380c71330585b4255ceac4972a59f37150616f47c",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T19:36:00",
+    "rec_id": "TXN00348",
+    "row_sha256": "0d89a5b23661d597ac742709516ab257110f8a9a50ccddecc305e1e4c6f78363",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T20:01:00",
+    "rec_id": "TXN00345",
+    "row_sha256": "86962a1712d07863663badac457b6d0c52507d3c69d2e6866f653eabd0ea1ef2",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T20:47:00",
+    "rec_id": "CDR00292",
+    "row_sha256": "d61aaea105ade34d7d0930070414ddd99bdecd426949306125a86d464482bdf8",
+    "detail": {
+     "direction": "in",
+     "other": "+917787133150",
+     "to": "+918159212499",
+     "duration_sec": 74,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T20:49:00",
+    "rec_id": "TXN00364",
+    "row_sha256": "8670bc42489d0594b8da0599b2ef3e43c58fb41461ae026b5a9c2bae53eeaf1c",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T20:49:00",
+    "rec_id": "TXN00365",
+    "row_sha256": "d7ed38370e53d7dc898eb25f0f181d57e430fd5dbd6443b9932a03d34db24534",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T20:59:00",
+    "rec_id": "TXN00349",
+    "row_sha256": "e014181d01be0d15b227718c6313811454f266dcc01dd736d486be10e439da81",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:51:00",
+    "rec_id": "TXN00360",
+    "row_sha256": "04d8f4f2a808371a244853e8c8c59d4a13e83a416aabe15dcbb77f423e6ddd5f",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:51:00",
+    "rec_id": "TXN00361",
+    "row_sha256": "bb3c6d100334a54a4c0827699dcbc2c13b42403c13742745a45b4f5abaf9b55d",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:57:00",
+    "rec_id": "TXN00362",
+    "row_sha256": "337db3b3a096fddb0646aae21a599c71ec9474668ed79efa58a4e9bb64fb8323",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:57:00",
+    "rec_id": "TXN00363",
+    "row_sha256": "39ca8c3c73a17233b9836f78ff40425dde0218b17a2b7b8becdfec29536dc4de",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T07:25:00",
+    "rec_id": "CDR00442",
+    "row_sha256": "b5310f3b4716f03ff697c8a4f738aacaa9fea99f5225f264545c7432ca6db812",
+    "detail": {
+     "direction": "out",
+     "other": "+918489638346",
+     "from": "+918159212499",
+     "duration_sec": 275,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T07:47:00",
+    "rec_id": "CDR00443",
+    "row_sha256": "39627d8988f056b53206dca37340d1aad80b7a43fd8d062ca965a6827ff349c2",
+    "detail": {
+     "direction": "out",
+     "other": "+916081219136",
+     "from": "+918159212499",
+     "duration_sec": 299,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T11:35:00",
+    "rec_id": "CDR01013",
+    "row_sha256": "b5c1e851e8c82dff6b953c0a99214787230cb37bd101d4a0549dc8ce0d8ace23",
+    "detail": {
+     "direction": "in",
+     "other": "+917175946474",
+     "to": "+918159212499",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T13:08:00",
+    "rec_id": "CDR00426",
+    "row_sha256": "50233ba35eb58f7a7a6097be4cde4aae027b7f429e0daf18abf5e9fb3307ab10",
+    "detail": {
+     "direction": "in",
+     "other": "+917221969379",
+     "to": "+918159212499",
+     "duration_sec": 191,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T15:39:00",
+    "rec_id": "IPDR00206",
+    "row_sha256": "aa78cc509cc1fe9ba05224d2a87b8143312a8f00653bf9ca2288a5830d5234cb",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 30800000,
+     "bytes_down": 58300000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T16:48:00",
+    "rec_id": "CDR00444",
+    "row_sha256": "1b2b19306efb061e334b0db0d6751d5e8832985440e3376b26ef96717207a3e9",
+    "detail": {
+     "direction": "out",
+     "other": "+918671369594",
+     "from": "+918159212499",
+     "duration_sec": 313,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T21:17:00",
+    "rec_id": "IPDR00207",
+    "row_sha256": "b96a705ea4b217ba88d812c4788242367b9335f205460b6180223b46a20750fb",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "email",
+     "bytes_up": 23100000,
+     "bytes_down": 189900000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T23:30:00",
+    "rec_id": "IPDR00205",
+    "row_sha256": "82f85c6197ae0b6d3eb3a090add7b0c25c056deba787ea2923f04505df168606",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 14500000,
+     "bytes_down": 27600000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T07:57:00",
+    "rec_id": "IPDR00243",
+    "row_sha256": "328651c68408c7d54f65d44d787e59ab0cc6435cc1acb2f6884e9c512205cb7c",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 7800000,
+     "bytes_down": 169000000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T09:34:00",
+    "rec_id": "IPDR00244",
+    "row_sha256": "4c1f85aaf01a859e286b3a6befd2edd524c30a0abedc19df669103b0ad969449",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 33500000,
+     "bytes_down": 203100000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-15T12:17:00",
+    "rec_id": "TXN00083",
+    "row_sha256": "4d100847db3791d3baade3e6dfb56fead65dba9a2ab843ca1c888e64f3ceffff",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": null,
+     "amount": 3200,
+     "channel": "IMPS",
+     "narration": "Recharge"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T14:31:00",
+    "rec_id": "CDR00528",
+    "row_sha256": "089b0c663665617fb3f001437243dbf08786c30ebfd4651f56a68695a1da788f",
+    "detail": {
+     "direction": "in",
+     "other": "+917529042284",
+     "to": "+918159212499",
+     "duration_sec": 152,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T21:17:00",
+    "rec_id": "IPDR00242",
+    "row_sha256": "842f6417976fddbdfa5774c67d0084b157b145c25d1c06bdf1ad289d1b9347a8",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 39300000,
+     "bytes_down": 105800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T22:29:00",
+    "rec_id": "CDR00486",
+    "row_sha256": "0ad0ea8ae759e66d8d43226272ec4a2471e30d3ff6e9824729a1694c45b0bd07",
+    "detail": {
+     "direction": "in",
+     "other": "+916271937452",
+     "to": "+918159212499",
+     "duration_sec": 272,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T08:17:00",
+    "rec_id": "TXN00374",
+    "row_sha256": "0e001c74f36b85c81eeb74f563a428926e6052dde99f8b59bb908d709149e5cb",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T08:26:00",
+    "rec_id": "CDR00612",
+    "row_sha256": "55743b1dc3081271c2af2c1df4173add9770cd9ec7b96268da1a207924d3c09f",
+    "detail": {
+     "direction": "out",
+     "other": "+916980841241",
+     "from": "+918159212499",
+     "duration_sec": 282,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T08:28:00",
+    "rec_id": "TXN00368",
+    "row_sha256": "1a2efcc798e2762650ef6cd03c5803901b9dd5064614006d8fe68bf7371777e7",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T09:04:00",
+    "rec_id": "TXN00376",
+    "row_sha256": "4f8c4da9b403f7a837d087dc33277d9533aba5f3e943e1c66a6364af8a601c93",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T09:26:00",
+    "rec_id": "TXN00373",
+    "row_sha256": "2cef777070aba2bb0d0624a7f92025e044221e8eef880d89d5deab95e51fab66",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T10:07:00",
+    "rec_id": "TXN00380",
+    "row_sha256": "4db531a268f1254178740b7714621f265e93be16ae3f3352d1b77b2b9e38a458",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T10:08:00",
+    "rec_id": "TXN00366",
+    "row_sha256": "ebe344417b31f4eba8d12f9123238b71eae2bf89be13bec3440553910832e719",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T10:23:00",
+    "rec_id": "CDR00600",
+    "row_sha256": "36a028f0a906322929fb8b8853949c21cf4fd98220e7684befe6ab6fe61eaf99",
+    "detail": {
+     "direction": "in",
+     "other": "+917374740748",
+     "to": "+918159212499",
+     "duration_sec": 59,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-16T11:40:00",
+    "rec_id": "IPDR00290",
+    "row_sha256": "c74a07ac33fd868971221dfdf119c91df79d73ee8bb516356e0cb61c781a313a",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 2300000,
+     "bytes_down": 76100000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T12:56:00",
+    "rec_id": "TXN00377",
+    "row_sha256": "5054eb81f9e02743a6ce17b0ddf74273b4f731675f81453986ed08e9359cb450",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-16T12:59:00",
+    "rec_id": "IPDR00289",
+    "row_sha256": "6ce8197a849e40372495f237658be96222c1762874afa695850bf391190912ce",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 14900000,
+     "bytes_down": 144800000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T13:30:00",
+    "rec_id": "TXN00378",
+    "row_sha256": "3edef336c7b1f1f53002f26e302d7774116c1f181dabaf5954cbf3407aa17dcd",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T13:40:00",
+    "rec_id": "TXN00372",
+    "row_sha256": "16e5c58dd2b8c0c3268749d6dbab8a88c5d4c1d1fdd1f1e647289a080e2a3807",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T13:50:00",
+    "rec_id": "TXN00369",
+    "row_sha256": "260fa01fc992195bbd8f819bec087ace51b5258cb224c4d79642e9102b991752",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T13:53:00",
+    "rec_id": "CDR01053",
+    "row_sha256": "a8e44852cbcbe9d30f763bcdcd3d13ff0bb67d80f50ced32199105184725a939",
+    "detail": {
+     "direction": "in",
+     "other": "+917374740748",
+     "to": "+918159212499",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T14:01:00",
+    "rec_id": "TXN00370",
+    "row_sha256": "31e59c73a3518bf005e3d6d804c0c3e86736bc20b7d7baae9f170ce80bd326fb",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T16:44:00",
+    "rec_id": "TXN00375",
+    "row_sha256": "0b733e2e81d06944aa473672b6d388958497f6e4cd5a4979c21039f1d28792bd",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T16:57:00",
+    "rec_id": "TXN00371",
+    "row_sha256": "b4be01ba066756fae6361fe909ed041fa8e6b0d2d9ceafaedc42a1725668cfd7",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T16:58:00",
+    "rec_id": "TXN00379",
+    "row_sha256": "9e9aa760d07d5036f21bdcec8bb913dc49bab433927fb61f655ae2961c11b62c",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T17:04:00",
+    "rec_id": "CDR01117",
+    "row_sha256": "a085a0ae40750361d7267be83f01ab9a21121cd4cc4b0d889c18a144c476db30",
+    "detail": {
+     "direction": "out",
+     "other": "+916936183242",
+     "from": "+918159212499",
+     "duration_sec": 228,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T17:42:00",
+    "rec_id": "CDR01116",
+    "row_sha256": "cc2401adc3bf515219d9393a29e1a00cc49ef4d271ce389aab3f6816ad652d05",
+    "detail": {
+     "direction": "out",
+     "other": "+918094777520",
+     "from": "+918159212499",
+     "duration_sec": 199,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T19:38:00",
+    "rec_id": "TXN00367",
+    "row_sha256": "5ff93d4a02b687b1747c2e1fdb2e90c87734a02515c3e21d7b74b0a3c954e761",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-16T19:49:00",
+    "rec_id": "IPDR00291",
+    "row_sha256": "d9ebefd8dd04c424c96ceb10dba68d7876c372f06b480add2297e27a4b9bea70",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 19100000,
+     "bytes_down": 246400000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T20:05:00",
+    "rec_id": "TXN00381",
+    "row_sha256": "d8ac0f425069e5c45e8080730515f04965d1cf32ec9966253f9aea7ae7958c96",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T20:05:00",
+    "rec_id": "TXN00382",
+    "row_sha256": "e03a8fca82ad84d7f3399efa70e42fdf11a55f35309b0973f4fdeeaf72ec0659",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T22:11:00",
+    "rec_id": "TXN00383",
+    "row_sha256": "7c1a27617caabf9d7be94855ba8edafac4232a05d4bc37b3b597e8b8b1db95f2",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T22:11:00",
+    "rec_id": "TXN00384",
+    "row_sha256": "73fc7224fe22ac69ee84257489d26eabddc9e747300e1db8baf0a73bf08c752a",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T22:12:00",
+    "rec_id": "TXN00385",
+    "row_sha256": "d0ce96cdd54f57b360e0f65d2004bc330d86bf6a4fcfaf843cc6aa903185e986",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T22:12:00",
+    "rec_id": "TXN00386",
+    "row_sha256": "f84ae2d02f24ad5e5c997ab81fc3207f828f361e0f28de924e48b5d3068076c2",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T07:28:00",
+    "rec_id": "IPDR00326",
+    "row_sha256": "12b8c8979d109b4b3d2c56e05195a328f16585d11790095c2b29be4dc000da3e",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "browsing",
+     "bytes_up": 18500000,
+     "bytes_down": 291000000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T08:06:00",
+    "rec_id": "CDR00699",
+    "row_sha256": "71d0827e53aaa27f6dd985548207983224a51d0ae6ed68227744142bb7962feb",
+    "detail": {
+     "direction": "out",
+     "other": "+917341316475",
+     "from": "+918159212499",
+     "duration_sec": 298,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-17T10:03:00",
+    "rec_id": "TXN00084",
+    "row_sha256": "d971b202a8cd2e59571e3589c0c43fcd7218fd599df62cfa0e057ad34d8fa07b",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": null,
+     "amount": 150,
+     "channel": "IMPS",
+     "narration": "Grocery"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T12:38:00",
+    "rec_id": "IPDR00327",
+    "row_sha256": "bec929956d47e3c94ba0d5f13fa0677d9e73dd47d8f39cd6b8724287ac2e4867",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "email",
+     "bytes_up": 14600000,
+     "bytes_down": 286000000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T13:37:00",
+    "rec_id": "CDR00625",
+    "row_sha256": "4a1163a9f4cf3d7cf2209ccbd8b1d8fdda376633435d4ab2799ea4b9d76f186c",
+    "detail": {
+     "direction": "in",
+     "other": "+916489325288",
+     "to": "+918159212499",
+     "duration_sec": 203,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T15:54:00",
+    "rec_id": "CDR00620",
+    "row_sha256": "c1b2180491c143642de114af90998104f3d2a6ac8d9a83d47bf3ba41edf29944",
+    "detail": {
+     "direction": "in",
+     "other": "+916784801845",
+     "to": "+918159212499",
+     "duration_sec": 37,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T17:00:00",
+    "rec_id": "IPDR00325",
+    "row_sha256": "32a40ba9e0dbcee3ec3eff30f6953c02af7c26f66c900ffe257efd6825c42a66",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 18900000,
+     "bytes_down": 48500000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T19:25:00",
+    "rec_id": "CDR00679",
+    "row_sha256": "c619d84039cb5c1a40bcb9fdba1d4c88d536822754c191a436c6b6c10d1d7236",
+    "detail": {
+     "direction": "in",
+     "other": "+917455623869",
+     "to": "+918159212499",
+     "duration_sec": 330,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T20:04:00",
+    "rec_id": "CDR00630",
+    "row_sha256": "d28d9e04913d3c99707f8a843e9a8186586421c726948723545572f1c768d3c0",
+    "detail": {
+     "direction": "in",
+     "other": "+917911718227",
+     "to": "+918159212499",
+     "duration_sec": 188,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T22:04:00",
+    "rec_id": "CDR00617",
+    "row_sha256": "e41ff58f0c215e364d65c14e7753b67cca42fb46e344f7c915c627fcb040fcbd",
+    "detail": {
+     "direction": "in",
+     "other": "+916784801845",
+     "to": "+918159212499",
+     "duration_sec": 285,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-18T08:39:00",
+    "rec_id": "IPDR00367",
+    "row_sha256": "f550f4f1201687b1f945b69d50363c320f0a22af0191dd8ac7fe5a3b6f3b7607",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "email",
+     "bytes_up": 11500000,
+     "bytes_down": 78900000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-18T08:51:00",
+    "rec_id": "IPDR00365",
+    "row_sha256": "4d59bd2147d35820545a2a47561f6c5123c1e129699c71e3b972bf7ce8fa061e",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 16100000,
+     "bytes_down": 217800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T12:20:00",
+    "rec_id": "CDR00713",
+    "row_sha256": "5789a7cb479ea71d71db3f0a24ecbfb627efe2f9682d3c8b30f9de26a2b9ca50",
+    "detail": {
+     "direction": "in",
+     "other": "+916462704828",
+     "to": "+918159212499",
+     "duration_sec": 124,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T13:27:00",
+    "rec_id": "CDR00787",
+    "row_sha256": "2bd83fdc63c7fdc84c91a6984287080c2cec2d0b07a586818aea7082570b23fb",
+    "detail": {
+     "direction": "out",
+     "other": "+916081219136",
+     "from": "+918159212499",
+     "duration_sec": 319,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T16:38:00",
+    "rec_id": "CDR00789",
+    "row_sha256": "b2b2e268b4d500c55030a4ae096a685e4e62ca6f59406f0a370487858147d114",
+    "detail": {
+     "direction": "out",
+     "other": "+916271937452",
+     "from": "+918159212499",
+     "duration_sec": 179,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T18:15:00",
+    "rec_id": "CDR00788",
+    "row_sha256": "2fa9f8b9bdb65719f25bf8b1b324f08556820e01b8ebe6fa2290c1aae95cc266",
+    "detail": {
+     "direction": "out",
+     "other": "+918671369594",
+     "from": "+918159212499",
+     "duration_sec": 367,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T19:07:00",
+    "rec_id": "CDR00705",
+    "row_sha256": "4fd8b392e6a41435bfb1ff5d0c9f050e797d7e54c2d0681770f9e824cf39b86f",
+    "detail": {
+     "direction": "in",
+     "other": "+919104332181",
+     "to": "+918159212499",
+     "duration_sec": 120,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-18T21:47:00",
+    "rec_id": "IPDR00366",
+    "row_sha256": "aaa18908f69ae4e88bd4affb3373f5d8d4b3931c8e84fce13af21924341961ac",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "social",
+     "bytes_up": 36400000,
+     "bytes_down": 87800000
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T08:19:00",
+    "rec_id": "TXN00394",
+    "row_sha256": "d8d6e8b538f0682f229e5019fcc1912842f915b651097b59f300b8013264c908",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T08:32:00",
+    "rec_id": "TXN00391",
+    "row_sha256": "071dede95086abccba9cb611131909a61196757940678911c423f1e914ba8fbe",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T09:11:00",
+    "rec_id": "TXN00399",
+    "row_sha256": "636ffb43a06dd9c4ef6c837af264524809258c48c6dd205f90f8f4a00e1cef32",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T09:33:00",
+    "rec_id": "TXN00392",
+    "row_sha256": "6672773ff85e7e5868928d9e9e79407dc9f1ab5fb487c63be1a9d9b9f8b068e1",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T10:47:00",
+    "rec_id": "TXN00389",
+    "row_sha256": "bc883a706ff00b762edc7c30515067519647254490837c722eee5fc528b6f3a7",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T11:09:00",
+    "rec_id": "TXN00388",
+    "row_sha256": "c0a2cb6e0bff40a8a88956fdb70c8f7218b9c5e7e0e8b4f4192b6dbf6dcc3023",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T11:30:00",
+    "rec_id": "CDR01118",
+    "row_sha256": "99bc0c6131f9259821909cb434579d0ac3fe048015cf0d67374b9f40466bcf28",
+    "detail": {
+     "direction": "out",
+     "other": "+918094777520",
+     "from": "+918159212499",
+     "duration_sec": 191,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T11:42:00",
+    "rec_id": "TXN00397",
+    "row_sha256": "b93a765ad90536c262fb3501cf6c85a14e6bb40d8b809392eef61a32b3dd1338",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T12:01:00",
+    "rec_id": "CDR00888",
+    "row_sha256": "2c337443a202a2d3c5778710aadcb3dec73afe2f1c5ddf2e48e706aa9d684e35",
+    "detail": {
+     "direction": "out",
+     "other": "+919648877190",
+     "from": "+918159212499",
+     "duration_sec": 207,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T12:01:00",
+    "rec_id": "CDR00824",
+    "row_sha256": "3bd6e5455201dedd1d29bce493cb81118d78c1ac8da0eafe755614f77f8ddefc",
+    "detail": {
+     "direction": "in",
+     "other": "+917053315869",
+     "to": "+918159212499",
+     "duration_sec": 326,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T12:15:00",
+    "rec_id": "CDR01119",
+    "row_sha256": "62687e7972302d7ae73b82371f7369b5b38cca98324beb7e8c75397fac493d70",
+    "detail": {
+     "direction": "out",
+     "other": "+916936183242",
+     "from": "+918159212499",
+     "duration_sec": 220,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T12:37:00",
+    "rec_id": "TXN00393",
+    "row_sha256": "b6b6647633f66a7d3bedcd9719248de6340acdea73186e78159892b3704be3b6",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 2500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T12:40:00",
+    "rec_id": "CDR00886",
+    "row_sha256": "a510d2c78c86f1175f26cdeef4de84b0f443a922068ca843b83fffd106310b2b",
+    "detail": {
+     "direction": "out",
+     "other": "+918738721489",
+     "from": "+918159212499",
+     "duration_sec": 162,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-19T12:49:00",
+    "rec_id": "IPDR00410",
+    "row_sha256": "9607466d842f5fe5c81edd5585b33bf359ea76e31de24a395cfe58272c2a3a21",
+    "detail": {
+     "msisdn": "+918159212499",
+     "ip": "49.168.62.106",
+     "app_hint": "messaging",
+     "bytes_up": 16900000,
+     "bytes_down": 226600000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T13:04:00",
+    "rec_id": "CDR00878",
+    "row_sha256": "eb66cfcadb5263cec3dbca23ceec5211724c820e489dfb7459f19819fc10c3ed",
+    "detail": {
+     "direction": "in",
+     "other": "+917709521456",
+     "to": "+918159212499",
+     "duration_sec": 323,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T13:45:00",
+    "rec_id": "CDR00835",
+    "row_sha256": "11faab84b311601d7f6fd4d8d277074a8e414a727360b918cde030ebb240d6b5",
+    "detail": {
+     "direction": "in",
+     "other": "+917734670656",
+     "to": "+918159212499",
+     "duration_sec": 111,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T13:58:00",
+    "rec_id": "TXN00395",
+    "row_sha256": "e8e23810e55b6d7e9f41f5f3a45ec128d6fd0efe44de5b8121a73799f768111a",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T14:00:00",
+    "rec_id": "CDR00850",
+    "row_sha256": "753ebe3a022f17e9b63aacab5943e07ec663d410c1dfbfe55e58a6033cd8d19d",
+    "detail": {
+     "direction": "in",
+     "other": "+916936183242",
+     "to": "+918159212499",
+     "duration_sec": 38,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T14:00:00",
+    "rec_id": "TXN00390",
+    "row_sha256": "e84729fdb4c198653bf784860f402fe27d9a7e37c3da3a1d7738cbb60fcb3097",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 1000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T15:30:00",
+    "rec_id": "CDR00858",
+    "row_sha256": "18f406419b2cdcfbdd29e00af4e6f32075195e5ba99fe03a0175fa70ed25119c",
+    "detail": {
+     "direction": "in",
+     "other": "+917859770348",
+     "to": "+918159212499",
+     "duration_sec": 165,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T15:30:00",
+    "rec_id": "TXN00398",
+    "row_sha256": "0c1dcfa617b891a08cc6d3713d5c0d18618722335af7dae2b33530f6ff5fe51f",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T15:51:00",
+    "rec_id": "TXN00396",
+    "row_sha256": "c91f89fbfafd046a3a80ad5f499ced53a25d17edc9eb90d891d9882dd47e5144",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T16:02:00",
+    "rec_id": "TXN00387",
+    "row_sha256": "4e7f3b25af6c7637202c881afae966c63068e263e04f9241fe63864e9f1ff5ea",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 500,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T16:40:00",
+    "rec_id": "TXN00400",
+    "row_sha256": "e94f6ee9d6a796cae0068700c29d3d140e88a04a6e4d01954d6cb3cbc1f7ebe0",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 5000,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T16:53:00",
+    "rec_id": "CDR00885",
+    "row_sha256": "88db158bdf90447a4d87e761949ea294b7a33cef5f105289a482a220d8f3b307",
+    "detail": {
+     "direction": "out",
+     "other": "+919648877190",
+     "from": "+918159212499",
+     "duration_sec": 287,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T16:54:00",
+    "rec_id": "TXN00401",
+    "row_sha256": "81b42b279a28f9006cc17935462d3e36694aa42fa2e7333f5d61c7f0525d9699",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC27111161528",
+     "from": null,
+     "amount": 200,
+     "channel": "UPI",
+     "narration": "donation"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T16:55:00",
+    "rec_id": "CDR01104",
+    "row_sha256": "5a8dc8e63b0e3edd08fc686d6ec9e6f2c91b0c6e7390823714c5a40a84ac9124",
+    "detail": {
+     "direction": "in",
+     "other": "+918953394210",
+     "to": "+918159212499",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T17:23:00",
+    "rec_id": "TXN00085",
+    "row_sha256": "8316e9f2ac5694e155f389d525eadac7ae28fbd6aa63068bc6005b3253f9e3e8",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": null,
+     "amount": 780,
+     "channel": "IMPS",
+     "narration": "Recharge"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:42:00",
+    "rec_id": "TXN00402",
+    "row_sha256": "5d361ef56db915d52fdc2b5e3d64311e4538bf2c61886d5e2e49fb21fa949331",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:42:00",
+    "rec_id": "TXN00403",
+    "row_sha256": "afc15bf4790c0e68b6d2f88199b62ac89828715d77ebb516d5f5b4a9ff7278a2",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "ICIC96499091334",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:54:00",
+    "rec_id": "TXN00404",
+    "row_sha256": "d94703c0f310ff626576e39a748ffba6c85ace1253b332dd700651931301518f",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:54:00",
+    "rec_id": "TXN00405",
+    "row_sha256": "aacca48d9eb46c449451121e22fc2264541995e2d4a2d0bf011b8c314ebdf27e",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "UTIB68071545168",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T22:09:00",
+    "rec_id": "TXN00406",
+    "row_sha256": "c6fc078e9de8763006af54ab0bae84efad2266773568c5e877d8921b1651b2dc",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T22:09:00",
+    "rec_id": "TXN00407",
+    "row_sha256": "83e08f40c95ae88d3ecb5076684c441ebcce912ec95704ed482a65c284f2c05b",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC27111161528",
+     "to": "PUNB35454948083",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T22:34:00",
+    "rec_id": "CDR00865",
+    "row_sha256": "67b8c15b464c8fc2e9e5a6a718ae8e586b72a99a2452644055c91e4d1d3aa694",
+    "detail": {
+     "direction": "in",
+     "other": "+917455623869",
+     "to": "+918159212499",
+     "duration_sec": 275,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T22:44:00",
+    "rec_id": "CDR00887",
+    "row_sha256": "2820e0d92461aff257a66a620ef7285831576f2a19e4218ead166df5945e9f59",
+    "detail": {
+     "direction": "out",
+     "other": "+917374740748",
+     "from": "+918159212499",
+     "duration_sec": 148,
+     "call_type": "voice"
+    }
+   }
+  ],
+  "engine": "local"
+ }
+}

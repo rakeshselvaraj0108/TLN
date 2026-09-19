@@ -1,0 +1,25 @@
+{
+ "url": "/anomalies?source=cdr",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "findings": [],
+  "total": 0,
+  "by_severity": {
+   "critical": 0,
+   "high": 0,
+   "medium": 0
+  },
+  "by_rule": {},
+  "thresholds": {
+   "high_call_volume": 50,
+   "repeated_contact": 20,
+   "odd_hour_activity": 10,
+   "odd_hour_range": "00:00–05:00",
+   "bulk_upload_bytes": 104857600,
+   "high_session_count": 100,
+   "large_transfer_inr": 200000,
+   "rapid_disbursal": "5 debits / 60 min"
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "url": "/records/social?page=1&page_size=10",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "social",
+  "columns": [
+   "record_id",
+   "platform",
+   "handle",
+   "linked_msisdn",
+   "post_time",
+   "post_type",
+   "text",
+   "mentions",
+   "url"
+  ],
+  "rows": [
+   {
+    "record_id": "SOC00001",
+    "platform": "telegram",
+    "handle": "@quickcash_jobs",
+    "linked_msisdn": "+918489638346",
+    "post_time": "2026-08-12T13:00:00",
+    "post_type": "channel_post",
+    "text": "Bank account rent 15k/month. Only receiving. DM @quickcash_jobs",
+    "mentions": "",
+    "url": "",
+    "_row_sha256": "96cde028caadf81b11e8b00f99eb9fabbeaa1443c96dee2536d3af28fb17c9e2",
+    "_batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+    "_source_filename": "social_posts.csv",
+    "_ingested_at": "2026-09-08T13:03:24.388223+00:00"
+   },
+   {
+    "record_id": "SOC00002",
+    "platform": "whatsapp",
+    "handle": "Meera Kulkarni",
+    "linked_msisdn": "+916980841241",
+    "post_time": "2026-08-13T09:00:00",
+    "post_type": "status",
+    "text": "Need urgent money, anyone? Will return with interest",
+    "mentions": "",
+    "url": "",
+    "_row_sha256": "2b0fd9e8e28c99c5b9ccbfb0c9a96fba2d6b7c4ef295a91d076c50dd774ae285",
+    "_batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+    "_source_filename": "social_posts.csv",
+    "_ingested_at": "2026-09-08T13:03:24.388229+00:00"
+   },
+   {
+    "record_id": "SOC00003",
+    "platform": "x",
+    "handle": "@RameshG_official",
+    "linked_msisdn": "+919104332181",
+    "post_time": "2026-08-15T18:00:00",
+    "post_type": "post",
+    "text": "I was scammed in a fake CBI 'digital arrest'. Lost 4.8 lakh. Filing complaint at cyber cell. Please beware elders!",
+    "mentions": "@CyberDost @Chandigarhpolice",
+    "url": "",
+    "_row_sha256": "c7a7a86fd38ad977a68ef7c2104747fb1e0eef5f592e9e23ce0390c91beea997",
+    "_batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+    "_source_filename": "social_posts.csv",
+    "_ingested_at": "2026-09-08T13:03:24.388230+00:00"
+   },
+   {
+    "record_id": "SOC00004",
+    "platform": "telegram",
+    "handle": "@quickcash_jobs",
+    "linked_msisdn": "+917787133150",
+    "post_time": "2026-08-14T20:00:00",
+    "post_type": "channel_post",
+    "text": "All slots full. New batch next week. Payout on time always.",
+    "mentions": "",
+    "url": "",
+    "_row_sha256": "10bb009211e37fced529822f02118b2d445d1062b50044d9b693478fd55091c8",
+    "_batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+    "_source_filename": "social_posts.csv",
+    "_ingested_at": "2026-09-08T13:03:24.388231+00:00"
+   }
+  ],
+  "total": 4,
+  "page": 1,
+  "page_size": 10,
+  "total_pages": 1
+ }
+}

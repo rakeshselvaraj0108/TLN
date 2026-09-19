@@ -1,0 +1,359 @@
+{
+ "url": "/hunt/report/P0006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0006",
+  "title": "Legitimate — P0006",
+  "generated_at": "2026-09-17T04:40:09+00:00",
+  "generated_by": "investigator",
+  "summary": "7 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0002. ₹146,558 at risk, ₹1,472 assessed as still recoverable. 3 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Associated with operation OP-P0002",
+    "detail": "Money-mule network: 12 entities joined by 16 funds, 3 synchronised, 15 ip link(s). Cohesion 50%, confidence 56%, exposure ₹4,592,894. Linked to 11 other entities: P0001, P0002, P0004, P0008, P0009, P0012, P0013, P0014, P0017, P0018, P0020",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00096",
+     "TXN00090",
+     "TXN00093",
+     "TXN00088",
+     "TXN00089",
+     "TXN00105",
+     "TXN00284",
+     "TXN00285",
+     "TXN00294",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149"
+    ],
+    "sources": [
+     "funds",
+     "ip",
+     "synchronised"
+    ],
+    "entities": [
+     "P0001",
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0009 by synchronised",
+    "detail": "both acted within 3 min (ATM cash-out at 10:12, ATM cash-out at 10:15)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00096"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0006",
+     "P0009"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0004 by synchronised",
+    "detail": "both acted within 7 min (ATM cash-out at 10:12, ATM cash-out at 10:19)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00093"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0006",
+     "P0004"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0008 by funds",
+    "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00088",
+     "TXN00089"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0006",
+     "P0008"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0002 by funds",
+    "detail": "1 transfer(s) totalling 72,960 concentrated in 1 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00105"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0006",
+     "P0002"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0014 by funds",
+    "detail": "10 transfer(s) totalling 555,402 concentrated in 3 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00284",
+     "TXN00285",
+     "TXN00294",
+     "TXN00295",
+     "TXN00304"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0006",
+     "P0014"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0009 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0006",
+     "P0009"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-11T17:40:00",
+    "kind": "txn",
+    "detail": "IMPS debit 150 — Fuel"
+   },
+   {
+    "ts": "2026-08-12T16:56:00",
+    "kind": "txn",
+    "detail": "IMPS debit 69,952 — transfer"
+   },
+   {
+    "ts": "2026-08-13T10:06:00",
+    "kind": "txn",
+    "detail": "IMPS debit 499 — DTH"
+   },
+   {
+    "ts": "2026-08-14T10:12:00",
+    "kind": "txn",
+    "detail": "ATM debit 72,960 — ATM WDL 157.184"
+   },
+   {
+    "ts": "2026-08-15T10:46:00",
+    "kind": "txn",
+    "detail": "IMPS debit 499 — Fuel"
+   },
+   {
+    "ts": "2026-08-17T19:21:00",
+    "kind": "txn",
+    "detail": "UPI debit 499 — Fuel"
+   },
+   {
+    "ts": "2026-08-19T12:16:00",
+    "kind": "txn",
+    "detail": "IMPS debit 1,999 — Recharge"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.270+00:00",
+    "kind": "observe",
+    "detail": "Event received for P0006"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.300+00:00",
+    "kind": "observe",
+    "detail": "Model risk score on file: 87"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.320+00:00",
+    "kind": "hypothesize",
+    "detail": "Considering 7 candidate explanations"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.330+00:00",
+    "kind": "observe",
+    "detail": "7 evidence source(s) unavailable"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.390+00:00",
+    "kind": "investigate",
+    "detail": "Queried phone_reputation → nothing of note"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.450+00:00",
+    "kind": "investigate",
+    "detail": "Queried threat_intel → nothing of note"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.470+00:00",
+    "kind": "decide",
+    "detail": "No further sources available"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.480+00:00",
+    "kind": "score",
+    "detail": "Assessment is partial — one or more evidence sources were unreachable, so this score is a floor, not a conclusion."
+   },
+   {
+    "ts": "2026-09-08T13:37:57.510+00:00",
+    "kind": "score",
+    "detail": "Risk assessed at 87 · tier critical · trajectory steady"
+   },
+   {
+    "ts": "2026-09-08T13:37:57.540+00:00",
+    "kind": "propose",
+    "detail": "3 action(s) recommended; top: Escalate to the fraud team"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0006",
+    "risk_score": 0.8673,
+    "band": "high",
+    "hypothesis": "legitimate"
+   }
+  ],
+  "recommendations": [
+   {
+    "action": "Escalate to the fraud team",
+    "rationale": "Highest combined expected benefit for the risk it carries.",
+    "urgency": "immediate",
+    "approval_required": "supervisor",
+    "reversible": false,
+    "expected_benefit": "Brings specialist review to a case above routine threshold."
+   },
+   {
+    "action": "Flag / watchlist the identifier",
+    "rationale": "Ranked below “Escalate to the fraud team”: lower expected impact, lower confidence.",
+    "urgency": "immediate",
+    "approval_required": "investigator",
+    "reversible": true,
+    "expected_benefit": "Marks the identifier across every view, so any analyst who meets it next inherits this investigation instead of repeating it."
+   },
+   {
+    "action": "Increase monitoring",
+    "rationale": "Ranked below “Flag / watchlist the identifier”: lower expected impact, less time-critical.",
+    "urgency": "immediate",
+    "approval_required": "auto",
+    "reversible": true,
+    "expected_benefit": "Raises sampling on this entity so a further escalation is caught in minutes rather than at the next sweep."
+   }
+  ],
+  "loss_prevented": {
+   "at_risk_inr": 146558.49,
+   "recoverable_inr": 1471.97,
+   "already_lost_inr": 145086.52,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00016",
+     "amount": 150,
+     "band": "cold",
+     "hours_elapsed": 875,
+     "recoverable": 3,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00284",
+     "amount": 69952.49,
+     "band": "cold",
+     "hours_elapsed": 851.7,
+     "recoverable": 1399.05,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00017",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 834.6,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00090",
+     "amount": 72960,
+     "band": "cashed_out",
+     "recoverable": 0,
+     "reason": "withdrawn as cash — not recoverable by account action"
+    },
+    {
+     "rec_id": "TXN00018",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 785.9,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00019",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 729.3,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00020",
+     "amount": 1999,
+     "band": "cold",
+     "hours_elapsed": 688.4,
+     "recoverable": 39.98,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned.",
+   "No exculpatory material was identified. That is not the same as none existing — it means none was surfaced by the checks that ran."
+  ]
+ }
+}

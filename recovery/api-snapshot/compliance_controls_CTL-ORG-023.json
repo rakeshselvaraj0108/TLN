@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-023",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-023",
+  "domain": "Organizational Security",
+  "name": "Operational procedures maintained",
+  "description": "Standard operating procedures are documented.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: operating procedures are maintained by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "url": "/targets/suggested",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "suggestions": [
+   {
+    "kind": "account",
+    "value": "KKBK01128059826",
+    "entity_id": "P0006",
+    "risk_score": 86.7,
+    "band": "high",
+    "reason": "Controlled by P0006, which the xgboost model assessed at 87 (high band)."
+   },
+   {
+    "kind": "imei",
+    "value": "824493534874017",
+    "entity_id": "P0006",
+    "risk_score": 86.7,
+    "band": "high",
+    "reason": "Controlled by P0006, which the xgboost model assessed at 87 (high band)."
+   },
+   {
+    "kind": "phone",
+    "value": "+916980841241",
+    "entity_id": "P0006",
+    "risk_score": 86.7,
+    "band": "high",
+    "reason": "Controlled by P0006, which the xgboost model assessed at 87 (high band)."
+   },
+   {
+    "kind": "handle",
+    "value": "Meera Kulkarni",
+    "entity_id": "P0006",
+    "risk_score": 86.7,
+    "band": "high",
+    "reason": "Controlled by P0006, which the xgboost model assessed at 87 (high band)."
+   },
+   {
+    "kind": "account",
+    "value": "KKBK91183842513",
+    "entity_id": "P0008",
+    "risk_score": 86,
+    "band": "high",
+    "reason": "Controlled by P0008, which the xgboost model assessed at 86 (high band)."
+   },
+   {
+    "kind": "imei",
+    "value": "939909169985432",
+    "entity_id": "P0008",
+    "risk_score": 86,
+    "band": "high",
+    "reason": "Controlled by P0008, which the xgboost model assessed at 86 (high band)."
+   },
+   {
+    "kind": "phone",
+    "value": "+916081219136",
+    "entity_id": "P0008",
+    "risk_score": 86,
+    "band": "high",
+    "reason": "Controlled by P0008, which the xgboost model assessed at 86 (high band)."
+   },
+   {
+    "kind": "account",
+    "value": "ICIC41458685014",
+    "entity_id": "P0004",
+    "risk_score": 84.2,
+    "band": "high",
+    "reason": "Controlled by P0004, which the xgboost model assessed at 84 (high band)."
+   },
+   {
+    "kind": "imei",
+    "value": "322602563421605",
+    "entity_id": "P0004",
+    "risk_score": 84.2,
+    "band": "high",
+    "reason": "Controlled by P0004, which the xgboost model assessed at 84 (high band)."
+   },
+   {
+    "kind": "phone",
+    "value": "+917053315869",
+    "entity_id": "P0004",
+    "risk_score": 84.2,
+    "band": "high",
+    "reason": "Controlled by P0004, which the xgboost model assessed at 84 (high band)."
+   },
+   {
+    "kind": "imei",
+    "value": "287101226916693",
+    "entity_id": "P0020",
+    "risk_score": 79.6,
+    "band": "high",
+    "reason": "Controlled by P0020, which the xgboost model assessed at 80 (high band)."
+   },
+   {
+    "kind": "phone",
+    "value": "+916462704828",
+    "entity_id": "P0020",
+    "risk_score": 79.6,
+    "band": "high",
+    "reason": "Controlled by P0020, which the xgboost model assessed at 80 (high band)."
+   }
+  ],
+  "total": 12
+ }
+}

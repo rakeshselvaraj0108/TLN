@@ -1,0 +1,28 @@
+{
+ "url": "/records/cdr?page=1&page_size=10&search=a",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "cdr",
+  "columns": [
+   "record_id",
+   "a_party",
+   "b_party",
+   "start_time",
+   "duration_sec",
+   "direction",
+   "call_type",
+   "imei",
+   "imsi",
+   "lac",
+   "cell_id",
+   "tower_lat",
+   "tower_lon"
+  ],
+  "rows": [],
+  "total": 0,
+  "page": 1,
+  "page_size": 10,
+  "total_pages": 1
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "url": "/ingest/chain/cdr/832279ccb407938aa069e20008b4e250/verify",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "cdr",
+  "batch_id": "832279ccb407938aa069e20008b4e250",
+  "records": 1119,
+  "chain_intact": true,
+  "chain_head": "27a61a99f774066fd11be2d4579aa41f8ef589157b934d8db51b0c09eea6b122"
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "url": "/intel/entity/P0014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0014",
+  "risk_score": 0.0427,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 0.9326,
+   "n_call_debit_links": 7,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 9,
+   "outbound_txn_count": 17,
+   "distinct_counterparties": 4,
+   "counterparty_stability": 0.8333,
+   "txn_velocity": 8.5,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "inbound_txn_count",
+    "value": 9,
+    "shap": -1.5982,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.0235,
+    "direction": "lowers"
+   },
+   {
+    "feature": "txn_velocity",
+    "value": 8.5,
+    "shap": 0.9303,
+    "direction": "raises"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 17,
+    "shap": -0.6644,
+    "direction": "lowers"
+   },
+   {
+    "feature": "total_fanout_inbound_inr",
+    "value": 0,
+    "shap": -0.3865,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.3615,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "SBIN90847007661",
+     "ifsc": "SBIN0004567"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "102053950240266"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917529042284"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00237",
+    "call_end": "2026-08-12T16:41:33",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00288",
+    "debit_time": "2026-08-12T17:03:00",
+    "amount": 50904.47,
+    "latency_s": 1287,
+    "src_account": "SBIN90847007661",
+    "dst_account": "ICIC41458685014",
+    "narration": "split 1"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00237",
+    "call_end": "2026-08-12T16:41:33",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00294",
+    "debit_time": "2026-08-12T17:03:00",
+    "amount": 50904.47,
+    "latency_s": 1287,
+    "src_account": "SBIN90847007661",
+    "dst_account": "KKBK01128059826",
+    "narration": "split 4"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00237",
+    "call_end": "2026-08-12T16:41:33",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00290",
+    "debit_time": "2026-08-12T17:04:00",
+    "amount": 50904.47,
+    "latency_s": 1347,
+    "src_account": "SBIN90847007661",
+    "dst_account": "KKBK94680443699",
+    "narration": "split 2"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00237",
+    "call_end": "2026-08-12T16:41:33",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00292",
+    "debit_time": "2026-08-12T17:07:00",
+    "amount": 50904.47,
+    "latency_s": 1527,
+    "src_account": "SBIN90847007661",
+    "dst_account": "SBIN87083172788",
+    "narration": "split 3"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00514",
+    "call_end": "2026-08-15T13:07:54",
+    "caller": "+917455623869",
+    "debit_rec_id": "TXN00078",
+    "debit_time": "2026-08-15T14:01:00",
+    "amount": 2500,
+    "latency_s": 3186,
+    "src_account": "SBIN90847007661",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR01039",
+    "call_end": "2026-08-15T11:56:00",
+    "caller": "+917221969379",
+    "debit_rec_id": "TXN00078",
+    "debit_time": "2026-08-15T14:01:00",
+    "amount": 2500,
+    "latency_s": 7500,
+    "src_account": "SBIN90847007661",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0014",
+    "call_rec_id": "CDR00936",
+    "call_end": "2026-08-15T11:22:01",
+    "caller": "+918024994717",
+    "debit_rec_id": "TXN00078",
+    "debit_time": "2026-08-15T14:01:00",
+    "amount": 2500,
+    "latency_s": 9539,
+    "src_account": "SBIN90847007661",
+    "dst_account": null,
+    "narration": "Fuel"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

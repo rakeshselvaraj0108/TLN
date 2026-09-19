@@ -1,0 +1,26 @@
+{
+ "url": "/integrity/verify?source_type=bank",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "all_intact": true,
+  "batches": [
+   {
+    "source_type": "bank",
+    "batch_id": "835be63e0925b0610253c258636be036",
+    "filename": "bank_statements.csv",
+    "intact": true,
+    "records": 407,
+    "verified_through_seq": 407,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "2a3521e47877e0c16b3b1fa79ec2004b80fb2439171f0064c0e64346f4d99aeb"
+   }
+  ],
+  "batch_count": 1,
+  "total_records": 407,
+  "compromised_batches": 0,
+  "summary": "407 records across 1 batches re-hashed and verified against the chain recorded at ingest."
+ }
+}

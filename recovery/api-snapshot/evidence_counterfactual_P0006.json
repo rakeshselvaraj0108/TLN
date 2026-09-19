@@ -1,0 +1,25 @@
+{
+ "url": "/evidence/counterfactual/P0006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0006",
+  "risk_score": 0.8673,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "Removing the shared infrastructure alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0.4364,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

@@ -1,0 +1,322 @@
+{
+ "url": "/intel/entity/P0008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0008",
+  "risk_score": 0.8604,
+  "band": "high",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 0.7202,
+   "n_call_debit_links": 16,
+   "max_passthrough_ratio": 0.96,
+   "max_fanout_hop_count": 6,
+   "total_fanout_inbound_inr": 480000,
+   "inbound_txn_count": 1,
+   "outbound_txn_count": 11,
+   "distinct_counterparties": 6,
+   "counterparty_stability": 0.5,
+   "txn_velocity": 2.75,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.5029,
+    "direction": "lowers"
+   },
+   {
+    "feature": "total_fanout_inbound_inr",
+    "value": 480000,
+    "shap": 1.1435,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 6,
+    "shap": 0.7119,
+    "direction": "raises"
+   },
+   {
+    "feature": "inbound_txn_count",
+    "value": 1,
+    "shap": 0.6221,
+    "direction": "raises"
+   },
+   {
+    "feature": "distinct_counterparties",
+    "value": 6,
+    "shap": 0.4638,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_call_debit_links",
+    "value": 16,
+    "shap": -0.3819,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "KKBK91183842513",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "939909169985432"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916081219136"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00455",
+    "call_end": "2026-08-15T18:36:26",
+    "caller": "+916784801845",
+    "debit_rec_id": "TXN00013",
+    "debit_time": "2026-08-15T19:34:00",
+    "amount": 150,
+    "latency_s": 3454,
+    "src_account": "KKBK91183842513",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00651",
+    "call_end": "2026-08-17T15:18:20",
+    "caller": "+916271937452",
+    "debit_rec_id": "TXN00014",
+    "debit_time": "2026-08-17T16:52:00",
+    "amount": 150,
+    "latency_s": 5620,
+    "src_account": "KKBK91183842513",
+    "dst_account": null,
+    "narration": "Grocery"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00150",
+    "call_end": "2026-08-11T15:05:42",
+    "caller": "+918024994717",
+    "debit_rec_id": "TXN00011",
+    "debit_time": "2026-08-11T16:55:00",
+    "amount": 780,
+    "latency_s": 6558,
+    "src_account": "KKBK91183842513",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00088",
+    "debit_time": "2026-08-14T10:09:00",
+    "amount": 76800,
+    "latency_s": 7761,
+    "src_account": "KKBK91183842513",
+    "dst_account": "KKBK01128059826",
+    "narration": "transfer 1"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00091",
+    "debit_time": "2026-08-14T10:10:00",
+    "amount": 76800,
+    "latency_s": 7821,
+    "src_account": "KKBK91183842513",
+    "dst_account": "ICIC41458685014",
+    "narration": "transfer 2"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00094",
+    "debit_time": "2026-08-14T10:13:00",
+    "amount": 76800,
+    "latency_s": 8001,
+    "src_account": "KKBK91183842513",
+    "dst_account": "KKBK94680443699",
+    "narration": "transfer 3"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00097",
+    "debit_time": "2026-08-14T10:15:00",
+    "amount": 76800,
+    "latency_s": 8121,
+    "src_account": "KKBK91183842513",
+    "dst_account": "SBIN87083172788",
+    "narration": "transfer 4"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00088",
+    "debit_time": "2026-08-14T10:09:00",
+    "amount": 76800,
+    "latency_s": 8221,
+    "src_account": "KKBK91183842513",
+    "dst_account": "KKBK01128059826",
+    "narration": "transfer 1"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00091",
+    "debit_time": "2026-08-14T10:10:00",
+    "amount": 76800,
+    "latency_s": 8281,
+    "src_account": "KKBK91183842513",
+    "dst_account": "ICIC41458685014",
+    "narration": "transfer 2"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00100",
+    "debit_time": "2026-08-14T10:18:00",
+    "amount": 76800,
+    "latency_s": 8301,
+    "src_account": "KKBK91183842513",
+    "dst_account": "PUNB90967054668",
+    "narration": "transfer 5"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00094",
+    "debit_time": "2026-08-14T10:13:00",
+    "amount": 76800,
+    "latency_s": 8461,
+    "src_account": "KKBK91183842513",
+    "dst_account": "KKBK94680443699",
+    "narration": "transfer 3"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00378",
+    "call_end": "2026-08-14T07:59:39",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00103",
+    "debit_time": "2026-08-14T10:21:00",
+    "amount": 76800,
+    "latency_s": 8481,
+    "src_account": "KKBK91183842513",
+    "dst_account": "ICIC17080531003",
+    "narration": "transfer 6"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00097",
+    "debit_time": "2026-08-14T10:15:00",
+    "amount": 76800,
+    "latency_s": 8581,
+    "src_account": "KKBK91183842513",
+    "dst_account": "SBIN87083172788",
+    "narration": "transfer 4"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00100",
+    "debit_time": "2026-08-14T10:18:00",
+    "amount": 76800,
+    "latency_s": 8761,
+    "src_account": "KKBK91183842513",
+    "dst_account": "PUNB90967054668",
+    "narration": "transfer 5"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00443",
+    "call_end": "2026-08-14T07:51:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00103",
+    "debit_time": "2026-08-14T10:21:00",
+    "amount": 76800,
+    "latency_s": 8941,
+    "src_account": "KKBK91183842513",
+    "dst_account": "ICIC17080531003",
+    "narration": "transfer 6"
+   },
+   {
+    "person": "P0008",
+    "call_rec_id": "CDR00631",
+    "call_end": "2026-08-17T14:17:25",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00014",
+    "debit_time": "2026-08-17T16:52:00",
+    "amount": 150,
+    "latency_s": 9275,
+    "src_account": "KKBK91183842513",
+    "dst_account": null,
+    "narration": "Grocery"
+   }
+  ],
+  "fanout_links": [
+   {
+    "person": "P0008",
+    "inbound_rec_id": "TXN00087",
+    "inbound_time": "2026-08-14T10:07:00",
+    "inbound_amount": 480000,
+    "inbound_account": "KKBK91183842513",
+    "outbound_rec_ids": [
+     "TXN00088",
+     "TXN00091",
+     "TXN00094",
+     "TXN00097",
+     "TXN00100",
+     "TXN00103"
+    ],
+    "outbound_total": 460800,
+    "passthrough_ratio": 0.96,
+    "window_s": 1800,
+    "hop_count": 6
+   }
+  ],
+  "engine": "local"
+ }
+}

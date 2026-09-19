@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-RSK-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-007",
+  "domain": "Risk Management",
+  "name": "Risk treatment plans established",
+  "description": "Identified risks have documented treatment plans.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Each gap in this report carries a concrete remediation; formal treatment plans with owners and dates are the agency's to maintain.",
+  "observations": []
+ }
+}

@@ -1,0 +1,120 @@
+{
+ "url": "/intel/entity/P0011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0011",
+  "risk_score": 0.1031,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 0.5537,
+   "n_call_debit_links": 2,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 5,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 5,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.6592,
+    "direction": "lowers"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 5,
+    "shap": 0.9368,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0,
+    "shap": -0.5894,
+    "direction": "lowers"
+   },
+   {
+    "feature": "txn_velocity",
+    "value": 5,
+    "shap": 0.5847,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_call_debit_links",
+    "value": 2,
+    "shap": -0.4552,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.4515,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "PUNB37826398214",
+     "ifsc": "PUNB0234500"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "477109324808614"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917859770348"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0011",
+    "call_rec_id": "CDR00146",
+    "call_end": "2026-08-11T13:23:08",
+    "caller": "+916936183242",
+    "debit_rec_id": "TXN00066",
+    "debit_time": "2026-08-11T14:49:00",
+    "amount": 3200,
+    "latency_s": 5152,
+    "src_account": "PUNB37826398214",
+    "dst_account": null,
+    "narration": "Recharge"
+   },
+   {
+    "person": "P0011",
+    "call_rec_id": "CDR00129",
+    "call_end": "2026-08-11T12:52:21",
+    "caller": "+918738721489",
+    "debit_rec_id": "TXN00066",
+    "debit_time": "2026-08-11T14:49:00",
+    "amount": 3200,
+    "latency_s": 6999,
+    "src_account": "PUNB37826398214",
+    "dst_account": null,
+    "narration": "Recharge"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

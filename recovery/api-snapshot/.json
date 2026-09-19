@@ -1,0 +1,10 @@
+{
+ "url": "/",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "service": "trace-x-api",
+  "version": "0.1.0",
+  "docs": "/docs"
+ }
+}

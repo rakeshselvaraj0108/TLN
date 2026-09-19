@@ -1,0 +1,25 @@
+{
+ "url": "/compliance/controls/CTL-MON-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-002",
+  "domain": "Monitoring and Incident Response",
+  "name": "Audit logs collected",
+  "description": "Security-relevant events are logged from critical components.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "483 audit entries from 4 distinct actor(s), across 8+ action types.",
+  "observations": [
+   "compliance.control.view: 118",
+   "timeline.entity.view: 62",
+   "intel.entity.view: 43",
+   "hunt.report: 40",
+   "pattern.timeline: 24",
+   "intel.analyze: 24",
+   "evidence.bsa_certificate: 22",
+   "evidence.counterfactual: 21",
+   "The actor is derived from the request identity, never accepted as a client-supplied field — an audit log the caller can forge is decoration."
+  ]
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "url": "/auth/posture",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "demo_mode": true,
+  "auth_mode": "trusted_header",
+  "rate_limit_enabled": true,
+  "problems": []
+ }
+}

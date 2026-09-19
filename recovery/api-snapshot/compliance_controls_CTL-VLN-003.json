@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-VLN-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-003",
+  "domain": "Vulnerability Management",
+  "name": "Penetration testing performed within the last 12 months",
+  "description": "An independent penetration test is performed annually.",
+  "owner": "shared",
+  "status": "gap",
+  "detail": "No penetration test has been performed against this application.",
+  "observations": [
+   "Required before any deployment handling real evidence."
+  ]
+ }
+}

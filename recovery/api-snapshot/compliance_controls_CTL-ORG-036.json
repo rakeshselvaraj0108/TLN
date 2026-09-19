@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ORG-036",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-036",
+  "domain": "Organizational Security",
+  "name": "Service description communicated",
+  "description": "Scope, features and limitations are communicated to users.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "The service, its scope and its stated limits are documented in-product.",
+  "observations": [
+   "OpenAPI at /docs; every analytical view states its method and its caveats."
+  ]
+ }
+}

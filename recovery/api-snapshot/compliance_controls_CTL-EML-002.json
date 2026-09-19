@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-EML-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-EML-002",
+  "domain": "Email Security",
+  "name": "Email account access restricted",
+  "description": "Mailbox delegation is limited to administrators.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: corporate mailbox administration.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

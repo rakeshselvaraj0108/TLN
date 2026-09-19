@@ -1,0 +1,65 @@
+{
+ "url": "/overview",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "sources": {
+   "ipdr": 449,
+   "alpr": 140,
+   "bank": 407,
+   "cdr": 1119,
+   "social": 4
+  },
+  "total_records": 2119,
+  "scored": 20,
+  "bands": {
+   "elevated": 2,
+   "high": 4,
+   "low": 14
+  },
+  "signals": {
+   "fast_call_to_debit": 7,
+   "fanout_patterns": 7,
+   "imei_persistence_devices": 3
+  },
+  "lead": {
+   "person": "P0001",
+   "caller": "+916489325288",
+   "latency_s": 360,
+   "amount": 480000,
+   "narration": "SECURITY DEPOSIT CASE CLEARANCE",
+   "debit_time": "2026-08-14T10:07:00",
+   "passthrough_ratio": null,
+   "fanout_hops": null
+  },
+  "top_entities": [
+   {
+    "entity_id": "P0006",
+    "risk_score": 0.8673,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0008",
+    "risk_score": 0.8604,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0004",
+    "risk_score": 0.8425,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0020",
+    "risk_score": 0.796,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0012",
+    "risk_score": 0.5165,
+    "band": "elevated"
+   }
+  ],
+  "ready": true,
+  "engine": "local"
+ }
+}

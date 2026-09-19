@@ -1,0 +1,18 @@
+{
+ "url": "/geo/contradictions",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "impossible_travel": [],
+  "geo_financial_conflict": [],
+  "total": 0,
+  "thresholds": {
+   "max_plausible_kmh": 900,
+   "min_significant_km": 1,
+   "geo_financial_window_minutes": 30,
+   "geo_financial_conflict_km": 200
+  },
+  "note": "A contradiction is a lead, not a conclusion. It says two records cannot both describe the same person in the same place — which of them is wrong, or who else was holding the device, is what an investigator establishes next.",
+  "engine": "local"
+ }
+}

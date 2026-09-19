@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-027",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-027",
+  "domain": "Organizational Security",
+  "name": "Policies signed by relevant personnel",
+  "description": "Staff have acknowledged the policies that apply to them.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: policy acknowledgements are held by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

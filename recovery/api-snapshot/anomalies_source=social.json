@@ -1,0 +1,21 @@
+{
+ "url": "/anomalies?source=social",
+ "status": 422,
+ "contentType": "application/json",
+ "body": {
+  "detail": [
+   {
+    "type": "string_pattern_mismatch",
+    "loc": [
+     "query",
+     "source"
+    ],
+    "msg": "String should match pattern '^(all|cdr|ipdr|bank)$'",
+    "input": "social",
+    "ctx": {
+     "pattern": "^(all|cdr|ipdr|bank)$"
+    }
+   }
+  ]
+ }
+}

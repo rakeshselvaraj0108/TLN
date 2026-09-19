@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-ORG-020",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-020",
+  "domain": "Organizational Security",
+  "name": "Non-conformance and corrective action procedures established",
+  "description": "Non-conformities are recorded and corrected.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Every failing control in this report is a recorded non-conformity with a named remediation; tracking them to closure is the agency's process.",
+  "observations": []
+ }
+}

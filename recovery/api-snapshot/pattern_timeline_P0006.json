@@ -1,0 +1,293 @@
+{
+ "url": "/pattern/timeline/P0006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0006",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00016",
+    "ts": "2026-08-11T17:40:00+00:00",
+    "amount": 150,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "KKBK01128059826",
+    "row_sha256": "bd5d5bba43ab30d79eac9a5be3c5da270d5514bf3018b0fae868695a7c7aa663",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00023",
+    "ts": "2026-08-11T21:21:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.971,
+    "row_sha256": "6f7ba7eed91aa50c07da18cd2486a4b1ab5c22d8cc575121ffa52895ffb3d288"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00026",
+    "ts": "2026-08-12T09:08:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "confidence": 0.957,
+    "row_sha256": "38017ef8995be1a5f0175347c022d91a9ce6590d3cad3aec27d89f108110e5b7"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00284",
+    "ts": "2026-08-12T16:56:00+00:00",
+    "amount": 69952.49,
+    "channel": "IMPS",
+    "narration": "transfer",
+    "account": "KKBK01128059826",
+    "row_sha256": "47b11558439102a237df21c32bf36a3ab0a767aaf6dccd5c54854d8afa8e10a5",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00037",
+    "ts": "2026-08-13T08:04:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.943,
+    "row_sha256": "f6e5f1dcc2b0e626346694803d0935c4902b5d453e44d578fa35330de198df13"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00017",
+    "ts": "2026-08-13T10:06:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "KKBK01128059826",
+    "row_sha256": "f0761d83fddcce1e6bc6ec0543af5ad62d0bb35daad65c5d085039a806e74a3e",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00045",
+    "ts": "2026-08-13T17:23:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.934,
+    "row_sha256": "abf4fe8eca9f73df5cf454abec3d0210e880ee57ea6cb6150326e9f7836d25a4"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00058",
+    "ts": "2026-08-14T10:10:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.97,
+    "row_sha256": "f3ff6da299b722da710acfe611d2cfd13ed3daa0aa04bf1d4880c29d9c07e51d"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00090",
+    "ts": "2026-08-14T10:12:00+00:00",
+    "amount": 72960,
+    "channel": "ATM",
+    "narration": "ATM WDL 157.184",
+    "account": "KKBK01128059826",
+    "row_sha256": "a801514b805aefba6e27f73be1d2471ba83d509e3075451e6e51271850c2df39",
+    "corroborations": [
+     {
+      "claim": "vehicle PB65AK4471 present at Kotak ATM Sector 22",
+      "strength": "strong",
+      "reason": "PB65AK4471 was read arriving and departing around the event (2 reads within 15 min), and is not a habitual presence at this camera",
+      "event_time": "2026-08-14T10:12:00+00:00",
+      "event_detail": "debit 72960.0 via ATM",
+      "plate": "PB65AK4471",
+      "camera_id": "CAM02",
+      "poi": "POI002",
+      "reads": [
+       {
+        "record_id": "ALP00058",
+        "ts": "2026-08-14T10:10:00+00:00",
+        "camera_id": "CAM02",
+        "confidence": 0.97
+       },
+       {
+        "record_id": "ALP00062",
+        "ts": "2026-08-14T10:19:00+00:00",
+        "camera_id": "CAM02",
+        "confidence": 0.97
+       }
+      ],
+      "evidence_rows": [
+       "f3ff6da299b722da710acfe611d2cfd13ed3daa0aa04bf1d4880c29d9c07e51d",
+       "351d29d1ba031880ac0024a4049da5f33e35060e7f8f1b962343487552473e8d"
+      ],
+      "minutes_from_event": -2
+     },
+     {
+      "claim": "vehicle PB65AK4471 present at ICICI ATM Sector 35",
+      "strength": "moderate",
+      "reason": "PB65AK4471 was read once within 13 min of the event, but without an arrive/depart pair",
+      "event_time": "2026-08-14T10:12:00+00:00",
+      "event_detail": "debit 72960.0 via ATM",
+      "plate": "PB65AK4471",
+      "camera_id": "CAM03",
+      "poi": "POI003",
+      "reads": [
+       {
+        "record_id": "ALP00064",
+        "ts": "2026-08-14T10:25:00+00:00",
+        "camera_id": "CAM03",
+        "confidence": 0.879
+       }
+      ],
+      "evidence_rows": [
+       "2efb894aa93cd3b1f8f1dac7826fd1a1f0e06522b412a5d8f9ec81fd7cec10be"
+      ],
+      "minutes_from_event": 13
+     }
+    ]
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00062",
+    "ts": "2026-08-14T10:19:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.97,
+    "row_sha256": "351d29d1ba031880ac0024a4049da5f33e35060e7f8f1b962343487552473e8d"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00064",
+    "ts": "2026-08-14T10:25:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.879,
+    "row_sha256": "2efb894aa93cd3b1f8f1dac7826fd1a1f0e06522b412a5d8f9ec81fd7cec10be"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00071",
+    "ts": "2026-08-14T19:46:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.847,
+    "row_sha256": "21e1a64aab378421ee861487559a0e2a6cfcea02fd65671c571972295ceaa918"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00018",
+    "ts": "2026-08-15T10:46:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "KKBK01128059826",
+    "row_sha256": "3484d16b3736a9361b272a72d2548252a271e025a6584b8f2687c98d1c34026f",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00081",
+    "ts": "2026-08-15T16:17:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.852,
+    "row_sha256": "0fe5a41918d5cbe3eff6a31f53cf2819edd99df9a16d97f640afbeb0c2bf829d"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00083",
+    "ts": "2026-08-15T18:55:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.87,
+    "row_sha256": "7fc1312d3bb2b3dd7bcd1a8726f530543654a5a3c726e375d3f4a181eea6eb04"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00106",
+    "ts": "2026-08-17T18:14:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.971,
+    "row_sha256": "1b634106cc7a469af95bd791f394ffb81f6fa5f520927ad3fcfff3baac0c047a"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00019",
+    "ts": "2026-08-17T19:21:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "Fuel",
+    "account": "KKBK01128059826",
+    "row_sha256": "9506d19eb49ef7d5e66f6951fe53679903a3cb373d4c3a2d2973a05c58288ec7",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00116",
+    "ts": "2026-08-18T10:56:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.983,
+    "row_sha256": "69f06608354dc863f02325f5b607ddd98526f146c8425d286e0e193af94d6e0e"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00118",
+    "ts": "2026-08-18T12:51:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.906,
+    "row_sha256": "d953a802585dd607aaf7b5da5cdcb4ea0e2d57541a8c276bf934239bf8fc51c0"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00134",
+    "ts": "2026-08-19T11:39:00+00:00",
+    "plate": "PB65AK4471",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.906,
+    "row_sha256": "d61a9c2f79c7d54ccc639663bd19be5c3a3367c91aaaa462dc2724c577c44e44"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00020",
+    "ts": "2026-08-19T12:16:00+00:00",
+    "amount": 1999,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "KKBK01128059826",
+    "row_sha256": "31501b752ce64f1bdd6e5eec79eb89ee1555eab9390e691f039a88f7854e5364",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 14,
+   "debits": 7,
+   "corroborated_debits": 1
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

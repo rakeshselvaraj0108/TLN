@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-DR-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-005",
+  "domain": "Disaster Recovery",
+  "name": "Data recovery tested",
+  "description": "Restores are exercised, not assumed.",
+  "owner": "shared",
+  "status": "manual",
+  "detail": "No recovery exercise has been logged. The platform will record one (audit action 'dr.test') but cannot perform it.",
+  "observations": []
+ }
+}

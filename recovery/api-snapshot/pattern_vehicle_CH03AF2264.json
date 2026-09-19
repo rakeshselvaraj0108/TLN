@@ -1,0 +1,158 @@
+{
+ "url": "/pattern/vehicle/CH03AF2264",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "plate": "CH03AF2264",
+  "entity_id": "P0008",
+  "total_reads": 19,
+  "active_days": 10,
+  "places": [
+   {
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "visits": 6,
+    "distinct_days": 4,
+    "first_seen": "2026-08-10T10:04:00+00:00",
+    "last_seen": "2026-08-19T09:50:00+00:00",
+    "typical_hours": [
+     8,
+     9,
+     10,
+     15
+    ],
+    "habitual": true
+   },
+   {
+    "camera_id": "CAM07",
+    "poi": null,
+    "visits": 3,
+    "distinct_days": 3,
+    "first_seen": "2026-08-11T15:13:00+00:00",
+    "last_seen": "2026-08-18T19:24:00+00:00",
+    "typical_hours": [
+     9,
+     15,
+     19
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "visits": 3,
+    "distinct_days": 3,
+    "first_seen": "2026-08-13T12:09:00+00:00",
+    "last_seen": "2026-08-19T12:54:00+00:00",
+    "typical_hours": [
+     12,
+     16
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM08",
+    "poi": null,
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-11T15:08:00+00:00",
+    "last_seen": "2026-08-13T13:06:00+00:00",
+    "typical_hours": [
+     13,
+     15
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-12T14:57:00+00:00",
+    "last_seen": "2026-08-19T21:50:00+00:00",
+    "typical_hours": [
+     14,
+     21
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "visits": 1,
+    "distinct_days": 1,
+    "first_seen": "2026-08-10T16:07:00+00:00",
+    "last_seen": "2026-08-10T16:07:00+00:00",
+    "typical_hours": [
+     16
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM05",
+    "poi": "Elante Mall",
+    "visits": 1,
+    "distinct_days": 1,
+    "first_seen": "2026-08-17T20:54:00+00:00",
+    "last_seen": "2026-08-17T20:54:00+00:00",
+    "typical_hours": [
+     20
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "visits": 1,
+    "distinct_days": 1,
+    "first_seen": "2026-08-18T15:53:00+00:00",
+    "last_seen": "2026-08-18T15:53:00+00:00",
+    "typical_hours": [
+     15
+    ],
+    "habitual": false
+   }
+  ],
+  "active_hours": [
+   8,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   16,
+   19,
+   20,
+   21
+  ],
+  "anomalies": [
+   {
+    "kind": "one_off_location",
+    "camera_id": "CAM02",
+    "ts": "2026-08-10T16:07:00+00:00",
+    "detail": "single visit to CAM02, not part of the usual route"
+   },
+   {
+    "kind": "one_off_location",
+    "camera_id": "CAM05",
+    "ts": "2026-08-17T20:54:00+00:00",
+    "detail": "single visit to CAM05, not part of the usual route"
+   },
+   {
+    "kind": "one_off_location",
+    "camera_id": "CAM03",
+    "ts": "2026-08-18T15:53:00+00:00",
+    "detail": "single visit to CAM03, not part of the usual route"
+   }
+  ],
+  "summary": "19 reads across 10 active day(s) at 8 camera(s). Habitual route: CAM06. 3 departure(s) from that pattern.",
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "engine": "local"
+ }
+}

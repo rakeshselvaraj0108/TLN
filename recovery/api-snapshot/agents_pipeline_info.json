@@ -1,0 +1,50 @@
+{
+ "url": "/agents/pipeline/info",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "agents": [
+   {
+    "name": "Planner",
+    "stage": "planner",
+    "calls": "states the questions this run must establish"
+   },
+   {
+    "name": "Investigator",
+    "stage": "investigator",
+    "calls": "ingest_bytes + graph constraints"
+   },
+   {
+    "name": "Correlator",
+    "stage": "correlator",
+    "calls": "resolve (deterministic union-find)"
+   },
+   {
+    "name": "Analyst",
+    "stage": "analyst",
+    "calls": "run_analysis (XGBoost/SHAP) + correlate"
+   },
+   {
+    "name": "Critic",
+    "stage": "critic",
+    "calls": "exculpatory.evaluate — attempts to DISPROVE each hypothesis"
+   },
+   {
+    "name": "Verifier",
+    "stage": "verifier",
+    "calls": "verification.ground_claim — re-resolves and re-hashes cited records"
+   },
+   {
+    "name": "Responder",
+    "stage": "responder",
+    "calls": "action_proposer.propose — proposals only, never execution"
+   },
+   {
+    "name": "Auditor",
+    "stage": "auditor",
+    "calls": "provider harness — prose summary only"
+   }
+  ],
+  "note": "Eight stages. The critic runs after the analyst so it has hypotheses to attack, and the responder runs after the critic so it never proposes acting on a lead already explained away. The LLM writes prose only — scoring, resolution, refutation and every decision are deterministic, and no action is executed without human authorization. No cloud LLM APIs."
+ }
+}

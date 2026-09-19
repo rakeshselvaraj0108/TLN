@@ -1,0 +1,28 @@
+{
+ "url": "/documents",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "documents": [
+   {
+    "id": 1,
+    "filename": "CPH 26 Final PPT Template.pptx (1).pdf",
+    "sha256": "a5ef1b7c82328ebbb81318087069b78ad53640ae197a61f9a1a5acbd5e7ff4c8",
+    "size_bytes": 246491,
+    "extraction_method": "narrative",
+    "page_count": 9,
+    "char_count": 474,
+    "identifier_count": 0,
+    "known_count": 0,
+    "entities": [],
+    "top_risk": 0,
+    "case_id": null,
+    "ingested_batch_id": null,
+    "uploaded_by": "investigator",
+    "uploaded_at": "2026-09-16T04:29:14.579139+00:00"
+   }
+  ],
+  "count": 1,
+  "total": 1
+ }
+}

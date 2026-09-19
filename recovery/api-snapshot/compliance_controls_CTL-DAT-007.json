@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-007",
+  "domain": "Data Management and Protection",
+  "name": "Data management and retention policy established",
+  "description": "Retention periods and lifecycle management are defined.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: a retention schedule must be set by the agency against its own evidential handling rules; the platform timestamps every record at ingest, so any schedule the agency sets is enforceable against real dates.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

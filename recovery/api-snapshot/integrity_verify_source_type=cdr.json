@@ -1,0 +1,26 @@
+{
+ "url": "/integrity/verify?source_type=cdr",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "all_intact": true,
+  "batches": [
+   {
+    "source_type": "cdr",
+    "batch_id": "832279ccb407938aa069e20008b4e250",
+    "filename": "cdr.csv",
+    "intact": true,
+    "records": 1119,
+    "verified_through_seq": 1119,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "27a61a99f774066fd11be2d4579aa41f8ef589157b934d8db51b0c09eea6b122"
+   }
+  ],
+  "batch_count": 1,
+  "total_records": 1119,
+  "compromised_batches": 0,
+  "summary": "1119 records across 1 batches re-hashed and verified against the chain recorded at ingest."
+ }
+}

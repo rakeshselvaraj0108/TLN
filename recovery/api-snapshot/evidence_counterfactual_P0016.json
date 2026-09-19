@@ -1,0 +1,47 @@
+{
+ "url": "/evidence/counterfactual/P0016",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0016",
+  "risk_score": 0.0214,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 10 minutes, and the handset carried fewer than 3.0 SIMs, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 1,
+    "observed": "Rs 2,500 was debited 5 minutes after an inbound call from +919044997278 (\"Fuel\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_imei_sim_count",
+    "feature": "max_imei_sim_count",
+    "observed_value": 3,
+    "observed": "A single handset was seen with 3 different SIMs",
+    "boundary": "Fewer SIMs alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

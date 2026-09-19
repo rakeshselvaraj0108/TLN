@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-INF-015",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-015",
+  "domain": "Infrastructure Security",
+  "name": "Production and test environments separated",
+  "description": "Test activity cannot reach production data.",
+  "owner": "platform",
+  "status": "partial",
+  "detail": "Running in demo mode: the tamper drill is enabled, so this instance must be treated as non-production.",
+  "observations": [
+   "TRACEX_DEMO_MODE=true permits /integrity/drill to mutate a stored record. Correct for a demonstration, unacceptable for an instance holding real evidence.",
+   "Set TRACEX_DEMO_MODE=false in production; the drill then refuses.",
+   "seed_on_boot=True"
+  ]
+ }
+}

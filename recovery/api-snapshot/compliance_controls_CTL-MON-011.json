@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-MON-011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-011",
+  "domain": "Monitoring and Incident Response",
+  "name": "Threat intelligence established",
+  "description": "Threat information is gathered and applied.",
+  "owner": "platform",
+  "status": "partial",
+  "detail": "The watchlist and campaign-signature mechanisms exist but hold no entries yet.",
+  "observations": [
+   "A target is a marker, never a score: an investigator's attention is deliberately excluded from the model's features, so the system cannot simply confirm whatever it was pointed at."
+  ]
+ }
+}

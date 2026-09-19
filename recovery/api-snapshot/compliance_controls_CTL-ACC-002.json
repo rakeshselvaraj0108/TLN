@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-ACC-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-002",
+  "domain": "Access Control and Authorization",
+  "name": "Access management policy established",
+  "description": "Systematic controls govern user access rights to systems and data.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Access rules are enforced server-side in tracex_api.auth, not in the UI.",
+  "observations": [
+   "Two roles: investigator (read, ingest, analyse, work cases) and supervisor (all of that, plus closure, export, and any action with an external consequence).",
+   "The frontend hides privileged controls as a convenience; the API refuses them as the control. A hidden button is not a permission.",
+   "5 privileged actions declared."
+  ]
+ }
+}

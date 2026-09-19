@@ -1,0 +1,369 @@
+{
+ "url": "/profiles/P0014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0014",
+  "identifiers": {
+   "Account": [
+    {
+     "value": "SBIN90847007661",
+     "props": {
+      "number": "SBIN90847007661",
+      "ifsc": "SBIN0004567"
+     },
+     "resolved_by": "R2"
+    }
+   ],
+   "Device": [
+    {
+     "value": "102053950240266",
+     "props": {
+      "imei": "102053950240266"
+     },
+     "resolved_by": "R1"
+    }
+   ],
+   "Phone": [
+    {
+     "value": "+917529042284",
+     "props": {
+      "msisdn": "+917529042284"
+     },
+     "resolved_by": "R1"
+    }
+   ]
+  },
+  "identifier_count": 3,
+  "contacts": [
+   {
+    "msisdn": "+919104332181",
+    "entity_id": "P0001",
+    "calls_out": 2,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 429,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+918277434873",
+    "entity_id": "P0012",
+    "calls_out": 2,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 781,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+917064090974",
+    "entity_id": "P0018",
+    "calls_out": 2,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 1,
+    "seconds": 398,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+918024994717",
+    "entity_id": "P0016",
+    "calls_out": 2,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 627,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+917787133150",
+    "entity_id": "P0020",
+    "calls_out": 2,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 706,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+916611724005",
+    "entity_id": "P0018",
+    "calls_out": 1,
+    "calls_in": 2,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 559,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+917221969379",
+    "entity_id": "P0018",
+    "calls_out": 1,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 1,
+    "seconds": 540,
+    "total_contacts": 3
+   },
+   {
+    "msisdn": "+919044997278",
+    "entity_id": "P0017",
+    "calls_out": 1,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 462,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+918489638346",
+    "entity_id": "P0020",
+    "calls_out": 2,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 442,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+918738721489",
+    "entity_id": "P0013",
+    "calls_out": 2,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 233,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+916936183242",
+    "entity_id": "P0016",
+    "calls_out": 1,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 320,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+916271937452",
+    "entity_id": "P0010",
+    "calls_out": 2,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 266,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+917053315869",
+    "entity_id": "P0004",
+    "calls_out": 1,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 318,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+916980841241",
+    "entity_id": "P0006",
+    "calls_out": 0,
+    "calls_in": 2,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 580,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+919648877190",
+    "entity_id": "P0016",
+    "calls_out": 0,
+    "calls_in": 2,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 324,
+    "total_contacts": 2
+   },
+   {
+    "msisdn": "+917341316475",
+    "entity_id": "P0015",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 308,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917049451983",
+    "entity_id": "P0019",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 342,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+916462704828",
+    "entity_id": "P0020",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 112,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917957015430",
+    "entity_id": "P0020",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 300,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+916784801845",
+    "entity_id": "P0020",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 240,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+918159212499",
+    "entity_id": "P0003",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 152,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917859770348",
+    "entity_id": "P0011",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 66,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+916081219136",
+    "entity_id": "P0008",
+    "calls_out": 1,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 263,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+916569816934",
+    "entity_id": "P0009",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 316,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917175946474",
+    "entity_id": "P0018",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 197,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+916489325288",
+    "entity_id": "P0020",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 246,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917455623869",
+    "entity_id": "P0018",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 174,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+918701436349",
+    "entity_id": "P0007",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 161,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+918094777520",
+    "entity_id": "P0005",
+    "calls_out": 0,
+    "calls_in": 1,
+    "sms_out": 0,
+    "sms_in": 0,
+    "seconds": 173,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+917374740748",
+    "entity_id": "P0018",
+    "calls_out": 0,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 1,
+    "seconds": 0,
+    "total_contacts": 1
+   },
+   {
+    "msisdn": "+918953394210",
+    "entity_id": "P0018",
+    "calls_out": 0,
+    "calls_in": 0,
+    "sms_out": 0,
+    "sms_in": 1,
+    "seconds": 0,
+    "total_contacts": 1
+   }
+  ],
+  "activity": {
+   "calls_placed": 29,
+   "seconds_placed": 5992,
+   "first_call": "2026-08-10T07:19:00",
+   "last_call": "2026-08-19T21:27:00",
+   "txns_sent": 29,
+   "amount_sent": 1235408.3599999999,
+   "txns_received": 18,
+   "amount_received": 1265184.8800000001
+  },
+  "engine": "local",
+  "risk": {
+   "risk_score": 0.0427,
+   "band": "low",
+   "model": "xgboost",
+   "computed_at": "2026-09-08T13:03:38.882909+00:00"
+  },
+  "notes": []
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-007",
+  "domain": "Disaster Recovery",
+  "name": "Recovery data isolated",
+  "description": "Backups are isolated from production.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: isolation of recovery data from production is an infrastructure property.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

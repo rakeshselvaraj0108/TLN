@@ -1,0 +1,136 @@
+{
+ "url": "/pattern/vehicle/PB65AK4471",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "plate": "PB65AK4471",
+  "entity_id": "P0006",
+  "total_reads": 14,
+  "active_days": 8,
+  "places": [
+   {
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "visits": 4,
+    "distinct_days": 3,
+    "first_seen": "2026-08-14T10:10:00+00:00",
+    "last_seen": "2026-08-18T10:56:00+00:00",
+    "typical_hours": [
+     10,
+     16
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM08",
+    "poi": null,
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-11T21:21:00+00:00",
+    "last_seen": "2026-08-14T19:46:00+00:00",
+    "typical_hours": [
+     19,
+     21
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM07",
+    "poi": null,
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-13T08:04:00+00:00",
+    "last_seen": "2026-08-17T18:14:00+00:00",
+    "typical_hours": [
+     8,
+     18
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-13T17:23:00+00:00",
+    "last_seen": "2026-08-19T11:39:00+00:00",
+    "typical_hours": [
+     11,
+     17
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "visits": 2,
+    "distinct_days": 2,
+    "first_seen": "2026-08-14T10:25:00+00:00",
+    "last_seen": "2026-08-15T18:55:00+00:00",
+    "typical_hours": [
+     10,
+     18
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "visits": 1,
+    "distinct_days": 1,
+    "first_seen": "2026-08-12T09:08:00+00:00",
+    "last_seen": "2026-08-12T09:08:00+00:00",
+    "typical_hours": [
+     9
+    ],
+    "habitual": false
+   },
+   {
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "visits": 1,
+    "distinct_days": 1,
+    "first_seen": "2026-08-18T12:51:00+00:00",
+    "last_seen": "2026-08-18T12:51:00+00:00",
+    "typical_hours": [
+     12
+    ],
+    "habitual": false
+   }
+  ],
+  "active_hours": [
+   8,
+   9,
+   10,
+   11,
+   12,
+   16,
+   17,
+   18,
+   19,
+   21
+  ],
+  "anomalies": [
+   {
+    "kind": "one_off_location",
+    "camera_id": "CAM06",
+    "ts": "2026-08-12T09:08:00+00:00",
+    "detail": "single visit to CAM06, not part of the usual route"
+   },
+   {
+    "kind": "one_off_location",
+    "camera_id": "CAM04",
+    "ts": "2026-08-18T12:51:00+00:00",
+    "detail": "single visit to CAM04, not part of the usual route"
+   }
+  ],
+  "summary": "14 reads across 8 active day(s) at 7 camera(s). No habitual route — movement is irregular. 2 departure(s) from that pattern.",
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "engine": "local"
+ }
+}

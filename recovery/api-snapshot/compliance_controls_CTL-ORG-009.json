@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-009",
+  "domain": "Organizational Security",
+  "name": "Employment contracts used",
+  "description": "Contracts set out security responsibilities.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: employment contracts are held by the agency's HR function.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

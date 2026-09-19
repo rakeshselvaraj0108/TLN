@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-ACC-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-005",
+  "domain": "Access Control and Authorization",
+  "name": "Key inventory maintained",
+  "description": "An inventory of shared and production access tokens is kept.",
+  "owner": "platform",
+  "status": "partial",
+  "detail": "Every credential in use is inventoried, but the API bearer token is the username itself — deliberately minimal, and not deployable as-is.",
+  "observations": [
+   "app_user rows are the full inventory of API identities.",
+   "Service credentials: the Postgres DSN and Neo4j auth, both from environment.",
+   "GAP BY DESIGN: the token carries no secret. Production must terminate on the agency's SSO/PKI; tracex_api.auth.get_principal is shaped as the single seam that changes, so routers stay untouched."
+  ]
+ }
+}

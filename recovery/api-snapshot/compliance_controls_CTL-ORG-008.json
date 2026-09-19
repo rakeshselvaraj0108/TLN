@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-008",
+  "domain": "Organizational Security",
+  "name": "Data-flow diagrams maintained",
+  "description": "Data flows across systems are documented and current.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "The data flow is documented and, more usefully, inspectable at runtime.",
+  "observations": [
+   "Ingest -> hash chain -> entity resolution -> graph projection -> analysis -> case -> certified export.",
+   "Each stage is a named service module, and the agent pipeline view renders the actual path a record took rather than an idealised drawing."
+  ]
+ }
+}

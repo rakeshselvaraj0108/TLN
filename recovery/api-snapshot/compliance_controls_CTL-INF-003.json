@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-003",
+  "domain": "Infrastructure Security",
+  "name": "Anti-malware deployed on infrastructure",
+  "description": "Servers run malware protection.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: server anti-malware.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "url": "/response-agent/stats",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "investigations": 1,
+  "campaigns": 1,
+  "decisions": 0,
+  "by_tier": {
+   "critical": 1
+  },
+  "by_verdict": {}
+ }
+}

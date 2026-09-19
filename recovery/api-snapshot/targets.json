@@ -1,0 +1,9 @@
+{
+ "url": "/targets",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "targets": [],
+  "total": 0
+ }
+}

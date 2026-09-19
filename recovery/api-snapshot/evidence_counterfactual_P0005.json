@@ -1,0 +1,36 @@
+{
+ "url": "/evidence/counterfactual/P0005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0005",
+  "risk_score": 0.0438,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 1 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 17 minutes, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9588,
+    "observed": "Rs 1,200 was debited 17 minutes after an inbound call from +918701436349 (\"Recharge\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

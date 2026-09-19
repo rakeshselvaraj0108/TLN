@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-007",
+  "domain": "Organizational Security",
+  "name": "Confidentiality Agreement acknowledged by employees",
+  "description": "Staff have signed confidentiality agreements.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: confidentiality agreements are held by the agency's HR function.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

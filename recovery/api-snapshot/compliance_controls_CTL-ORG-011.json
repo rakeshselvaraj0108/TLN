@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-011",
+  "domain": "Organizational Security",
+  "name": "Information security communities identified",
+  "description": "Engagement with the wider security community is maintained.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: professional community engagement is an agency activity.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-DAT-010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-010",
+  "domain": "Data Management and Protection",
+  "name": "Data transfer mechanisms established",
+  "description": "Data leaves the system only through controlled, audited paths.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Evidence leaves the system only through the export path, which is supervisor-gated, hash-certified and audited.",
+  "observations": [
+   "66 export-related audit entries recorded.",
+   "Exports carry a BSA s.65B-style certificate binding the package to the hash chain it was drawn from.",
+   "No outbound egress: the LLM provider is local (stub or Ollama) and no cloud API is called."
+  ]
+ }
+}

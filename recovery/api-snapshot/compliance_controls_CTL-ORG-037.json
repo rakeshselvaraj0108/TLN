@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-ORG-037",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-037",
+  "domain": "Organizational Security",
+  "name": "Software development lifecycle established",
+  "description": "A documented SDLC governs changes to the software.",
+  "owner": "platform",
+  "status": "gap",
+  "detail": "No automated test suite found.",
+  "observations": []
+ }
+}

@@ -1,0 +1,211 @@
+{
+ "url": "/pattern/timeline/P0003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0003",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00342",
+    "ts": "2026-08-10T20:38:00+00:00",
+    "amount": 6808.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "d8af5937a8534593f16ed583e6b5d8bf25bf1f2169767244766ab0d49e8ac9fe",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00338",
+    "ts": "2026-08-10T21:24:00+00:00",
+    "amount": 6808.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "eb76158bfbb1942f5a57113f920588e504b159fd41ed826fdedce526af944320",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00340",
+    "ts": "2026-08-10T22:21:00+00:00",
+    "amount": 6808.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "adf4c5c4a2b29f4dc45b2481e001751f2e8559b49c6cb6c2906f23ff81e72bcf",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00081",
+    "ts": "2026-08-11T11:20:00+00:00",
+    "amount": 150,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "ICIC27111161528",
+    "row_sha256": "ee389f5cfd4848bcceff8f37151c151c25ebbc156ffe9e518a55cbea61cb9f54",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00082",
+    "ts": "2026-08-13T16:02:00+00:00",
+    "amount": 1200,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "ICIC27111161528",
+    "row_sha256": "e9b1ec3383686407352e1155d59b31567b8e94ba9e8af75f3e5989c37060893f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00364",
+    "ts": "2026-08-13T20:49:00+00:00",
+    "amount": 7853.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "8670bc42489d0594b8da0599b2ef3e43c58fb41461ae026b5a9c2bae53eeaf1c",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00360",
+    "ts": "2026-08-13T22:51:00+00:00",
+    "amount": 7853.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "04d8f4f2a808371a244853e8c8c59d4a13e83a416aabe15dcbb77f423e6ddd5f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00362",
+    "ts": "2026-08-13T22:57:00+00:00",
+    "amount": 7853.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "337db3b3a096fddb0646aae21a599c71ec9474668ed79efa58a4e9bb64fb8323",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00083",
+    "ts": "2026-08-15T12:17:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "ICIC27111161528",
+    "row_sha256": "4d100847db3791d3baade3e6dfb56fead65dba9a2ab843ca1c888e64f3ceffff",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00381",
+    "ts": "2026-08-16T20:05:00+00:00",
+    "amount": 10735,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "d8ac0f425069e5c45e8080730515f04965d1cf32ec9966253f9aea7ae7958c96",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00383",
+    "ts": "2026-08-16T22:11:00+00:00",
+    "amount": 10735,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "7c1a27617caabf9d7be94855ba8edafac4232a05d4bc37b3b597e8b8b1db95f2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00385",
+    "ts": "2026-08-16T22:12:00+00:00",
+    "amount": 10735,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "d0ce96cdd54f57b360e0f65d2004bc330d86bf6a4fcfaf843cc6aa903185e986",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00084",
+    "ts": "2026-08-17T10:03:00+00:00",
+    "amount": 150,
+    "channel": "IMPS",
+    "narration": "Grocery",
+    "account": "ICIC27111161528",
+    "row_sha256": "d971b202a8cd2e59571e3589c0c43fcd7218fd599df62cfa0e057ad34d8fa07b",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00085",
+    "ts": "2026-08-19T17:23:00+00:00",
+    "amount": 780,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "ICIC27111161528",
+    "row_sha256": "8316e9f2ac5694e155f389d525eadac7ae28fbd6aa63068bc6005b3253f9e3e8",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00402",
+    "ts": "2026-08-19T20:42:00+00:00",
+    "amount": 8043.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "5d361ef56db915d52fdc2b5e3d64311e4538bf2c61886d5e2e49fb21fa949331",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00404",
+    "ts": "2026-08-19T20:54:00+00:00",
+    "amount": 8043.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "d94703c0f310ff626576e39a748ffba6c85ace1253b332dd700651931301518f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00406",
+    "ts": "2026-08-19T22:09:00+00:00",
+    "amount": 8043.33,
+    "channel": "IMPS",
+    "narration": "relief disbursement",
+    "account": "ICIC27111161528",
+    "row_sha256": "c6fc078e9de8763006af54ab0bae84efad2266773568c5e877d8921b1651b2dc",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 17,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

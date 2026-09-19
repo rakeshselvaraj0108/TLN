@@ -1,0 +1,9 @@
+{
+ "url": "/compliance/attestations",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "count": 0,
+  "attestations": []
+ }
+}

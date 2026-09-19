@@ -1,0 +1,2582 @@
+{
+ "url": "/spatial/case/1/reconstruct",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_id": 1,
+  "case_code": "TRX-2026-0001",
+  "title": "Digital arrest scam - coordinated mule network",
+  "entities": [
+   {
+    "entity_id": "P0006",
+    "name": "Meera Kulkarni",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0008",
+    "name": "Ritu Iyer",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0004",
+    "name": "Deepa Chopra",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0012",
+    "name": "Meera Joshi",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0018",
+    "name": "Manish Bose",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0016",
+    "name": "Amit Iyer",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0002",
+    "name": "Meera Singh",
+    "pinned": true
+   },
+   {
+    "entity_id": "P0001",
+    "name": "Ramesh Gupta",
+    "pinned": false
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "pinned": false
+   },
+   {
+    "entity_id": "P0009",
+    "name": "Neha Chopra",
+    "pinned": false
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "pinned": false
+   },
+   {
+    "entity_id": "P0013",
+    "name": "Sanjay Joshi",
+    "pinned": false
+   },
+   {
+    "entity_id": "P0014",
+    "name": "Rohit Singh",
+    "pinned": false
+   }
+  ],
+  "steps": [
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917455623869",
+    "meta": {
+     "caller": "+917455623869",
+     "duration_sec": 75,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 10725
+    },
+    "ts": "2026-08-10T15:08:00",
+    "rec_id": "CDR00068",
+    "row_sha256": "470ecfcb5d5f25296499238602dd24bba91b033386a99d1c2cd54acf52bb95f8",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 3540
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +916611724005",
+    "meta": {
+     "caller": "+916611724005",
+     "duration_sec": 313,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6947
+    },
+    "ts": "2026-08-10T16:07:00",
+    "rec_id": "CDR00065",
+    "row_sha256": "e55712250584f52a21b1d2daef05bacab9c3ff19c37fb476bbf55ae0d2a3ad2b",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 4320
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +918671369594",
+    "meta": {
+     "caller": "+918671369594",
+     "duration_sec": 318,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8682
+    },
+    "ts": "2026-08-10T17:19:00",
+    "rec_id": "CDR00081",
+    "row_sha256": "665812874f4550a3e3eeab35cc0a63a6590252e6097a07b874d1b55e3cd87f21",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 2640
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Seva Relief Trust receives a call from +917455623869",
+    "meta": {
+     "caller": "+917455623869",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 9300
+    },
+    "ts": "2026-08-10T18:03:00",
+    "rec_id": "CDR00956",
+    "row_sha256": "2ce158de7c2386622c50bd6ab557d0c68fa284c861fee79d0af1a49a2e7d687b",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0003"
+    ],
+    "gap_to_next_s": 300
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 60,000 leaves Sharma Traders — 178 min after the call",
+    "meta": {
+     "amount": 60000,
+     "latency_s": 10725,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-10T18:08:00",
+    "rec_id": "TXN00122",
+    "row_sha256": "91a81bb3b42fca10091bc5aa9c7e2b59f006dbe0d78511c24a7137eec68a1159",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 6060
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 60,000 leaves Sharma Traders — 144 min after the call",
+    "meta": {
+     "amount": 60000,
+     "latency_s": 8682,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "KKBK41343524082"
+    },
+    "ts": "2026-08-10T19:49:00",
+    "rec_id": "TXN00121",
+    "row_sha256": "19eae07dd4916e60dc717f7f0735b1787ddee9eb88075a994d6b1b66348c911e",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 2940
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 6,808 leaves Seva Relief Trust — 155 min after the call",
+    "meta": {
+     "amount": 6808.33,
+     "latency_s": 9300,
+     "narration": "relief disbursement",
+     "src_account": "ICIC27111161528",
+     "dst_account": "PUNB35454948083"
+    },
+    "ts": "2026-08-10T20:38:00",
+    "rec_id": "TXN00342",
+    "row_sha256": "d8af5937a8534593f16ed583e6b5d8bf25bf1f2169767244766ab0d49e8ac9fe",
+    "source": "txn",
+    "entities": [
+     "P0003",
+     "P0010"
+    ],
+    "gap_to_next_s": 51420
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +917787133150",
+    "meta": {
+     "caller": "+917787133150",
+     "duration_sec": 236,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1924
+    },
+    "ts": "2026-08-11T10:55:00",
+    "rec_id": "CDR00119",
+    "row_sha256": "cb4d3dd8a9b5a22e180d86ffda05876810377642486e3e5a34f58086e6de14c3",
+    "source": "call",
+    "entities": [
+     "P0020",
+     "P0016"
+    ],
+    "gap_to_next_s": 2160
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,999 leaves Amit Iyer — 32 min after the call",
+    "meta": {
+     "amount": 1999,
+     "latency_s": 1924,
+     "narration": "DTH",
+     "src_account": "UTIB68071545168",
+     "dst_account": null
+    },
+    "ts": "2026-08-11T11:31:00",
+    "rec_id": "TXN00061",
+    "row_sha256": "b15f4d06ed3e084a492bef3a329768b6c94104b971093272b809d4fe8a9e4bf7",
+    "source": "txn",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 12840
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +918024994717",
+    "meta": {
+     "caller": "+918024994717",
+     "duration_sec": 42,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6558
+    },
+    "ts": "2026-08-11T15:05:00",
+    "rec_id": "CDR00150",
+    "row_sha256": "7d13ce951c6a8529dbc04f62c1ba5c40e0cd632eefc96f1cc08c988e32185b27",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0016"
+    ],
+    "gap_to_next_s": 6600
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 780 leaves Ritu Iyer — 109 min after the call",
+    "meta": {
+     "amount": 780,
+     "latency_s": 6558,
+     "narration": "Fuel",
+     "src_account": "KKBK91183842513",
+     "dst_account": null
+    },
+    "ts": "2026-08-11T16:55:00",
+    "rec_id": "TXN00011",
+    "row_sha256": "c6180766adf4d0fa9ba9e4bf7bb6cb7573d593b7a8ef8f61c63a8a922377313d",
+    "source": "txn",
+    "entities": [
+     "P0008"
+    ],
+    "gap_to_next_s": 840
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +916611724005",
+    "meta": {
+     "caller": "+916611724005",
+     "duration_sec": 66,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 2994
+    },
+    "ts": "2026-08-11T17:09:00",
+    "rec_id": "CDR00158",
+    "row_sha256": "d3a7f4459e0cefad6ad000293150d57a432f082fc1bdeced420d76a7e10f94f8",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0013"
+    ],
+    "gap_to_next_s": 3060
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 2,500 leaves Sanjay Joshi — 49 min after the call",
+    "meta": {
+     "amount": 2500,
+     "latency_s": 2994,
+     "narration": "DTH",
+     "src_account": "SBIN87083172788",
+     "dst_account": null
+    },
+    "ts": "2026-08-11T18:00:00",
+    "rec_id": "TXN00031",
+    "row_sha256": "d37f1bee54d95165d40a87e648b51c81ab03cfbd5d009304a95319e3de8db0db",
+    "source": "txn",
+    "entities": [
+     "P0013"
+    ],
+    "gap_to_next_s": 81600
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Rohit Singh receives a call from +919044997278",
+    "meta": {
+     "caller": "+919044997278",
+     "duration_sec": 93,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1527
+    },
+    "ts": "2026-08-12T16:40:00",
+    "rec_id": "CDR00237",
+    "row_sha256": "e6278f357a281c77c131f212ebb69ec43fd156a9012ae13ac103e9c237b0be04",
+    "source": "call",
+    "entities": [
+     "P0014"
+    ],
+    "gap_to_next_s": 1380
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 50,904 leaves Rohit Singh — 21 min after the call",
+    "meta": {
+     "amount": 50904.47,
+     "latency_s": 1287,
+     "narration": "split 4",
+     "src_account": "SBIN90847007661",
+     "dst_account": "KKBK01128059826"
+    },
+    "ts": "2026-08-12T17:03:00",
+    "rec_id": "TXN00294",
+    "row_sha256": "e9bc5f6ea8a32e02f5f764ea522f74f4ddc5be7daa5ebb6ea5c7f5b21158c075",
+    "source": "txn",
+    "entities": [
+     "P0006",
+     "P0014"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 50,904 leaves Rohit Singh — 21 min after the call",
+    "meta": {
+     "amount": 50904.47,
+     "latency_s": 1287,
+     "narration": "split 1",
+     "src_account": "SBIN90847007661",
+     "dst_account": "ICIC41458685014"
+    },
+    "ts": "2026-08-12T17:03:00",
+    "rec_id": "TXN00288",
+    "row_sha256": "5d297fbd18b14c9d5aa6c95b8d9a5e97d4dd1ef42ddb546f2d21dc0e201e7e18",
+    "source": "txn",
+    "entities": [
+     "P0004",
+     "P0014"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 50,904 leaves Rohit Singh — 22 min after the call",
+    "meta": {
+     "amount": 50904.47,
+     "latency_s": 1347,
+     "narration": "split 2",
+     "src_account": "SBIN90847007661",
+     "dst_account": "KKBK94680443699"
+    },
+    "ts": "2026-08-12T17:04:00",
+    "rec_id": "TXN00290",
+    "row_sha256": "55d27de5a82b392b42614222d91419602f1b0ff802770768ceee3356a6b80e6a",
+    "source": "txn",
+    "entities": [
+     "P0009",
+     "P0014"
+    ],
+    "gap_to_next_s": 180
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 50,904 leaves Rohit Singh — 25 min after the call",
+    "meta": {
+     "amount": 50904.47,
+     "latency_s": 1527,
+     "narration": "split 3",
+     "src_account": "SBIN90847007661",
+     "dst_account": "SBIN87083172788"
+    },
+    "ts": "2026-08-12T17:07:00",
+    "rec_id": "TXN00292",
+    "row_sha256": "69b41f0b9e42dfbf3c0762441fbefb90edeaf8a35cb583f4322480e245e6e316",
+    "source": "txn",
+    "entities": [
+     "P0013",
+     "P0014"
+    ],
+    "gap_to_next_s": 3660
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917374740748",
+    "meta": {
+     "caller": "+917374740748",
+     "duration_sec": 367,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8693
+    },
+    "ts": "2026-08-12T18:08:00",
+    "rec_id": "CDR00247",
+    "row_sha256": "930acf90b9e2546cd0e0479446dbe2b1bc9cb490398b308a1c50d44e70d7b671",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 2520
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 45,000 leaves Sharma Traders — 35 min after the call",
+    "meta": {
+     "amount": 45000,
+     "latency_s": 2153,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-12T18:50:00",
+    "rec_id": "TXN00158",
+    "row_sha256": "6e5beb863e648d613b3a96c54aa5303e9e2d512066b436e73666ce5f6d91581c",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 6540
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 60,000 leaves Sharma Traders — 144 min after the call",
+    "meta": {
+     "amount": 60000,
+     "latency_s": 8693,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "KKBK41343524082"
+    },
+    "ts": "2026-08-12T20:39:00",
+    "rec_id": "TXN00157",
+    "row_sha256": "973fd0bc9684f1580dcb725419bbaac7b95f25f453d022f25f80a5b1757a4955",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 60720
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Seva Relief Trust receives a call from +918277434873",
+    "meta": {
+     "caller": "+918277434873",
+     "duration_sec": 222,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8838
+    },
+    "ts": "2026-08-13T13:31:00",
+    "rec_id": "CDR00310",
+    "row_sha256": "95452f35fdbd877a4148163c2995c743028116f6b72f799c123437989a219804",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0003"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Deepa Chopra receives a call from +917859770348",
+    "meta": {
+     "caller": "+917859770348",
+     "duration_sec": 254,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 2506
+    },
+    "ts": "2026-08-13T13:32:00",
+    "rec_id": "CDR00322",
+    "row_sha256": "2a31f2db42be26bf2d1eeab4a44f07b4c089095732f8d1ce0ce3c30ba4003969",
+    "source": "call",
+    "entities": [
+     "P0004"
+    ],
+    "gap_to_next_s": 2760
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 150 leaves Deepa Chopra — 41 min after the call",
+    "meta": {
+     "amount": 150,
+     "latency_s": 2506,
+     "narration": "Grocery",
+     "src_account": "ICIC41458685014",
+     "dst_account": null
+    },
+    "ts": "2026-08-13T14:18:00",
+    "rec_id": "TXN00022",
+    "row_sha256": "a2441da507cf5fccc6a4edd743518c55f1201cff520d65e0be62942f2c553bf3",
+    "source": "txn",
+    "entities": [
+     "P0004"
+    ],
+    "gap_to_next_s": 6240
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,200 leaves Seva Relief Trust — 147 min after the call",
+    "meta": {
+     "amount": 1200,
+     "latency_s": 8838,
+     "narration": "Fuel",
+     "src_account": "ICIC27111161528",
+     "dst_account": null
+    },
+    "ts": "2026-08-13T16:02:00",
+    "rec_id": "TXN00082",
+    "row_sha256": "e9b1ec3383686407352e1155d59b31567b8e94ba9e8af75f3e5989c37060893f",
+    "source": "txn",
+    "entities": [
+     "P0003"
+    ],
+    "gap_to_next_s": 780
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +919044997278",
+    "meta": {
+     "caller": "+919044997278",
+     "duration_sec": 276,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 684
+    },
+    "ts": "2026-08-13T16:15:00",
+    "rec_id": "CDR00324",
+    "row_sha256": "1e7e01cff4b213e9627c31f98fecaf9775106ea720f4acb1cd6b709b317e9875",
+    "source": "call",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 480
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +918671369594",
+    "meta": {
+     "caller": "+918671369594",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 480
+    },
+    "ts": "2026-08-13T16:23:00",
+    "rec_id": "CDR01000",
+    "row_sha256": "18667b0647535910dbf7f75f420118f7db42a074d8ad87f9ec16ac7f3b4e4eec",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0016"
+    ],
+    "gap_to_next_s": 480
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 499 leaves Amit Iyer — 11 min after the call",
+    "meta": {
+     "amount": 499,
+     "latency_s": 684,
+     "narration": "Recharge",
+     "src_account": "UTIB68071545168",
+     "dst_account": null
+    },
+    "ts": "2026-08-13T16:31:00",
+    "rec_id": "TXN00062",
+    "row_sha256": "05ee52e93423b8e01a33e18b57bc25654be4ab1f9a82d84eac3cd6d79ececd65",
+    "source": "txn",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 4380
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +918953394210",
+    "meta": {
+     "caller": "+918953394210",
+     "duration_sec": 352,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 9068
+    },
+    "ts": "2026-08-13T17:44:00",
+    "rec_id": "CDR00345",
+    "row_sha256": "355859a3674e1829f9281c6aee1f046e86e3135210bb34b5aa018a60c69e6511",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 2640
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +916980841241",
+    "meta": {
+     "caller": "+916980841241",
+     "duration_sec": 249,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6531
+    },
+    "ts": "2026-08-13T18:28:00",
+    "rec_id": "CDR00296",
+    "row_sha256": "2b0a28518ba64baacbfa079a951a1646e83c64071ca34d48ce0c343a775f4e40",
+    "source": "call",
+    "entities": [
+     "P0006",
+     "P0010"
+    ],
+    "gap_to_next_s": 1620
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +919648877190",
+    "meta": {
+     "caller": "+919648877190",
+     "duration_sec": 75,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5085
+    },
+    "ts": "2026-08-13T18:55:00",
+    "rec_id": "CDR00320",
+    "row_sha256": "0c5dcf19c1f7d324a9d527e6663e6db23b8407836894a643a36887f49018d2f9",
+    "source": "call",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 1620
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +918671369594",
+    "meta": {
+     "caller": "+918671369594",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 5580
+    },
+    "ts": "2026-08-13T19:22:00",
+    "rec_id": "CDR00998",
+    "row_sha256": "ec961e8a3fbf436e173ce87aba99efe5bf8ac162d2ffc3d28e2351a1af9e2489",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0013"
+    ],
+    "gap_to_next_s": 2040
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +919044997278",
+    "meta": {
+     "caller": "+919044997278",
+     "duration_sec": 35,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1465
+    },
+    "ts": "2026-08-13T19:56:00",
+    "rec_id": "CDR00325",
+    "row_sha256": "b1ec3e192d33e0b02bc9f39a2602ba4d8763c13b2cc6c2dc509d47a6b652dd84",
+    "source": "call",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 900
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 52,000 leaves Sharma Traders — 141 min after the call",
+    "meta": {
+     "amount": 52000,
+     "latency_s": 8468,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "KKBK41343524082"
+    },
+    "ts": "2026-08-13T20:11:00",
+    "rec_id": "TXN00179",
+    "row_sha256": "e013af926bfc091b54a0183c55e9eac3ef638fcb70d00b4fe002009c83cf9bd6",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 600
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 52,000 leaves Sharma Traders — 151 min after the call",
+    "meta": {
+     "amount": 52000,
+     "latency_s": 9068,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-13T20:21:00",
+    "rec_id": "TXN00180",
+    "row_sha256": "517a4e88eaafea4c5cbfcccf00af00950c8dea43918b3488b5b54cfb12c3c4ec",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 720
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +917455623869",
+    "meta": {
+     "caller": "+917455623869",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 1320
+    },
+    "ts": "2026-08-13T20:33:00",
+    "rec_id": "CDR01001",
+    "row_sha256": "6ee67b2a85858b10cfac734b3ac002b49a2c42f9609e0e3f1c171bf02f5ac1d2",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0013"
+    ],
+    "gap_to_next_s": 840
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Seva Relief Trust receives a call from +917787133150",
+    "meta": {
+     "caller": "+917787133150",
+     "duration_sec": 74,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 7726
+    },
+    "ts": "2026-08-13T20:47:00",
+    "rec_id": "CDR00292",
+    "row_sha256": "d61aaea105ade34d7d0930070414ddd99bdecd426949306125a86d464482bdf8",
+    "source": "call",
+    "entities": [
+     "P0020",
+     "P0003"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 7,853 leaves Seva Relief Trust — 0 min after the call",
+    "meta": {
+     "amount": 7853.33,
+     "latency_s": 46,
+     "narration": "relief disbursement",
+     "src_account": "ICIC27111161528",
+     "dst_account": "PUNB35454948083"
+    },
+    "ts": "2026-08-13T20:49:00",
+    "rec_id": "TXN00364",
+    "row_sha256": "8670bc42489d0594b8da0599b2ef3e43c58fb41461ae026b5a9c2bae53eeaf1c",
+    "source": "txn",
+    "entities": [
+     "P0003",
+     "P0010"
+    ],
+    "gap_to_next_s": 360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 3,200 leaves Sanjay Joshi — 93 min after the call",
+    "meta": {
+     "amount": 3200,
+     "latency_s": 5580,
+     "narration": "Fuel",
+     "src_account": "SBIN87083172788",
+     "dst_account": null
+    },
+    "ts": "2026-08-13T20:55:00",
+    "rec_id": "TXN00032",
+    "row_sha256": "f1bba246e6806db212180ec465081eccde8ca294bd0e4ea0d504c1bfb9bd28d9",
+    "source": "txn",
+    "entities": [
+     "P0013"
+    ],
+    "gap_to_next_s": 6960
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 7,853 leaves Seva Relief Trust — 122 min after the call",
+    "meta": {
+     "amount": 7853.33,
+     "latency_s": 7366,
+     "narration": "relief disbursement",
+     "src_account": "ICIC27111161528",
+     "dst_account": "ICIC96499091334"
+    },
+    "ts": "2026-08-13T22:51:00",
+    "rec_id": "TXN00360",
+    "row_sha256": "04d8f4f2a808371a244853e8c8c59d4a13e83a416aabe15dcbb77f423e6ddd5f",
+    "source": "txn",
+    "entities": [
+     "P0003"
+    ],
+    "gap_to_next_s": 360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 7,853 leaves Seva Relief Trust — 128 min after the call",
+    "meta": {
+     "amount": 7853.33,
+     "latency_s": 7726,
+     "narration": "relief disbursement",
+     "src_account": "ICIC27111161528",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-13T22:57:00",
+    "rec_id": "TXN00362",
+    "row_sha256": "337db3b3a096fddb0646aae21a599c71ec9474668ed79efa58a4e9bb64fb8323",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0003"
+    ],
+    "gap_to_next_s": 31800
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +918159212499",
+    "meta": {
+     "caller": "+918159212499",
+     "duration_sec": 299,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8941
+    },
+    "ts": "2026-08-14T07:47:00",
+    "rec_id": "CDR00443",
+    "row_sha256": "39627d8988f056b53206dca37340d1aad80b7a43fd8d062ca965a6827ff349c2",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0003"
+    ],
+    "gap_to_next_s": 720
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +918489638346",
+    "meta": {
+     "caller": "+918489638346",
+     "duration_sec": 39,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8481
+    },
+    "ts": "2026-08-14T07:59:00",
+    "rec_id": "CDR00378",
+    "row_sha256": "e8f7e087c1460ca0c2e7e1dbd93caeccd0e2ad717096df7e370507fc64d4f9d2",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0020"
+    ],
+    "gap_to_next_s": 540
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Singh receives a call from +918277434873",
+    "meta": {
+     "caller": "+918277434873",
+     "duration_sec": 71,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8329
+    },
+    "ts": "2026-08-14T08:08:00",
+    "rec_id": "CDR00396",
+    "row_sha256": "1bc02cca2c57aacc59e7e06025f30419ec282d82e42e56ee008e6ec6f96a50d6",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0002"
+    ],
+    "gap_to_next_s": 1740
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +918277434873",
+    "meta": {
+     "caller": "+918277434873",
+     "duration_sec": 108,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5892
+    },
+    "ts": "2026-08-14T08:37:00",
+    "rec_id": "CDR00394",
+    "row_sha256": "db4a2d651cc351e18c54200bea77a8cdde6e760d95279773131c00bff4e3c2f3",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0013"
+    ],
+    "gap_to_next_s": 2940
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Joshi receives a call from +919648877190",
+    "meta": {
+     "caller": "+919648877190",
+     "duration_sec": 287,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 2953
+    },
+    "ts": "2026-08-14T09:26:00",
+    "rec_id": "CDR00414",
+    "row_sha256": "34f5e72bcc9e2d9daf37ac88bb5ad15fc0478d6f68068eacad8f21d2ad480968",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0016"
+    ],
+    "gap_to_next_s": 2100
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ramesh Gupta receives a call from +916489325288",
+    "meta": {
+     "caller": "+916489325288",
+     "duration_sec": 18720,
+     "call_type": "video",
+     "couples_to_debit_in_s": 360
+    },
+    "ts": "2026-08-14T10:01:00",
+    "rec_id": "CDR00893",
+    "row_sha256": "3bc3fd4a6ca0a30f049b9080ba1d72f052b71f115758c5458e49b3b33ba90e88",
+    "source": "call",
+    "entities": [
+     "P0020",
+     "P0001"
+    ],
+    "gap_to_next_s": 360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 480,000 leaves Ramesh Gupta — 6 min after the call",
+    "meta": {
+     "amount": 480000,
+     "latency_s": 360,
+     "narration": "SECURITY DEPOSIT CASE CLEARANCE",
+     "src_account": "HDFC61559407816",
+     "dst_account": "KKBK91183842513"
+    },
+    "ts": "2026-08-14T10:07:00",
+    "rec_id": "TXN00086",
+    "row_sha256": "1922856bbdffd5d8df6176233f2c0abe6d8471530aea256c209dece2032bbcb2",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0001"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 480,000 lands with Ritu Iyer, then 96% moves on across 6 account(s)",
+    "meta": {
+     "inbound_amount": 480000,
+     "passthrough_ratio": 0.96,
+     "hop_count": 6,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:07:00",
+    "rec_id": "TXN00087",
+    "row_sha256": "e38a19a0c1a7f3a457e3504894d1676ce6cebcdf52cd205232678ec1f2f38ff7",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0001"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "IMPS",
+     "to": "KKBK01128059826",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:09:00",
+    "rec_id": "TXN00088",
+    "row_sha256": "5759275e0e22e34f6aa9685a186c6395abed76a504a323727d1d9fbdd0f57fe2",
+    "source": "txn",
+    "entities": [
+     "P0006",
+     "P0008"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Meera Kulkarni, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:09:00",
+    "rec_id": "TXN00089",
+    "row_sha256": "d014ce9e940d4301075d980c4e530f1fff29c33be7eeaa3141d3761e6324e92b",
+    "source": "txn",
+    "entities": [
+     "P0006",
+     "P0008"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "IMPS",
+     "to": "ICIC41458685014",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:10:00",
+    "rec_id": "TXN00091",
+    "row_sha256": "28c968badd21d16654d469a099d0a159559e229744149e520b174a7d8463ac2c",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0004"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Deepa Chopra, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:10:00",
+    "rec_id": "TXN00092",
+    "row_sha256": "2cd1fe851f79eec685b497fd87519bfe78860783b52eb5433fa65406a7aa70da",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0004"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "cash_out",
+    "headline": "Rs 72,960 cashed out at an ATM by Meera Kulkarni",
+    "meta": {
+     "amount": 72960,
+     "channel": "ATM",
+     "to": null,
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:12:00",
+    "rec_id": "TXN00090",
+    "row_sha256": "a801514b805aefba6e27f73be1d2471ba83d509e3075451e6e51271850c2df39",
+    "source": "txn",
+    "entities": [
+     "P0006"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "UPI",
+     "to": "KKBK94680443699",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:13:00",
+    "rec_id": "TXN00094",
+    "row_sha256": "22f9f91570828bb948153f06fa99fd3fc9bf6706abb7f86fd2943d5dee307cb3",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0009"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Neha Chopra, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:13:00",
+    "rec_id": "TXN00095",
+    "row_sha256": "56e9e0f70bc57964e8ae838d5dbf657613b7d69e419a2e56c14edc279535f4ba",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0009"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "UPI",
+     "to": "SBIN87083172788",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:15:00",
+    "rec_id": "TXN00097",
+    "row_sha256": "8e4a79da21ebeea8560b06e2bb72ceccbdea08d24a5bb11f37be82fe1bed09b4",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0013"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Sanjay Joshi, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:15:00",
+    "rec_id": "TXN00098",
+    "row_sha256": "7edceff16d7f73598b69015195ec020d2d5b7a98bae0967f03f15445d47e60fd",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0013"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "cash_out",
+    "headline": "Rs 72,960 cashed out at an ATM by Neha Chopra",
+    "meta": {
+     "amount": 72960,
+     "channel": "ATM",
+     "to": null,
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:15:00",
+    "rec_id": "TXN00096",
+    "row_sha256": "a1ce3799d73fd01686e13eadfda4ef8319ec8d345bfacb60ac778b1a46f92486",
+    "source": "txn",
+    "entities": [
+     "P0009"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 72,960 forwarded onward by Sanjay Joshi",
+    "meta": {
+     "amount": 72960,
+     "channel": "UPI",
+     "to": "PUNB90967054668",
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:17:00",
+    "rec_id": "TXN00099",
+    "row_sha256": "3e3b80fa83560aafd512d4cbd652413b560e7a3fc269c4a42b0b93536bc721af",
+    "source": "txn",
+    "entities": [
+     "P0012",
+     "P0013"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "UPI",
+     "to": "PUNB90967054668",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:18:00",
+    "rec_id": "TXN00100",
+    "row_sha256": "44953bca5f899bb025d7c3a3cfd588b5f8e563d2dc684d260fddc385395a09ba",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0012"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Meera Joshi, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:18:00",
+    "rec_id": "TXN00101",
+    "row_sha256": "496e64e2e4dfd47865df307e21362683e6b47aff7d510d5215829777764f6b79",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0012"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "cash_out",
+    "headline": "Rs 72,960 cashed out at an ATM by Deepa Chopra",
+    "meta": {
+     "amount": 72960,
+     "channel": "ATM",
+     "to": null,
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:19:00",
+    "rec_id": "TXN00093",
+    "row_sha256": "ab0eb832b73334917a85c6973869b39cb47fdba7a436e6787011723a212433be",
+    "source": "txn",
+    "entities": [
+     "P0004"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 72,960 forwarded onward by Meera Joshi",
+    "meta": {
+     "amount": 72960,
+     "channel": "UPI",
+     "to": "ICIC17080531003",
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:20:00",
+    "rec_id": "TXN00102",
+    "row_sha256": "923fa87bb5c523c588a73c529ecf952b0f21f82f1c88163d4b70c23bfb02c8ef",
+    "source": "txn",
+    "entities": [
+     "P0012",
+     "P0002"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 76,800 forwarded onward by Ritu Iyer",
+    "meta": {
+     "amount": 76800,
+     "channel": "UPI",
+     "to": "ICIC17080531003",
+     "parent_passthrough_ratio": 0.96
+    },
+    "ts": "2026-08-14T10:21:00",
+    "rec_id": "TXN00103",
+    "row_sha256": "76c6df38e4662868d40ad983070735c24ced9f0bc95733805545fce2c9ac0200",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0002"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "funds_received",
+    "headline": "Rs 76,800 lands with Meera Singh, then 95% moves on across 1 account(s)",
+    "meta": {
+     "inbound_amount": 76800,
+     "passthrough_ratio": 0.95,
+     "hop_count": 1,
+     "window_s": 1800
+    },
+    "ts": "2026-08-14T10:21:00",
+    "rec_id": "TXN00104",
+    "row_sha256": "47575c2e669c55ea824fa571382cc77d886cf2e4ce15601da2662ee7a6f51363",
+    "source": "txn",
+    "entities": [
+     "P0008",
+     "P0002"
+    ],
+    "gap_to_next_s": 420
+   },
+   {
+    "phase": "layering",
+    "headline": "Rs 72,960 forwarded onward by Meera Singh",
+    "meta": {
+     "amount": 72960,
+     "channel": "UPI",
+     "to": "KKBK01128059826",
+     "parent_passthrough_ratio": 0.95
+    },
+    "ts": "2026-08-14T10:28:00",
+    "rec_id": "TXN00105",
+    "row_sha256": "8370b40363d272ec173b33a017735cfb3c50c9df70354c885af6198a9f54c887",
+    "source": "txn",
+    "entities": [
+     "P0006",
+     "P0002"
+    ],
+    "gap_to_next_s": 24540
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +916784801845",
+    "meta": {
+     "caller": "+916784801845",
+     "duration_sec": 156,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5244
+    },
+    "ts": "2026-08-14T17:17:00",
+    "rec_id": "CDR00365",
+    "row_sha256": "e9f748d8f6e1879958fe3b72cf844f270b3283e26064a370a815077aefd573a9",
+    "source": "call",
+    "entities": [
+     "P0020",
+     "P0010"
+    ],
+    "gap_to_next_s": 5400
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 60,000 leaves Sharma Traders — 87 min after the call",
+    "meta": {
+     "amount": 60000,
+     "latency_s": 5244,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "KKBK41343524082"
+    },
+    "ts": "2026-08-14T18:47:00",
+    "rec_id": "TXN00193",
+    "row_sha256": "abc31d6b5acbd97ae8a82e557884f7c3fc3596d8d3ccb7c283dd7234f26174f2",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 9540
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917734670656",
+    "meta": {
+     "caller": "+917734670656",
+     "duration_sec": 142,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5438
+    },
+    "ts": "2026-08-14T21:26:00",
+    "rec_id": "CDR00399",
+    "row_sha256": "3881ed2ba514d0ed71b970801efc6d1b22a008fbdd7a46cd1556bc6f45e0c4b3",
+    "source": "call",
+    "entities": [
+     "P0002",
+     "P0010"
+    ],
+    "gap_to_next_s": 5580
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 60,000 leaves Sharma Traders — 90 min after the call",
+    "meta": {
+     "amount": 60000,
+     "latency_s": 5438,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-14T22:59:00",
+    "rec_id": "TXN00194",
+    "row_sha256": "3f057c8b6f8ecde215878c5479a7a3000f69250857bd3a02846ba18b00040ed2",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 37680
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Joshi receives a call from +916611724005",
+    "meta": {
+     "caller": "+916611724005",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 10020
+    },
+    "ts": "2026-08-15T09:27:00",
+    "rec_id": "CDR01034",
+    "row_sha256": "6a18066e8fd806388f696f360a9e99f69e455373a23ad2b2b9eb721fd3feef21",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0018"
+    ],
+    "gap_to_next_s": 6780
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Rohit Singh receives a call from +918024994717",
+    "meta": {
+     "caller": "+918024994717",
+     "duration_sec": 121,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 9539
+    },
+    "ts": "2026-08-15T11:20:00",
+    "rec_id": "CDR00936",
+    "row_sha256": "414e3f01cbeb508d2b0fbb05eb9a1ab7e8105dd83f963aad577c2d4ac62194e7",
+    "source": "call",
+    "entities": [
+     "P0016",
+     "P0014"
+    ],
+    "gap_to_next_s": 2160
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Rohit Singh receives a call from +917221969379",
+    "meta": {
+     "caller": "+917221969379",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 7500
+    },
+    "ts": "2026-08-15T11:56:00",
+    "rec_id": "CDR01039",
+    "row_sha256": "0d23f1a83b514f0965776b2d1d1c5d53f3379bb2332273b7edd3c5a057323c44",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0014"
+    ],
+    "gap_to_next_s": 1080
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 499 leaves Meera Joshi — 167 min after the call",
+    "meta": {
+     "amount": 499,
+     "latency_s": 10020,
+     "narration": "DTH",
+     "src_account": "PUNB90967054668",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T12:14:00",
+    "rec_id": "TXN00038",
+    "row_sha256": "cb3f7d4de12f5c7fe1aeed880a9ee9e1682c26f0154082f6694cbab83ab36ef6",
+    "source": "txn",
+    "entities": [
+     "P0012"
+    ],
+    "gap_to_next_s": 3060
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Rohit Singh receives a call from +917455623869",
+    "meta": {
+     "caller": "+917455623869",
+     "duration_sec": 174,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 3186
+    },
+    "ts": "2026-08-15T13:05:00",
+    "rec_id": "CDR00514",
+    "row_sha256": "eabfd13dbb6e11896d75b4391858ef364a6bb0eaaf9a3d4ebb1500870ddc581b",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0014"
+    ],
+    "gap_to_next_s": 3360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 2,500 leaves Rohit Singh — 158 min after the call",
+    "meta": {
+     "amount": 2500,
+     "latency_s": 9539,
+     "narration": "Fuel",
+     "src_account": "SBIN90847007661",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T14:01:00",
+    "rec_id": "TXN00078",
+    "row_sha256": "38c68657fa45c3024edacb9993a1f302cb0609060718dcfd089f1bb00357b52b",
+    "source": "txn",
+    "entities": [
+     "P0014"
+    ],
+    "gap_to_next_s": 5640
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Singh receives a call from +916462704828",
+    "meta": {
+     "caller": "+916462704828",
+     "duration_sec": 216,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6924
+    },
+    "ts": "2026-08-15T15:35:00",
+    "rec_id": "CDR00456",
+    "row_sha256": "ebb69e21d3872fa3df58591fd8cbe2f904eeefd031dc09a662d54f614da81b98",
+    "source": "call",
+    "entities": [
+     "P0020",
+     "P0002"
+    ],
+    "gap_to_next_s": 120
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +919044997278",
+    "meta": {
+     "caller": "+919044997278",
+     "duration_sec": 61,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 299
+    },
+    "ts": "2026-08-15T15:37:00",
+    "rec_id": "CDR00505",
+    "row_sha256": "271efb53035a1b7130b6a2f5e8b7de46338387e8bcbb748b200c0ca0adf1c34d",
+    "source": "call",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 2,500 leaves Amit Iyer — 4 min after the call",
+    "meta": {
+     "amount": 2500,
+     "latency_s": 299,
+     "narration": "Fuel",
+     "src_account": "UTIB68071545168",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T15:43:00",
+    "rec_id": "TXN00063",
+    "row_sha256": "75a14b3f3fe1a1b9775745e39d32f76e86f124032fe80bf999cf965a605b17be",
+    "source": "txn",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 6660
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,200 leaves Meera Singh — 115 min after the call",
+    "meta": {
+     "amount": 1200,
+     "latency_s": 6924,
+     "narration": "Recharge",
+     "src_account": "ICIC17080531003",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T17:34:00",
+    "rec_id": "TXN00043",
+    "row_sha256": "87def2d3dcba44d012c890a86c139d2b52142c652516aec9fe46f6bad73324b7",
+    "source": "txn",
+    "entities": [
+     "P0002"
+    ],
+    "gap_to_next_s": 3360
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +916784801845",
+    "meta": {
+     "caller": "+916784801845",
+     "duration_sec": 386,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 3454
+    },
+    "ts": "2026-08-15T18:30:00",
+    "rec_id": "CDR00455",
+    "row_sha256": "cf3091fed1e205a4bf63ca20c9ed123b2a498790f20dc13186613a1523534541",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0020"
+    ],
+    "gap_to_next_s": 780
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917529042284",
+    "meta": {
+     "caller": "+917529042284",
+     "duration_sec": 101,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 7699
+    },
+    "ts": "2026-08-15T18:43:00",
+    "rec_id": "CDR00526",
+    "row_sha256": "057b014c71e6697733c4f69e6d982397345c5cb164081cc388f5af704fec1d36",
+    "source": "call",
+    "entities": [
+     "P0010",
+     "P0014"
+    ],
+    "gap_to_next_s": 3060
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 150 leaves Ritu Iyer — 57 min after the call",
+    "meta": {
+     "amount": 150,
+     "latency_s": 3454,
+     "narration": "Fuel",
+     "src_account": "KKBK91183842513",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T19:34:00",
+    "rec_id": "TXN00013",
+    "row_sha256": "b36874e95637ceb5536d921d98df9459496cee99025a349e56d85438c7b19678",
+    "source": "txn",
+    "entities": [
+     "P0008"
+    ],
+    "gap_to_next_s": 600
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 52,000 leaves Sharma Traders — 59 min after the call",
+    "meta": {
+     "amount": 52000,
+     "latency_s": 3559,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-15T19:44:00",
+    "rec_id": "TXN00213",
+    "row_sha256": "4ead598593d45666e11ecc4d1f46e5b09af5799e5eb771249337c1ed52f5371e",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 4140
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,999 leaves Sharma Traders — 128 min after the call",
+    "meta": {
+     "amount": 1999,
+     "latency_s": 7699,
+     "narration": "DTH",
+     "src_account": "PUNB35454948083",
+     "dst_account": null
+    },
+    "ts": "2026-08-15T20:53:00",
+    "rec_id": "TXN00048",
+    "row_sha256": "7e0f9a2f2ade7e37505d2e1252f473ba04d5215fdbc51606425d0f2f17ce41b4",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 59820
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Joshi receives a call from +916936183242",
+    "meta": {
+     "caller": "+916936183242",
+     "duration_sec": 139,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1661
+    },
+    "ts": "2026-08-16T13:30:00",
+    "rec_id": "CDR00580",
+    "row_sha256": "9aeebd8cf2f4f65bb10c15da04b5344148222ae236261d60a238cf687034d5c8",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0016"
+    ],
+    "gap_to_next_s": 240
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Neha Chopra receives a call from +918738721489",
+    "meta": {
+     "caller": "+918738721489",
+     "duration_sec": 213,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1347
+    },
+    "ts": "2026-08-16T13:34:00",
+    "rec_id": "CDR00562",
+    "row_sha256": "45f891e8d924e43e9e7ab19cd44155da991664a9e162c66fdd2c1e1005fcdd84",
+    "source": "call",
+    "entities": [
+     "P0009",
+     "P0013"
+    ],
+    "gap_to_next_s": 960
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Neha Chopra receives a call from +916081219136",
+    "meta": {
+     "caller": "+916081219136",
+     "duration_sec": 55,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 545
+    },
+    "ts": "2026-08-16T13:50:00",
+    "rec_id": "CDR00551",
+    "row_sha256": "2fdec8ac6c0f246d281dc5e8dd44457eeae6f56a5238aeb9ec9a343cbb90143f",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0009"
+    ],
+    "gap_to_next_s": 600
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 74,798 leaves Meera Joshi — 27 min after the call",
+    "meta": {
+     "amount": 74798.36,
+     "latency_s": 1661,
+     "narration": "transfer",
+     "src_account": "PUNB90967054668",
+     "dst_account": "SBIN90847007661"
+    },
+    "ts": "2026-08-16T14:00:00",
+    "rec_id": "TXN00300",
+    "row_sha256": "c45fe79980567ef76fed12742cd8d41e1d1519fa9b30ee939711e93804274cbf",
+    "source": "txn",
+    "entities": [
+     "P0012",
+     "P0014"
+    ],
+    "gap_to_next_s": 0
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 81,454 leaves Neha Chopra — 22 min after the call",
+    "meta": {
+     "amount": 81453.68,
+     "latency_s": 1347,
+     "narration": "transfer",
+     "src_account": "KKBK94680443699",
+     "dst_account": "SBIN90847007661"
+    },
+    "ts": "2026-08-16T14:00:00",
+    "rec_id": "TXN00296",
+    "row_sha256": "9f2222a2dc9148b6316e342059f705e7fa30486f16b2cb3f32c9e34bdaf39e55",
+    "source": "txn",
+    "entities": [
+     "P0009",
+     "P0014"
+    ],
+    "gap_to_next_s": 25200
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +919104332181",
+    "meta": {
+     "caller": "+919104332181",
+     "duration_sec": 238,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5942
+    },
+    "ts": "2026-08-16T21:00:00",
+    "rec_id": "CDR00533",
+    "row_sha256": "bcf3bc30f5413deec613fa8cf88e03e3199c8ffbc7b26cff46336eacd0dd1bc8",
+    "source": "call",
+    "entities": [
+     "P0001",
+     "P0010"
+    ],
+    "gap_to_next_s": 6180
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 45,000 leaves Sharma Traders — 99 min after the call",
+    "meta": {
+     "amount": 45000,
+     "latency_s": 5942,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-16T22:43:00",
+    "rec_id": "TXN00233",
+    "row_sha256": "94e4f651f694695616e301a25b3921dcb95a75d9ae03271c43893ad871e8e8ae",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 45240
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917221969379",
+    "meta": {
+     "caller": "+917221969379",
+     "duration_sec": 46,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6314
+    },
+    "ts": "2026-08-17T11:17:00",
+    "rec_id": "CDR00683",
+    "row_sha256": "75491221fe664ffcb3394b85230ac8087d4013849eef423062157ab666ab0387",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0010"
+    ],
+    "gap_to_next_s": 4740
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +919648877190",
+    "meta": {
+     "caller": "+919648877190",
+     "duration_sec": 216,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1404
+    },
+    "ts": "2026-08-17T12:36:00",
+    "rec_id": "CDR00943",
+    "row_sha256": "a64e46fc5ae913618a75a6a49c58d2d784fb1679026a466ba64809fc04d25f27",
+    "source": "call",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 1620
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 499 leaves Sharma Traders — 105 min after the call",
+    "meta": {
+     "amount": 499,
+     "latency_s": 6314,
+     "narration": "Electricity",
+     "src_account": "PUNB35454948083",
+     "dst_account": null
+    },
+    "ts": "2026-08-17T13:03:00",
+    "rec_id": "TXN00049",
+    "row_sha256": "b62ca874fee9cbbf1bbab0608b15da906b9756bdb7a70110228928c326697a8f",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 3480
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ramesh Gupta receives a call from +917049451983",
+    "meta": {
+     "caller": "+917049451983",
+     "duration_sec": 136,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 2564
+    },
+    "ts": "2026-08-17T14:01:00",
+    "rec_id": "CDR00700",
+    "row_sha256": "e58af66181c4cb2cb46262b988e10c579cec425d48e5e55c678092c340a7b9a1",
+    "source": "call",
+    "entities": [
+     "P0001"
+    ],
+    "gap_to_next_s": 960
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +918489638346",
+    "meta": {
+     "caller": "+918489638346",
+     "duration_sec": 25,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 9275
+    },
+    "ts": "2026-08-17T14:17:00",
+    "rec_id": "CDR00631",
+    "row_sha256": "3dab219af1c4b21eb064bcf4780983e9ccd0f61364043704757e0bbfb93e6e1c",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0020"
+    ],
+    "gap_to_next_s": 840
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +917455623869",
+    "meta": {
+     "caller": "+917455623869",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 540
+    },
+    "ts": "2026-08-17T14:31:00",
+    "rec_id": "CDR01068",
+    "row_sha256": "6d6ce38443bda93b73230cf0fcca4ac84546afa62e55cb8203c0390decc42695",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0016"
+    ],
+    "gap_to_next_s": 540
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 150 leaves Amit Iyer — 9 min after the call",
+    "meta": {
+     "amount": 150,
+     "latency_s": 540,
+     "narration": "Electricity",
+     "src_account": "UTIB68071545168",
+     "dst_account": null
+    },
+    "ts": "2026-08-17T14:40:00",
+    "rec_id": "TXN00064",
+    "row_sha256": "813cded9ee463f41a32336842bad6d3932b7835740095a5178bc150764b0bbbd",
+    "source": "txn",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 360
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,200 leaves Ramesh Gupta — 42 min after the call",
+    "meta": {
+     "amount": 1200,
+     "latency_s": 2564,
+     "narration": "Electricity",
+     "src_account": "HDFC61559407816",
+     "dst_account": null
+    },
+    "ts": "2026-08-17T14:46:00",
+    "rec_id": "TXN00004",
+    "row_sha256": "bd8eb695989d4ffe1670b453f172e9943564cc93b51de4f7c94a5c869cf15be9",
+    "source": "txn",
+    "entities": [
+     "P0001"
+    ],
+    "gap_to_next_s": 1680
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ritu Iyer receives a call from +916271937452",
+    "meta": {
+     "caller": "+916271937452",
+     "duration_sec": 260,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5620
+    },
+    "ts": "2026-08-17T15:14:00",
+    "rec_id": "CDR00651",
+    "row_sha256": "174b8da268a6cf931a5f8bb5eef0bf7b8eb1c3c7432b9df4e16581263b700437",
+    "source": "call",
+    "entities": [
+     "P0008",
+     "P0010"
+    ],
+    "gap_to_next_s": 2100
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Meera Singh receives a call from +918094777520",
+    "meta": {
+     "caller": "+918094777520",
+     "duration_sec": 78,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 2742
+    },
+    "ts": "2026-08-17T15:49:00",
+    "rec_id": "CDR00660",
+    "row_sha256": "12dc34387a9f64b06e693ca5b3ae83f0df84566465b9e760074267b06887f6a0",
+    "source": "call",
+    "entities": [
+     "P0002"
+    ],
+    "gap_to_next_s": 2820
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 3,200 leaves Meera Singh — 45 min after the call",
+    "meta": {
+     "amount": 3200,
+     "latency_s": 2742,
+     "narration": "Electricity",
+     "src_account": "ICIC17080531003",
+     "dst_account": null
+    },
+    "ts": "2026-08-17T16:36:00",
+    "rec_id": "TXN00044",
+    "row_sha256": "b09a241ea1ad51d8e4be73828657db910291cba6ff6e0fbde0b1d1033010e269",
+    "source": "txn",
+    "entities": [
+     "P0002"
+    ],
+    "gap_to_next_s": 960
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 150 leaves Ritu Iyer — 154 min after the call",
+    "meta": {
+     "amount": 150,
+     "latency_s": 9275,
+     "narration": "Grocery",
+     "src_account": "KKBK91183842513",
+     "dst_account": null
+    },
+    "ts": "2026-08-17T16:52:00",
+    "rec_id": "TXN00014",
+    "row_sha256": "af6e19b27413ab288d07cc76a0e292da72624292b6e06abb958a987f533715b4",
+    "source": "txn",
+    "entities": [
+     "P0008"
+    ],
+    "gap_to_next_s": 57540
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Neha Chopra receives a call from +916271937452",
+    "meta": {
+     "caller": "+916271937452",
+     "duration_sec": 272,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8668
+    },
+    "ts": "2026-08-18T08:51:00",
+    "rec_id": "CDR00738",
+    "row_sha256": "0d3b7db88230cd2c4e38ebe09b7908af121cd0793c81e755f73072cce5266031",
+    "source": "call",
+    "entities": [
+     "P0009",
+     "P0010"
+    ],
+    "gap_to_next_s": 780
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +918024994717",
+    "meta": {
+     "caller": "+918024994717",
+     "duration_sec": 273,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 7947
+    },
+    "ts": "2026-08-18T09:04:00",
+    "rec_id": "CDR00753",
+    "row_sha256": "42d0e4665d6e04349703cf24624445dc776f8a702f8253b0b38ca5989a0881bb",
+    "source": "call",
+    "entities": [
+     "P0016",
+     "P0013"
+    ],
+    "gap_to_next_s": 8160
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 81,240 leaves Neha Chopra — 144 min after the call",
+    "meta": {
+     "amount": 81240.45,
+     "latency_s": 8668,
+     "narration": "transfer",
+     "src_account": "KKBK94680443699",
+     "dst_account": "SBIN90847007661"
+    },
+    "ts": "2026-08-18T11:20:00",
+    "rec_id": "TXN00312",
+    "row_sha256": "cd82aa9129cc59b9d437781f43f942ff7e1a8d499776f551b8cf2217ff66284c",
+    "source": "txn",
+    "entities": [
+     "P0009",
+     "P0014"
+    ],
+    "gap_to_next_s": 60
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 48,564 leaves Sanjay Joshi — 132 min after the call",
+    "meta": {
+     "amount": 48563.56,
+     "latency_s": 7947,
+     "narration": "transfer",
+     "src_account": "SBIN87083172788",
+     "dst_account": "SBIN90847007661"
+    },
+    "ts": "2026-08-18T11:21:00",
+    "rec_id": "TXN00314",
+    "row_sha256": "b4af51473e8db41675b813c6246f45177a2e48f5d321f8c3e06ce4a2b3265a14",
+    "source": "txn",
+    "entities": [
+     "P0013",
+     "P0014"
+    ],
+    "gap_to_next_s": 19020
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +918159212499",
+    "meta": {
+     "caller": "+918159212499",
+     "duration_sec": 179,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6961
+    },
+    "ts": "2026-08-18T16:38:00",
+    "rec_id": "CDR00789",
+    "row_sha256": "b2b2e268b4d500c55030a4ae096a685e4e62ca6f59406f0a370487858147d114",
+    "source": "call",
+    "entities": [
+     "P0003",
+     "P0010"
+    ],
+    "gap_to_next_s": 900
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +917341316475",
+    "meta": {
+     "caller": "+917341316475",
+     "duration_sec": 232,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6008
+    },
+    "ts": "2026-08-18T16:53:00",
+    "rec_id": "CDR00707",
+    "row_sha256": "053a2c69c7e34a9e09c54809a7e76dd78b0625a4cf43205465649dc30c6fbbed",
+    "source": "call",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 2760
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +918277434873",
+    "meta": {
+     "caller": "+918277434873",
+     "duration_sec": 75,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 3405
+    },
+    "ts": "2026-08-18T17:39:00",
+    "rec_id": "CDR00729",
+    "row_sha256": "ba3561dfaa494679f4e429cfea67022a2b8d0698973bbc54ecc2ade1baba29a9",
+    "source": "call",
+    "entities": [
+     "P0012",
+     "P0010"
+    ],
+    "gap_to_next_s": 3480
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 52,000 leaves Sharma Traders — 116 min after the call",
+    "meta": {
+     "amount": 52000,
+     "latency_s": 6961,
+     "narration": "supplier settlement",
+     "src_account": "PUNB35454948083",
+     "dst_account": "UTIB68071545168"
+    },
+    "ts": "2026-08-18T18:37:00",
+    "rec_id": "TXN00263",
+    "row_sha256": "bff30d4baf199d298a89300d0756ca66602bf2ae7843538155c7d1d14875a04f",
+    "source": "txn",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 56700
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Amit Iyer receives a call from +916271937452",
+    "meta": {
+     "caller": "+916271937452",
+     "duration_sec": 376,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 1184
+    },
+    "ts": "2026-08-19T10:22:00",
+    "rec_id": "CDR00840",
+    "row_sha256": "3dd4be5814b6993d4dbcd9c53f95c643c6947188179213bf8761095be0f5c350",
+    "source": "call",
+    "entities": [
+     "P0016",
+     "P0010"
+    ],
+    "gap_to_next_s": 1560
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 499 leaves Amit Iyer — 19 min after the call",
+    "meta": {
+     "amount": 499,
+     "latency_s": 1184,
+     "narration": "Grocery",
+     "src_account": "UTIB68071545168",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T10:48:00",
+    "rec_id": "TXN00065",
+    "row_sha256": "f728b7a8b798113135d5c01c2fb32a80ff556246409c683dbabf691e557d0d8c",
+    "source": "txn",
+    "entities": [
+     "P0016"
+    ],
+    "gap_to_next_s": 4320
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +917529042284",
+    "meta": {
+     "caller": "+917529042284",
+     "duration_sec": 138,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8502
+    },
+    "ts": "2026-08-19T12:00:00",
+    "rec_id": "CDR00881",
+    "row_sha256": "d4aa2d24533f2fd965e3914655f04fb950ded8b3b2f63a5b2fdc091ff8ded851",
+    "source": "call",
+    "entities": [
+     "P0013",
+     "P0014"
+    ],
+    "gap_to_next_s": 2400
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +918159212499",
+    "meta": {
+     "caller": "+918159212499",
+     "duration_sec": 162,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6078
+    },
+    "ts": "2026-08-19T12:40:00",
+    "rec_id": "CDR00886",
+    "row_sha256": "a510d2c78c86f1175f26cdeef4de84b0f443a922068ca843b83fffd106310b2b",
+    "source": "call",
+    "entities": [
+     "P0003",
+     "P0013"
+    ],
+    "gap_to_next_s": 2640
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sanjay Joshi receives a call from +917049451983",
+    "meta": {
+     "caller": "+917049451983",
+     "duration_sec": 211,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 3389
+    },
+    "ts": "2026-08-19T13:24:00",
+    "rec_id": "CDR00889",
+    "row_sha256": "df13356e890438860b1537c641a1ce1d7264561b6f039c680d996dc5a402dcdb",
+    "source": "call",
+    "entities": [
+     "P0013"
+    ],
+    "gap_to_next_s": 2100
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Ramesh Gupta receives a call from +916611724005",
+    "meta": {
+     "caller": "+916611724005",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 10800
+    },
+    "ts": "2026-08-19T13:59:00",
+    "rec_id": "CDR01096",
+    "row_sha256": "9cde2eb577dbd5926852a37520f0fc5b06db19e0981e7b5985c21d72379ec10a",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0001"
+    ],
+    "gap_to_next_s": 1500
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,200 leaves Sanjay Joshi — 141 min after the call",
+    "meta": {
+     "amount": 1200,
+     "latency_s": 8502,
+     "narration": "Electricity",
+     "src_account": "SBIN87083172788",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T14:24:00",
+    "rec_id": "TXN00035",
+    "row_sha256": "7860fa48b75fb83ae802d77370f5a77aea12a348e7546fc95d1e2ab758f51829",
+    "source": "txn",
+    "entities": [
+     "P0013"
+    ],
+    "gap_to_next_s": 3960
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Seva Relief Trust receives a call from +917859770348",
+    "meta": {
+     "caller": "+917859770348",
+     "duration_sec": 165,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 6615
+    },
+    "ts": "2026-08-19T15:30:00",
+    "rec_id": "CDR00858",
+    "row_sha256": "18f406419b2cdcfbdd29e00af4e6f32075195e5ba99fe03a0175fa70ed25119c",
+    "source": "call",
+    "entities": [
+     "P0003"
+    ],
+    "gap_to_next_s": 4800
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Neha Chopra receives a call from +917859770348",
+    "meta": {
+     "caller": "+917859770348",
+     "duration_sec": 185,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 8455
+    },
+    "ts": "2026-08-19T16:50:00",
+    "rec_id": "CDR00855",
+    "row_sha256": "b273feecec62bb1f2229299971a17a9d2b1733deb94b3455818ff1fa666e7803",
+    "source": "call",
+    "entities": [
+     "P0009"
+    ],
+    "gap_to_next_s": 300
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Seva Relief Trust receives a call from +918953394210",
+    "meta": {
+     "caller": "+918953394210",
+     "duration_sec": 0,
+     "call_type": "sms",
+     "couples_to_debit_in_s": 1680
+    },
+    "ts": "2026-08-19T16:55:00",
+    "rec_id": "CDR01104",
+    "row_sha256": "5a8dc8e63b0e3edd08fc686d6ec9e6f2c91b0c6e7390823714c5a40a84ac9124",
+    "source": "call",
+    "entities": [
+     "P0018",
+     "P0003"
+    ],
+    "gap_to_next_s": 240
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 150 leaves Ramesh Gupta — 180 min after the call",
+    "meta": {
+     "amount": 150,
+     "latency_s": 10800,
+     "narration": "Grocery",
+     "src_account": "HDFC61559407816",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T16:59:00",
+    "rec_id": "TXN00005",
+    "row_sha256": "6837257b7fdf299d214a67efdcdcfcb848aedb9c4124521988fb3b27b89b0a95",
+    "source": "txn",
+    "entities": [
+     "P0001"
+    ],
+    "gap_to_next_s": 300
+   },
+   {
+    "phase": "controlling_call",
+    "headline": "Sharma Traders receives a call from +919104332181",
+    "meta": {
+     "caller": "+919104332181",
+     "duration_sec": 245,
+     "call_type": "voice",
+     "couples_to_debit_in_s": 5995
+    },
+    "ts": "2026-08-19T17:04:00",
+    "rec_id": "CDR00792",
+    "row_sha256": "8dc13a51234aca8ee7b3ebb6ef810806168f56d037d4ae40299db87657335b68",
+    "source": "call",
+    "entities": [
+     "P0001",
+     "P0010"
+    ],
+    "gap_to_next_s": 1140
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 780 leaves Seva Relief Trust — 110 min after the call",
+    "meta": {
+     "amount": 780,
+     "latency_s": 6615,
+     "narration": "Recharge",
+     "src_account": "ICIC27111161528",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T17:23:00",
+    "rec_id": "TXN00085",
+    "row_sha256": "8316e9f2ac5694e155f389d525eadac7ae28fbd6aa63068bc6005b3253f9e3e8",
+    "source": "txn",
+    "entities": [
+     "P0003"
+    ],
+    "gap_to_next_s": 5100
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 3,200 leaves Sharma Traders — 99 min after the call",
+    "meta": {
+     "amount": 3200,
+     "latency_s": 5995,
+     "narration": "Fuel",
+     "src_account": "PUNB35454948083",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T18:48:00",
+    "rec_id": "TXN00050",
+    "row_sha256": "0478ea70c0328df8acd6b22fdd4b814cbe1d2bed08c241fb55da685c2cea5429",
+    "source": "txn",
+    "entities": [
+     "P0010"
+    ],
+    "gap_to_next_s": 1560
+   },
+   {
+    "phase": "coerced_transfer",
+    "headline": "Rs 1,999 leaves Neha Chopra — 140 min after the call",
+    "meta": {
+     "amount": 1999,
+     "latency_s": 8455,
+     "narration": "DTH",
+     "src_account": "KKBK94680443699",
+     "dst_account": null
+    },
+    "ts": "2026-08-19T19:14:00",
+    "rec_id": "TXN00030",
+    "row_sha256": "c651c10ce9a58800ba8995f1591f6fff32620e1662196cd489ba1ccdabd2eb22",
+    "source": "txn",
+    "entities": [
+     "P0009"
+    ],
+    "gap_to_next_s": null
+   }
+  ],
+  "step_count": 128,
+  "focus": {
+   "start": "2026-08-14T10:01:00",
+   "end": "2026-08-14T10:28:00",
+   "step_count": 21,
+   "amount_inr": 2319360
+  },
+  "device_signals": [
+   {
+    "imei": "158657809134318",
+    "sim_count": 9,
+    "numbers": [
+     "+916611724005",
+     "+917064090974",
+     "+917175946474",
+     "+917221969379",
+     "+917374740748",
+     "+917455623869",
+     "+917709521456",
+     "+918671369594",
+     "+918953394210"
+    ],
+    "entities": [
+     "P0018"
+    ]
+   },
+   {
+    "imei": "287101226916693",
+    "sim_count": 7,
+    "numbers": [
+     "+916462704828",
+     "+916489325288",
+     "+916784801845",
+     "+917787133150",
+     "+917911718227",
+     "+917957015430",
+     "+918489638346"
+    ],
+    "entities": [
+     "P0020"
+    ]
+   },
+   {
+    "imei": "067974034471340",
+    "sim_count": 3,
+    "numbers": [
+     "+916936183242",
+     "+918024994717",
+     "+919648877190"
+    ],
+    "entities": [
+     "P0016"
+    ]
+   }
+  ],
+  "window": {
+   "start": "2026-08-10T15:08:00",
+   "end": "2026-08-19T19:14:00"
+  },
+  "engine": "local",
+  "note": "Each step resolves to a hashed source row. The reconstruction is a reading of the record, not a conclusion about intent."
+ }
+}

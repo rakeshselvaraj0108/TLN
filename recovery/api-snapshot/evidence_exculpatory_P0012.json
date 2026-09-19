@@ -1,0 +1,119 @@
+{
+ "url": "/evidence/exculpatory/P0012",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0012",
+  "original_risk_score": 0.5165,
+  "total_confidence_reduction": 0.1343,
+  "raw_reduction": 0.1343,
+  "adjusted_risk_score": 0.4471,
+  "capped": false,
+  "method": "reference_class_similarity",
+  "note": "Each reduction is the check's ceiling scaled by how closely this entity resembles the legitimate reference pattern, and by how much evidence supports the comparison. Checks can lower a machine score but never zero it out. Final assessment requires human review.",
+  "findings": [
+   {
+    "check": "stable_counterparties",
+    "applies": false,
+    "confidence_reduction": 0,
+    "reason": "Volume resembles a trading account (2.3 txn/day across 7 legs), but counterparty stability is only 0.33 — the money reaches largely fresh payees. That is the opposite of a settled supplier relationship, so the business explanation does not hold.",
+    "fit": 0.4057,
+    "evidence": 0,
+    "max_weight": 0.3,
+    "contributions": [
+     {
+      "feature": "counterparty_stability",
+      "value": 0.333,
+      "reference": 0.85,
+      "similarity": 0.392
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "reference": 8,
+      "similarity": 0.125
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 7,
+      "reference": 10,
+      "similarity": 0.7
+     }
+    ]
+   },
+   {
+    "check": "fixed_beneficiary_no_onward",
+    "applies": true,
+    "confidence_reduction": 0.1343,
+    "reason": "The post-call transfer of Rs 74,798 goes to 2 beneficiary, and that beneficiary moves 95% of it onward. That is 54% consistent with a routine remittance rather than a coerced payment into a mule chain.",
+    "fit": 0.537,
+    "evidence": 1,
+    "max_weight": 0.25,
+    "contributions": [
+     {
+      "feature": "distinct_beneficiaries",
+      "value": 2,
+      "reference": 1,
+      "similarity": 0.667
+     },
+     {
+      "feature": "transfer_amount_inr",
+      "value": 74798.36,
+      "reference": 60000,
+      "similarity": 0.894
+     },
+     {
+      "feature": "beneficiary_onward_movement",
+      "value": 0.95,
+      "reference": 0,
+      "similarity": 0.05
+     }
+    ]
+   },
+   {
+    "check": "longlived_sims_no_money_coupling",
+    "applies": false,
+    "confidence_reduction": 0,
+    "reason": "The 1-SIM handset is still tied to financial activity (95% passthrough, 1 hops), so the shared-phone explanation is only 40% consistent.",
+    "fit": 0.4,
+    "evidence": 0,
+    "max_weight": 0.2,
+    "contributions": [
+     {
+      "feature": "has_call_debit_coupling",
+      "value": 1,
+      "reference": 0,
+      "similarity": 0
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "reference": 0,
+      "similarity": 0.667
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "reference": 0,
+      "similarity": 0.05
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 76800,
+      "reference": 0,
+      "similarity": 0.616
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "reference": 0,
+      "similarity": 0.667
+     }
+    ]
+   }
+  ],
+  "applied": [
+   "fixed_beneficiary_no_onward"
+  ]
+ }
+}

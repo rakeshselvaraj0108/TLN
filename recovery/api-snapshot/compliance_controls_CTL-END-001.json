@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-END-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-END-001",
+  "domain": "Endpoint Security",
+  "name": "Anti-malware deployed on end-user devices",
+  "description": "Workstations run endpoint protection.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: investigator workstation build.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

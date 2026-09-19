@@ -1,0 +1,910 @@
+{
+ "url": "/intel/queue",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "count": 20,
+  "items": [
+   {
+    "entity_id": "P0006",
+    "risk_score": 0.8673,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882904+00:00",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.7252,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.6668,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4364,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3655,
+      "direction": "lowers"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 1,
+      "shap": -0.3099,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 7,
+      "shap": 0.2823,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0008",
+    "risk_score": 0.8604,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882905+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5029,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 480000,
+      "shap": 1.1435,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 6,
+      "shap": 0.7119,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.6221,
+      "direction": "raises"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 6,
+      "shap": 0.4638,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 16,
+      "shap": -0.3819,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0004",
+    "risk_score": 0.8425,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882903+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.3563,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 1.1212,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.8586,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4628,
+      "direction": "raises"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 6,
+      "shap": 0.4318,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "shap": 0.2974,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0020",
+    "risk_score": 0.796,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882912+00:00",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 7,
+      "shap": 1.2712,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.8153,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_imei_sim_count",
+      "value": 7,
+      "shap": 0.6136,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.4411,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.4338,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.3908,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0012",
+    "risk_score": 0.5165,
+    "band": "elevated",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882907+00:00",
+    "top_factors": [
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.6229,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4796,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4609,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.4599,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.454,
+      "direction": "lowers"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 0.896,
+      "shap": -0.3738,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0018",
+    "risk_score": 0.4446,
+    "band": "elevated",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882911+00:00",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 9,
+      "shap": 1.3053,
+      "direction": "raises"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.7086,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.7027,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.6143,
+      "direction": "raises"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.494,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.4595,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0015",
+    "risk_score": 0.2248,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882909+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.6657,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 5,
+      "shap": 1.0552,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.644,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 5,
+      "shap": 0.4751,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4577,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.3911,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0002",
+    "risk_score": 0.1737,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882901+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5805,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.6808,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.5736,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "shap": 0.3189,
+      "direction": "raises"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.3082,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3051,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0017",
+    "risk_score": 0.161,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882910+00:00",
+    "top_factors": [
+     {
+      "feature": "n_call_debit_links",
+      "value": 7,
+      "shap": -0.7703,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 5,
+      "shap": 0.7067,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.6459,
+      "direction": "raises"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 1,
+      "shap": -0.5697,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.5637,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4278,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0009",
+    "risk_score": 0.1578,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882906+00:00",
+    "top_factors": [
+     {
+      "feature": "outbound_txn_count",
+      "value": 9,
+      "shap": -0.8311,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 4,
+      "shap": -0.66,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 3,
+      "shap": 0.5102,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4805,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.4589,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4164,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0011",
+    "risk_score": 0.1031,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882907+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.6592,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 5,
+      "shap": 0.9368,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.5894,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 5,
+      "shap": 0.5847,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 2,
+      "shap": -0.4552,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.4515,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0013",
+    "risk_score": 0.0507,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882908+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5722,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 8,
+      "shap": -0.9101,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 3,
+      "shap": 0.652,
+      "direction": "raises"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 8,
+      "shap": -0.4342,
+      "direction": "lowers"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 0.9294,
+      "shap": -0.3476,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3177,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0005",
+    "risk_score": 0.0438,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882903+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.7961,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 0.8746,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.8727,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 6,
+      "shap": -0.7682,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.6864,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.4798,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0014",
+    "risk_score": 0.0427,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882909+00:00",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 9,
+      "shap": -1.5982,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.0235,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 8.5,
+      "shap": 0.9303,
+      "direction": "raises"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 17,
+      "shap": -0.6644,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.3865,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.3615,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0016",
+    "risk_score": 0.0214,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882910+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.7832,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 6,
+      "shap": -0.8343,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 4,
+      "shap": 0.8049,
+      "direction": "raises"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 5,
+      "shap": 0.6558,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.5625,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.4915,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0010",
+    "risk_score": 0.02,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882906+00:00",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 156,
+      "shap": -1.6818,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.0787,
+      "direction": "lowers"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.4026,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.3963,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.3947,
+      "direction": "lowers"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.2825,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0001",
+    "risk_score": 0.0196,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882897+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.8086,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.6507,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 0.6473,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.5415,
+      "direction": "lowers"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 1,
+      "shap": -0.4665,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.422,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0007",
+    "risk_score": 0.0171,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882904+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.8209,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 5,
+      "shap": -0.9147,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 0.6615,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.5412,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.4546,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.4173,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0003",
+    "risk_score": 0.0144,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882902+00:00",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 60,
+      "shap": -1.8737,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.0337,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 17,
+      "shap": -0.6393,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.4209,
+      "direction": "lowers"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.3625,
+      "direction": "lowers"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 3,
+      "shap": 0.3136,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0019",
+    "risk_score": 0.0043,
+    "band": "low",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882912+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.4784,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.6695,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.5619,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 0,
+      "shap": -0.4266,
+      "direction": "lowers"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.4078,
+      "direction": "lowers"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 0,
+      "shap": -0.3815,
+      "direction": "lowers"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "url": "/evidence/counterfactual/P0013",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0013",
+  "risk_score": 0.0507,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 5 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 22 minutes, onward movement were under 95%, funds reached fewer than 1.0 accounts, the amount were under Rs 76,800, and counterparty stability were above 0.60, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9294,
+    "observed": "Rs 3,200 was debited 22 minutes after an inbound call from +917455623869 (\"Fuel\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_passthrough_ratio",
+    "feature": "max_passthrough_ratio",
+    "observed_value": 0.95,
+    "observed": "95% of an inbound Rs 76,800 credit was moved onward across 1 account(s) within 30 minutes",
+    "boundary": "Reducing the onward share alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_fanout_hop_count",
+    "feature": "max_fanout_hop_count",
+    "observed_value": 1,
+    "observed": "Funds reached 1 account(s) in a single hop-out",
+    "boundary": "Narrowing the fan-out alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "total_fanout_inbound_inr",
+    "feature": "total_fanout_inbound_inr",
+    "observed_value": 76800,
+    "observed": "Rs 76,800 passed through accounts under this entity's control",
+    "boundary": "A smaller amount alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.6,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.60)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

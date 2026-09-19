@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-008",
+  "domain": "Infrastructure Security",
+  "name": "Firewall restricts public access to infrastructure",
+  "description": "Network access to infrastructure is restricted.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: network perimeter firewalling.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

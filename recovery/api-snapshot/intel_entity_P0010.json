@@ -1,0 +1,431 @@
+{
+ "url": "/intel/entity/P0010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0010",
+  "risk_score": 0.02,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 2,
+   "n_devices": 2,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 0.974,
+   "n_call_debit_links": 25,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 156,
+   "outbound_txn_count": 25,
+   "distinct_counterparties": 2,
+   "counterparty_stability": 0.9,
+   "txn_velocity": 2.7778,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "inbound_txn_count",
+    "value": 156,
+    "shap": -1.6818,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.0787,
+    "direction": "lowers"
+   },
+   {
+    "feature": "callee_money_movers",
+    "value": 0,
+    "shap": -0.4026,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.3963,
+    "direction": "lowers"
+   },
+   {
+    "feature": "total_fanout_inbound_inr",
+    "value": 0,
+    "shap": -0.3947,
+    "direction": "lowers"
+   },
+   {
+    "feature": "coupled_calls_out",
+    "value": 0,
+    "shap": -0.2825,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "PUNB35454948083",
+     "ifsc": "PUNB0234500"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "193149190586514"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "850671657262845"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916271937452"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917241904966"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00325",
+    "call_end": "2026-08-13T19:56:35",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00179",
+    "debit_time": "2026-08-13T20:11:00",
+    "amount": 52000,
+    "latency_s": 865,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00943",
+    "call_end": "2026-08-17T12:39:36",
+    "caller": "+919648877190",
+    "debit_rec_id": "TXN00049",
+    "debit_time": "2026-08-17T13:03:00",
+    "amount": 499,
+    "latency_s": 1404,
+    "src_account": "PUNB35454948083",
+    "dst_account": null,
+    "narration": "Electricity"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00325",
+    "call_end": "2026-08-13T19:56:35",
+    "caller": "+919044997278",
+    "debit_rec_id": "TXN00180",
+    "debit_time": "2026-08-13T20:21:00",
+    "amount": 52000,
+    "latency_s": 1465,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00247",
+    "call_end": "2026-08-12T18:14:07",
+    "caller": "+917374740748",
+    "debit_rec_id": "TXN00158",
+    "debit_time": "2026-08-12T18:50:00",
+    "amount": 45000,
+    "latency_s": 2153,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00081",
+    "call_end": "2026-08-10T17:24:18",
+    "caller": "+918671369594",
+    "debit_rec_id": "TXN00122",
+    "debit_time": "2026-08-10T18:08:00",
+    "amount": 60000,
+    "latency_s": 2622,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00729",
+    "call_end": "2026-08-18T17:40:15",
+    "caller": "+918277434873",
+    "debit_rec_id": "TXN00263",
+    "debit_time": "2026-08-18T18:37:00",
+    "amount": 52000,
+    "latency_s": 3405,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00526",
+    "call_end": "2026-08-15T18:44:41",
+    "caller": "+917529042284",
+    "debit_rec_id": "TXN00213",
+    "debit_time": "2026-08-15T19:44:00",
+    "amount": 52000,
+    "latency_s": 3559,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00320",
+    "call_end": "2026-08-13T18:56:15",
+    "caller": "+919648877190",
+    "debit_rec_id": "TXN00179",
+    "debit_time": "2026-08-13T20:11:00",
+    "amount": 52000,
+    "latency_s": 4485,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00320",
+    "call_end": "2026-08-13T18:56:15",
+    "caller": "+919648877190",
+    "debit_rec_id": "TXN00180",
+    "debit_time": "2026-08-13T20:21:00",
+    "amount": 52000,
+    "latency_s": 5085,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00365",
+    "call_end": "2026-08-14T17:19:36",
+    "caller": "+916784801845",
+    "debit_rec_id": "TXN00193",
+    "debit_time": "2026-08-14T18:47:00",
+    "amount": 60000,
+    "latency_s": 5244,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00399",
+    "call_end": "2026-08-14T21:28:22",
+    "caller": "+917734670656",
+    "debit_rec_id": "TXN00194",
+    "debit_time": "2026-08-14T22:59:00",
+    "amount": 60000,
+    "latency_s": 5438,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00296",
+    "call_end": "2026-08-13T18:32:09",
+    "caller": "+916980841241",
+    "debit_rec_id": "TXN00179",
+    "debit_time": "2026-08-13T20:11:00",
+    "amount": 52000,
+    "latency_s": 5931,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00533",
+    "call_end": "2026-08-16T21:03:58",
+    "caller": "+919104332181",
+    "debit_rec_id": "TXN00233",
+    "debit_time": "2026-08-16T22:43:00",
+    "amount": 45000,
+    "latency_s": 5942,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00792",
+    "call_end": "2026-08-19T17:08:05",
+    "caller": "+919104332181",
+    "debit_rec_id": "TXN00050",
+    "debit_time": "2026-08-19T18:48:00",
+    "amount": 3200,
+    "latency_s": 5995,
+    "src_account": "PUNB35454948083",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00707",
+    "call_end": "2026-08-18T16:56:52",
+    "caller": "+917341316475",
+    "debit_rec_id": "TXN00263",
+    "debit_time": "2026-08-18T18:37:00",
+    "amount": 52000,
+    "latency_s": 6008,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00683",
+    "call_end": "2026-08-17T11:17:46",
+    "caller": "+917221969379",
+    "debit_rec_id": "TXN00049",
+    "debit_time": "2026-08-17T13:03:00",
+    "amount": 499,
+    "latency_s": 6314,
+    "src_account": "PUNB35454948083",
+    "dst_account": null,
+    "narration": "Electricity"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00296",
+    "call_end": "2026-08-13T18:32:09",
+    "caller": "+916980841241",
+    "debit_rec_id": "TXN00180",
+    "debit_time": "2026-08-13T20:21:00",
+    "amount": 52000,
+    "latency_s": 6531,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00065",
+    "call_end": "2026-08-10T16:12:13",
+    "caller": "+916611724005",
+    "debit_rec_id": "TXN00122",
+    "debit_time": "2026-08-10T18:08:00",
+    "amount": 60000,
+    "latency_s": 6947,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00789",
+    "call_end": "2026-08-18T16:40:59",
+    "caller": "+918159212499",
+    "debit_rec_id": "TXN00263",
+    "debit_time": "2026-08-18T18:37:00",
+    "amount": 52000,
+    "latency_s": 6961,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00526",
+    "call_end": "2026-08-15T18:44:41",
+    "caller": "+917529042284",
+    "debit_rec_id": "TXN00048",
+    "debit_time": "2026-08-15T20:53:00",
+    "amount": 1999,
+    "latency_s": 7699,
+    "src_account": "PUNB35454948083",
+    "dst_account": null,
+    "narration": "DTH"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00345",
+    "call_end": "2026-08-13T17:49:52",
+    "caller": "+918953394210",
+    "debit_rec_id": "TXN00179",
+    "debit_time": "2026-08-13T20:11:00",
+    "amount": 52000,
+    "latency_s": 8468,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00081",
+    "call_end": "2026-08-10T17:24:18",
+    "caller": "+918671369594",
+    "debit_rec_id": "TXN00121",
+    "debit_time": "2026-08-10T19:49:00",
+    "amount": 60000,
+    "latency_s": 8682,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00247",
+    "call_end": "2026-08-12T18:14:07",
+    "caller": "+917374740748",
+    "debit_rec_id": "TXN00157",
+    "debit_time": "2026-08-12T20:39:00",
+    "amount": 60000,
+    "latency_s": 8693,
+    "src_account": "PUNB35454948083",
+    "dst_account": "KKBK41343524082",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00345",
+    "call_end": "2026-08-13T17:49:52",
+    "caller": "+918953394210",
+    "debit_rec_id": "TXN00180",
+    "debit_time": "2026-08-13T20:21:00",
+    "amount": 52000,
+    "latency_s": 9068,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   },
+   {
+    "person": "P0010",
+    "call_rec_id": "CDR00068",
+    "call_end": "2026-08-10T15:09:15",
+    "caller": "+917455623869",
+    "debit_rec_id": "TXN00122",
+    "debit_time": "2026-08-10T18:08:00",
+    "amount": 60000,
+    "latency_s": 10725,
+    "src_account": "PUNB35454948083",
+    "dst_account": "UTIB68071545168",
+    "narration": "supplier settlement"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

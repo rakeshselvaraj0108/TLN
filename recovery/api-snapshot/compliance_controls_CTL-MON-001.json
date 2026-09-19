@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-MON-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-001",
+  "domain": "Monitoring and Incident Response",
+  "name": "Audit log management process maintained",
+  "description": "Audit logs are captured, retained and reviewable.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "The audit log is append-only in application code and queryable through a filtered, paginated route.",
+  "observations": [
+   "No route updates or deletes an audit row.",
+   "Indexed on timestamp, actor and action so a review is practical, not theoretical.",
+   "LIMIT, STATED: append-only is enforced by the application, not the database. A holder of direct database credentials could still edit it; the ingested-record hash chain is what defends the evidence itself."
+  ]
+ }
+}

@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-EML-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-EML-001",
+  "domain": "Email Security",
+  "name": "DMARC policy and verification used",
+  "description": "Email spoofing defences are in place on the corporate domain.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: corporate email domain configuration.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

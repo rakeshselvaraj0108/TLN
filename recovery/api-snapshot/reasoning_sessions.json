@@ -1,0 +1,34 @@
+{
+ "url": "/reasoning/sessions",
+ "status": 200,
+ "contentType": "application/json",
+ "body": [
+  {
+   "session_key": "S-03ec5eb2b8ce",
+   "objective": "Automated pipeline pass over the ingested corpus",
+   "status": "active",
+   "case_id": null,
+   "action_count": 8,
+   "opened_by": "agent:pipeline",
+   "updated_at": "2026-09-08T14:27:05.072739+00:00"
+  },
+  {
+   "session_key": "S-2c3c66aba73a",
+   "objective": "Automated pipeline pass over the ingested corpus",
+   "status": "active",
+   "case_id": null,
+   "action_count": 8,
+   "opened_by": "agent:pipeline",
+   "updated_at": "2026-09-08T14:27:00.780496+00:00"
+  },
+  {
+   "session_key": "S-eaa6eae665d8",
+   "objective": "Automated pipeline pass over the ingested corpus",
+   "status": "active",
+   "case_id": null,
+   "action_count": 8,
+   "opened_by": "agent:pipeline",
+   "updated_at": "2026-09-08T13:13:30.308637+00:00"
+  }
+ ]
+}

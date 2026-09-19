@@ -1,0 +1,140 @@
+{
+ "url": "/intel/entity/P0001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0001",
+  "risk_score": 0.0196,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 1,
+   "n_call_debit_links": 3,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 6,
+   "distinct_counterparties": 1,
+   "counterparty_stability": 0.5,
+   "txn_velocity": 2,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.8086,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_call_debit_links",
+    "value": 3,
+    "shap": -0.6507,
+    "direction": "lowers"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 6,
+    "shap": 0.6473,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.5415,
+    "direction": "lowers"
+   },
+   {
+    "feature": "call_debit_speed_score",
+    "value": 1,
+    "shap": -0.4665,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0,
+    "shap": -0.422,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "HDFC61559407816",
+     "ifsc": "HDFC0000123"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "001338908386376"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+919104332181"
+    }
+   },
+   {
+    "kind": "SocialHandle",
+    "props": {
+     "handle": "@RameshG_official",
+     "platform": "x"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0001",
+    "call_rec_id": "CDR00893",
+    "call_end": "2026-08-14T15:13:00",
+    "caller": "+916489325288",
+    "debit_rec_id": "TXN00086",
+    "debit_time": "2026-08-14T10:07:00",
+    "amount": 480000,
+    "latency_s": 360,
+    "src_account": "HDFC61559407816",
+    "dst_account": "KKBK91183842513",
+    "narration": "SECURITY DEPOSIT CASE CLEARANCE"
+   },
+   {
+    "person": "P0001",
+    "call_rec_id": "CDR00700",
+    "call_end": "2026-08-17T14:03:16",
+    "caller": "+917049451983",
+    "debit_rec_id": "TXN00004",
+    "debit_time": "2026-08-17T14:46:00",
+    "amount": 1200,
+    "latency_s": 2564,
+    "src_account": "HDFC61559407816",
+    "dst_account": null,
+    "narration": "Electricity"
+   },
+   {
+    "person": "P0001",
+    "call_rec_id": "CDR01096",
+    "call_end": "2026-08-19T13:59:00",
+    "caller": "+916611724005",
+    "debit_rec_id": "TXN00005",
+    "debit_time": "2026-08-19T16:59:00",
+    "amount": 150,
+    "latency_s": 10800,
+    "src_account": "HDFC61559407816",
+    "dst_account": null,
+    "narration": "Grocery"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

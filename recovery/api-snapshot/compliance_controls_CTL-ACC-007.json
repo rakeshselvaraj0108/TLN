@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ACC-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-007",
+  "domain": "Access Control and Authorization",
+  "name": "Password management policy enforced",
+  "description": "Password standards are technically enforced.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "The application stores no passwords, so it cannot enforce a password policy.",
+  "observations": [
+   "No credential store, no hashing, no reset flow — by design, because authentication is intended to be delegated.",
+   "The control transfers to the agency's identity provider."
+  ]
+ }
+}

@@ -1,0 +1,5724 @@
+{
+ "url": "/spatial/case/1/layers",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_id": 1,
+  "case_code": "TRX-2026-0001",
+  "at": null,
+  "bbox": {
+   "min_lat": 30.64683,
+   "max_lat": 30.75892,
+   "min_lon": 76.69628,
+   "max_lon": 76.80813
+  },
+  "towers": [
+   {
+    "cell_key": "8682-67961",
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "call_count": 179,
+    "distinct_phones": 16
+   },
+   {
+    "cell_key": "4770-75570",
+    "lat": 30.70705,
+    "lon": 76.77017,
+    "call_count": 93,
+    "distinct_phones": 13
+   },
+   {
+    "cell_key": "9691-38197",
+    "lat": 30.68514,
+    "lon": 76.74444,
+    "call_count": 74,
+    "distinct_phones": 10
+   },
+   {
+    "cell_key": "3419-40968",
+    "lat": 30.65234,
+    "lon": 76.72072,
+    "call_count": 72,
+    "distinct_phones": 8
+   },
+   {
+    "cell_key": "8601-83889",
+    "lat": 30.73119,
+    "lon": 76.74387,
+    "call_count": 69,
+    "distinct_phones": 15
+   },
+   {
+    "cell_key": "2391-16895",
+    "lat": 30.65867,
+    "lon": 76.78053,
+    "call_count": 59,
+    "distinct_phones": 12
+   },
+   {
+    "cell_key": "6053-15952",
+    "lat": 30.66646,
+    "lon": 76.80813,
+    "call_count": 51,
+    "distinct_phones": 11
+   },
+   {
+    "cell_key": "1897-11007",
+    "lat": 30.66453,
+    "lon": 76.80344,
+    "call_count": 36,
+    "distinct_phones": 13
+   },
+   {
+    "cell_key": "6731-50662",
+    "lat": 30.75612,
+    "lon": 76.77382,
+    "call_count": 33,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "4531-77154",
+    "lat": 30.65366,
+    "lon": 76.74159,
+    "call_count": 28,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "3248-43491",
+    "lat": 30.67473,
+    "lon": 76.7044,
+    "call_count": 27,
+    "distinct_phones": 10
+   },
+   {
+    "cell_key": "3842-88957",
+    "lat": 30.65834,
+    "lon": 76.7811,
+    "call_count": 25,
+    "distinct_phones": 6
+   },
+   {
+    "cell_key": "6928-21551",
+    "lat": 30.69241,
+    "lon": 76.7027,
+    "call_count": 23,
+    "distinct_phones": 7
+   },
+   {
+    "cell_key": "9624-22249",
+    "lat": 30.71752,
+    "lon": 76.74081,
+    "call_count": 23,
+    "distinct_phones": 6
+   },
+   {
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853,
+    "call_count": 22,
+    "distinct_phones": 7
+   },
+   {
+    "cell_key": "4084-52143",
+    "lat": 30.7126,
+    "lon": 76.75016,
+    "call_count": 21,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "7421-26901",
+    "lat": 30.7114,
+    "lon": 76.80256,
+    "call_count": 20,
+    "distinct_phones": 7
+   },
+   {
+    "cell_key": "3093-97833",
+    "lat": 30.72434,
+    "lon": 76.80365,
+    "call_count": 20,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535,
+    "call_count": 19,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "9307-60394",
+    "lat": 30.69553,
+    "lon": 76.75652,
+    "call_count": 19,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "9149-66446",
+    "lat": 30.66108,
+    "lon": 76.73562,
+    "call_count": 18,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "3578-58503",
+    "lat": 30.6774,
+    "lon": 76.72893,
+    "call_count": 14,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "5640-98895",
+    "lat": 30.72142,
+    "lon": 76.7484,
+    "call_count": 14,
+    "distinct_phones": 7
+   },
+   {
+    "cell_key": "1815-98338",
+    "lat": 30.64979,
+    "lon": 76.74317,
+    "call_count": 13,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "3463-53694",
+    "lat": 30.64978,
+    "lon": 76.76963,
+    "call_count": 13,
+    "distinct_phones": 6
+   },
+   {
+    "cell_key": "1920-56129",
+    "lat": 30.70088,
+    "lon": 76.72725,
+    "call_count": 13,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "8147-12456",
+    "lat": 30.69517,
+    "lon": 76.69934,
+    "call_count": 10,
+    "distinct_phones": 6
+   },
+   {
+    "cell_key": "4176-55793",
+    "lat": 30.68213,
+    "lon": 76.80499,
+    "call_count": 10,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "2013-69050",
+    "lat": 30.65242,
+    "lon": 76.7979,
+    "call_count": 9,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "7697-54350",
+    "lat": 30.72147,
+    "lon": 76.69628,
+    "call_count": 9,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "1672-68947",
+    "lat": 30.74909,
+    "lon": 76.7586,
+    "call_count": 8,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "2257-94497",
+    "lat": 30.74371,
+    "lon": 76.79264,
+    "call_count": 8,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "6802-19447",
+    "lat": 30.68765,
+    "lon": 76.77904,
+    "call_count": 8,
+    "distinct_phones": 7
+   },
+   {
+    "cell_key": "6321-32527",
+    "lat": 30.73616,
+    "lon": 76.76418,
+    "call_count": 8,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "6626-21053",
+    "lat": 30.70055,
+    "lon": 76.71071,
+    "call_count": 6,
+    "distinct_phones": 6
+   },
+   {
+    "cell_key": "7947-73656",
+    "lat": 30.71285,
+    "lon": 76.7397,
+    "call_count": 6,
+    "distinct_phones": 2
+   },
+   {
+    "cell_key": "6083-54500",
+    "lat": 30.66659,
+    "lon": 76.78349,
+    "call_count": 6,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "6482-18639",
+    "lat": 30.67956,
+    "lon": 76.75696,
+    "call_count": 5,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "2251-76910",
+    "lat": 30.71599,
+    "lon": 76.75367,
+    "call_count": 5,
+    "distinct_phones": 2
+   },
+   {
+    "cell_key": "6072-83259",
+    "lat": 30.6852,
+    "lon": 76.785,
+    "call_count": 5,
+    "distinct_phones": 5
+   },
+   {
+    "cell_key": "8138-87184",
+    "lat": 30.68805,
+    "lon": 76.69944,
+    "call_count": 5,
+    "distinct_phones": 3
+   },
+   {
+    "cell_key": "6295-92210",
+    "lat": 30.67794,
+    "lon": 76.74277,
+    "call_count": 4,
+    "distinct_phones": 4
+   },
+   {
+    "cell_key": "3324-92991",
+    "lat": 30.75662,
+    "lon": 76.70101,
+    "call_count": 3,
+    "distinct_phones": 3
+   },
+   {
+    "cell_key": "7333-47243",
+    "lat": 30.67024,
+    "lon": 76.79219,
+    "call_count": 3,
+    "distinct_phones": 3
+   },
+   {
+    "cell_key": "8404-14929",
+    "lat": 30.64683,
+    "lon": 76.7898,
+    "call_count": 2,
+    "distinct_phones": 2
+   },
+   {
+    "cell_key": "5059-67377",
+    "lat": 30.75892,
+    "lon": 76.75289,
+    "call_count": 1,
+    "distinct_phones": 1
+   }
+  ],
+  "actors": [
+   {
+    "entity_id": "P0006",
+    "name": "Meera Kulkarni",
+    "pinned": true,
+    "lat": 30.71752,
+    "lon": 76.74081,
+    "cell_key": "9624-22249",
+    "observations": 29,
+    "msisdns": [
+     "+916980841241"
+    ],
+    "accounts": [
+     "KKBK01128059826"
+    ],
+    "imeis": [
+     "824493534874017"
+    ],
+    "shared_ips": [
+     "100.91.29.149"
+    ],
+    "risk_score": 0.8673,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0008",
+    "name": "Ritu Iyer",
+    "pinned": true,
+    "lat": 30.64979,
+    "lon": 76.74317,
+    "cell_key": "1815-98338",
+    "observations": 24,
+    "msisdns": [
+     "+916081219136"
+    ],
+    "accounts": [
+     "KKBK91183842513"
+    ],
+    "imeis": [
+     "939909169985432"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.8604,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0004",
+    "name": "Deepa Chopra",
+    "pinned": true,
+    "lat": 30.66646,
+    "lon": 76.80813,
+    "cell_key": "6053-15952",
+    "observations": 16,
+    "msisdns": [
+     "+917053315869"
+    ],
+    "accounts": [
+     "ICIC41458685014"
+    ],
+    "imeis": [
+     "322602563421605"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.8425,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "pinned": true,
+    "lat": 30.70705,
+    "lon": 76.77017,
+    "cell_key": "4770-75570",
+    "observations": 161,
+    "msisdns": [
+     "+916462704828",
+     "+916489325288",
+     "+916784801845",
+     "+917787133150",
+     "+917911718227",
+     "+917957015430",
+     "+918489638346"
+    ],
+    "accounts": [],
+    "imeis": [
+     "287101226916693"
+    ],
+    "shared_ips": [
+     "100.91.29.149"
+    ],
+    "risk_score": 0.796,
+    "band": "high"
+   },
+   {
+    "entity_id": "P0012",
+    "name": "Meera Joshi",
+    "pinned": true,
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "cell_key": "8682-67961",
+    "observations": 25,
+    "msisdns": [
+     "+918277434873"
+    ],
+    "accounts": [
+     "PUNB90967054668"
+    ],
+    "imeis": [
+     "714345581223625"
+    ],
+    "shared_ips": [
+     "100.91.29.149"
+    ],
+    "risk_score": 0.5165,
+    "band": "elevated"
+   },
+   {
+    "entity_id": "P0018",
+    "name": "Manish Bose",
+    "pinned": true,
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "cell_key": "8682-67961",
+    "observations": 370,
+    "msisdns": [
+     "+916611724005",
+     "+917064090974",
+     "+917175946474",
+     "+917221969379",
+     "+917374740748",
+     "+917455623869",
+     "+917709521456",
+     "+918671369594",
+     "+918953394210"
+    ],
+    "accounts": [],
+    "imeis": [
+     "158657809134318"
+    ],
+    "shared_ips": [
+     "100.91.29.149"
+    ],
+    "risk_score": 0.4446,
+    "band": "elevated"
+   },
+   {
+    "entity_id": "P0016",
+    "name": "Amit Iyer",
+    "pinned": true,
+    "lat": 30.65234,
+    "lon": 76.72072,
+    "cell_key": "3419-40968",
+    "observations": 116,
+    "msisdns": [
+     "+916936183242",
+     "+918024994717",
+     "+919648877190"
+    ],
+    "accounts": [
+     "UTIB68071545168"
+    ],
+    "imeis": [
+     "067974034471340"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.0214,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0002",
+    "name": "Meera Singh",
+    "pinned": true,
+    "lat": 30.69151,
+    "lon": 76.73853,
+    "cell_key": "6129-85465",
+    "observations": 23,
+    "msisdns": [
+     "+917734670656"
+    ],
+    "accounts": [
+     "ICIC17080531003"
+    ],
+    "imeis": [
+     "729806990162729"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.1737,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0001",
+    "name": "Ramesh Gupta",
+    "pinned": false,
+    "lat": 30.65234,
+    "lon": 76.72072,
+    "cell_key": "3419-40968",
+    "observations": 18,
+    "msisdns": [
+     "+919104332181"
+    ],
+    "accounts": [
+     "HDFC61559407816"
+    ],
+    "imeis": [
+     "001338908386376"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.0196,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "pinned": false,
+    "lat": 30.65234,
+    "lon": 76.72072,
+    "cell_key": "3419-40968",
+    "observations": 26,
+    "msisdns": [
+     "+918159212499"
+    ],
+    "accounts": [
+     "ICIC27111161528"
+    ],
+    "imeis": [
+     "698478961183676"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.0144,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0009",
+    "name": "Neha Chopra",
+    "pinned": false,
+    "lat": 30.7114,
+    "lon": 76.80256,
+    "cell_key": "7421-26901",
+    "observations": 30,
+    "msisdns": [
+     "+916569816934"
+    ],
+    "accounts": [
+     "KKBK94680443699"
+    ],
+    "imeis": [
+     "608835615951489"
+    ],
+    "shared_ips": [
+     "100.91.29.149"
+    ],
+    "risk_score": 0.1578,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "pinned": false,
+    "lat": 30.75612,
+    "lon": 76.77382,
+    "cell_key": "6731-50662",
+    "observations": 70,
+    "msisdns": [
+     "+916271937452",
+     "+917241904966"
+    ],
+    "accounts": [
+     "PUNB35454948083"
+    ],
+    "imeis": [
+     "193149190586514",
+     "850671657262845"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.02,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0013",
+    "name": "Sanjay Joshi",
+    "pinned": false,
+    "lat": 30.73119,
+    "lon": 76.74387,
+    "cell_key": "8601-83889",
+    "observations": 27,
+    "msisdns": [
+     "+918738721489"
+    ],
+    "accounts": [
+     "SBIN87083172788"
+    ],
+    "imeis": [
+     "134332003791762"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.0507,
+    "band": "low"
+   },
+   {
+    "entity_id": "P0014",
+    "name": "Rohit Singh",
+    "pinned": false,
+    "lat": 30.75416,
+    "lon": 76.76535,
+    "cell_key": "2234-33218",
+    "observations": 29,
+    "msisdns": [
+     "+917529042284"
+    ],
+    "accounts": [
+     "SBIN90847007661"
+    ],
+    "imeis": [
+     "102053950240266"
+    ],
+    "shared_ips": [],
+    "risk_score": 0.0427,
+    "band": "low"
+   }
+  ],
+  "call_edges": [
+   {
+    "from": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 222,
+    "seconds": 36532,
+    "last_ts": "2026-08-19T22:16:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00074",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00087",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00092",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00004",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00070",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00010",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00953",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00955",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 98,
+    "seconds": 13536,
+    "last_ts": "2026-08-19T21:45:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00052",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00079",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00922",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00952",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00066",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00954",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00056",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00088",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 66,
+    "seconds": 12444,
+    "last_ts": "2026-08-19T21:58:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00008",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00013",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00119",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00231",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00927",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00192",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00232",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00190",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 64,
+    "seconds": 15530,
+    "last_ts": "2026-08-19T22:38:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00091",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00077",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00038",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00068",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00065",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00081",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00170",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00162",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 46,
+    "seconds": 6832,
+    "last_ts": "2026-08-19T22:08:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00021",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00171",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00246",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00993",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00254",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00205",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00995",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01007",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 38,
+    "seconds": 6406,
+    "last_ts": "2026-08-19T21:55:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00078",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00024",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00023",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00964",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00963",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00302",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01002",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01022",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 36,
+    "seconds": 6524,
+    "last_ts": "2026-08-19T21:58:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00064",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00165",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00975",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00131",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00158",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00251",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00210",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00337",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 36,
+    "seconds": 6400,
+    "last_ts": "2026-08-19T13:35:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00900",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00923",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00136",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00902",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00904",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00906",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00320",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00908",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 32,
+    "seconds": 3346,
+    "last_ts": "2026-08-17T15:01:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00093",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00974",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00259",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00330",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00994",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00439",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01010",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01018",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 32,
+    "seconds": 6100,
+    "last_ts": "2026-08-19T07:43:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00036",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00015",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00039",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00034",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00107",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00214",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00312",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00373",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 30,
+    "seconds": 4376,
+    "last_ts": "2026-08-18T18:25:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00030",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00084",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00172",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00988",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00307",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00333",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01034",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00565",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 26,
+    "seconds": 4214,
+    "last_ts": "2026-08-19T22:04:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00017",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00959",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00123",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00991",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00327",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00432",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01047",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00552",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 26,
+    "seconds": 4440,
+    "last_ts": "2026-08-19T21:46:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00032",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00031",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00003",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00311",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00397",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00464",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00484",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00456",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 26,
+    "seconds": 3736,
+    "last_ts": "2026-08-17T13:19:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00174",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00970",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00239",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00997",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01005",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00433",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01110",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01039",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 26,
+    "seconds": 4916,
+    "last_ts": "2026-08-19T13:59:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00976",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00100",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00238",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00271",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00448",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00510",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00603",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00532",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 24,
+    "seconds": 4012,
+    "last_ts": "2026-08-19T22:44:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00956",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01013",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00426",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00444",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00600",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01053",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00679",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00788",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 22,
+    "seconds": 2924,
+    "last_ts": "2026-08-18T12:20:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00098",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00176",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00199",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00354",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00292",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00442",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00625",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00620",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 22,
+    "seconds": 5616,
+    "last_ts": "2026-08-19T21:56:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00025",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00128",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00278",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00390",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00391",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00367",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00375",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00475",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 22,
+    "seconds": 4504,
+    "last_ts": "2026-08-19T16:51:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00921",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00931",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00414",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00413",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00393",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00481",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00580",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00564",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0018",
+     "name": "Manish Bose",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 20,
+    "seconds": 2808,
+    "last_ts": "2026-08-19T21:42:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00082",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00166",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00990",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00338",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01014",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00483",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00650",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00769",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 18,
+    "seconds": 3282,
+    "last_ts": "2026-08-19T17:36:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00002",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00132",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00112",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00303",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00392",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00370",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00479",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00832",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 18,
+    "seconds": 4092,
+    "last_ts": "2026-08-19T21:27:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00095",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00012",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00266",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00352",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00527",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00457",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00697",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00884",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 18,
+    "seconds": 4038,
+    "last_ts": "2026-08-19T16:53:00",
+    "provenance": [
+     {
+      "rec_id": "CDR01113",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00050",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00224",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01115",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01117",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00888",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01119",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00850",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 16,
+    "seconds": 3502,
+    "last_ts": "2026-08-19T13:40:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00029",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00117",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00197",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00308",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00309",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00480",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00808",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00834",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 14,
+    "seconds": 2724,
+    "last_ts": "2026-08-19T07:20:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00005",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00120",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00378",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00455",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00631",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00714",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00799",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00005",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 14,
+    "seconds": 2724,
+    "last_ts": "2026-08-19T17:49:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00920",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00207",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00298",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00387",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00934",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00556",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00949",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00920",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 14,
+    "seconds": 42284,
+    "last_ts": "2026-08-18T16:54:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00182",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00894",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00895",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00893",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00896",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00544",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00704",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00182",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 14,
+    "seconds": 2790,
+    "last_ts": "2026-08-17T13:45:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00049",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00026",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00925",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00319",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00498",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00645",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00673",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00049",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 14,
+    "seconds": 2542,
+    "last_ts": "2026-08-18T14:09:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00928",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00441",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00936",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00611",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00938",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00698",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00946",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00928",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 14,
+    "seconds": 2928,
+    "last_ts": "2026-08-18T21:52:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00229",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00317",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00932",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00410",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00493",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00753",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00754",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00229",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 12,
+    "seconds": 2312,
+    "last_ts": "2026-08-19T16:17:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00204",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00385",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00461",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00553",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00640",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00822",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00204",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00385",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 12,
+    "seconds": 2424,
+    "last_ts": "2026-08-18T20:40:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00016",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00018",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00150",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00501",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00942",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00750",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00016",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00018",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 12,
+    "seconds": 2670,
+    "last_ts": "2026-08-19T10:14:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00035",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00040",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00403",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00487",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00651",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00819",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00035",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00040",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 10,
+    "seconds": 1904,
+    "last_ts": "2026-08-18T13:29:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00153",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00225",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00937",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00667",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00735",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00153",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00225",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00937",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "calls": 8,
+    "seconds": 2452,
+    "last_ts": "2026-08-18T13:27:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00177",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00203",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00443",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00787",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00177",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00203",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00443",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00787",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0020",
+     "name": "Unknown Handler",
+     "lat": 30.70705,
+     "lon": 76.77017,
+     "cell_key": "4770-75570"
+    },
+    "calls": 8,
+    "seconds": 1738,
+    "last_ts": "2026-08-19T21:00:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00006",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00206",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00711",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00811",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00006",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00206",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00711",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00811",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 8,
+    "seconds": 1054,
+    "last_ts": "2026-08-18T07:18:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00399",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00482",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00569",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00740",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00399",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00482",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00569",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00740",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 8,
+    "seconds": 1236,
+    "last_ts": "2026-08-18T15:30:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00401",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00655",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00738",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00725",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00401",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00655",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00738",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00725",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 6,
+    "seconds": 1818,
+    "last_ts": "2026-08-16T18:16:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00296",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00488",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00570",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00296",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00488",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00570",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 6,
+    "seconds": 1404,
+    "last_ts": "2026-08-19T20:33:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00471",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00561",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00821",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00471",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00561",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00821",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "calls": 6,
+    "seconds": 380,
+    "last_ts": "2026-08-16T13:50:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00389",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00468",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00551",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00389",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00468",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00551",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "calls": 6,
+    "seconds": 990,
+    "last_ts": "2026-08-18T18:15:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00125",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00400",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00733",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00125",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00400",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00733",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 6,
+    "seconds": 1330,
+    "last_ts": "2026-08-19T10:59:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00217",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00652",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00823",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00217",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00652",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00823",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "calls": 6,
+    "seconds": 906,
+    "last_ts": "2026-08-16T17:54:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00208",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00559",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00558",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00208",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00559",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00558",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 6,
+    "seconds": 1562,
+    "last_ts": "2026-08-11T17:25:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00097",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00175",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00133",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00097",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00175",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00133",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 6,
+    "seconds": 600,
+    "last_ts": "2026-08-14T08:08:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00033",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00134",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00396",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00033",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00134",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00396",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 6,
+    "seconds": 1424,
+    "last_ts": "2026-08-19T22:09:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00211",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00729",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00833",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00211",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00729",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00833",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 6,
+    "seconds": 1424,
+    "last_ts": "2026-08-17T10:18:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00028",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00563",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00646",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00028",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00563",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00646",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 6,
+    "seconds": 858,
+    "last_ts": "2026-08-13T22:15:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00096",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00101",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00351",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00096",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00101",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00351",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 6,
+    "seconds": 1120,
+    "last_ts": "2026-08-17T19:13:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00130",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00273",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00647",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00130",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00273",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00647",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 6,
+    "seconds": 1640,
+    "last_ts": "2026-08-19T17:04:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00215",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00533",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00792",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00215",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00533",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00792",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "calls": 4,
+    "seconds": 1132,
+    "last_ts": "2026-08-16T19:48:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00020",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00566",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00020",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00566",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "calls": 4,
+    "seconds": 664,
+    "last_ts": "2026-08-15T09:23:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00293",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00469",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00293",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00469",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "calls": 4,
+    "seconds": 1280,
+    "last_ts": "2026-08-16T08:26:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00355",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00612",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00355",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00612",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 4,
+    "seconds": 576,
+    "last_ts": "2026-08-18T21:51:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00294",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00720",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00294",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00720",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 4,
+    "seconds": 1160,
+    "last_ts": "2026-08-18T07:10:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00386",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00722",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00386",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00722",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "calls": 4,
+    "seconds": 680,
+    "last_ts": "2026-08-16T11:03:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00122",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00550",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00122",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00550",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 4,
+    "seconds": 448,
+    "last_ts": "2026-08-18T07:20:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00027",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00724",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00027",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00724",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 4,
+    "seconds": 636,
+    "last_ts": "2026-08-19T13:00:00",
+    "provenance": [
+     {
+      "rec_id": "CDR01109",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00825",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR01109",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00825",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "calls": 4,
+    "seconds": 730,
+    "last_ts": "2026-08-19T12:01:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00299",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00824",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00299",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00824",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 4,
+    "seconds": 1212,
+    "last_ts": "2026-08-16T22:41:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00359",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00579",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00359",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00579",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "calls": 4,
+    "seconds": 652,
+    "last_ts": "2026-08-17T08:38:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00127",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00643",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00127",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00643",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 4,
+    "seconds": 924,
+    "last_ts": "2026-08-19T13:45:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00213",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00835",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00213",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00835",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "calls": 4,
+    "seconds": 772,
+    "last_ts": "2026-08-18T19:07:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00272",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00705",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00272",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00705",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "calls": 4,
+    "seconds": 902,
+    "last_ts": "2026-08-18T16:38:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00486",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00789",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00486",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00789",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 4,
+    "seconds": 866,
+    "last_ts": "2026-08-16T13:34:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00126",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00562",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00126",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00562",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 4,
+    "seconds": 1352,
+    "last_ts": "2026-08-18T12:12:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00476",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00727",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00476",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00727",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 4,
+    "seconds": 532,
+    "last_ts": "2026-08-18T11:22:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00526",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00786",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00526",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00786",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 4,
+    "seconds": 466,
+    "last_ts": "2026-08-19T12:00:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00353",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00881",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00353",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00881",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 2,
+    "seconds": 678,
+    "last_ts": "2026-08-16T14:29:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00554",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00554",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 2,
+    "seconds": 754,
+    "last_ts": "2026-08-13T17:32:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00306",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00306",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 2,
+    "seconds": 752,
+    "last_ts": "2026-08-14T20:10:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00395",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00395",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "calls": 2,
+    "seconds": 48,
+    "last_ts": "2026-08-18T17:07:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00734",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00734",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 2,
+    "seconds": 526,
+    "last_ts": "2026-08-19T11:10:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00882",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00882",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "calls": 2,
+    "seconds": 700,
+    "last_ts": "2026-08-17T19:30:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00615",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00615",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 2,
+    "seconds": 444,
+    "last_ts": "2026-08-13T13:31:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00310",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00310",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 2,
+    "seconds": 216,
+    "last_ts": "2026-08-14T08:37:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00394",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00394",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "calls": 2,
+    "seconds": 778,
+    "last_ts": "2026-08-17T18:56:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00649",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00649",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "calls": 2,
+    "seconds": 510,
+    "last_ts": "2026-08-13T08:12:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00270",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00270",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 2,
+    "seconds": 304,
+    "last_ts": "2026-08-15T14:31:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00528",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00528",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "calls": 2,
+    "seconds": 324,
+    "last_ts": "2026-08-19T12:40:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00886",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00886",
+      "source": "cdr"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "calls": 2,
+    "seconds": 632,
+    "last_ts": "2026-08-14T11:47:00",
+    "provenance": [
+     {
+      "rec_id": "CDR00388",
+      "source": "cdr"
+     },
+     {
+      "rec_id": "CDR00388",
+      "source": "cdr"
+     }
+    ]
+   }
+  ],
+  "money_arcs": [
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "amount": 480000,
+    "ts": "2026-08-14T10:07:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00086",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0001",
+     "name": "Ramesh Gupta",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "amount": 480000,
+    "ts": "2026-08-14T10:07:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00087",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:09:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00088",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:09:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00089",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:10:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00091",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:10:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00092",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:13:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00094",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0009",
+     "name": "Neha Chopra",
+     "lat": 30.7114,
+     "lon": 76.80256,
+     "cell_key": "7421-26901"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:13:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00095",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:15:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00097",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:15:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00098",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0013",
+     "name": "Sanjay Joshi",
+     "lat": 30.73119,
+     "lon": 76.74387,
+     "cell_key": "8601-83889"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "amount": 72960,
+    "ts": "2026-08-14T10:17:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00099",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:18:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00100",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:18:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00101",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "amount": 72960,
+    "ts": "2026-08-14T10:20:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00102",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:21:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00103",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0008",
+     "name": "Ritu Iyer",
+     "lat": 30.64979,
+     "lon": 76.74317,
+     "cell_key": "1815-98338"
+    },
+    "to": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "amount": 76800,
+    "ts": "2026-08-14T10:21:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00104",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 72960,
+    "ts": "2026-08-14T10:28:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00105",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 60000,
+    "ts": "2026-08-10T18:08:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00122",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 52000,
+    "ts": "2026-08-11T21:54:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00139",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 45000,
+    "ts": "2026-08-12T18:50:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00158",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 52000,
+    "ts": "2026-08-13T20:21:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00180",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 60000,
+    "ts": "2026-08-14T22:59:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00194",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 52000,
+    "ts": "2026-08-15T19:44:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00213",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 45000,
+    "ts": "2026-08-16T22:43:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00233",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 52000,
+    "ts": "2026-08-17T18:46:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00248",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 52000,
+    "ts": "2026-08-18T18:37:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00263",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0010",
+     "name": "Sharma Traders",
+     "lat": 30.75612,
+     "lon": 76.77382,
+     "cell_key": "6731-50662"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 45000,
+    "ts": "2026-08-19T20:28:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00277",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 60021.91,
+    "ts": "2026-08-12T16:58:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00282",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 60021.91,
+    "ts": "2026-08-12T16:57:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00283",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 69952.49,
+    "ts": "2026-08-12T16:56:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00284",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 69952.49,
+    "ts": "2026-08-12T16:56:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00285",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 50904.47,
+    "ts": "2026-08-12T17:03:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00288",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 50904.47,
+    "ts": "2026-08-12T17:03:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00289",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 50904.47,
+    "ts": "2026-08-12T17:03:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00294",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 50904.47,
+    "ts": "2026-08-12T17:03:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00295",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 74798.36,
+    "ts": "2026-08-16T14:00:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00300",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0012",
+     "name": "Meera Joshi",
+     "lat": 30.71577,
+     "lon": 76.78556,
+     "cell_key": "8682-67961"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 74798.36,
+    "ts": "2026-08-16T14:03:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00301",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:04:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00302",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:04:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00303",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:08:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00304",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:08:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00305",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:11:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00306",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:11:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00307",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:13:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00308",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 54344.6,
+    "ts": "2026-08-16T14:13:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00309",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 68771.66,
+    "ts": "2026-08-18T11:23:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00310",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0002",
+     "name": "Meera Singh",
+     "lat": 30.69151,
+     "lon": 76.73853,
+     "cell_key": "6129-85465"
+    },
+    "to": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "amount": 68771.66,
+    "ts": "2026-08-18T11:22:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00311",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 48154.6,
+    "ts": "2026-08-18T11:27:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00320",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0004",
+     "name": "Deepa Chopra",
+     "lat": 30.66646,
+     "lon": 76.80813,
+     "cell_key": "6053-15952"
+    },
+    "amount": 48154.6,
+    "ts": "2026-08-18T11:27:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00321",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 48154.6,
+    "ts": "2026-08-18T11:23:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00322",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0014",
+     "name": "Rohit Singh",
+     "lat": 30.75416,
+     "lon": 76.76535,
+     "cell_key": "2234-33218"
+    },
+    "to": {
+     "entity_id": "P0006",
+     "name": "Meera Kulkarni",
+     "lat": 30.71752,
+     "lon": 76.74081,
+     "cell_key": "9624-22249"
+    },
+    "amount": 48154.6,
+    "ts": "2026-08-18T11:23:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00323",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 6808.33,
+    "ts": "2026-08-10T22:21:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00340",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 6808.33,
+    "ts": "2026-08-10T22:21:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00341",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 7853.33,
+    "ts": "2026-08-13T22:57:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00362",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 7853.33,
+    "ts": "2026-08-13T22:57:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00363",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 10735,
+    "ts": "2026-08-16T22:11:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00383",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 10735,
+    "ts": "2026-08-16T22:11:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00384",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 8043.33,
+    "ts": "2026-08-19T20:54:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00404",
+      "source": "bank"
+     }
+    ]
+   },
+   {
+    "from": {
+     "entity_id": "P0003",
+     "name": "Seva Relief Trust",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "to": {
+     "entity_id": "P0016",
+     "name": "Amit Iyer",
+     "lat": 30.65234,
+     "lon": 76.72072,
+     "cell_key": "3419-40968"
+    },
+    "amount": 8043.33,
+    "ts": "2026-08-19T20:54:00",
+    "provenance": [
+     {
+      "rec_id": "TXN00405",
+      "source": "bank"
+     }
+    ]
+   }
+  ],
+  "contradictions": [],
+  "engine": "local"
+ }
+}

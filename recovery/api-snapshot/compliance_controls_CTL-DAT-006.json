@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-006",
+  "domain": "Data Management and Protection",
+  "name": "Data labeled according to classification level",
+  "description": "Data carries a classification that drives its handling.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Every record is classified by source type at ingest and carries that label for its whole life.",
+  "observations": [
+   "classes present: alpr, bank, cdr, ipdr, social",
+   "The label drives handling: source type selects the parser, the graph projection, and which analyses may read the row."
+  ]
+ }
+}

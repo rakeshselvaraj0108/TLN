@@ -1,0 +1,190 @@
+{
+ "url": "/intel/queue?band=high",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "count": 4,
+  "items": [
+   {
+    "entity_id": "P0006",
+    "risk_score": 0.8673,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882904+00:00",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.7252,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.6668,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4364,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3655,
+      "direction": "lowers"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 1,
+      "shap": -0.3099,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 7,
+      "shap": 0.2823,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0008",
+    "risk_score": 0.8604,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882905+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5029,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 480000,
+      "shap": 1.1435,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 6,
+      "shap": 0.7119,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.6221,
+      "direction": "raises"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 6,
+      "shap": 0.4638,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 16,
+      "shap": -0.3819,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0004",
+    "risk_score": 0.8425,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882903+00:00",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.3563,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 1.1212,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.8586,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4628,
+      "direction": "raises"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 6,
+      "shap": 0.4318,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "shap": 0.2974,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0020",
+    "risk_score": 0.796,
+    "band": "high",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882912+00:00",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 7,
+      "shap": 1.2712,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.8153,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_imei_sim_count",
+      "value": 7,
+      "shap": 0.6136,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.4411,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.4338,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.3908,
+      "direction": "lowers"
+     }
+    ]
+   }
+  ]
+ }
+}

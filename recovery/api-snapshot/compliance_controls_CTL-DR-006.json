@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-006",
+  "domain": "Disaster Recovery",
+  "name": "Disaster recovery plans tested",
+  "description": "DR plans are exercised periodically.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: DR exercises are run by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

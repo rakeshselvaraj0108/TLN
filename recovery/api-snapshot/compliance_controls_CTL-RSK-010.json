@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-010",
+  "domain": "Risk Management",
+  "name": "Vendor management policy established",
+  "description": "Third-party risk is governed by policy.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the vendor management policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

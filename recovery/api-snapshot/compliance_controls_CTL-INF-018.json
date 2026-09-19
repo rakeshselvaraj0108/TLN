@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-INF-018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-018",
+  "domain": "Infrastructure Security",
+  "name": "Unique production database authentication enforced",
+  "description": "Production databases use unique, non-default credentials.",
+  "owner": "platform",
+  "status": "gap",
+  "detail": "The database is using the shipped development password.",
+  "observations": [
+   "Reported as a gap rather than hidden: this is exactly the finding a compliance report exists to surface.",
+   "Override POSTGRES_PASSWORD and NEO4J_PASSWORD before any real deployment."
+  ]
+ }
+}

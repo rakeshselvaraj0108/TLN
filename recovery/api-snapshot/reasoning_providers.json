@@ -1,0 +1,41 @@
+{
+ "url": "/reasoning/providers",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "active": "stub",
+  "providers": [
+   {
+    "name": "stub",
+    "model": "deterministic-templates",
+    "priority": 200,
+    "ready": true,
+    "error": null,
+    "capabilities": {
+     "streaming": false,
+     "tool_calling": false,
+     "structured_output": true,
+     "deterministic": true,
+     "local_only": true,
+     "max_context_tokens": 8192
+    }
+   },
+   {
+    "name": "ollama",
+    "model": "llama3.1:8b",
+    "priority": 500,
+    "ready": false,
+    "error": null,
+    "capabilities": {
+     "streaming": true,
+     "tool_calling": false,
+     "structured_output": false,
+     "deterministic": false,
+     "local_only": true,
+     "max_context_tokens": 8192
+    }
+   }
+  ],
+  "all_local": true
+ }
+}

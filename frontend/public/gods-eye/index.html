@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>God's Eye View</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cesium@1.111.0/Build/Cesium/Widgets/widgets.css" />
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  html, body, #cesiumContainer {
+    margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;
+    background: #05070a; font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  #cesiumContainer .cesium-widget-credits { display: none !important; }
+  .panel {
+    position: absolute; z-index: 20; background: rgba(9, 13, 19, 0.86);
+    border: 1px solid rgba(255,255,255,0.10); border-radius: 10px; color: #dbe2ec;
+    backdrop-filter: blur(8px); box-shadow: 0 8px 28px rgba(0,0,0,0.45);
+  }
+  #layers { top: 10px; left: 10px; width: 236px; padding: 10px 12px 8px; font-size: 12px; }
+  #layers h1 { font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: #93a2b8; margin: 0 0 8px; font-weight: 600; }
+  .row { display: flex; align-items: center; gap: 8px; padding: 4px 0; }
+  .row label { display: flex; align-items: center; gap: 7px; cursor: pointer; flex: 1; min-width: 0; user-select: none; }
+  .row input[type="checkbox"] { accent-color: #38bdf8; width: 13px; height: 13px; cursor: pointer; flex-shrink: 0; }
+  .swatch { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .name { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .count { font-variant-numeric: tabular-nums; color: #93a2b8; font-size: 11px; }
+  .note { font-size: 10.25px; line-height: 1.4; color: #7c8aa0; padding: 2px 0 6px 22px; }
+  .note.warn { color: #f0a860; }
+  hr.sep { border: none; border-top: 1px solid rgba(255,255,255,0.08); margin: 8px 0; }
+  #search { top: 10px; right: 10px; padding: 8px 10px; font-size: 12px; display: flex; gap: 6px; align-items: center; }
+  #search input { background: #0c1219; border: 1px solid rgba(255,255,255,0.14); border-radius: 6px; color: #dbe2ec;
+    font-size: 12px; padding: 5px 8px; width: 150px; outline: none; }
+  #search input:focus { border-color: #38bdf8; }
+  #search button { background: rgba(56,189,248,0.14); border: 1px solid rgba(56,189,248,0.35); color: #7dd3fc;
+    border-radius: 6px; font-size: 11px; padding: 5px 9px; cursor: pointer; }
+  #search button:hover { background: rgba(56,189,248,0.24); }
+  #credits { bottom: 10px; left: 10px; padding: 8px 10px; font-size: 10.25px; line-height: 1.6; color: #8493a8; max-width: 420px; }
+  #credits b { color: #b9c4d4; font-weight: 600; }
+  #credits a { color: #7dd3fc; text-decoration: none; }
+  #credits a:hover { text-decoration: underline; }
+  #credits summary { cursor: pointer; color: #93a2b8; font-size: 10.75px; letter-spacing: .04em; text-transform: uppercase; outline: none; }
+  #clock { bottom: 10px; right: 10px; padding: 7px 11px; font-size: 11px; color: #93a2b8; font-variant-numeric: tabular-nums; }
+  #status { position: absolute; inset: 0; z-index: 30; display: flex; align-items: center; justify-content: center;
+    background: #05070a; color: #93a2b8; font-size: 12.5px; flex-direction: column; gap: 8px; }
+  #status.hidden { display: none; }
+  #status .err { color: #f0a860; max-width: 420px; text-align: center; padding: 0 20px; line-height: 1.5; }
+</style>
+</head>
+<body>
+<div id="cesiumContainer"></div>
+
+<div id="status"><span>Loading terrain and the live feeds…</span></div>
+
+<div id="layers" class="panel">
+  <h1>Live layers</h1>
+  <div class="row">
+    <label><input type="checkbox" id="toggle-aircraft" checked />
+      <span class="swatch" style="background:#38bdf8"></span><span class="name">Aircraft</span></label>
+    <span class="count" id="count-aircraft">–</span>
+  </div>
+  <div class="note" id="note-aircraft">OpenSky Network, live, no key required.</div>
+  <div class="row">
+    <label><input type="checkbox" id="toggle-satellites" checked />
+      <span class="swatch" style="background:#f59e0b"></span><span class="name">Satellites</span></label>
+    <span class="count" id="count-satellites">–</span>
+  </div>
+  <div class="note" id="note-satellites">CelesTrak elements, propagated locally (SGP4).</div>
+  <div class="row">
+    <label><input type="checkbox" id="toggle-vessels" checked />
+      <span class="swatch" style="background:#34d399"></span><span class="name">Vessels</span></label>
+    <span class="count" id="count-vessels">–</span>
+  </div>
+  <div class="note warn" id="note-vessels">Needs an AIS feed key this deployment does not hold — stays empty.</div>
+  <div class="row">
+    <label><input type="checkbox" id="toggle-cameras" checked />
+      <span class="swatch" style="background:#f472b6"></span><span class="name">Public cameras</span></label>
+    <span class="count" id="count-cameras">–</span>
+  </div>
+  <div class="note warn" id="note-cameras">Needs a feed key this deployment does not hold — stays empty.</div>
+  <hr class="sep" />
+  <div class="row">
+    <label style="cursor:default"><span class="swatch" style="background:#a78bfa"></span><span class="name">Terrain</span></label>
+    <span class="count">Esri World Imagery</span>
+  </div>
+</div>
+
+<div id="search" class="panel">
+  <input id="search-input" type="text" placeholder="lat, lon or place" />
+  <button id="search-go">Go</button>
+</div>
+
+<div id="credits" class="panel">
+  <details>
+    <summary>Open-source stack &amp; data sources</summary>
+    <div style="margin-top:6px">
+      Globe engine: <b><a href="https://cesium.com/platform/cesiumjs/" target="_blank" rel="noreferrer">CesiumJS</a></b> (Apache-2.0).
+      Orbit propagation: <b><a href="https://github.com/shashwatak/satellite-js" target="_blank" rel="noreferrer">satellite.js</a></b> (MIT), SGP4/SDP4.
+      Imagery: <b>Esri World Imagery</b> (keyless tile service — Esri, Maxar, Earthstar Geographics and the GIS community).
+      Aircraft: <b><a href="https://opensky-network.org/" target="_blank" rel="noreferrer">OpenSky Network</a></b> (CC BY-NC 4.0, live ADS-B —
+      relayed through this deployment's own <code>/api/gods-eye/aircraft</code> so the browser isn't blocked by OpenSky's own CORS policy;
+      the data itself is untouched).
+      Orbital elements: <b><a href="https://celestrak.org/" target="_blank" rel="noreferrer">CelesTrak</a></b> (public two-line elements, fetched directly).<br />
+      No layer here uses a paid or proprietary feed. Where a real one is needed and this deployment holds no key
+      for it (vessel AIS, public camera feeds), that layer is left empty rather than filled with invented data.
+    </div>
+  </details>
+</div>
+
+<div id="clock" class="panel"></div>
+
+<script>window.CESIUM_BASE_URL = "https://cdn.jsdelivr.net/npm/cesium@1.111.0/Build/Cesium/";</script>
+<script src="https://cdn.jsdelivr.net/npm/cesium@1.111.0/Build/Cesium/Cesium.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/satellite.js@5.0.0/dist/satellite.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

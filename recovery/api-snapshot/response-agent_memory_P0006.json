@@ -1,0 +1,23 @@
+{
+ "url": "/response-agent/memory/P0006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0006",
+  "investigations": [
+   {
+    "id": 1,
+    "risk_score": 86.72999999999999,
+    "tier": "critical",
+    "hypothesis": "legitimate",
+    "campaign_id": null,
+    "created_at": "2026-09-08T13:37:57.278916+00:00"
+   }
+  ],
+  "risk_series": [
+   86.72999999999999
+  ],
+  "decisions": [],
+  "suppressed_actions": []
+ }
+}

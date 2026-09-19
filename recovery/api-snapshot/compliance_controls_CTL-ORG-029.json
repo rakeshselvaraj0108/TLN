@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ORG-029",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-029",
+  "domain": "Organizational Security",
+  "name": "Reference checks performed for employees",
+  "description": "Candidate backgrounds are verified.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: pre-employment screening.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

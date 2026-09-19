@@ -1,0 +1,232 @@
+{
+ "url": "/hunt/report/P0004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0004",
+  "title": "Investigation report — P0004",
+  "generated_at": "2026-09-17T04:39:59+00:00",
+  "generated_by": "investigator",
+  "summary": "5 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0002. ₹77,808 at risk, ₹97 assessed as still recoverable. 0 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Associated with operation OP-P0002",
+    "detail": "Money-mule network: 12 entities joined by 16 funds, 3 synchronised, 15 ip link(s). Cohesion 50%, confidence 56%, exposure ₹4,592,894. Linked to 11 other entities: P0001, P0002, P0006, P0008, P0009, P0012, P0013, P0014, P0017, P0018, P0020",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00096",
+     "TXN00093",
+     "TXN00090",
+     "TXN00093",
+     "TXN00091",
+     "TXN00092",
+     "TXN00288",
+     "TXN00289",
+     "TXN00302"
+    ],
+    "sources": [
+     "funds",
+     "synchronised"
+    ],
+    "entities": [
+     "P0001",
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0009 by synchronised",
+    "detail": "both acted within 4 min (ATM cash-out at 10:15, ATM cash-out at 10:19)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00096",
+     "TXN00093"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0004",
+     "P0009"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0006 by synchronised",
+    "detail": "both acted within 7 min (ATM cash-out at 10:12, ATM cash-out at 10:19)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00093"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0004",
+     "P0006"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0008 by funds",
+    "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00091",
+     "TXN00092"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0004",
+     "P0008"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0014 by funds",
+    "detail": "8 transfer(s) totalling 415,497 concentrated in 3 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00288",
+     "TXN00289",
+     "TXN00302",
+     "TXN00303",
+     "TXN00308"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0004",
+     "P0014"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-11T20:31:00",
+    "kind": "txn",
+    "detail": "UPI debit 1,200 — Grocery"
+   },
+   {
+    "ts": "2026-08-13T14:18:00",
+    "kind": "txn",
+    "detail": "IMPS debit 150 — Grocery"
+   },
+   {
+    "ts": "2026-08-14T10:19:00",
+    "kind": "txn",
+    "detail": "ATM debit 72,960 — ATM WDL 157.170"
+   },
+   {
+    "ts": "2026-08-15T16:44:00",
+    "kind": "txn",
+    "detail": "IMPS debit 2,500 — DTH"
+   },
+   {
+    "ts": "2026-08-17T09:48:00",
+    "kind": "txn",
+    "detail": "UPI debit 499 — DTH"
+   },
+   {
+    "ts": "2026-08-19T13:01:00",
+    "kind": "txn",
+    "detail": "IMPS debit 499 — DTH"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0004",
+    "risk_score": 0.8425,
+    "band": "high",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 77808,
+   "recoverable_inr": 96.96,
+   "already_lost_inr": 77711.04,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00021",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 872.1,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00022",
+     "amount": 150,
+     "band": "cold",
+     "hours_elapsed": 830.4,
+     "recoverable": 3,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00093",
+     "amount": 72960,
+     "band": "cashed_out",
+     "recoverable": 0,
+     "reason": "withdrawn as cash — not recoverable by account action"
+    },
+    {
+     "rec_id": "TXN00023",
+     "amount": 2500,
+     "band": "cold",
+     "hours_elapsed": 779.9,
+     "recoverable": 50,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00024",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 738.9,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00025",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 687.6,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned.",
+   "No exculpatory material was identified. That is not the same as none existing — it means none was surfaced by the checks that ran."
+  ]
+ }
+}

@@ -1,0 +1,8 @@
+{
+ "url": "/evidence/package?entity_id=P0002",
+ "status": 403,
+ "contentType": "application/json",
+ "body": {
+  "detail": "exporting an evidence package requires the supervisor role"
+ }
+}

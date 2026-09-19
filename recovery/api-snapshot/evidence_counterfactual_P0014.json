@@ -1,0 +1,47 @@
+{
+ "url": "/evidence/counterfactual/P0014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0014",
+  "risk_score": 0.0427,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "combined",
+    "feature": "",
+    "observed_value": 0,
+    "observed": "No single factor accounts for this score on its own — 2 signals reinforce each other",
+    "boundary": "Taken together: if the debit had followed the call by more than 21 minutes, and counterparty stability were above 0.83, this entity would not have been flagged.",
+    "flip_value": 0,
+    "flip_reachable": true,
+    "weight_hint": 999,
+    "method": "model_probe_joint"
+   },
+   {
+    "driver": "call_debit_speed_score",
+    "feature": "call_debit_speed_score",
+    "observed_value": 0.9326,
+    "observed": "Rs 50,904 was debited 21 minutes after an inbound call from +919044997278 (\"split 1\")",
+    "boundary": "Widening the gap between the call and the debit alone would not have cleared this entity — other signals keep it flagged.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   },
+   {
+    "driver": "counterparty_stability",
+    "feature": "counterparty_stability",
+    "observed_value": 0.8333,
+    "observed": "Funds moved to largely fresh counterparties (stability 0.83)",
+    "boundary": "Steadier counterparties alone would not have cleared this entity.",
+    "flip_value": null,
+    "flip_reachable": false,
+    "weight_hint": 0,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

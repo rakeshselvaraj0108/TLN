@@ -1,0 +1,38 @@
+{
+ "url": "/pattern/contradictions",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "count": 1,
+  "items": [
+   {
+    "plate": "CH01BM8823",
+    "implied_kmh": 291.7,
+    "separation_km": 7.29,
+    "gap_seconds": 90,
+    "from": {
+     "record_id": "ALP00089",
+     "camera_id": "CAM01",
+     "ts": "2026-08-16T14:20:00+00:00",
+     "confidence": 0.91
+    },
+    "to": {
+     "record_id": "ALP00090",
+     "camera_id": "CAM08",
+     "ts": "2026-08-16T14:21:30+00:00",
+     "confidence": 0.88
+    },
+    "detail": "CH01BM8823 read 7.3 km apart in 90s (292 km/h implied). One read is wrong, or the plate is cloned — the track through here is unsafe."
+   }
+  ],
+  "engine": "local",
+  "threshold_kmh": 200,
+  "reads_examined": 140,
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  }
+ }
+}

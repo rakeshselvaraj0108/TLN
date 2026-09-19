@@ -1,0 +1,122 @@
+{
+ "url": "/intel/entity/P0004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0004",
+  "risk_score": 0.8425,
+  "band": "high",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 0.8131,
+   "n_call_debit_links": 1,
+   "max_passthrough_ratio": 0.95,
+   "max_fanout_hop_count": 1,
+   "total_fanout_inbound_inr": 76800,
+   "inbound_txn_count": 5,
+   "outbound_txn_count": 6,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 6,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.3563,
+    "direction": "lowers"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 6,
+    "shap": 1.1212,
+    "direction": "raises"
+   },
+   {
+    "feature": "inbound_txn_count",
+    "value": 5,
+    "shap": 0.8586,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 1,
+    "shap": 0.4628,
+    "direction": "raises"
+   },
+   {
+    "feature": "txn_velocity",
+    "value": 6,
+    "shap": 0.4318,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0.95,
+    "shap": 0.2974,
+    "direction": "raises"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "ICIC41458685014",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "322602563421605"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917053315869"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0004",
+    "call_rec_id": "CDR00322",
+    "call_end": "2026-08-13T13:36:14",
+    "caller": "+917859770348",
+    "debit_rec_id": "TXN00022",
+    "debit_time": "2026-08-13T14:18:00",
+    "amount": 150,
+    "latency_s": 2506,
+    "src_account": "ICIC41458685014",
+    "dst_account": null,
+    "narration": "Grocery"
+   }
+  ],
+  "fanout_links": [
+   {
+    "person": "P0004",
+    "inbound_rec_id": "TXN00092",
+    "inbound_time": "2026-08-14T10:10:00",
+    "inbound_amount": 76800,
+    "inbound_account": "ICIC41458685014",
+    "outbound_rec_ids": [
+     "TXN00093"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   }
+  ],
+  "engine": "local"
+ }
+}

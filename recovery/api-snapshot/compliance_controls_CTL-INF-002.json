@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-INF-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-002",
+  "domain": "Infrastructure Security",
+  "name": "Administrator access restricted",
+  "description": "Elevated permissions are granted narrowly and revoked promptly.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Elevated actions are enumerated and enforced at the API boundary.",
+  "observations": [
+   "Restricted: case.action_withdrawn, case.close, case.freeze_request, case.sar_draft, evidence.package.export",
+   "Each one has an external consequence — closing a case, exporting evidence, asking a bank to freeze funds, filing a regulatory report. Read and analysis are unrestricted, because an investigator who cannot look at the data cannot investigate."
+  ]
+ }
+}

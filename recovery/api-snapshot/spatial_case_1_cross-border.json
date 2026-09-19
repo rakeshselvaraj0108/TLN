@@ -1,0 +1,570 @@
+{
+ "url": "/spatial/case/1/cross-border",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_id": 1,
+  "case_code": "TRX-2026-0001",
+  "foreign_msisdn": [],
+  "foreign_ip": [
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-10T10:22:00",
+    "rec_id": "IPDR00040",
+    "row_sha256": "57c5a3138fe67ed340cc221c00d74e10d0554d22e91daca5ed49a5987d71d7b7",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-10T14:19:00",
+    "rec_id": "IPDR00041",
+    "row_sha256": "b7270108ed44391d5b62c9edd4c90963782ce7c2db9e070f9d08f7e6fdb9fc29",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-10T20:11:00",
+    "rec_id": "IPDR00042",
+    "row_sha256": "b3196e13f1f8b33c228f8e643f451a1d5b9007ffefd93797a1665140eb32d173",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-11T11:26:00",
+    "rec_id": "IPDR00086",
+    "row_sha256": "79b299e338a3d9915bc0dc41298333a65c626034f367ed636eb8151bd9ab4acb",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-11T15:49:00",
+    "rec_id": "IPDR00084",
+    "row_sha256": "4aca442bbb632f63a91f01f55aaa114ffcd8eb654f053a7183df43b30b5633c9",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-11T19:07:00",
+    "rec_id": "IPDR00085",
+    "row_sha256": "420545943d020efc49d3f19586a502be070a067493f13b008bec4e6d366a5203",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-12T07:31:00",
+    "rec_id": "IPDR00130",
+    "row_sha256": "831ae0e1dc48eeddc145aaa0893244feadff366d9b9cfe9482fbb26fca54f96b",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-13T07:18:00",
+    "rec_id": "IPDR00166",
+    "row_sha256": "b33637942598dee1c36fa455a6ad3f0860e7097ca6dad6fabc7caf9a9ea6c779",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-13T07:30:00",
+    "rec_id": "IPDR00164",
+    "row_sha256": "1ef1c9e9d76a2dc592564965310b967504681ccf3440e338ef3db9f6929eca81",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-13T16:46:00",
+    "rec_id": "IPDR00165",
+    "row_sha256": "3a0ac36c2e9d8a52b40993c37068eda59e7f166d4f722791f1b279b656b7f82d",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-14T15:39:00",
+    "rec_id": "IPDR00206",
+    "row_sha256": "aa78cc509cc1fe9ba05224d2a87b8143312a8f00653bf9ca2288a5830d5234cb",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-14T21:17:00",
+    "rec_id": "IPDR00207",
+    "row_sha256": "b96a705ea4b217ba88d812c4788242367b9335f205460b6180223b46a20750fb",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-14T23:30:00",
+    "rec_id": "IPDR00205",
+    "row_sha256": "82f85c6197ae0b6d3eb3a090add7b0c25c056deba787ea2923f04505df168606",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-15T07:57:00",
+    "rec_id": "IPDR00243",
+    "row_sha256": "328651c68408c7d54f65d44d787e59ab0cc6435cc1acb2f6884e9c512205cb7c",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-15T09:34:00",
+    "rec_id": "IPDR00244",
+    "row_sha256": "4c1f85aaf01a859e286b3a6befd2edd524c30a0abedc19df669103b0ad969449",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-15T21:17:00",
+    "rec_id": "IPDR00242",
+    "row_sha256": "842f6417976fddbdfa5774c67d0084b157b145c25d1c06bdf1ad289d1b9347a8",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-16T11:40:00",
+    "rec_id": "IPDR00290",
+    "row_sha256": "c74a07ac33fd868971221dfdf119c91df79d73ee8bb516356e0cb61c781a313a",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-16T12:59:00",
+    "rec_id": "IPDR00289",
+    "row_sha256": "6ce8197a849e40372495f237658be96222c1762874afa695850bf391190912ce",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-16T19:49:00",
+    "rec_id": "IPDR00291",
+    "row_sha256": "d9ebefd8dd04c424c96ceb10dba68d7876c372f06b480add2297e27a4b9bea70",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-17T07:28:00",
+    "rec_id": "IPDR00326",
+    "row_sha256": "12b8c8979d109b4b3d2c56e05195a328f16585d11790095c2b29be4dc000da3e",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-17T12:38:00",
+    "rec_id": "IPDR00327",
+    "row_sha256": "bec929956d47e3c94ba0d5f13fa0677d9e73dd47d8f39cd6b8724287ac2e4867",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-17T17:00:00",
+    "rec_id": "IPDR00325",
+    "row_sha256": "32a40ba9e0dbcee3ec3eff30f6953c02af7c26f66c900ffe257efd6825c42a66",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-18T08:39:00",
+    "rec_id": "IPDR00367",
+    "row_sha256": "f550f4f1201687b1f945b69d50363c320f0a22af0191dd8ac7fe5a3b6f3b7607",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-18T08:51:00",
+    "rec_id": "IPDR00365",
+    "row_sha256": "4d59bd2147d35820545a2a47561f6c5123c1e129699c71e3b972bf7ce8fa061e",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-18T21:47:00",
+    "rec_id": "IPDR00366",
+    "row_sha256": "aaa18908f69ae4e88bd4affb3373f5d8d4b3931c8e84fce13af21924341961ac",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "ip": "49.168.62.106",
+    "ts": "2026-08-19T12:49:00",
+    "rec_id": "IPDR00410",
+    "row_sha256": "9607466d842f5fe5c81edd5585b33bf359ea76e31de24a395cfe58272c2a3a21",
+    "detail": "49.168.62.106 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-10T09:10:00",
+    "rec_id": "IPDR00026",
+    "row_sha256": "466fecca3385ac8466b4201e358a050b4ea1ce92b41f2494e740aa32d2a277e9",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-10T09:46:00",
+    "rec_id": "IPDR00025",
+    "row_sha256": "6796f028afc34ea4cb3cd351f22bf5173b4ad88f052f1da218a01f3a9c401634",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-10T23:26:00",
+    "rec_id": "IPDR00024",
+    "row_sha256": "835cc94b5a1bc520cf5d31308c7ac965a3ae533a2e1e8e9e780b23d1f6d40110",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-11T09:18:00",
+    "rec_id": "IPDR00068",
+    "row_sha256": "672d0028f3209391c59d0204a8c3cc492e4034de2d4d657756c31d1e8087cff5",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-11T15:41:00",
+    "rec_id": "IPDR00069",
+    "row_sha256": "b8829f73c648d95dfca80cd3e9557f61a0692dc5a734e978abdc8322116a3cca",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-11T16:45:00",
+    "rec_id": "IPDR00070",
+    "row_sha256": "0dd5bdab3815180d6636f54eb6f9543acb747d3526cecd05e9c9e7802e980415",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-12T07:43:00",
+    "rec_id": "IPDR00111",
+    "row_sha256": "2e95e21eb17c4939a2adc73a13a41034aff06b7b708018812f5ecb105719b2d3",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-13T10:20:00",
+    "rec_id": "IPDR00151",
+    "row_sha256": "0f64ec751e33ef2c107c924a56d49c29906daa4a96f327737312817df94856de",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-13T10:22:00",
+    "rec_id": "IPDR00150",
+    "row_sha256": "63ca193df5beb6bf4b9d2b729d7927d0ba9a3391120f6bc9924f888a7d530486",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-13T15:58:00",
+    "rec_id": "IPDR00149",
+    "row_sha256": "2dc41f803f498d0890d2f90d2b7bfcf6d5413da85be88d24609f83db3856807a",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-14T13:54:00",
+    "rec_id": "IPDR00189",
+    "row_sha256": "f89eef5daf3119a2f41d9b076ba8fd407bc9e1e66bb2b41e937e5c3427e68796",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-14T23:42:00",
+    "rec_id": "IPDR00190",
+    "row_sha256": "cf27ab6c3590aae61f52a9cd36acd6185752d91364e28427fc675672b6166679",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-15T23:09:00",
+    "rec_id": "IPDR00226",
+    "row_sha256": "c93959534768b4acbb84ce60177f70681479e237d0ac7b7cc16e9fafd7335f91",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-16T11:01:00",
+    "rec_id": "IPDR00273",
+    "row_sha256": "e7a2021dd9d205d2c6c49cefdd4ab73fa8adf577b715e60860d84678507db2cc",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-16T14:23:00",
+    "rec_id": "IPDR00272",
+    "row_sha256": "197732254d489603fdda88ef6cff59678545a3e1290d44ed755fc133568c630c",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-16T15:59:00",
+    "rec_id": "IPDR00271",
+    "row_sha256": "afa94d75c3778fb8bb0919a826598f06505e38f8c125571f8a7aff46b7d4cf91",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-17T09:56:00",
+    "rec_id": "IPDR00311",
+    "row_sha256": "76bc7d1dfee660a745da4f8e37a05189ececaaab5f024687116a802274b51ed2",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-17T11:21:00",
+    "rec_id": "IPDR00312",
+    "row_sha256": "5ee0dfd74809d4d1f8c5bac862567f15a75f78b6b655dfec08f7ef2b8f172e78",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-17T23:06:00",
+    "rec_id": "IPDR00310",
+    "row_sha256": "8e533f72ae1cbbd0cdd1aefbd00757eeffcd005bcc63fdbe39f833e0185a11ab",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-18T09:08:00",
+    "rec_id": "IPDR00349",
+    "row_sha256": "151bb43b608fcd9e365901389c3adeb1283c1ab3f22d22f6bb1683c6ad4140bc",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-18T15:24:00",
+    "rec_id": "IPDR00350",
+    "row_sha256": "2f63067c87458fda413f9266ede74b6c2bedff205858c1cdee362e2f1f983f0c",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-18T23:19:00",
+    "rec_id": "IPDR00351",
+    "row_sha256": "9ea4d8fdf0c821c8c01d9547709d1abe68fed68114d839e948d989b6a6c2fe9b",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-19T10:38:00",
+    "rec_id": "IPDR00395",
+    "row_sha256": "c3bb27138ccf1fac56abec40cc05d26606003b9bc817113b72586ca865824166",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-19T23:24:00",
+    "rec_id": "IPDR00394",
+    "row_sha256": "316e7491a0f528320765ce6f19bcd911c7a3262038a938cb51f45781e8afa3c2",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "ip": "103.123.208.126",
+    "ts": "2026-08-19T23:53:00",
+    "rec_id": "IPDR00393",
+    "row_sha256": "7447558d2d85e84775c94a043bedf8beea0a016b54dd79785df1be66fcc71b54",
+    "detail": "103.123.208.126 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-11T10:53:00",
+    "rec_id": "IPDR00048",
+    "row_sha256": "84163b4a3f8e4184b12760dd755e5a18cd9c9e77ad7852835d1f551fcb5d9b13",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-12T18:39:00",
+    "rec_id": "IPDR00095",
+    "row_sha256": "6033fe14fe756b9c328d37f4306737767fa092c54f41081451d7e7a7326f8667",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-12T18:49:00",
+    "rec_id": "IPDR00096",
+    "row_sha256": "71568a2f6f91008a61196d320b078bd393539e7490a1243b0b95fd4241e57908",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-13T17:21:00",
+    "rec_id": "IPDR00136",
+    "row_sha256": "bf54f44555595a1dde62f4405da330daef826f5c40f9829a43094c1a68e8c003",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-14T08:52:00",
+    "rec_id": "IPDR00173",
+    "row_sha256": "fd6b65a2a2814a888d82c365c0afef37da57dd14771d96071bc57a64000c7fb2",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-14T22:07:00",
+    "rec_id": "IPDR00174",
+    "row_sha256": "8bade0259a2cde8a8c1ba2258c1b61bfb5a5555b3380527764a0ab57e990d509",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-15T15:23:00",
+    "rec_id": "IPDR00213",
+    "row_sha256": "c1058e601e670e49ddee55fc2652c45ea1ac5208323791d6695bd94e90c3346a",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-16T08:33:00",
+    "rec_id": "IPDR00253",
+    "row_sha256": "233ae1c9cf8f283df76a25f0129c9e3dd63faa6d62ba7c437971054374899598",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-17T15:58:00",
+    "rec_id": "IPDR00295",
+    "row_sha256": "013ee58a7e007ba65dc5f91edadf01bb660e48b27323220217dfc95104ad9204",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "ip": "49.160.29.13",
+    "ts": "2026-08-18T23:28:00",
+    "rec_id": "IPDR00336",
+    "row_sha256": "3120423fd6352a911ee002f65bde6ce84bfa3fdff2f34cdfd9e77bfc447fb9f0",
+    "detail": "49.160.29.13 is outside every Indian IPv4 allocation. That is where the session entered the network, not necessarily where the person was — a VPN or a roaming handset reads the same way."
+   }
+  ],
+  "foreign_account": [],
+  "total": 61,
+  "engine": "local",
+  "checks": {
+   "msisdn": "E.164 country code, +91 treated as domestic",
+   "ip": "APNIC delegated allocations for IN; private and CGNAT ranges undecidable",
+   "account": "Indian IFSC pattern vs SWIFT/BIC shape"
+  },
+  "note": "Cross-border exposure changes the route, not the verdict. A foreign leg means MLAT through the nodal agency rather than a local summons; it is not itself evidence of an offence. Roaming subscribers, VPNs and legitimate correspondent accounts all produce these signals."
+ }
+}

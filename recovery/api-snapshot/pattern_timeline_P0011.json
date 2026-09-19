@@ -1,0 +1,79 @@
+{
+ "url": "/pattern/timeline/P0011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0011",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00066",
+    "ts": "2026-08-11T14:49:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "PUNB37826398214",
+    "row_sha256": "7413afe58cdc51e0aba109183b464371f0e0da1599332e56d5760723febdc402",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00067",
+    "ts": "2026-08-13T19:19:00+00:00",
+    "amount": 3200,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "PUNB37826398214",
+    "row_sha256": "5b3d39c61bf2c740d047f723e4298718dd90451acde96e647a2004baef510755",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00068",
+    "ts": "2026-08-15T19:09:00+00:00",
+    "amount": 2500,
+    "channel": "UPI",
+    "narration": "Electricity",
+    "account": "PUNB37826398214",
+    "row_sha256": "90fca6094ad529a9c66c2498a791f5e79e78fccea4615927380a58a68e5a5da7",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00069",
+    "ts": "2026-08-17T15:50:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "PUNB37826398214",
+    "row_sha256": "716711b0ff0f6703258a77cbdf3fd6e27bee71b865335b03ba8a3087da487cc6",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00070",
+    "ts": "2026-08-19T19:10:00+00:00",
+    "amount": 2500,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "PUNB37826398214",
+    "row_sha256": "203c9b3063be4bc96e7d5972234ecb0613544ffb35915dfd2bb0260c1946aa93",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 5,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

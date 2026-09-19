@@ -1,0 +1,115 @@
+{
+ "url": "/intel/entity/P0006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0006",
+  "risk_score": 0.8673,
+  "band": "high",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 1,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 0,
+   "call_debit_speed_score": 0,
+   "n_call_debit_links": 0,
+   "max_passthrough_ratio": 0.95,
+   "max_fanout_hop_count": 1,
+   "total_fanout_inbound_inr": 76800,
+   "inbound_txn_count": 5,
+   "outbound_txn_count": 7,
+   "distinct_counterparties": 1,
+   "counterparty_stability": 0.5,
+   "txn_velocity": 7,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "inbound_txn_count",
+    "value": 5,
+    "shap": 0.7252,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 1,
+    "shap": 0.6668,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 1,
+    "shap": 0.4364,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 1,
+    "shap": -0.3655,
+    "direction": "lowers"
+   },
+   {
+    "feature": "distinct_counterparties",
+    "value": 1,
+    "shap": -0.3099,
+    "direction": "lowers"
+   },
+   {
+    "feature": "txn_velocity",
+    "value": 7,
+    "shap": 0.2823,
+    "direction": "raises"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "KKBK01128059826",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "824493534874017"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916980841241"
+    }
+   },
+   {
+    "kind": "SocialHandle",
+    "props": {
+     "handle": "Meera Kulkarni",
+     "platform": "whatsapp"
+    }
+   }
+  ],
+  "call_to_debit_links": [],
+  "fanout_links": [
+   {
+    "person": "P0006",
+    "inbound_rec_id": "TXN00089",
+    "inbound_time": "2026-08-14T10:09:00",
+    "inbound_amount": 76800,
+    "inbound_account": "KKBK01128059826",
+    "outbound_rec_ids": [
+     "TXN00090"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   }
+  ],
+  "engine": "local"
+ }
+}

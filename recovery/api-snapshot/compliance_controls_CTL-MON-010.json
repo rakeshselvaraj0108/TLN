@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-MON-010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-010",
+  "domain": "Monitoring and Incident Response",
+  "name": "Network infrastructure monitored",
+  "description": "Network activity is monitored for anomalies.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: network monitoring.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

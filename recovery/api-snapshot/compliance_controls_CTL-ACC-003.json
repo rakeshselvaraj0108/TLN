@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ACC-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-003",
+  "domain": "Access Control and Authorization",
+  "name": "Dedicated administrator accounts used",
+  "description": "Elevated privileges are confined to dedicated accounts.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "1 of 2 users hold supervisor rights; the rest operate unprivileged.",
+  "observations": [
+   "supervisors: supervisor"
+  ]
+ }
+}

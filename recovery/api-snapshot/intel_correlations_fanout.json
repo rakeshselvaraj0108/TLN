@@ -1,0 +1,117 @@
+{
+ "url": "/intel/correlations/fanout",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "window_s": 1800,
+  "min_ratio": 0.7,
+  "max_ratio": 1.5,
+  "count": 7,
+  "links": [
+   {
+    "person": "P0008",
+    "inbound_rec_id": "TXN00087",
+    "inbound_time": "2026-08-14T10:07:00",
+    "inbound_amount": 480000,
+    "inbound_account": "KKBK91183842513",
+    "outbound_rec_ids": [
+     "TXN00088",
+     "TXN00091",
+     "TXN00094",
+     "TXN00097",
+     "TXN00100",
+     "TXN00103"
+    ],
+    "outbound_total": 460800,
+    "passthrough_ratio": 0.96,
+    "window_s": 1800,
+    "hop_count": 6
+   },
+   {
+    "person": "P0002",
+    "inbound_rec_id": "TXN00104",
+    "inbound_time": "2026-08-14T10:21:00",
+    "inbound_amount": 76800,
+    "inbound_account": "ICIC17080531003",
+    "outbound_rec_ids": [
+     "TXN00105"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   },
+   {
+    "person": "P0004",
+    "inbound_rec_id": "TXN00092",
+    "inbound_time": "2026-08-14T10:10:00",
+    "inbound_amount": 76800,
+    "inbound_account": "ICIC41458685014",
+    "outbound_rec_ids": [
+     "TXN00093"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   },
+   {
+    "person": "P0006",
+    "inbound_rec_id": "TXN00089",
+    "inbound_time": "2026-08-14T10:09:00",
+    "inbound_amount": 76800,
+    "inbound_account": "KKBK01128059826",
+    "outbound_rec_ids": [
+     "TXN00090"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   },
+   {
+    "person": "P0009",
+    "inbound_rec_id": "TXN00095",
+    "inbound_time": "2026-08-14T10:13:00",
+    "inbound_amount": 76800,
+    "inbound_account": "KKBK94680443699",
+    "outbound_rec_ids": [
+     "TXN00096"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   },
+   {
+    "person": "P0012",
+    "inbound_rec_id": "TXN00101",
+    "inbound_time": "2026-08-14T10:18:00",
+    "inbound_amount": 76800,
+    "inbound_account": "PUNB90967054668",
+    "outbound_rec_ids": [
+     "TXN00102"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   },
+   {
+    "person": "P0013",
+    "inbound_rec_id": "TXN00098",
+    "inbound_time": "2026-08-14T10:15:00",
+    "inbound_amount": 76800,
+    "inbound_account": "SBIN87083172788",
+    "outbound_rec_ids": [
+     "TXN00099"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   }
+  ],
+  "engine": "local"
+ }
+}

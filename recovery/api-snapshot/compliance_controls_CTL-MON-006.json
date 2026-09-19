@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-006",
+  "domain": "Monitoring and Incident Response",
+  "name": "Incident response policy established",
+  "description": "A policy defines detection, response and recovery.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: an incident response plan and its exercises belong to the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

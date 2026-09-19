@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-VLN-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-006",
+  "domain": "Vulnerability Management",
+  "name": "Vulnerability management policy established",
+  "description": "Identification, assessment and remediation of vulnerabilities is governed.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the vulnerability management policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

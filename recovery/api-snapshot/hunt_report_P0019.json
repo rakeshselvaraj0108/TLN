@@ -1,0 +1,47 @@
+{
+ "url": "/hunt/report/P0019",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0019",
+  "title": "Investigation report — P0019",
+  "generated_at": "2026-09-17T04:41:29+00:00",
+  "generated_by": "investigator",
+  "summary": "No findings were established from the available evidence.",
+  "findings": [],
+  "timeline": [],
+  "entities": [
+   {
+    "entity_id": "P0019",
+    "risk_score": 0.0043,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 0,
+   "recoverable_inr": 0,
+   "already_lost_inr": 0,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": []
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0019 in the low band (0.00); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such."
+  ]
+ }
+}

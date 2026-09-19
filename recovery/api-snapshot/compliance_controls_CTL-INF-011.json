@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-011",
+  "domain": "Infrastructure Security",
+  "name": "Infrastructure changes require review",
+  "description": "Changes are reviewed before they are applied.",
+  "owner": "shared",
+  "status": "manual",
+  "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+  "observations": [
+   "No git metadata visible from the runtime."
+  ]
+ }
+}

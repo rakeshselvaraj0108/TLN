@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-006",
+  "domain": "Organizational Security",
+  "name": "Company security commitments externally communicated",
+  "description": "Security commitments are published to users.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: external security commitments are published by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

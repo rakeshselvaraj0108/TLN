@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-011",
+  "domain": "Risk Management",
+  "name": "Vendor management program established",
+  "description": "Vendors are assessed and monitored.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the vendor management programme is run by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

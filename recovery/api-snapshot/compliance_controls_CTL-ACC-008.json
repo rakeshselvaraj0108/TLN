@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ACC-008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-008",
+  "domain": "Access Control and Authorization",
+  "name": "Password management policy established",
+  "description": "A policy mandates strong passwords and prohibits reuse.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: password policy is set and enforced by the agency's identity provider.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

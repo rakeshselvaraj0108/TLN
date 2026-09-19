@@ -1,0 +1,360 @@
+{
+ "url": "/hunt/report/P0003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0003",
+  "title": "Investigation report — P0003",
+  "generated_at": "2026-09-17T04:39:57+00:00",
+  "generated_by": "investigator",
+  "summary": "4 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0003. ₹105,800 at risk, ₹2,116 assessed as still recoverable. 0 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Associated with operation OP-P0003",
+    "detail": "Money-mule network: 5 entities joined by 6 funds link(s). Cohesion 60%, confidence 30%, exposure ₹1,314,640. Linked to 4 other entities: P0005, P0007, P0010, P0016",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00338",
+     "TXN00339",
+     "TXN00360",
+     "TXN00340",
+     "TXN00341",
+     "TXN00362",
+     "TXN00342",
+     "TXN00343",
+     "TXN00364"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0003",
+     "P0005",
+     "P0007",
+     "P0010",
+     "P0016"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0005 by funds",
+    "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00338",
+     "TXN00339",
+     "TXN00360",
+     "TXN00361",
+     "TXN00381"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0003",
+     "P0005"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0016 by funds",
+    "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00340",
+     "TXN00341",
+     "TXN00362",
+     "TXN00363",
+     "TXN00383"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0003",
+     "P0016"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0010 by funds",
+    "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00342",
+     "TXN00343",
+     "TXN00364",
+     "TXN00365",
+     "TXN00385"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0003",
+     "P0010"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-10T20:38:00",
+    "kind": "txn",
+    "detail": "IMPS debit 6,808 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-10T21:24:00",
+    "kind": "txn",
+    "detail": "IMPS debit 6,808 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-10T22:21:00",
+    "kind": "txn",
+    "detail": "IMPS debit 6,808 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-11T11:20:00",
+    "kind": "txn",
+    "detail": "IMPS debit 150 — DTH"
+   },
+   {
+    "ts": "2026-08-13T16:02:00",
+    "kind": "txn",
+    "detail": "IMPS debit 1,200 — Fuel"
+   },
+   {
+    "ts": "2026-08-13T20:49:00",
+    "kind": "txn",
+    "detail": "IMPS debit 7,853 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-13T22:51:00",
+    "kind": "txn",
+    "detail": "IMPS debit 7,853 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-13T22:57:00",
+    "kind": "txn",
+    "detail": "IMPS debit 7,853 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-15T12:17:00",
+    "kind": "txn",
+    "detail": "IMPS debit 3,200 — Recharge"
+   },
+   {
+    "ts": "2026-08-16T20:05:00",
+    "kind": "txn",
+    "detail": "IMPS debit 10,735 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-16T22:11:00",
+    "kind": "txn",
+    "detail": "IMPS debit 10,735 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-16T22:12:00",
+    "kind": "txn",
+    "detail": "IMPS debit 10,735 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-17T10:03:00",
+    "kind": "txn",
+    "detail": "IMPS debit 150 — Grocery"
+   },
+   {
+    "ts": "2026-08-19T17:23:00",
+    "kind": "txn",
+    "detail": "IMPS debit 780 — Recharge"
+   },
+   {
+    "ts": "2026-08-19T20:42:00",
+    "kind": "txn",
+    "detail": "IMPS debit 8,043 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-19T20:54:00",
+    "kind": "txn",
+    "detail": "IMPS debit 8,043 — relief disbursement"
+   },
+   {
+    "ts": "2026-08-19T22:09:00",
+    "kind": "txn",
+    "detail": "IMPS debit 8,043 — relief disbursement"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0003",
+    "risk_score": 0.0144,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 105799.97,
+   "recoverable_inr": 2116.03,
+   "already_lost_inr": 103683.94,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00342",
+     "amount": 6808.33,
+     "band": "cold",
+     "hours_elapsed": 896,
+     "recoverable": 136.17,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00338",
+     "amount": 6808.33,
+     "band": "cold",
+     "hours_elapsed": 895.3,
+     "recoverable": 136.17,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00340",
+     "amount": 6808.33,
+     "band": "cold",
+     "hours_elapsed": 894.3,
+     "recoverable": 136.17,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00081",
+     "amount": 150,
+     "band": "cold",
+     "hours_elapsed": 881.3,
+     "recoverable": 3,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00082",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 828.6,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00364",
+     "amount": 7853.33,
+     "band": "cold",
+     "hours_elapsed": 823.8,
+     "recoverable": 157.07,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00360",
+     "amount": 7853.33,
+     "band": "cold",
+     "hours_elapsed": 821.8,
+     "recoverable": 157.07,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00362",
+     "amount": 7853.33,
+     "band": "cold",
+     "hours_elapsed": 821.7,
+     "recoverable": 157.07,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00083",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 784.4,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00381",
+     "amount": 10735,
+     "band": "cold",
+     "hours_elapsed": 752.6,
+     "recoverable": 214.7,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00383",
+     "amount": 10735,
+     "band": "cold",
+     "hours_elapsed": 750.5,
+     "recoverable": 214.7,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00385",
+     "amount": 10735,
+     "band": "cold",
+     "hours_elapsed": 750.5,
+     "recoverable": 214.7,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00084",
+     "amount": 150,
+     "band": "cold",
+     "hours_elapsed": 738.6,
+     "recoverable": 3,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00085",
+     "amount": 780,
+     "band": "cold",
+     "hours_elapsed": 683.3,
+     "recoverable": 15.6,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00402",
+     "amount": 8043.33,
+     "band": "cold",
+     "hours_elapsed": 680,
+     "recoverable": 160.87,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00404",
+     "amount": 8043.33,
+     "band": "cold",
+     "hours_elapsed": 679.8,
+     "recoverable": 160.87,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00406",
+     "amount": 8043.33,
+     "band": "cold",
+     "hours_elapsed": 678.5,
+     "recoverable": 160.87,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0003 in the low band (0.01); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned."
+  ]
+ }
+}

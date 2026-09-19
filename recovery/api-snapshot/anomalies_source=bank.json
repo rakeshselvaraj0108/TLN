@@ -1,0 +1,62 @@
+{
+ "url": "/anomalies?source=bank",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "findings": [
+   {
+    "id": "large_transfer:HDFC61559407816",
+    "rule": "large_transfer",
+    "subject": "HDFC61559407816",
+    "source": "bank",
+    "severity": "high",
+    "value": 480000,
+    "threshold": 200000,
+    "unit": "INR",
+    "description": "Single transfer of ₹480,000 from HDFC61559407816 — SECURITY DEPOSIT CASE CLEARANCE."
+   },
+   {
+    "id": "large_transfer:HDFC61559407816",
+    "rule": "large_transfer",
+    "subject": "HDFC61559407816",
+    "source": "bank",
+    "severity": "high",
+    "value": 480000,
+    "threshold": 200000,
+    "unit": "INR",
+    "description": "Single transfer of ₹480,000 from HDFC61559407816 — IMPS IN."
+   },
+   {
+    "id": "rapid_disbursal:KKBK91183842513",
+    "rule": "rapid_disbursal",
+    "subject": "KKBK91183842513",
+    "source": "bank",
+    "severity": "medium",
+    "value": 6,
+    "threshold": 5,
+    "unit": "debits",
+    "description": "KKBK91183842513 sent 6 debits inside a 60-minute window."
+   }
+  ],
+  "total": 3,
+  "by_severity": {
+   "critical": 0,
+   "high": 2,
+   "medium": 1
+  },
+  "by_rule": {
+   "large_transfer": 2,
+   "rapid_disbursal": 1
+  },
+  "thresholds": {
+   "high_call_volume": 50,
+   "repeated_contact": 20,
+   "odd_hour_activity": 10,
+   "odd_hour_range": "00:00–05:00",
+   "bulk_upload_bytes": 104857600,
+   "high_session_count": 100,
+   "large_transfer_inr": 200000,
+   "rapid_disbursal": "5 debits / 60 min"
+  }
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "url": "/cases",
+ "status": 200,
+ "contentType": "application/json",
+ "body": [
+  {
+   "id": 1,
+   "case_code": "TRX-2026-0001",
+   "title": "Digital arrest scam - coordinated mule network",
+   "status": "open",
+   "created_by": "investigator"
+  }
+ ]
+}

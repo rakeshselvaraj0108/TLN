@@ -1,0 +1,1830 @@
+{
+ "url": "/graph/subgraph",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "nodes": [
+   {
+    "id": "Person:P0006",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0006",
+     "member_count": 4,
+     "resolved": true,
+     "name": "Meera Kulkarni",
+     "role": "mule",
+     "risk_score": 0.8673,
+     "band": "high"
+    }
+   },
+   {
+    "id": "Account:KKBK01128059826",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "KKBK01128059826",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "id": "Device:824493534874017",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "824493534874017"
+    }
+   },
+   {
+    "id": "Phone:+916980841241",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916980841241"
+    }
+   },
+   {
+    "id": "SocialHandle:Meera Kulkarni",
+    "labels": [
+     "SocialHandle"
+    ],
+    "props": {
+     "handle": "Meera Kulkarni",
+     "platform": "whatsapp"
+    }
+   },
+   {
+    "id": "Person:P0008",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0008",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Ritu Iyer",
+     "role": "associate",
+     "risk_score": 0.8604,
+     "band": "high"
+    }
+   },
+   {
+    "id": "Account:KKBK91183842513",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "KKBK91183842513",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "id": "Device:939909169985432",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "939909169985432"
+    }
+   },
+   {
+    "id": "Phone:+916081219136",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916081219136"
+    }
+   },
+   {
+    "id": "Person:P0004",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0004",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Deepa Chopra",
+     "role": "mule",
+     "risk_score": 0.8425,
+     "band": "high"
+    }
+   },
+   {
+    "id": "Account:ICIC41458685014",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "ICIC41458685014",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "id": "Device:322602563421605",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "322602563421605"
+    }
+   },
+   {
+    "id": "Phone:+917053315869",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917053315869"
+    }
+   },
+   {
+    "id": "Person:P0020",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0020",
+     "member_count": 9,
+     "resolved": true,
+     "name": "Unknown Handler",
+     "role": "handler",
+     "risk_score": 0.796,
+     "band": "high"
+    }
+   },
+   {
+    "id": "Device:287101226916693",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "287101226916693"
+    }
+   },
+   {
+    "id": "Phone:+916462704828",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916462704828"
+    }
+   },
+   {
+    "id": "Phone:+916489325288",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916489325288"
+    }
+   },
+   {
+    "id": "Phone:+916784801845",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916784801845"
+    }
+   },
+   {
+    "id": "Phone:+917787133150",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917787133150"
+    }
+   },
+   {
+    "id": "Phone:+917911718227",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917911718227"
+    }
+   },
+   {
+    "id": "Phone:+917957015430",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917957015430"
+    }
+   },
+   {
+    "id": "Phone:+918489638346",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918489638346"
+    }
+   },
+   {
+    "id": "SocialHandle:@quickcash_jobs",
+    "labels": [
+     "SocialHandle"
+    ],
+    "props": {
+     "handle": "@quickcash_jobs",
+     "platform": "telegram"
+    }
+   },
+   {
+    "id": "Person:P0012",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0012",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Meera Joshi",
+     "role": "mule",
+     "risk_score": 0.5165,
+     "band": "elevated"
+    }
+   },
+   {
+    "id": "Account:PUNB90967054668",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "PUNB90967054668",
+     "ifsc": "PUNB0234500"
+    }
+   },
+   {
+    "id": "Device:714345581223625",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "714345581223625"
+    }
+   },
+   {
+    "id": "Phone:+918277434873",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918277434873"
+    }
+   },
+   {
+    "id": "Person:P0018",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0018",
+     "member_count": 10,
+     "resolved": true,
+     "name": "Manish Bose",
+     "role": "sim_farm",
+     "risk_score": 0.4446,
+     "band": "elevated"
+    }
+   },
+   {
+    "id": "Device:158657809134318",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "158657809134318"
+    }
+   },
+   {
+    "id": "Phone:+916611724005",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916611724005"
+    }
+   },
+   {
+    "id": "Phone:+917064090974",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917064090974"
+    }
+   },
+   {
+    "id": "Phone:+917175946474",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917175946474"
+    }
+   },
+   {
+    "id": "Phone:+917221969379",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917221969379"
+    }
+   },
+   {
+    "id": "Phone:+917374740748",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917374740748"
+    }
+   },
+   {
+    "id": "Phone:+917455623869",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917455623869"
+    }
+   },
+   {
+    "id": "Phone:+917709521456",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917709521456"
+    }
+   },
+   {
+    "id": "Phone:+918671369594",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918671369594"
+    }
+   },
+   {
+    "id": "Phone:+918953394210",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918953394210"
+    }
+   },
+   {
+    "id": "Person:P0015",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0015",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Amit Verma",
+     "role": "victim",
+     "risk_score": 0.2248,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:UTIB53767242388",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "UTIB53767242388",
+     "ifsc": "UTIB0000456"
+    }
+   },
+   {
+    "id": "Device:553419283276486",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "553419283276486"
+    }
+   },
+   {
+    "id": "Phone:+917341316475",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917341316475"
+    }
+   },
+   {
+    "id": "Person:P0002",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0002",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Meera Singh",
+     "role": "mule",
+     "risk_score": 0.1737,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:ICIC17080531003",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "ICIC17080531003",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "id": "Device:729806990162729",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "729806990162729"
+    }
+   },
+   {
+    "id": "Phone:+917734670656",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917734670656"
+    }
+   },
+   {
+    "id": "Person:P0017",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0017",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Karthik Das",
+     "role": "associate",
+     "risk_score": 0.161,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:YESB17187026217",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "YESB17187026217",
+     "ifsc": "YESB0000678"
+    }
+   },
+   {
+    "id": "Device:558867533963601",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "558867533963601"
+    }
+   },
+   {
+    "id": "Phone:+919044997278",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+919044997278"
+    }
+   },
+   {
+    "id": "Person:P0009",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0009",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Neha Chopra",
+     "role": "mule",
+     "risk_score": 0.1578,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:KKBK94680443699",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "KKBK94680443699",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "id": "Device:608835615951489",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "608835615951489"
+    }
+   },
+   {
+    "id": "Phone:+916569816934",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916569816934"
+    }
+   },
+   {
+    "id": "Person:P0011",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0011",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Priya Gupta",
+     "role": "associate",
+     "risk_score": 0.1031,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:PUNB37826398214",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "PUNB37826398214",
+     "ifsc": "PUNB0234500"
+    }
+   },
+   {
+    "id": "Device:477109324808614",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "477109324808614"
+    }
+   },
+   {
+    "id": "Phone:+917859770348",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917859770348"
+    }
+   },
+   {
+    "id": "Person:P0013",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0013",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Sanjay Joshi",
+     "role": "mule",
+     "risk_score": 0.0507,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:SBIN87083172788",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "SBIN87083172788",
+     "ifsc": "SBIN0004567"
+    }
+   },
+   {
+    "id": "Device:134332003791762",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "134332003791762"
+    }
+   },
+   {
+    "id": "Phone:+918738721489",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918738721489"
+    }
+   },
+   {
+    "id": "Person:P0005",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0005",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Ritu Reddy",
+     "role": "legit_family",
+     "risk_score": 0.0438,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:ICIC96499091334",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "ICIC96499091334",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "id": "Device:711671902294137",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "711671902294137"
+    }
+   },
+   {
+    "id": "Phone:+918094777520",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918094777520"
+    }
+   },
+   {
+    "id": "Person:P0014",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0014",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Rohit Singh",
+     "role": "layering",
+     "risk_score": 0.0427,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:SBIN90847007661",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "SBIN90847007661",
+     "ifsc": "SBIN0004567"
+    }
+   },
+   {
+    "id": "Device:102053950240266",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "102053950240266"
+    }
+   },
+   {
+    "id": "Phone:+917529042284",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917529042284"
+    }
+   },
+   {
+    "id": "Person:P0016",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0016",
+     "member_count": 5,
+     "resolved": true,
+     "name": "Amit Iyer",
+     "role": "legit_household",
+     "risk_score": 0.0214,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:UTIB68071545168",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "UTIB68071545168",
+     "ifsc": "UTIB0000456"
+    }
+   },
+   {
+    "id": "Device:067974034471340",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "067974034471340"
+    }
+   },
+   {
+    "id": "Phone:+916936183242",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916936183242"
+    }
+   },
+   {
+    "id": "Phone:+918024994717",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918024994717"
+    }
+   },
+   {
+    "id": "Phone:+919648877190",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+919648877190"
+    }
+   },
+   {
+    "id": "Person:P0010",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0010",
+     "member_count": 5,
+     "resolved": true,
+     "name": "Sharma Traders",
+     "role": "legit_business",
+     "risk_score": 0.02,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:PUNB35454948083",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "PUNB35454948083",
+     "ifsc": "PUNB0234500"
+    }
+   },
+   {
+    "id": "Device:193149190586514",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "193149190586514"
+    }
+   },
+   {
+    "id": "Device:850671657262845",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "850671657262845"
+    }
+   },
+   {
+    "id": "Phone:+916271937452",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+916271937452"
+    }
+   },
+   {
+    "id": "Phone:+917241904966",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917241904966"
+    }
+   },
+   {
+    "id": "Person:P0001",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0001",
+     "member_count": 4,
+     "resolved": true,
+     "name": "Ramesh Gupta",
+     "role": "victim",
+     "risk_score": 0.0196,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:HDFC61559407816",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "HDFC61559407816",
+     "ifsc": "HDFC0000123"
+    }
+   },
+   {
+    "id": "Device:001338908386376",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "001338908386376"
+    }
+   },
+   {
+    "id": "Phone:+919104332181",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+919104332181"
+    }
+   },
+   {
+    "id": "SocialHandle:@RameshG_official",
+    "labels": [
+     "SocialHandle"
+    ],
+    "props": {
+     "handle": "@RameshG_official",
+     "platform": "x"
+    }
+   },
+   {
+    "id": "Person:P0007",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0007",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Ritu Mehta",
+     "role": "legit_family",
+     "risk_score": 0.0171,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:KKBK41343524082",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "KKBK41343524082",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "id": "Device:788568557444310",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "788568557444310"
+    }
+   },
+   {
+    "id": "Phone:+918701436349",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918701436349"
+    }
+   },
+   {
+    "id": "Person:P0003",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0003",
+     "member_count": 3,
+     "resolved": true,
+     "name": "Seva Relief Trust",
+     "role": "legit_charity",
+     "risk_score": 0.0144,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Account:ICIC27111161528",
+    "labels": [
+     "Account"
+    ],
+    "props": {
+     "number": "ICIC27111161528",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "id": "Device:698478961183676",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "698478961183676"
+    }
+   },
+   {
+    "id": "Phone:+918159212499",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+918159212499"
+    }
+   },
+   {
+    "id": "Person:P0019",
+    "labels": [
+     "Person"
+    ],
+    "props": {
+     "entity_id": "P0019",
+     "member_count": 2,
+     "resolved": true,
+     "name": "Pooja Rao",
+     "role": "bystander",
+     "risk_score": 0.0043,
+     "band": "low"
+    }
+   },
+   {
+    "id": "Device:731585149368996",
+    "labels": [
+     "Device"
+    ],
+    "props": {
+     "imei": "731585149368996"
+    }
+   },
+   {
+    "id": "Phone:+917049451983",
+    "labels": [
+     "Phone"
+    ],
+    "props": {
+     "msisdn": "+917049451983"
+    }
+   }
+  ],
+  "edges": [
+   {
+    "source": "Person:P0006",
+    "target": "Account:KKBK01128059826",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0006",
+    "target": "Device:824493534874017",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0006",
+    "target": "Phone:+916980841241",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0006",
+    "target": "SocialHandle:Meera Kulkarni",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0008",
+    "target": "Account:KKBK91183842513",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0008",
+    "target": "Device:939909169985432",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0008",
+    "target": "Phone:+916081219136",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0004",
+    "target": "Account:ICIC41458685014",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0004",
+    "target": "Device:322602563421605",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0004",
+    "target": "Phone:+917053315869",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Device:287101226916693",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+916462704828",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+916489325288",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+916784801845",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+917787133150",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+917911718227",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+917957015430",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "Phone:+918489638346",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0020",
+    "target": "SocialHandle:@quickcash_jobs",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0012",
+    "target": "Account:PUNB90967054668",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0012",
+    "target": "Device:714345581223625",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0012",
+    "target": "Phone:+918277434873",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Device:158657809134318",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+916611724005",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917064090974",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917175946474",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917221969379",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917374740748",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917455623869",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+917709521456",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+918671369594",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0018",
+    "target": "Phone:+918953394210",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0015",
+    "target": "Account:UTIB53767242388",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0015",
+    "target": "Device:553419283276486",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0015",
+    "target": "Phone:+917341316475",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0002",
+    "target": "Account:ICIC17080531003",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0002",
+    "target": "Device:729806990162729",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0002",
+    "target": "Phone:+917734670656",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0017",
+    "target": "Account:YESB17187026217",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0017",
+    "target": "Device:558867533963601",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0017",
+    "target": "Phone:+919044997278",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0009",
+    "target": "Account:KKBK94680443699",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0009",
+    "target": "Device:608835615951489",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0009",
+    "target": "Phone:+916569816934",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0011",
+    "target": "Account:PUNB37826398214",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0011",
+    "target": "Device:477109324808614",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0011",
+    "target": "Phone:+917859770348",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0013",
+    "target": "Account:SBIN87083172788",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0013",
+    "target": "Device:134332003791762",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0013",
+    "target": "Phone:+918738721489",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0005",
+    "target": "Account:ICIC96499091334",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0005",
+    "target": "Device:711671902294137",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0005",
+    "target": "Phone:+918094777520",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0014",
+    "target": "Account:SBIN90847007661",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0014",
+    "target": "Device:102053950240266",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0014",
+    "target": "Phone:+917529042284",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0016",
+    "target": "Account:UTIB68071545168",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0016",
+    "target": "Device:067974034471340",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0016",
+    "target": "Phone:+916936183242",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0016",
+    "target": "Phone:+918024994717",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0016",
+    "target": "Phone:+919648877190",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0010",
+    "target": "Account:PUNB35454948083",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0010",
+    "target": "Device:193149190586514",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0010",
+    "target": "Device:850671657262845",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0010",
+    "target": "Phone:+916271937452",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0010",
+    "target": "Phone:+917241904966",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0001",
+    "target": "Account:HDFC61559407816",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0001",
+    "target": "Device:001338908386376",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0001",
+    "target": "Phone:+919104332181",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0001",
+    "target": "SocialHandle:@RameshG_official",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0007",
+    "target": "Account:KKBK41343524082",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0007",
+    "target": "Device:788568557444310",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0007",
+    "target": "Phone:+918701436349",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0003",
+    "target": "Account:ICIC27111161528",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0003",
+    "target": "Device:698478961183676",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0003",
+    "target": "Phone:+918159212499",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0019",
+    "target": "Device:731585149368996",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "Person:P0019",
+    "target": "Phone:+917049451983",
+    "type": "CONTROLS"
+   },
+   {
+    "source": "SocialHandle:@quickcash_jobs",
+    "target": "Phone:+918489638346",
+    "type": "LINKED_TO"
+   },
+   {
+    "source": "SocialHandle:@quickcash_jobs",
+    "target": "Phone:+917787133150",
+    "type": "LINKED_TO"
+   },
+   {
+    "source": "SocialHandle:Meera Kulkarni",
+    "target": "Phone:+916980841241",
+    "type": "LINKED_TO"
+   },
+   {
+    "source": "SocialHandle:@RameshG_official",
+    "target": "Phone:+919104332181",
+    "type": "LINKED_TO"
+   },
+   {
+    "source": "Account:HDFC61559407816",
+    "target": "Account:KKBK91183842513",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:KKBK01128059826",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:ICIC41458685014",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:KKBK94680443699",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:SBIN87083172788",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN87083172788",
+    "target": "Account:PUNB90967054668",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:PUNB90967054668",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:PUNB90967054668",
+    "target": "Account:ICIC17080531003",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK91183842513",
+    "target": "Account:ICIC17080531003",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:ICIC17080531003",
+    "target": "Account:KKBK01128059826",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:PUNB35454948083",
+    "target": "Account:KKBK41343524082",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:PUNB35454948083",
+    "target": "Account:UTIB68071545168",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK41343524082",
+    "target": "Account:ICIC96499091334",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:ICIC17080531003",
+    "target": "Account:SBIN90847007661",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK01128059826",
+    "target": "Account:SBIN90847007661",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:KKBK94680443699",
+    "target": "Account:SBIN90847007661",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN90847007661",
+    "target": "Account:ICIC41458685014",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN90847007661",
+    "target": "Account:KKBK94680443699",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN90847007661",
+    "target": "Account:SBIN87083172788",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN90847007661",
+    "target": "Account:KKBK01128059826",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:SBIN87083172788",
+    "target": "Account:SBIN90847007661",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:PUNB90967054668",
+    "target": "Account:SBIN90847007661",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:ICIC27111161528",
+    "target": "Account:ICIC96499091334",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:ICIC27111161528",
+    "target": "Account:UTIB68071545168",
+    "type": "TRANSFERRED_TO"
+   },
+   {
+    "source": "Account:ICIC27111161528",
+    "target": "Account:PUNB35454948083",
+    "type": "TRANSFERRED_TO"
+   }
+  ],
+  "engine": "local",
+  "clusters": [
+   {
+    "kind": "scam_ring",
+    "label": "Organised scam ring",
+    "entity_ids": [
+     "P0001",
+     "P0002",
+     "P0003",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0016",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "members": [
+     {
+      "entity_id": "P0006",
+      "name": "Meera Kulkarni",
+      "role": "mule",
+      "risk_score": 0.8673,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0008",
+      "name": "Ritu Iyer",
+      "role": "associate",
+      "risk_score": 0.8604,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0004",
+      "name": "Deepa Chopra",
+      "role": "mule",
+      "risk_score": 0.8425,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0020",
+      "name": "Unknown Handler",
+      "role": "handler",
+      "risk_score": 0.796,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0012",
+      "name": "Meera Joshi",
+      "role": "mule",
+      "risk_score": 0.5165,
+      "band": "elevated"
+     },
+     {
+      "entity_id": "P0018",
+      "name": "Manish Bose",
+      "role": "sim_farm",
+      "risk_score": 0.4446,
+      "band": "elevated"
+     },
+     {
+      "entity_id": "P0002",
+      "name": "Meera Singh",
+      "role": "mule",
+      "risk_score": 0.1737,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0017",
+      "name": "Karthik Das",
+      "role": "associate",
+      "risk_score": 0.161,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0009",
+      "name": "Neha Chopra",
+      "role": "mule",
+      "risk_score": 0.1578,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0013",
+      "name": "Sanjay Joshi",
+      "role": "mule",
+      "risk_score": 0.0507,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0014",
+      "name": "Rohit Singh",
+      "role": "layering",
+      "risk_score": 0.0427,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0016",
+      "name": "Amit Iyer",
+      "role": "legit_household",
+      "risk_score": 0.0214,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0001",
+      "name": "Ramesh Gupta",
+      "role": "victim",
+      "risk_score": 0.0196,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0003",
+      "name": "Seva Relief Trust",
+      "role": "legit_charity",
+      "risk_score": 0.0144,
+      "band": "low"
+     }
+    ],
+    "size": 14,
+    "severity": "high",
+    "principal_inr": 480000,
+    "hop_count": 12,
+    "evidence": "a debit of Rs 480,000 6 min after an inbound call — then 12 onward hops across 7 accounts",
+    "id": "CL-01"
+   },
+   {
+    "kind": "mule_network",
+    "label": "Suspicious money-mule network",
+    "entity_ids": [
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013"
+    ],
+    "members": [
+     {
+      "entity_id": "P0006",
+      "name": "Meera Kulkarni",
+      "role": "mule",
+      "risk_score": 0.8673,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0008",
+      "name": "Ritu Iyer",
+      "role": "associate",
+      "risk_score": 0.8604,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0004",
+      "name": "Deepa Chopra",
+      "role": "mule",
+      "risk_score": 0.8425,
+      "band": "high"
+     },
+     {
+      "entity_id": "P0012",
+      "name": "Meera Joshi",
+      "role": "mule",
+      "risk_score": 0.5165,
+      "band": "elevated"
+     },
+     {
+      "entity_id": "P0002",
+      "name": "Meera Singh",
+      "role": "mule",
+      "risk_score": 0.1737,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0009",
+      "name": "Neha Chopra",
+      "role": "mule",
+      "risk_score": 0.1578,
+      "band": "low"
+     },
+     {
+      "entity_id": "P0013",
+      "name": "Sanjay Joshi",
+      "role": "mule",
+      "risk_score": 0.0507,
+      "band": "low"
+     }
+    ],
+    "size": 7,
+    "severity": "high",
+    "principal_inr": 480000,
+    "hop_count": 12,
+    "evidence": "7 accounts each passed on 95% of what they received; largest single credit Rs 480,000",
+    "id": "CL-02"
+   },
+   {
+    "kind": "burner_rotation",
+    "label": "Rotating-SIM handset",
+    "entity_ids": [
+     "P0020"
+    ],
+    "members": [
+     {
+      "entity_id": "P0020",
+      "name": "Unknown Handler",
+      "role": "handler",
+      "risk_score": 0.796,
+      "band": "high"
+     }
+    ],
+    "size": 1,
+    "severity": "high",
+    "evidence": "handset 287101226916693 carried 7 distinct numbers",
+    "imei": "287101226916693",
+    "id": "CL-03"
+   },
+   {
+    "kind": "burner_rotation",
+    "label": "Rotating-SIM handset",
+    "entity_ids": [
+     "P0018"
+    ],
+    "members": [
+     {
+      "entity_id": "P0018",
+      "name": "Manish Bose",
+      "role": "sim_farm",
+      "risk_score": 0.4446,
+      "band": "elevated"
+     }
+    ],
+    "size": 1,
+    "severity": "elevated",
+    "evidence": "handset 158657809134318 carried 9 distinct numbers",
+    "imei": "158657809134318",
+    "id": "CL-04"
+   },
+   {
+    "kind": "burner_rotation",
+    "label": "Rotating-SIM handset",
+    "entity_ids": [
+     "P0016"
+    ],
+    "members": [
+     {
+      "entity_id": "P0016",
+      "name": "Amit Iyer",
+      "role": "legit_household",
+      "risk_score": 0.0214,
+      "band": "low"
+     }
+    ],
+    "size": 1,
+    "severity": "low",
+    "evidence": "handset 067974034471340 carried 3 distinct numbers",
+    "imei": "067974034471340",
+    "id": "CL-05"
+   }
+  ]
+ }
+}

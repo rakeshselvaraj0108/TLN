@@ -1,0 +1,366 @@
+{
+ "url": "/geo/movement/P0014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0014",
+  "points": [
+   {
+    "rec_id": "CDR00096",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-10T07:19:00",
+    "duration_sec": 257,
+    "call_type": "voice",
+    "cell_key": "7947-73656",
+    "lat": 30.71285,
+    "lon": 76.7397
+   },
+   {
+    "rec_id": "CDR00095",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-10T12:34:00",
+    "duration_sec": 221,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00097",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-10T14:29:00",
+    "duration_sec": 197,
+    "call_type": "voice",
+    "cell_key": "3842-88957",
+    "lat": 30.65834,
+    "lon": 76.7811
+   },
+   {
+    "rec_id": "CDR00094",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-10T19:05:00",
+    "duration_sec": 369,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00175",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-11T07:33:00",
+    "duration_sec": 264,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   },
+   {
+    "rec_id": "CDR01109",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-11T11:13:00",
+    "duration_sec": 48,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00174",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-11T16:11:00",
+    "duration_sec": 271,
+    "call_type": "voice",
+    "cell_key": "8147-12456",
+    "lat": 30.69517,
+    "lon": 76.69934
+   },
+   {
+    "rec_id": "CDR00173",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-11T18:36:00",
+    "duration_sec": 308,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00265",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-12T12:08:00",
+    "duration_sec": 342,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00266",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-12T12:16:00",
+    "duration_sec": 112,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   },
+   {
+    "rec_id": "CDR00352",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-13T07:15:00",
+    "duration_sec": 300,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   },
+   {
+    "rec_id": "CDR00353",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-13T08:11:00",
+    "duration_sec": 95,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00351",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-13T22:15:00",
+    "duration_sec": 131,
+    "call_type": "voice",
+    "cell_key": "3419-40968",
+    "lat": 30.65234,
+    "lon": 76.72072
+   },
+   {
+    "rec_id": "CDR01110",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-14T16:22:00",
+    "duration_sec": 32,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00441",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-14T18:09:00",
+    "duration_sec": 210,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00527",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-15T09:21:00",
+    "duration_sec": 240,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00528",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-15T14:31:00",
+    "duration_sec": 152,
+    "call_type": "voice",
+    "cell_key": "7947-73656",
+    "lat": 30.71285,
+    "lon": 76.7397
+   },
+   {
+    "rec_id": "CDR00525",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-15T16:15:00",
+    "duration_sec": 127,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00526",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-15T18:43:00",
+    "duration_sec": 101,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   },
+   {
+    "rec_id": "CDR00611",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-16T13:43:00",
+    "duration_sec": 362,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00610",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-16T14:12:00",
+    "duration_sec": 66,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR01111",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-17T13:19:00",
+    "duration_sec": 188,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   },
+   {
+    "rec_id": "CDR00698",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-17T22:09:00",
+    "duration_sec": 144,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00697",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-17T22:48:00",
+    "duration_sec": 308,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00786",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-18T11:22:00",
+    "duration_sec": 165,
+    "call_type": "voice",
+    "cell_key": "3842-88957",
+    "lat": 30.65834,
+    "lon": 76.7811
+   },
+   {
+    "rec_id": "CDR00882",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-19T11:10:00",
+    "duration_sec": 263,
+    "call_type": "voice",
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535
+   },
+   {
+    "rec_id": "CDR00881",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-19T12:00:00",
+    "duration_sec": 138,
+    "call_type": "voice",
+    "cell_key": "7697-54350",
+    "lat": 30.72147,
+    "lon": 76.69628
+   },
+   {
+    "rec_id": "CDR00884",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-19T14:35:00",
+    "duration_sec": 221,
+    "call_type": "voice",
+    "cell_key": "3842-88957",
+    "lat": 30.65834,
+    "lon": 76.7811
+   },
+   {
+    "rec_id": "CDR00883",
+    "msisdn": "+917529042284",
+    "ts": "2026-08-19T21:27:00",
+    "duration_sec": 360,
+    "call_type": "voice",
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853
+   }
+  ],
+  "sites": [
+   {
+    "cell_key": "2234-33218",
+    "lat": 30.75416,
+    "lon": 76.76535,
+    "weight": 15,
+    "first_seen": "2026-08-10T12:34:00",
+    "last_seen": "2026-08-19T11:10:00"
+   },
+   {
+    "cell_key": "6129-85465",
+    "lat": 30.69151,
+    "lon": 76.73853,
+    "weight": 6,
+    "first_seen": "2026-08-11T07:33:00",
+    "last_seen": "2026-08-19T21:27:00"
+   },
+   {
+    "cell_key": "3842-88957",
+    "lat": 30.65834,
+    "lon": 76.7811,
+    "weight": 3,
+    "first_seen": "2026-08-10T14:29:00",
+    "last_seen": "2026-08-19T14:35:00"
+   },
+   {
+    "cell_key": "7947-73656",
+    "lat": 30.71285,
+    "lon": 76.7397,
+    "weight": 2,
+    "first_seen": "2026-08-10T07:19:00",
+    "last_seen": "2026-08-15T14:31:00"
+   },
+   {
+    "cell_key": "8147-12456",
+    "lat": 30.69517,
+    "lon": 76.69934,
+    "weight": 1,
+    "first_seen": "2026-08-11T16:11:00",
+    "last_seen": "2026-08-11T16:11:00"
+   },
+   {
+    "cell_key": "3419-40968",
+    "lat": 30.65234,
+    "lon": 76.72072,
+    "weight": 1,
+    "first_seen": "2026-08-13T22:15:00",
+    "last_seen": "2026-08-13T22:15:00"
+   },
+   {
+    "cell_key": "7697-54350",
+    "lat": 30.72147,
+    "lon": 76.69628,
+    "weight": 1,
+    "first_seen": "2026-08-19T12:00:00",
+    "last_seen": "2026-08-19T12:00:00"
+   }
+  ],
+  "observation_count": 29,
+  "distinct_sites": 7,
+  "path_km_lower_bound": 184.205,
+  "window": {
+   "start": null,
+   "end": null
+  },
+  "engine": "local"
+ }
+}

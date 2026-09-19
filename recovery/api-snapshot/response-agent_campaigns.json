@@ -1,0 +1,31 @@
+{
+ "url": "/response-agent/campaigns",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "items": [
+   {
+    "campaign_id": "CMP-DIGITAL-ARREST",
+    "label": "Digital-arrest bank impersonation (handler burner rotation)",
+    "dna_signature": "DNA-87DDC235F5",
+    "traits": {
+     "burst_intensity": 0.7,
+     "night_activity": 1,
+     "fanout_breadth": 0.8,
+     "repeat_targeting": 0,
+     "short_call_ratio": 1,
+     "url_density": 1,
+     "urgency_language": 1,
+     "authority_language": 0,
+     "money_request": 1,
+     "identifier_rotation": 1,
+     "geo_spread": 0.6667,
+     "txn_passthrough": 0
+    },
+    "member_count": 1,
+    "first_seen": "2026-09-08T13:03:38.995143+00:00",
+    "last_seen": "2026-09-08T13:03:38.995150+00:00"
+   }
+  ]
+ }
+}

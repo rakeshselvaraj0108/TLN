@@ -1,0 +1,115 @@
+{
+ "url": "/hunt/report/P0011",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0011",
+  "title": "Investigation report — P0011",
+  "generated_at": "2026-09-17T04:40:43+00:00",
+  "generated_by": "investigator",
+  "summary": "No findings were established from the available evidence.",
+  "findings": [],
+  "timeline": [
+   {
+    "ts": "2026-08-11T14:49:00",
+    "kind": "txn",
+    "detail": "IMPS debit 3,200 — Recharge"
+   },
+   {
+    "ts": "2026-08-13T19:19:00",
+    "kind": "txn",
+    "detail": "UPI debit 3,200 — DTH"
+   },
+   {
+    "ts": "2026-08-15T19:09:00",
+    "kind": "txn",
+    "detail": "UPI debit 2,500 — Electricity"
+   },
+   {
+    "ts": "2026-08-17T15:50:00",
+    "kind": "txn",
+    "detail": "UPI debit 499 — DTH"
+   },
+   {
+    "ts": "2026-08-19T19:10:00",
+    "kind": "txn",
+    "detail": "IMPS debit 2,500 — DTH"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0011",
+    "risk_score": 0.1031,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 11899,
+   "recoverable_inr": 237.98,
+   "already_lost_inr": 11661.02,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00066",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 877.9,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00067",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 825.4,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00068",
+     "amount": 2500,
+     "band": "cold",
+     "hours_elapsed": 777.5,
+     "recoverable": 50,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00069",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 732.8,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00070",
+     "amount": 2500,
+     "band": "cold",
+     "hours_elapsed": 681.5,
+     "recoverable": 50,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0011 in the low band (0.10); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned."
+  ]
+ }
+}

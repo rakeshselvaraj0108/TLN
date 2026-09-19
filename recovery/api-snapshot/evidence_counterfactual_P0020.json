@@ -1,0 +1,36 @@
+{
+ "url": "/evidence/counterfactual/P0020",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0020",
+  "risk_score": 0.796,
+  "band": "high",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "If fewer than 0.1 IPs were shared, this would be treated as coincidental.",
+    "flip_value": 0.0655,
+    "flip_reachable": true,
+    "weight_hint": 0.8153,
+    "method": "model_probe"
+   },
+   {
+    "driver": "max_imei_sim_count",
+    "feature": "max_imei_sim_count",
+    "observed_value": 7,
+    "observed": "A single handset was seen with 7 different SIMs",
+    "boundary": "If the handset had used fewer than 1.0 SIMs, this would not have been flagged as burner rotation.",
+    "flip_value": 1.0452,
+    "flip_reachable": true,
+    "weight_hint": 0.6136,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

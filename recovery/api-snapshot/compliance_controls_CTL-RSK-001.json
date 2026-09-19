@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-001",
+  "domain": "Risk Management",
+  "name": "Compliance policy established",
+  "description": "Regulatory and contractual obligations are tracked.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the compliance policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

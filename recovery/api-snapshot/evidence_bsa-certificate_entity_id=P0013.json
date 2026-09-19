@@ -1,0 +1,74 @@
+{
+ "url": "/evidence/bsa-certificate?entity_id=P0013",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "certificate": {
+   "case_code": null,
+   "generated_at": "2026-09-17T04:40:57.019179+00:00",
+   "produced_by_system": "TRACE-X v0.1 — multi-source investigative analytics platform (air-gapped deployment)",
+   "entity_id": "P0013",
+   "total_records": 2119,
+   "all_chains_intact": true,
+   "status": "DRAFT - PENDING SIGNATURE",
+   "batches": [
+    {
+     "source_type": "bank",
+     "batch_id": "835be63e0925b0610253c258636be036",
+     "filename": "bank_statements.csv",
+     "record_count": 407,
+     "first_ingested_at": "2026-09-08T13:03:24.092210+00:00",
+     "last_ingested_at": "2026-09-08T13:03:24.092507+00:00",
+     "chain_head_sha256": "2a3521e47877e0c16b3b1fa79ec2004b80fb2439171f0064c0e64346f4d99aeb",
+     "chain_intact": true,
+     "breach": null
+    },
+    {
+     "source_type": "alpr",
+     "batch_id": "f0c3221018ce13fc115155965cae5061",
+     "filename": "alpr.csv",
+     "record_count": 140,
+     "first_ingested_at": "2026-09-08T13:03:24.493765+00:00",
+     "last_ingested_at": "2026-09-08T13:03:24.493894+00:00",
+     "chain_head_sha256": "16b6f250c01f6958827ed34ad55703ac70b65aed539af0a02cfb0ae05e771407",
+     "chain_intact": true,
+     "breach": null
+    },
+    {
+     "source_type": "social",
+     "batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+     "filename": "social_posts.csv",
+     "record_count": 4,
+     "first_ingested_at": "2026-09-08T13:03:24.388223+00:00",
+     "last_ingested_at": "2026-09-08T13:03:24.388231+00:00",
+     "chain_head_sha256": "dc934f1f117a855406e7eec0b8f5cd7ce66386cd3a4f1843cc325cfeea156242",
+     "chain_intact": true,
+     "breach": null
+    },
+    {
+     "source_type": "ipdr",
+     "batch_id": "951295eb92521845564dfa6eb48f60cd",
+     "filename": "ipdr.csv",
+     "record_count": 449,
+     "first_ingested_at": "2026-09-08T13:03:23.676494+00:00",
+     "last_ingested_at": "2026-09-08T13:03:23.676830+00:00",
+     "chain_head_sha256": "079322366282f9bbf2dd51035c63c2661153fcbe2089d29b70ece03a11bd5c33",
+     "chain_intact": true,
+     "breach": null
+    },
+    {
+     "source_type": "cdr",
+     "batch_id": "832279ccb407938aa069e20008b4e250",
+     "filename": "cdr.csv",
+     "record_count": 1119,
+     "first_ingested_at": "2026-09-08T13:03:22.078641+00:00",
+     "last_ingested_at": "2026-09-08T13:03:22.079274+00:00",
+     "chain_head_sha256": "27a61a99f774066fd11be2d4579aa41f8ef589157b934d8db51b0c09eea6b122",
+     "chain_intact": true,
+     "breach": null
+    }
+   ]
+  },
+  "text": "CERTIFICATE UNDER SECTION 63 OF THE BHARATIYA SAKSHYA ADHINIYAM, 2023\n(Certificate in respect of electronic record)\n\nStatus: DRAFT - PENDING SIGNATURE\nGenerated (UTC): 2026-09-17T04:40:57.019179+00:00\nSubject entity: P0013\n\n1. IDENTIFICATION OF THE ELECTRONIC RECORD\n   The electronic records described below were produced by the computer system identified in paragraph 2 from source data files lawfully obtained in the course of investigation.\n\n   1.1  Source type : bank\n        File name    : bank_statements.csv\n        Batch ID     : 835be63e0925b0610253c258636be036\n        Record count : 407\n        Ingested     : 2026-09-08T13:03:24.092210+00:00  to  2026-09-08T13:03:24.092507+00:00\n        Integrity    : SHA-256 hash chain, head = 2a3521e47877e0c16b3b1fa79ec2004b80fb2439171f0064c0e64346f4d99aeb\n        Chain verified at generation: YES\n\n   1.2  Source type : alpr\n        File name    : alpr.csv\n        Batch ID     : f0c3221018ce13fc115155965cae5061\n        Record count : 140\n        Ingested     : 2026-09-08T13:03:24.493765+00:00  to  2026-09-08T13:03:24.493894+00:00\n        Integrity    : SHA-256 hash chain, head = 16b6f250c01f6958827ed34ad55703ac70b65aed539af0a02cfb0ae05e771407\n        Chain verified at generation: YES\n\n   1.3  Source type : social\n        File name    : social_posts.csv\n        Batch ID     : 71e3a8ec3112f4772093702fa2bdaf6e\n        Record count : 4\n        Ingested     : 2026-09-08T13:03:24.388223+00:00  to  2026-09-08T13:03:24.388231+00:00\n        Integrity    : SHA-256 hash chain, head = dc934f1f117a855406e7eec0b8f5cd7ce66386cd3a4f1843cc325cfeea156242\n        Chain verified at generation: YES\n\n   1.4  Source type : ipdr\n        File name    : ipdr.csv\n        Batch ID     : 951295eb92521845564dfa6eb48f60cd\n        Record count : 449\n        Ingested     : 2026-09-08T13:03:23.676494+00:00  to  2026-09-08T13:03:23.676830+00:00\n        Integrity    : SHA-256 hash chain, head = 079322366282f9bbf2dd51035c63c2661153fcbe2089d29b70ece03a11bd5c33\n        Chain verified at generation: YES\n\n   1.5  Source type : cdr\n        File name    : cdr.csv\n        Batch ID     : 832279ccb407938aa069e20008b4e250\n        Record count : 1119\n        Ingested     : 2026-09-08T13:03:22.078641+00:00  to  2026-09-08T13:03:22.079274+00:00\n        Integrity    : SHA-256 hash chain, head = 27a61a99f774066fd11be2d4579aa41f8ef589157b934d8db51b0c09eea6b122\n        Chain verified at generation: YES\n\n   Total records certified: 2119\n\n2. IDENTIFICATION OF THE COMPUTER SYSTEM\n   TRACE-X v0.1 — multi-source investigative analytics platform (air-gapped deployment)\n   The system operated in an air-gapped configuration. No external network services or third-party language-model APIs were used in the processing of these records.\n\n3. INTEGRITY ASSURANCE\n   Every source record was hashed with SHA-256 at the point of entry and linked into a per-batch hash chain: chain[i] = SHA-256(chain[i-1] || row_hash[i]). Any insertion, deletion, or alteration of a record changes the chain head shown above and is therefore detectable.\n   Result of verification at time of generation: ALL CHAINS INTACT\n\n4. STATEMENT OF THE PERSON GIVING THIS CERTIFICATE\n   I state that the contents of this certificate are true to the best of my knowledge and belief. The electronic records were produced by the computer system in the ordinary course of the investigation and the system was operating properly at the material time.\n\n   Name        : ________________________\n   Designation : ________________________\n   Signature   : ________________________\n   Date        : ________________________\n\nNOTE: This document is a system-generated DRAFT. It has legal effect only once reviewed and signed by the certifying officer."
+ }
+}

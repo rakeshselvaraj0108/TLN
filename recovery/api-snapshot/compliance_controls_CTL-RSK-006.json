@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-006",
+  "domain": "Risk Management",
+  "name": "Risk owners identified",
+  "description": "Each risk has a named owner.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: risk ownership is assigned by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

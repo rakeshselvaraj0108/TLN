@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-INF-020",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-020",
+  "domain": "Infrastructure Security",
+  "name": "Web Application Firewall (WAF) used",
+  "description": "A WAF protects the application from common web attacks.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "No WAF is deployed in front of the application; the injection class a WAF usually catches is closed at the source instead.",
+  "observations": [
+   "Every Cypher query is parameterised and covered by a contract test.",
+   "Relational access goes through the ORM.",
+   "A WAF remains advisable at the perimeter and is the agency's to add."
+  ]
+ }
+}

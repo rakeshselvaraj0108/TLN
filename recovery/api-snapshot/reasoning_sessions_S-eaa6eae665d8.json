@@ -1,0 +1,120 @@
+{
+ "url": "/reasoning/sessions/S-eaa6eae665d8",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "session_key": "S-eaa6eae665d8",
+  "objective": "Automated pipeline pass over the ingested corpus",
+  "status": "active",
+  "action_count": 8,
+  "observed": [
+   "0 social record(s) ingested (batch already seen, skipped)",
+   "0 bank record(s) ingested (batch already seen, skipped)",
+   "0 ipdr record(s) ingested (batch already seen, skipped)",
+   "0 cdr record(s) ingested (batch already seen, skipped)"
+  ],
+  "inferred": [
+   "The handset carries 7 SIMs, but there is no call-to-debit coupling, no fan-out, and Rs 0 of traced movement, and it shares no egress infrastructure with other flagged entities. Absent any financial or infrastructure signal, this is 93% consistent with a shared household phone rather than burner rotation.",
+   "Transaction velocity is 2.8/day across 11 outbound legs, but counterparty stability is 0.50 — the money returns to the same few payees. That is 54% consistent with a high-turnover business settling known suppliers rather than fanning out to fresh mule accounts.",
+   "Transaction velocity is 7.0/day across 7 outbound legs, but counterparty stability is 0.50 — the money returns to the same few payees. That is 64% consistent with a high-turnover business settling known suppliers rather than fanning out to fresh mule accounts.",
+   "call to an entity was followed by a debit 545s later",
+   "call to an entity was followed by a debit 540s later",
+   "call to an entity was followed by a debit 480s later",
+   "call to an entity was followed by a debit 371s later",
+   "call to an entity was followed by a debit 360s later",
+   "call to an entity was followed by a debit 299s later",
+   "call to an entity was followed by a debit 46s later",
+   "78 identifiers resolve to 20 distinct actors under the deterministic union-find rules"
+  ],
+  "open_hypotheses": [
+   {
+    "id": 1,
+    "statement": "P0006 warrants review for coordinated fraud involvement",
+    "status": "contradicted",
+    "confidence": 0.852,
+    "support": 0,
+    "contradiction": 1
+   },
+   {
+    "id": 2,
+    "statement": "P0008 warrants review for coordinated fraud involvement",
+    "status": "contradicted",
+    "confidence": 0.847,
+    "support": 0,
+    "contradiction": 1
+   },
+   {
+    "id": 3,
+    "statement": "P0004 warrants review for coordinated fraud involvement",
+    "status": "open",
+    "confidence": 0.843,
+    "support": 0,
+    "contradiction": 0
+   },
+   {
+    "id": 4,
+    "statement": "P0020 warrants review for coordinated fraud involvement",
+    "status": "contradicted",
+    "confidence": 0.777,
+    "support": 0,
+    "contradiction": 1
+   },
+   {
+    "id": 5,
+    "statement": "P0012 warrants review for coordinated fraud involvement",
+    "status": "open",
+    "confidence": 0.516,
+    "support": 0,
+    "contradiction": 0
+   },
+   {
+    "id": 6,
+    "statement": "P0018 warrants review for coordinated fraud involvement",
+    "status": "open",
+    "confidence": 0.445,
+    "support": 0,
+    "contradiction": 0
+   }
+  ],
+  "contradictions": [
+   {
+    "statement": "Transaction velocity is 7.0/day across 7 outbound legs, but counterparty stability is 0.50 — the money returns to the same few payees. That is 64% consistent with a high-turnover business settling known suppliers rather than fanning out to fresh mule accounts.",
+    "rationale": "exculpatory: stable_counterparties",
+    "weight": 0.0766
+   },
+   {
+    "statement": "Transaction velocity is 2.8/day across 11 outbound legs, but counterparty stability is 0.50 — the money returns to the same few payees. That is 54% consistent with a high-turnover business settling known suppliers rather than fanning out to fresh mule accounts.",
+    "rationale": "exculpatory: stable_counterparties",
+    "weight": 0.0646
+   },
+   {
+    "statement": "The handset carries 7 SIMs, but there is no call-to-debit coupling, no fan-out, and Rs 0 of traced movement, and it shares no egress infrastructure with other flagged entities. Absent any financial or infrastructure signal, this is 93% consistent with a shared household phone rather than burner rotation.",
+    "rationale": "exculpatory: longlived_sims_no_money_coupling",
+    "weight": 0.0934
+   }
+  ],
+  "conclusions": [],
+  "pending": [
+   "Which entities show a call followed closely by a large debit?",
+   "Does any account move most of what it receives straight onward?",
+   "Is any handset cycling SIMs while the people it calls move money?",
+   "For each of the above: is there an innocent explanation that fits equally well?"
+  ],
+  "failed": [],
+  "unresolved": [
+   "P0004 warrants review for coordinated fraud involvement",
+   "P0012 warrants review for coordinated fraud involvement",
+   "P0018 warrants review for coordinated fraud involvement"
+  ],
+  "efficiency": {
+   "actions": 8,
+   "failed_actions": 0,
+   "redundant_actions": 0,
+   "total_info_gain": 44,
+   "gain_per_action": 5.5,
+   "tokens_in": 58,
+   "tokens_out": 97,
+   "total_latency_ms": 989
+  }
+ }
+}

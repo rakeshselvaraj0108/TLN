@@ -1,0 +1,90 @@
+{
+ "url": "/pattern/timeline/P0001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0001",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00001",
+    "ts": "2026-08-11T12:10:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "HDFC61559407816",
+    "row_sha256": "c8356d6ebe2d32b121945640b67b8b50fb8f8aa1618fdf97f3c8abb616329b7f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00002",
+    "ts": "2026-08-13T14:01:00+00:00",
+    "amount": 150,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "HDFC61559407816",
+    "row_sha256": "d18f6a3d9f384aca378d7f03c374234e3f08782cc4004cf7806a2667332b3dc2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00086",
+    "ts": "2026-08-14T10:07:00+00:00",
+    "amount": 480000,
+    "channel": "IMPS",
+    "narration": "SECURITY DEPOSIT CASE CLEARANCE",
+    "account": "HDFC61559407816",
+    "row_sha256": "1922856bbdffd5d8df6176233f2c0abe6d8471530aea256c209dece2032bbcb2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00003",
+    "ts": "2026-08-15T17:55:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "Fuel",
+    "account": "HDFC61559407816",
+    "row_sha256": "ab20df26b8e4e4f2be9fb2356d9833d6c192114dec8e58b272df0479bb3aa6ef",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00004",
+    "ts": "2026-08-17T14:46:00+00:00",
+    "amount": 1200,
+    "channel": "UPI",
+    "narration": "Electricity",
+    "account": "HDFC61559407816",
+    "row_sha256": "bd8eb695989d4ffe1670b453f172e9943564cc93b51de4f7c94a5c869cf15be9",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00005",
+    "ts": "2026-08-19T16:59:00+00:00",
+    "amount": 150,
+    "channel": "UPI",
+    "narration": "Grocery",
+    "account": "HDFC61559407816",
+    "row_sha256": "6837257b7fdf299d214a67efdcdcfcb848aedb9c4124521988fb3b27b89b0a95",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 6,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

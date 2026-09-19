@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-009",
+  "domain": "Risk Management",
+  "name": "Vendor inventory maintained",
+  "description": "Vendors and their access are inventoried.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the vendor inventory is maintained by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

@@ -1,0 +1,299 @@
+{
+ "url": "/pattern/timeline/P0010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0010",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00122",
+    "ts": "2026-08-10T18:08:00+00:00",
+    "amount": 60000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "91a81bb3b42fca10091bc5aa9c7e2b59f006dbe0d78511c24a7137eec68a1159",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00121",
+    "ts": "2026-08-10T19:49:00+00:00",
+    "amount": 60000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "19eae07dd4916e60dc717f7f0735b1787ddee9eb88075a994d6b1b66348c911e",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00046",
+    "ts": "2026-08-11T20:29:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "PUNB35454948083",
+    "row_sha256": "6f826102b1fab115b6d47a145a6ebf6a9fa48125c94a89b90091ada89c09e39d",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00138",
+    "ts": "2026-08-11T20:53:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "b9a56615bbd2d8f950bb1567d88e08ef1e5d0590040fde731ce824a9169c08d2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00139",
+    "ts": "2026-08-11T21:54:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "b3146f1c302357f41083cbc13381c70f004bfe169849283383d3a63b40d3e22d",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00158",
+    "ts": "2026-08-12T18:50:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "6e5beb863e648d613b3a96c54aa5303e9e2d512066b436e73666ce5f6d91581c",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00157",
+    "ts": "2026-08-12T20:39:00+00:00",
+    "amount": 60000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "973fd0bc9684f1580dcb725419bbaac7b95f25f453d022f25f80a5b1757a4955",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00047",
+    "ts": "2026-08-13T13:35:00+00:00",
+    "amount": 2500,
+    "channel": "UPI",
+    "narration": "Electricity",
+    "account": "PUNB35454948083",
+    "row_sha256": "b7ec0f4049496d93b07c9987ef09992cb6632463e0406813601e849a889416cf",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00179",
+    "ts": "2026-08-13T20:11:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "e013af926bfc091b54a0183c55e9eac3ef638fcb70d00b4fe002009c83cf9bd6",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00180",
+    "ts": "2026-08-13T20:21:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "517a4e88eaafea4c5cbfcccf00af00950c8dea43918b3488b5b54cfb12c3c4ec",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00193",
+    "ts": "2026-08-14T18:47:00+00:00",
+    "amount": 60000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "abc31d6b5acbd97ae8a82e557884f7c3fc3596d8d3ccb7c283dd7234f26174f2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00194",
+    "ts": "2026-08-14T22:59:00+00:00",
+    "amount": 60000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "3f057c8b6f8ecde215878c5479a7a3000f69250857bd3a02846ba18b00040ed2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00213",
+    "ts": "2026-08-15T19:44:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "4ead598593d45666e11ecc4d1f46e5b09af5799e5eb771249337c1ed52f5371e",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00048",
+    "ts": "2026-08-15T20:53:00+00:00",
+    "amount": 1999,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "PUNB35454948083",
+    "row_sha256": "7e0f9a2f2ade7e37505d2e1252f473ba04d5215fdbc51606425d0f2f17ce41b4",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00212",
+    "ts": "2026-08-15T22:23:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "a335dc8684f46f63796cc16a9648247120987e9058e45e3216af71eeda4b277c",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00232",
+    "ts": "2026-08-16T18:46:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "ee6b196030f1b5434e746a68ff665703bf963219efc83997d201c2debb16489d",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00233",
+    "ts": "2026-08-16T22:43:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "94e4f651f694695616e301a25b3921dcb95a75d9ae03271c43893ad871e8e8ae",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00049",
+    "ts": "2026-08-17T13:03:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "Electricity",
+    "account": "PUNB35454948083",
+    "row_sha256": "b62ca874fee9cbbf1bbab0608b15da906b9756bdb7a70110228928c326697a8f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00248",
+    "ts": "2026-08-17T18:46:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "09fdc8a9c76fd9417cba5c831306680aec18a6b25e64d33370d2e8c55395c1a8",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00247",
+    "ts": "2026-08-17T19:33:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "a6333e05c7e9256be6a5a7486166cbf50e8b55b1bc4af624c7ec7b92d5e15cc4",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00263",
+    "ts": "2026-08-18T18:37:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "bff30d4baf199d298a89300d0756ca66602bf2ae7843538155c7d1d14875a04f",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00262",
+    "ts": "2026-08-18T21:02:00+00:00",
+    "amount": 52000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "eee589215e0c8d4c09486c33339e67b49f491b30da51071924b157614a80e7b2",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00050",
+    "ts": "2026-08-19T18:48:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "PUNB35454948083",
+    "row_sha256": "0478ea70c0328df8acd6b22fdd4b814cbe1d2bed08c241fb55da685c2cea5429",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00276",
+    "ts": "2026-08-19T20:22:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "6157960d1d1981508438c6f4c00eef88b5b383a14337674a6f5816525c498804",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00277",
+    "ts": "2026-08-19T20:28:00+00:00",
+    "amount": 45000,
+    "channel": "NEFT",
+    "narration": "supplier settlement",
+    "account": "PUNB35454948083",
+    "row_sha256": "103810440aa687c5884db53fc3e193a2ee7ab16897e16cb843797c4b845a09d6",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 25,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

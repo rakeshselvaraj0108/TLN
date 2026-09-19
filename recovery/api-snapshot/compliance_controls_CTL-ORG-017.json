@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-017",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-017",
+  "domain": "Organizational Security",
+  "name": "Internal security communication maintained",
+  "description": "Security updates reach staff.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: internal security communication is an agency function.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

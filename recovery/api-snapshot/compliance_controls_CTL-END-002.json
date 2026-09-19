@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-END-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-END-002",
+  "domain": "Endpoint Security",
+  "name": "Data encrypted on end-user devices",
+  "description": "Device storage is encrypted.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: workstation full-disk encryption.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

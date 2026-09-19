@@ -1,0 +1,312 @@
+{
+ "url": "/hunt/report/P0009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0009",
+  "title": "Investigation report — P0009",
+  "generated_at": "2026-09-17T04:40:29+00:00",
+  "generated_by": "investigator",
+  "summary": "7 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0002. ₹320,924 at risk, ₹4,959 assessed as still recoverable. 0 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Associated with operation OP-P0002",
+    "detail": "Money-mule network: 12 entities joined by 16 funds, 3 synchronised, 15 ip link(s). Cohesion 50%, confidence 56%, exposure ₹4,592,894. Linked to 11 other entities: P0001, P0002, P0004, P0006, P0008, P0012, P0013, P0014, P0017, P0018, P0020",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00096",
+     "TXN00096",
+     "TXN00093",
+     "TXN00094",
+     "TXN00095",
+     "TXN00286",
+     "TXN00287",
+     "TXN00290",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149"
+    ],
+    "sources": [
+     "funds",
+     "ip",
+     "synchronised"
+    ],
+    "entities": [
+     "P0001",
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0006 by synchronised",
+    "detail": "both acted within 3 min (ATM cash-out at 10:12, ATM cash-out at 10:15)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00090",
+     "TXN00096"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0009",
+     "P0006"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0004 by synchronised",
+    "detail": "both acted within 4 min (ATM cash-out at 10:15, ATM cash-out at 10:19)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00096",
+     "TXN00093"
+    ],
+    "sources": [
+     "synchronised"
+    ],
+    "entities": [
+     "P0009",
+     "P0004"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0008 by funds",
+    "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00094",
+     "TXN00095"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0009",
+     "P0008"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0014 by funds",
+    "detail": "10 transfer(s) totalling 683,388 concentrated in 3 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00286",
+     "TXN00287",
+     "TXN00290",
+     "TXN00291",
+     "TXN00296"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0009",
+     "P0014"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0006 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0009",
+     "P0006"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0012 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0009",
+     "P0012"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-11T13:19:00",
+    "kind": "txn",
+    "detail": "UPI debit 150 — DTH"
+   },
+   {
+    "ts": "2026-08-12T16:58:00",
+    "kind": "txn",
+    "detail": "IMPS debit 79,941 — transfer"
+   },
+   {
+    "ts": "2026-08-13T19:19:00",
+    "kind": "txn",
+    "detail": "IMPS debit 780 — Grocery"
+   },
+   {
+    "ts": "2026-08-14T10:15:00",
+    "kind": "txn",
+    "detail": "ATM debit 72,960 — ATM WDL 106.61."
+   },
+   {
+    "ts": "2026-08-15T11:47:00",
+    "kind": "txn",
+    "detail": "UPI debit 1,200 — Electricity"
+   },
+   {
+    "ts": "2026-08-16T14:00:00",
+    "kind": "txn",
+    "detail": "IMPS debit 81,454 — transfer"
+   },
+   {
+    "ts": "2026-08-17T18:18:00",
+    "kind": "txn",
+    "detail": "IMPS debit 1,200 — Grocery"
+   },
+   {
+    "ts": "2026-08-18T11:20:00",
+    "kind": "txn",
+    "detail": "IMPS debit 81,240 — transfer"
+   },
+   {
+    "ts": "2026-08-19T19:14:00",
+    "kind": "txn",
+    "detail": "UPI debit 1,999 — DTH"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0009",
+    "risk_score": 0.1578,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 320924.05,
+   "recoverable_inr": 4959.28,
+   "already_lost_inr": 315964.77,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00026",
+     "amount": 150,
+     "band": "cold",
+     "hours_elapsed": 879.4,
+     "recoverable": 3,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00286",
+     "amount": 79940.92,
+     "band": "cold",
+     "hours_elapsed": 851.7,
+     "recoverable": 1598.82,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00027",
+     "amount": 780,
+     "band": "cold",
+     "hours_elapsed": 825.4,
+     "recoverable": 15.6,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00096",
+     "amount": 72960,
+     "band": "cashed_out",
+     "recoverable": 0,
+     "reason": "withdrawn as cash — not recoverable by account action"
+    },
+    {
+     "rec_id": "TXN00028",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 784.9,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00296",
+     "amount": 81453.68,
+     "band": "cold",
+     "hours_elapsed": 758.7,
+     "recoverable": 1629.07,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00029",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 730.4,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00312",
+     "amount": 81240.45,
+     "band": "cold",
+     "hours_elapsed": 713.3,
+     "recoverable": 1624.81,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00030",
+     "amount": 1999,
+     "band": "cold",
+     "hours_elapsed": 681.4,
+     "recoverable": 39.98,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0009 in the low band (0.16); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned."
+  ]
+ }
+}

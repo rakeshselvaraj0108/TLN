@@ -1,0 +1,22 @@
+{
+ "url": "/compliance/controls/CTL-DAT-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-005",
+  "domain": "Data Management and Protection",
+  "name": "Data inventory maintained",
+  "description": "An accurate inventory of data assets is maintained.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Live inventory across 5 source type(s), 2119 records total — derived from storage, not maintained by hand.",
+  "observations": [
+   "alpr: 140 records across 1 batch(es)",
+   "bank: 407 records across 1 batch(es)",
+   "cdr: 1119 records across 1 batch(es)",
+   "ipdr: 449 records across 1 batch(es)",
+   "social: 4 records across 1 batch(es)",
+   "Every row records its source file, batch, ingest time and ingesting user."
+  ]
+ }
+}

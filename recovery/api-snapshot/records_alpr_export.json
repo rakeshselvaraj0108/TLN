@@ -1,0 +1,6 @@
+{
+ "url": "/records/alpr/export",
+ "status": 400,
+ "contentType": "application/json",
+ "body": "{\"detail\":\"source_type must be one of ['cdr', 'ipdr', 'bank', 'social']\"}"
+}

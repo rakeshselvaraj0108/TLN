@@ -1,0 +1,12 @@
+{
+ "url": "/response-agent/memory/P0014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0014",
+  "investigations": [],
+  "risk_series": [],
+  "decisions": [],
+  "suppressed_actions": []
+ }
+}

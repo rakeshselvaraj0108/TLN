@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-INF-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-006",
+  "domain": "Infrastructure Security",
+  "name": "Clock synchronization enforced",
+  "description": "System clocks are synchronised to a reliable source.",
+  "owner": "shared",
+  "status": "satisfied",
+  "detail": "Every timestamp the application writes is timezone-aware UTC, taken from the host clock.",
+  "observations": [
+   "Records, audit entries and case events all use datetime.now(dt.UTC).",
+   "This matters evidentially: a timeline correlating CDR, banking and social events across sources is only sound if all of them are on one clock. Host NTP remains the agency's to maintain."
+  ]
+ }
+}

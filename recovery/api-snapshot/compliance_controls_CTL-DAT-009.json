@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DAT-009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-009",
+  "domain": "Data Management and Protection",
+  "name": "Data processing integrity and output validated",
+  "description": "Processing is complete, accurate and tamper-evident end to end.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "All 2119 records across 5 batch(es) re-hashed and every chain re-walked; no discrepancy.",
+  "observations": [
+   "This is a full re-hash of stored payloads, not a link-only check — the latter would miss an edit made directly in the database.",
+   "The same check is exposed at /integrity/verify, and /integrity/drill will break it on demand so the verifier can be watched catching it."
+  ]
+ }
+}

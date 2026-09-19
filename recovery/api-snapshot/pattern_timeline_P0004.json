@@ -1,0 +1,340 @@
+{
+ "url": "/pattern/timeline/P0004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0004",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00009",
+    "ts": "2026-08-10T20:48:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.892,
+    "row_sha256": "99fb97d0cc768f93ddc0569ee554b4aa78c99206a6e688e6071082649afbca67"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00011",
+    "ts": "2026-08-11T07:16:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "confidence": 0.845,
+    "row_sha256": "92d673ee959cf0be3b26f58a1eca08ed5457a5b9057dbbb57f4ccf340126e800"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00016",
+    "ts": "2026-08-11T11:35:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.936,
+    "row_sha256": "93ddf92d9fb8487ee962343c90c5099bec56654adac79536bf4c30f848cfca2f"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00021",
+    "ts": "2026-08-11T20:31:00+00:00",
+    "amount": 1200,
+    "channel": "UPI",
+    "narration": "Grocery",
+    "account": "ICIC41458685014",
+    "row_sha256": "3db3cf77326dbcc40cd60f02f9551e68c1d44c8d129b40f77a1ddf7d304e6fa3",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00022",
+    "ts": "2026-08-11T21:04:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.898,
+    "row_sha256": "ed7a2d3e2e3cd22cf6023f11188fcac7a20d4305609a4af2883d3f3acf6d259a"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00034",
+    "ts": "2026-08-12T18:34:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "confidence": 0.956,
+    "row_sha256": "ea4dc6efe60ba339dbc3f04888a0e60e11d68302944a073aa2e6b0fd202985c8"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00022",
+    "ts": "2026-08-13T14:18:00+00:00",
+    "amount": 150,
+    "channel": "IMPS",
+    "narration": "Grocery",
+    "account": "ICIC41458685014",
+    "row_sha256": "a2441da507cf5fccc6a4edd743518c55f1201cff520d65e0be62942f2c553bf3",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00043",
+    "ts": "2026-08-13T14:18:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.898,
+    "row_sha256": "3d687641e8dbc55df87b67a2784192ce560382a4fef0c56ae8e280e2ea78b0eb"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00049",
+    "ts": "2026-08-13T20:44:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.935,
+    "row_sha256": "d701c3a39d036f85f37764629da64d284f9bbb8b20df0eace1fe483770a03a03"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00051",
+    "ts": "2026-08-14T07:34:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.901,
+    "row_sha256": "54b263cd028d81bea23a25f360887fb9c0d973372b9348f309080c0572fdb6fb"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00057",
+    "ts": "2026-08-14T10:06:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.97,
+    "row_sha256": "fbc6d60470d75c06ececb6bf7bc4a5ed80e7e6a32e3c593cf958448fe3f0eac9"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00059",
+    "ts": "2026-08-14T10:13:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.97,
+    "row_sha256": "15c0b01e57c1f5138617a02d97510dea9512d1c261adc9aff1c39f9c54114e86"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00093",
+    "ts": "2026-08-14T10:19:00+00:00",
+    "amount": 72960,
+    "channel": "ATM",
+    "narration": "ATM WDL 157.170",
+    "account": "ICIC41458685014",
+    "row_sha256": "ab0eb832b73334917a85c6973869b39cb47fdba7a436e6787011723a212433be",
+    "corroborations": [
+     {
+      "claim": "vehicle CH01BM8823 present at ICICI ATM Sector 35",
+      "strength": "moderate",
+      "reason": "CH01BM8823 was read once within 6 min of the event, but without an arrive/depart pair",
+      "event_time": "2026-08-14T10:19:00+00:00",
+      "event_detail": "debit 72960.0 via ATM",
+      "plate": "CH01BM8823",
+      "camera_id": "CAM03",
+      "poi": "POI003",
+      "reads": [
+       {
+        "record_id": "ALP00057",
+        "ts": "2026-08-14T10:06:00+00:00",
+        "camera_id": "CAM03",
+        "confidence": 0.97
+       },
+       {
+        "record_id": "ALP00059",
+        "ts": "2026-08-14T10:13:00+00:00",
+        "camera_id": "CAM03",
+        "confidence": 0.97
+       }
+      ],
+      "evidence_rows": [
+       "fbc6d60470d75c06ececb6bf7bc4a5ed80e7e6a32e3c593cf958448fe3f0eac9",
+       "15c0b01e57c1f5138617a02d97510dea9512d1c261adc9aff1c39f9c54114e86"
+      ],
+      "minutes_from_event": -6
+     }
+    ]
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00066",
+    "ts": "2026-08-14T12:30:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM05",
+    "poi": "Elante Mall",
+    "confidence": 0.855,
+    "row_sha256": "861d982ed66a46cfdf784e90781afe77779f3580cf4930ff833d71bbd1a82c65"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00078",
+    "ts": "2026-08-15T12:29:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.825,
+    "row_sha256": "bbb5e9ab4dd736b25060eec9d26d427a01b1cdc4fb1683f9ca4c784d698fdfa5"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00023",
+    "ts": "2026-08-15T16:44:00+00:00",
+    "amount": 2500,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "ICIC41458685014",
+    "row_sha256": "1882bc43b07f5d725050f49cfb1074f2146be134b93dc053d045b25a198355ad",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00089",
+    "ts": "2026-08-16T14:20:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.91,
+    "row_sha256": "a51a3104274946e1e8974d13edeaac99621afc1e474aa73ffe7ccb54480545de"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00090",
+    "ts": "2026-08-16T14:21:30+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.88,
+    "row_sha256": "ec6d9e00b49e6be54044fa6f4bef885c1a40d5f330282791efcd5138695e5136"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00024",
+    "ts": "2026-08-17T09:48:00+00:00",
+    "amount": 499,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "ICIC41458685014",
+    "row_sha256": "fd88a356bb0c145514a9ef08280d5ca9f7f4c2f0f02ec741a6c67bf4cc22c28d",
+    "corroborations": []
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00101",
+    "ts": "2026-08-17T11:02:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM06",
+    "poi": "ISBT Sector 43",
+    "confidence": 0.921,
+    "row_sha256": "22e1e261e13a266cc184fc89ba50a072485f9747cfc149285276ff98b19eed6d"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00104",
+    "ts": "2026-08-17T13:52:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.934,
+    "row_sha256": "e17ca0f03e042013f21e9580e988143bcc2488b34ffd5191f8af6a2121818b45"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00113",
+    "ts": "2026-08-18T07:33:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.912,
+    "row_sha256": "689db9a896c933bb762b5a58bd1378055c16d6b18a6dcf05bbd516c7bac2b24d"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00119",
+    "ts": "2026-08-18T14:08:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.84,
+    "row_sha256": "47647a81d4006c8781425a57a396335a51b9f84067b619c2229768ae0df415a7"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00121",
+    "ts": "2026-08-18T16:38:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.976,
+    "row_sha256": "872056a3210e2760ad01f6ebbb898bfc97395dbbcc3e2aa4f1d0b2f6ec92f3e3"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00122",
+    "ts": "2026-08-18T16:40:00+00:00",
+    "plate": "CH01BM8823",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.878,
+    "row_sha256": "ad1c8c71db21b400300cc7e652a2c9801637e2d99df161dac92aef69bd19c632"
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00025",
+    "ts": "2026-08-19T13:01:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "ICIC41458685014",
+    "row_sha256": "125c140950d5dbdee59b3ca7d6536e92c9b98fc73c3d99fdbfdfd3ec2ece8e20",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 20,
+   "debits": 6,
+   "corroborated_debits": 0
+  },
+  "contradictions": [
+   {
+    "plate": "CH01BM8823",
+    "implied_kmh": 291.7,
+    "separation_km": 7.29,
+    "gap_seconds": 90,
+    "from": {
+     "record_id": "ALP00089",
+     "camera_id": "CAM01",
+     "ts": "2026-08-16T14:20:00+00:00",
+     "confidence": 0.91
+    },
+    "to": {
+     "record_id": "ALP00090",
+     "camera_id": "CAM08",
+     "ts": "2026-08-16T14:21:30+00:00",
+     "confidence": 0.88
+    },
+    "detail": "CH01BM8823 read 7.3 km apart in 90s (292 km/h implied). One read is wrong, or the plate is cloned — the track through here is unsafe."
+   }
+  ],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

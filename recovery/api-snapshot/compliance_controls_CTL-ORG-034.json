@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-034",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-034",
+  "domain": "Organizational Security",
+  "name": "Scope for compliance framework established",
+  "description": "The boundary of the framework is defined.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Scope is declared explicitly and every control is attributed to an owner inside or outside it.",
+  "observations": [
+   "In scope: the TRACE-X application, its two datastores, and the evidence lifecycle from ingest to certified export.",
+   "Out of scope: the agency's corporate estate — email, endpoints, network, premises and HR. Those controls are listed and marked, never silently dropped, so the boundary itself is auditable."
+  ]
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "url": "/ingest/chain/bank/835be63e0925b0610253c258636be036/verify",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "bank",
+  "batch_id": "835be63e0925b0610253c258636be036",
+  "records": 407,
+  "chain_intact": true,
+  "chain_head": "2a3521e47877e0c16b3b1fa79ec2004b80fb2439171f0064c0e64346f4d99aeb"
+ }
+}

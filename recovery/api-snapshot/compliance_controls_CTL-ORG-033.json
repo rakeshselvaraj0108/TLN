@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-ORG-033",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-033",
+  "domain": "Organizational Security",
+  "name": "Roles and responsibilities specified",
+  "description": "Duties and accountabilities are defined.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "Two roles are defined with explicit duties, and the boundary between them is enforced rather than described.",
+  "observations": []
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-004",
+  "domain": "Disaster Recovery",
+  "name": "Data recovery process established",
+  "description": "A documented process restores data after loss or corruption.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "The recovery path is short and documented: restore Postgres, then rebuild the graph from it.",
+  "observations": [
+   "Neo4j is fully derivable from Postgres, so it never needs its own restore.",
+   "Writing and owning the runbook step is the agency's."
+  ]
+ }
+}

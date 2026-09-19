@@ -1,0 +1,244 @@
+{
+ "url": "/pattern/timeline/P0020",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0020",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00014",
+    "ts": "2026-08-11T09:08:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.916,
+    "row_sha256": "2cb7aeb5b6bf561c4254360164a013c36f7fb91cbb0a088b295db70f708b96ab"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00015",
+    "ts": "2026-08-11T09:56:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM05",
+    "poi": "Elante Mall",
+    "confidence": 0.941,
+    "row_sha256": "59652f8a0257a2d0d615abca16ca69e7451f373f395c69f2c0465d09b56617ec"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00021",
+    "ts": "2026-08-11T19:19:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.826,
+    "row_sha256": "d67bf831c81c7c4512be71e5c3cde6c11ad4c8b84f41daefb71dd70db265a673"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00027",
+    "ts": "2026-08-12T12:56:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.874,
+    "row_sha256": "f0fd47a6c50a7e368b243887acc92b5675aec6ceccb7273e442b99d6bf8a7efe"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00033",
+    "ts": "2026-08-12T15:26:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.947,
+    "row_sha256": "31b89234948b793f2c2831bf92620e3b6a00f5c00a25da61944ec90b5dbb1845"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00044",
+    "ts": "2026-08-13T14:29:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM01",
+    "poi": "HDFC ATM Sector 17",
+    "confidence": 0.87,
+    "row_sha256": "4abd5aabd133de09cf01cab47f9e9621b96f8afe95dfb0aafd55ecc181e2ae26"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00050",
+    "ts": "2026-08-13T20:53:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.835,
+    "row_sha256": "8ceca90edba2d07d082c6df4837e05274a37245b0f175a2f0af4e112a466ecbc"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00054",
+    "ts": "2026-08-14T09:40:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.97,
+    "row_sha256": "df39fa07e9efffbbf51e67ae8f0691d027839c26401c9185f1817269e101a4b9"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00056",
+    "ts": "2026-08-14T09:57:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.97,
+    "row_sha256": "db50e218e261d97349ec3b47f0d4e0541c623b6297296f3b3039f96796c63fc6"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00060",
+    "ts": "2026-08-14T10:14:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.97,
+    "row_sha256": "e8047c61232a8f7d87fc3ca772a1a3d56b5d8b144a896181f4bda32828a50edc"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00065",
+    "ts": "2026-08-14T12:04:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM05",
+    "poi": "Elante Mall",
+    "confidence": 0.956,
+    "row_sha256": "901b0fb340defb68ecb56fee76c2b1731aa1ba6fc41a34ec48ae23c84292ab52"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00067",
+    "ts": "2026-08-14T13:50:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.848,
+    "row_sha256": "c5057198b5bf5a3d114fcbe82c55061b308742aa1cf67cbb1d37cd6b7d7c3b9f"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00074",
+    "ts": "2026-08-15T08:17:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.981,
+    "row_sha256": "decff9eeb75cf45c0f8816c97071cb4663b9ffd3cdb9605bfd61c87a2e9164fc"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00077",
+    "ts": "2026-08-15T10:02:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM07",
+    "poi": null,
+    "confidence": 0.985,
+    "row_sha256": "9b6406cb02d300a24533f0f3be2d6a5fc6a99d55c81e1d4bf42f4e2f83719709"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00092",
+    "ts": "2026-08-16T16:59:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.863,
+    "row_sha256": "79036905003a282a3badf3de8ce97db54ecd781c4c0812709804624e385627a1"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00095",
+    "ts": "2026-08-16T19:46:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.947,
+    "row_sha256": "095028138459aec2c91c1a9c951c7b1b1673a6f4087e3d60e118bcf18cb77c10"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00096",
+    "ts": "2026-08-16T20:25:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.96,
+    "row_sha256": "c310e2e8f24a73b4a42ffdc525a8f1a23b673e3390d69a3785e630ba3dd893b7"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00097",
+    "ts": "2026-08-17T07:26:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.956,
+    "row_sha256": "add2342b9de1d7ea6aab8d6784d4874ab5e8e8235e0d525a441dc9aca09ab2f5"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00102",
+    "ts": "2026-08-17T11:27:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM08",
+    "poi": null,
+    "confidence": 0.827,
+    "row_sha256": "91467595a66f91f9df12b3f43c1b7a3013d20278273fa305944a98c62fe6529e"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00105",
+    "ts": "2026-08-17T15:35:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM03",
+    "poi": "ICICI ATM Sector 35",
+    "confidence": 0.937,
+    "row_sha256": "2590c5e5a940b911441cd8e5ee0ad7e66a48da47a969c1de08f99b14336fae0b"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00129",
+    "ts": "2026-08-19T07:01:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM04",
+    "poi": "Kotak ATM Mohali Phase 7",
+    "confidence": 0.885,
+    "row_sha256": "412089eb5842611b77e7ba1a9e179b3fbde367b17d7a892cf7b3a17c95fa098d"
+   },
+   {
+    "kind": "alpr",
+    "rec_id": "ALP00136",
+    "ts": "2026-08-19T17:49:00+00:00",
+    "plate": "HR26DQ5510",
+    "camera_id": "CAM02",
+    "poi": "Kotak ATM Sector 22",
+    "confidence": 0.933,
+    "row_sha256": "123a9b83e4e9ec3737ea5c4dce9a12b0f333820198f59463435896cf5376573c"
+   }
+  ],
+  "counts": {
+   "alpr_reads": 22,
+   "debits": 0,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

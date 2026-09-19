@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-001",
+  "domain": "Infrastructure Security",
+  "name": "Active discovery tools used",
+  "description": "Assets on the network are discovered continuously.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: network asset discovery.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

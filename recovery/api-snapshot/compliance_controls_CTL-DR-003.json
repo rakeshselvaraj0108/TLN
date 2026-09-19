@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-003",
+  "domain": "Disaster Recovery",
+  "name": "Data backup and recovery policy established",
+  "description": "Backup scope, frequency and retention are defined.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: backup policy is set by whoever operates the host.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

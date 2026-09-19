@@ -1,0 +1,100 @@
+{
+ "url": "/intel/queue?band=elevated",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "count": 2,
+  "items": [
+   {
+    "entity_id": "P0012",
+    "risk_score": 0.5165,
+    "band": "elevated",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882907+00:00",
+    "top_factors": [
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.6229,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4796,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4609,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.4599,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.454,
+      "direction": "lowers"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 0.896,
+      "shap": -0.3738,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0018",
+    "risk_score": 0.4446,
+    "band": "elevated",
+    "model": "xgboost",
+    "computed_at": "2026-09-08T13:03:38.882911+00:00",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 9,
+      "shap": 1.3053,
+      "direction": "raises"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.7086,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.7027,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.6143,
+      "direction": "raises"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.494,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.4595,
+      "direction": "lowers"
+     }
+    ]
+   }
+  ]
+ }
+}

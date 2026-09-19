@@ -1,0 +1,8 @@
+{
+ "url": "/response-agent/investigations?entity_id=P0016",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "items": []
+ }
+}

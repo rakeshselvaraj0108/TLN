@@ -1,0 +1,283 @@
+{
+ "url": "/anomalies",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "findings": [
+   {
+    "id": "bulk_upload:+919104332181",
+    "rule": "bulk_upload",
+    "subject": "+919104332181",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 746400000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+919104332181 uploaded 712 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+918159212499",
+    "rule": "bulk_upload",
+    "subject": "+918159212499",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 557000000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+918159212499 uploaded 531 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916569816934",
+    "rule": "bulk_upload",
+    "subject": "+916569816934",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 552700000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916569816934 uploaded 527 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+918094777520",
+    "rule": "bulk_upload",
+    "subject": "+918094777520",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 511600000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+918094777520 uploaded 488 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916611724005",
+    "rule": "bulk_upload",
+    "subject": "+916611724005",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 511199999,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916611724005 uploaded 488 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917859770348",
+    "rule": "bulk_upload",
+    "subject": "+917859770348",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 483799999,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917859770348 uploaded 461 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916271937452",
+    "rule": "bulk_upload",
+    "subject": "+916271937452",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 463699999,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916271937452 uploaded 442 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917734670656",
+    "rule": "bulk_upload",
+    "subject": "+917734670656",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 458600000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917734670656 uploaded 437 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916081219136",
+    "rule": "bulk_upload",
+    "subject": "+916081219136",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 457900000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916081219136 uploaded 437 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+919044997278",
+    "rule": "bulk_upload",
+    "subject": "+919044997278",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 450499999,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+919044997278 uploaded 430 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916980841241",
+    "rule": "bulk_upload",
+    "subject": "+916980841241",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 441000000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916980841241 uploaded 421 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917341316475",
+    "rule": "bulk_upload",
+    "subject": "+917341316475",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 432500000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917341316475 uploaded 412 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916784801845",
+    "rule": "bulk_upload",
+    "subject": "+916784801845",
+    "source": "ipdr",
+    "severity": "critical",
+    "value": 425500000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916784801845 uploaded 406 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917049451983",
+    "rule": "bulk_upload",
+    "subject": "+917049451983",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 396000000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917049451983 uploaded 378 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917529042284",
+    "rule": "bulk_upload",
+    "subject": "+917529042284",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 395300000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917529042284 uploaded 377 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+918738721489",
+    "rule": "bulk_upload",
+    "subject": "+918738721489",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 338400000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+918738721489 uploaded 323 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+918701436349",
+    "rule": "bulk_upload",
+    "subject": "+918701436349",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 334100000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+918701436349 uploaded 319 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+916936183242",
+    "rule": "bulk_upload",
+    "subject": "+916936183242",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 314000000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+916936183242 uploaded 299 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+917053315869",
+    "rule": "bulk_upload",
+    "subject": "+917053315869",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 261200000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+917053315869 uploaded 249 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "bulk_upload:+918277434873",
+    "rule": "bulk_upload",
+    "subject": "+918277434873",
+    "source": "ipdr",
+    "severity": "high",
+    "value": 244400000,
+    "threshold": 104857600,
+    "unit": "bytes",
+    "description": "+918277434873 uploaded 233 MB. Uplink is the direction that matters for exfiltration; downlink volume is not flagged."
+   },
+   {
+    "id": "large_transfer:HDFC61559407816",
+    "rule": "large_transfer",
+    "subject": "HDFC61559407816",
+    "source": "bank",
+    "severity": "high",
+    "value": 480000,
+    "threshold": 200000,
+    "unit": "INR",
+    "description": "Single transfer of ₹480,000 from HDFC61559407816 — SECURITY DEPOSIT CASE CLEARANCE."
+   },
+   {
+    "id": "large_transfer:HDFC61559407816",
+    "rule": "large_transfer",
+    "subject": "HDFC61559407816",
+    "source": "bank",
+    "severity": "high",
+    "value": 480000,
+    "threshold": 200000,
+    "unit": "INR",
+    "description": "Single transfer of ₹480,000 from HDFC61559407816 — IMPS IN."
+   },
+   {
+    "id": "rapid_disbursal:KKBK91183842513",
+    "rule": "rapid_disbursal",
+    "subject": "KKBK91183842513",
+    "source": "bank",
+    "severity": "medium",
+    "value": 6,
+    "threshold": 5,
+    "unit": "debits",
+    "description": "KKBK91183842513 sent 6 debits inside a 60-minute window."
+   }
+  ],
+  "total": 23,
+  "by_severity": {
+   "critical": 13,
+   "high": 9,
+   "medium": 1
+  },
+  "by_rule": {
+   "bulk_upload": 20,
+   "large_transfer": 2,
+   "rapid_disbursal": 1
+  },
+  "thresholds": {
+   "high_call_volume": 50,
+   "repeated_contact": 20,
+   "odd_hour_activity": 10,
+   "odd_hour_range": "00:00–05:00",
+   "bulk_upload_bytes": 104857600,
+   "high_session_count": 100,
+   "large_transfer_inr": 200000,
+   "rapid_disbursal": "5 debits / 60 min"
+  }
+ }
+}

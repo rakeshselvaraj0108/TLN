@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-005",
+  "domain": "Organizational Security",
+  "name": "Code of conduct established",
+  "description": "Expected behaviour and ethics are defined.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the code of conduct is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

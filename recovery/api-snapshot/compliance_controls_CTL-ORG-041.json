@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-041",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-041",
+  "domain": "Organizational Security",
+  "name": "Vendor agreements established",
+  "description": "Third-party agreements set security expectations.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: vendor agreements are held by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

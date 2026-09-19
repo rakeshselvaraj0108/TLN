@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-003",
+  "domain": "Organizational Security",
+  "name": "Asset management policy established",
+  "description": "Assets are managed across their lifecycle.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the asset management policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

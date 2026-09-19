@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-DAT-012",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-012",
+  "domain": "Data Management and Protection",
+  "name": "Key management process implemented",
+  "description": "Cryptographic keys are managed across their lifecycle.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Hashing needs no keys; the service credentials that do exist come from environment configuration with no rotation mechanism.",
+  "observations": [
+   "SHA-256 chaining is keyless, so there is no signing key to steal — the trade-off is that the chain proves integrity, not origin.",
+   "Postgres and Neo4j credentials are injected from environment.",
+   "GAP: development defaults ship in config. A real deployment must override every one and rotate on a schedule."
+  ]
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "url": "/pattern/timeline/P0012",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0012",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00036",
+    "ts": "2026-08-11T16:11:00+00:00",
+    "amount": 780,
+    "channel": "IMPS",
+    "narration": "Recharge",
+    "account": "PUNB90967054668",
+    "row_sha256": "e5d1b7b1ac3c736e43d81e659e6c569487590a0cbd99ba009aaef2d134543ad1",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00037",
+    "ts": "2026-08-13T19:04:00+00:00",
+    "amount": 2500,
+    "channel": "UPI",
+    "narration": "Grocery",
+    "account": "PUNB90967054668",
+    "row_sha256": "d998de7674ee00cb5e28f8b5a99adcf3763801977c404d0ed9d97d2bf6b5f21a",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00102",
+    "ts": "2026-08-14T10:20:00+00:00",
+    "amount": 72960,
+    "channel": "UPI",
+    "narration": "onward",
+    "account": "PUNB90967054668",
+    "row_sha256": "923fa87bb5c523c588a73c529ecf952b0f21f82f1c88163d4b70c23bfb02c8ef",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00038",
+    "ts": "2026-08-15T12:14:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "PUNB90967054668",
+    "row_sha256": "cb3f7d4de12f5c7fe1aeed880a9ee9e1682c26f0154082f6694cbab83ab36ef6",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00300",
+    "ts": "2026-08-16T14:00:00+00:00",
+    "amount": 74798.36,
+    "channel": "IMPS",
+    "narration": "transfer",
+    "account": "PUNB90967054668",
+    "row_sha256": "c45fe79980567ef76fed12742cd8d41e1d1519fa9b30ee939711e93804274cbf",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00039",
+    "ts": "2026-08-17T20:50:00+00:00",
+    "amount": 1999,
+    "channel": "UPI",
+    "narration": "Grocery",
+    "account": "PUNB90967054668",
+    "row_sha256": "dc72ff40cca07e10195a5ee1464b966e2953b4051540906c64f2921af6194293",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00040",
+    "ts": "2026-08-19T16:29:00+00:00",
+    "amount": 3200,
+    "channel": "UPI",
+    "narration": "DTH",
+    "account": "PUNB90967054668",
+    "row_sha256": "3783da4141aca2a25cb6b567b23374786d90b9278df653025fe98bd717ccae3a",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 7,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

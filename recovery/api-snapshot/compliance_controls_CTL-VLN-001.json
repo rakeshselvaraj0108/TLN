@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-VLN-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-001",
+  "domain": "Vulnerability Management",
+  "name": "Automated software patch management performed",
+  "description": "Patches are deployed promptly and automatically.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: host patch management.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

@@ -1,0 +1,1224 @@
+{
+ "url": "/timeline/entity/P0005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0005",
+  "count": 92,
+  "events": [
+   {
+    "kind": "call",
+    "ts": "2026-08-10T07:05:00",
+    "rec_id": "CDR00045",
+    "row_sha256": "40e557325386f122ccef70416920b7b8089ed503eea87bcee1688bc0d16fbb79",
+    "detail": {
+     "direction": "out",
+     "other": "+917064090974",
+     "from": "+918094777520",
+     "duration_sec": 221,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T07:46:00",
+    "rec_id": "IPDR00030",
+    "row_sha256": "c77b8608c217db2b094103e2cd57da8dd983685da9e8e06fa7d59c2292e9dedf",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 28600000,
+     "bytes_down": 134300000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T08:03:00",
+    "rec_id": "CDR00046",
+    "row_sha256": "1f01bf17243fbc0c98141b05125f1fe18766485c4896593192d621a642692bfb",
+    "detail": {
+     "direction": "out",
+     "other": "+919648877190",
+     "from": "+918094777520",
+     "duration_sec": 164,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T11:19:00",
+    "rec_id": "IPDR00028",
+    "row_sha256": "1f923813f802cdd324d0d25a03acfaa7980e75922ea01b38a93e3c998c4ffcad",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 37900000,
+     "bytes_down": 64300000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T12:31:00",
+    "rec_id": "CDR00044",
+    "row_sha256": "d3d23cd7bf8a1e1ec3147885b9b583913cdfb94891a77c65a6ec4da287a3de87",
+    "detail": {
+     "direction": "out",
+     "other": "+916569816934",
+     "from": "+918094777520",
+     "duration_sec": 283,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-10T17:02:00",
+    "rec_id": "CDR01112",
+    "row_sha256": "85bfd6fe1e137983fb5e40ae59f6fe7b0167bcd15f65ec20d0dd40c97275397c",
+    "detail": {
+     "direction": "in",
+     "other": "+918159212499",
+     "to": "+918094777520",
+     "duration_sec": 142,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T21:24:00",
+    "rec_id": "TXN00338",
+    "row_sha256": "eb76158bfbb1942f5a57113f920588e504b159fd41ed826fdedce526af944320",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-10T21:24:00",
+    "rec_id": "TXN00339",
+    "row_sha256": "8718328cc9b7b63a643c6431ea35e51c2ccea06b88fe6579a456ab88cdb9109d",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 6808.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-10T22:36:00",
+    "rec_id": "IPDR00029",
+    "row_sha256": "4e0a197b7a478ec8d4ea17aec6dba58e272b4dcdefd0c99c62bfe16e6aedd2b9",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "messaging",
+     "bytes_up": 15700000,
+     "bytes_down": 245900000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T09:36:00",
+    "rec_id": "CDR00143",
+    "row_sha256": "67d7a5b64d7a9aa02113cd692756059687e088eb801412a7f3c734684fa64820",
+    "detail": {
+     "direction": "out",
+     "other": "+917241904966",
+     "from": "+918094777520",
+     "duration_sec": 210,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T12:07:00",
+    "rec_id": "CDR00135",
+    "row_sha256": "eaaa813efab15db9f609e66dce90cc1dcf150e98eca5aeb8c35502618290fd82",
+    "detail": {
+     "direction": "in",
+     "other": "+917734670656",
+     "to": "+918094777520",
+     "duration_sec": 26,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-11T13:21:00",
+    "rec_id": "IPDR00074",
+    "row_sha256": "45ca332cd99e34da0d24e66ccdaeb125a10208e3b56a9bbf70a7aaa5c366abc2",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 21900000,
+     "bytes_down": 236500000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T14:51:00",
+    "rec_id": "CDR00144",
+    "row_sha256": "f5ec5196bdc7e49382a6d873b2909cd7b50b21d89c6705b1d06526aaf4a527b1",
+    "detail": {
+     "direction": "out",
+     "other": "+917053315869",
+     "from": "+918094777520",
+     "duration_sec": 284,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T15:52:00",
+    "rec_id": "CDR00159",
+    "row_sha256": "4614abe55f8471ace571368b3f143c386dfe4a54200f8084c3e2382338c20e4b",
+    "detail": {
+     "direction": "in",
+     "other": "+917455623869",
+     "to": "+918094777520",
+     "duration_sec": 109,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T16:49:00",
+    "rec_id": "CDR00145",
+    "row_sha256": "9770becdd668a369c12982d26b31477d823d47bc6dcd961a93ea8cbfc1b4991a",
+    "detail": {
+     "direction": "out",
+     "other": "+917175946474",
+     "from": "+918094777520",
+     "duration_sec": 179,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T18:24:00",
+    "rec_id": "CDR00967",
+    "row_sha256": "dc32105e0625dfaf65c924ad251a46391cba0601cc9e4127f4dfcc67857eb268",
+    "detail": {
+     "direction": "in",
+     "other": "+917064090974",
+     "to": "+918094777520",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-11T19:10:00",
+    "rec_id": "CDR00919",
+    "row_sha256": "946a39561106ffd7ea42cf98198a0aa54ca0469ff02d934eee387c158984ed9e",
+    "detail": {
+     "direction": "in",
+     "other": "+918701436349",
+     "to": "+918094777520",
+     "duration_sec": 720,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-11T19:22:00",
+    "rec_id": "TXN00279",
+    "row_sha256": "ab8427fcd082346da04e55f9d278be34c891df461c6a9e23efe4be77630e79ce",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "KKBK41343524082",
+     "amount": 38000,
+     "channel": "IMPS",
+     "narration": "home"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-11T19:22:00",
+    "rec_id": "TXN00280",
+    "row_sha256": "93b1887ee2d01e10c70cf0b7774a075c7bfdc53f9774a9f4af0ce9d07ef7f45d",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "KKBK41343524082",
+     "amount": 38000,
+     "channel": "IMPS",
+     "narration": "from son"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-11T19:39:00",
+    "rec_id": "TXN00056",
+    "row_sha256": "3bcece18fd0dbca2caad7117a32de4207110f00534b0fa76a6d92207f2e05877",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 1200,
+     "channel": "IMPS",
+     "narration": "Recharge"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-12T08:25:00",
+    "rec_id": "IPDR00115",
+    "row_sha256": "5717ae6b9f7bacbb5c8ef1b1a0e657908530f9997c6f77d1e2a35056541d8601",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 7400000,
+     "bytes_down": 68600000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T09:18:00",
+    "rec_id": "CDR00235",
+    "row_sha256": "6e2447b88a0cbeefd5c307c5336f5ecb96c75acd3b49d3ffca4e4687eea34e53",
+    "detail": {
+     "direction": "in",
+     "other": "+919044997278",
+     "to": "+918094777520",
+     "duration_sec": 244,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T11:36:00",
+    "rec_id": "CDR00245",
+    "row_sha256": "8827e6a33c7511122f63708860f2e5756b1eed86d4d60df149279cb7f47a5861",
+    "detail": {
+     "direction": "in",
+     "other": "+917221969379",
+     "to": "+918094777520",
+     "duration_sec": 310,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-12T13:36:00",
+    "rec_id": "IPDR00117",
+    "row_sha256": "70d7d3d3015e84a2a984dfd8948bce3bafdfedd5c6fed9724dfd873d63b19116",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "email",
+     "bytes_up": 12100000,
+     "bytes_down": 100900000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T13:41:00",
+    "rec_id": "CDR00196",
+    "row_sha256": "370989c00213e526fe9d84d541c483e52c52bd41dc4baa4fcb694d82dcfd9983",
+    "detail": {
+     "direction": "in",
+     "other": "+917957015430",
+     "to": "+918094777520",
+     "duration_sec": 363,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T14:11:00",
+    "rec_id": "CDR00221",
+    "row_sha256": "b9e52390aa655702cda6d8f0c4bf7b85d4fc8f0c3dd68952166bf37858faf185",
+    "detail": {
+     "direction": "out",
+     "other": "+917709521456",
+     "from": "+918094777520",
+     "duration_sec": 286,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-12T17:16:00",
+    "rec_id": "IPDR00116",
+    "row_sha256": "e3bc6951dc971056779d78dc27c2c2e7c984a7c4f3653210667f29432084016f",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 22900000,
+     "bytes_down": 279900000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T17:23:00",
+    "rec_id": "CDR00223",
+    "row_sha256": "5624edd3e06471902d4385e774a76a150e92ab605cb6cfcbeb48c2eecb14105c",
+    "detail": {
+     "direction": "out",
+     "other": "+918024994717",
+     "from": "+918094777520",
+     "duration_sec": 170,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T19:05:00",
+    "rec_id": "CDR00222",
+    "row_sha256": "0d3785caab9ceaedd12b38ddd8b598be7bda98cc960fa24226b9b472f9e3c126",
+    "detail": {
+     "direction": "out",
+     "other": "+917455623869",
+     "from": "+918094777520",
+     "duration_sec": 198,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-12T22:50:00",
+    "rec_id": "CDR00220",
+    "row_sha256": "0d8db0d600893f4c6875ce321753a5207d73589acff5eabae4a9f430bac5ed5e",
+    "detail": {
+     "direction": "in",
+     "other": "+918701436349",
+     "to": "+918094777520",
+     "duration_sec": 313,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T06:00:00",
+    "rec_id": "TXN00281",
+    "row_sha256": "9e0b1221a12738e872b3cb7de3ed0c1d75059399ae53c31bebab55f96759ffb7",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 3500,
+     "channel": "UPI",
+     "narration": "grocery"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T08:15:00",
+    "rec_id": "CDR00315",
+    "row_sha256": "7e2dbef36e5b26e4e8b7f652de43c6fc2448334e63eb8cc6523f24d5f9a7be0a",
+    "detail": {
+     "direction": "out",
+     "other": "+918489638346",
+     "from": "+918094777520",
+     "duration_sec": 337,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-13T10:43:00",
+    "rec_id": "IPDR00154",
+    "row_sha256": "60b9ee5de63fb76090b6e42a0d609bbd59d0ead3cf5a305c350a2f77f55f7838",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "browsing",
+     "bytes_up": 20300000,
+     "bytes_down": 199700000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T12:22:00",
+    "rec_id": "CDR00313",
+    "row_sha256": "32859d17397fdd4f63c06f9190cf45e7343ab846ac77f154f131ee5be71115cf",
+    "detail": {
+     "direction": "in",
+     "other": "+917241904966",
+     "to": "+918094777520",
+     "duration_sec": 335,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T13:48:00",
+    "rec_id": "TXN00057",
+    "row_sha256": "509dcedc7e996ffbe2474b7bd89b0a0d3954cd81822a74fb88fa91efc6f8e189",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 780,
+     "channel": "IMPS",
+     "narration": "Fuel"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T14:41:00",
+    "rec_id": "CDR01004",
+    "row_sha256": "edffbfafd72263e454b6d9266f9cd7b58abe5f103c80aa453b89a3cd51ca9d1e",
+    "detail": {
+     "direction": "in",
+     "other": "+917064090974",
+     "to": "+918094777520",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T15:51:00",
+    "rec_id": "CDR00996",
+    "row_sha256": "b76b305af7dc852221db80aeb64721cc8a83f9eceab671fae2603b1742a3761f",
+    "detail": {
+     "direction": "in",
+     "other": "+918953394210",
+     "to": "+918094777520",
+     "duration_sec": 0,
+     "call_type": "sms"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T16:02:00",
+    "rec_id": "CDR01114",
+    "row_sha256": "25868d774c4bc18e7ab8e14c8af3406ef25e98aa4f83d40cd19da3bd5dfbe4d8",
+    "detail": {
+     "direction": "in",
+     "other": "+918159212499",
+     "to": "+918094777520",
+     "duration_sec": 137,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-13T21:47:00",
+    "rec_id": "CDR00331",
+    "row_sha256": "19f2da811c21384d79f55ff14196ff333c44a1f8a4d8fc0ce7ca271fc3e7cc84",
+    "detail": {
+     "direction": "in",
+     "other": "+917221969379",
+     "to": "+918094777520",
+     "duration_sec": 346,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:51:00",
+    "rec_id": "TXN00360",
+    "row_sha256": "04d8f4f2a808371a244853e8c8c59d4a13e83a416aabe15dcbb77f423e6ddd5f",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-13T22:51:00",
+    "rec_id": "TXN00361",
+    "row_sha256": "bb3c6d100334a54a4c0827699dcbc2c13b42403c13742745a45b4f5abaf9b55d",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 7853.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T07:25:00",
+    "rec_id": "CDR00446",
+    "row_sha256": "f8e0bacefcfd83461fcd20f5fa239e9168924ff5cad03ae5461d067111ba51d3",
+    "detail": {
+     "direction": "in",
+     "other": "+917049451983",
+     "to": "+918094777520",
+     "duration_sec": 336,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T10:04:00",
+    "rec_id": "CDR00406",
+    "row_sha256": "b7e5246ec2e5b5495687800caba951c37fb072e27a8df71da7176585251a0f0c",
+    "detail": {
+     "direction": "out",
+     "other": "+917064090974",
+     "from": "+918094777520",
+     "duration_sec": 140,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T10:47:00",
+    "rec_id": "CDR00405",
+    "row_sha256": "023b3fb7f1c21f5d10aca152341e9ecc013d1582bddef9131e32ed70a9a153af",
+    "detail": {
+     "direction": "out",
+     "other": "+916784801845",
+     "from": "+918094777520",
+     "duration_sec": 46,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T13:47:00",
+    "rec_id": "CDR00407",
+    "row_sha256": "380590173a7af157aaa035dfafbe61b2a67509a3390b4b6d2265243c726797eb",
+    "detail": {
+     "direction": "out",
+     "other": "+917455623869",
+     "from": "+918094777520",
+     "duration_sec": 366,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-14T14:06:00",
+    "rec_id": "CDR00408",
+    "row_sha256": "3b234a74cb620dac01ac720a6adbd82be60d3f218b95903b0d5e04812904dc09",
+    "detail": {
+     "direction": "out",
+     "other": "+916936183242",
+     "from": "+918094777520",
+     "duration_sec": 141,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T17:09:00",
+    "rec_id": "IPDR00194",
+    "row_sha256": "6defc37b0383b1dbddcf617bcab2e411bdf4a56756d340a2b7ab267ee6813381",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "email",
+     "bytes_up": 25300000,
+     "bytes_down": 229300000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T19:22:00",
+    "rec_id": "IPDR00192",
+    "row_sha256": "000d88c135ee5614f44b80108e71059792ce59dca54f23be8b889ec1a8e6f8c9",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "messaging",
+     "bytes_up": 24500000,
+     "bytes_down": 124300000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-14T22:31:00",
+    "rec_id": "IPDR00193",
+    "row_sha256": "097d5de177928b9a1aa6088f259ddfee06a2dfde72201908c36e0686fa4ec648",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "browsing",
+     "bytes_up": 37800000,
+     "bytes_down": 13800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T08:41:00",
+    "rec_id": "CDR00492",
+    "row_sha256": "9325cbf93c7153229e8f8308599ba29e33eaaad72ec165d0852a918f8619590b",
+    "detail": {
+     "direction": "out",
+     "other": "+918024994717",
+     "from": "+918094777520",
+     "duration_sec": 338,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T09:59:00",
+    "rec_id": "CDR00458",
+    "row_sha256": "a2f96d07690a0daf514027685133dd59cc73378fa871b00f6a7fb64e64d06d74",
+    "detail": {
+     "direction": "in",
+     "other": "+917957015430",
+     "to": "+918094777520",
+     "duration_sec": 140,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T11:22:00",
+    "rec_id": "CDR00497",
+    "row_sha256": "70622cbaba3d85cbb803ec472fc12ab977a1aeb8a1ae964c554f1ca2f3bd87eb",
+    "detail": {
+     "direction": "in",
+     "other": "+918024994717",
+     "to": "+918094777520",
+     "duration_sec": 360,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T16:35:00",
+    "rec_id": "IPDR00231",
+    "row_sha256": "93086c4fad36ac6a95eeedd84e63f8dfd1930042d8dcde74199ce6f83fed2754",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "email",
+     "bytes_up": 22800000,
+     "bytes_down": 61800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T17:37:00",
+    "rec_id": "CDR00507",
+    "row_sha256": "35ad6dd10fe6cb15c8e0e28a1d96a92d5b28804cee41936e946d584af92562d8",
+    "detail": {
+     "direction": "in",
+     "other": "+919044997278",
+     "to": "+918094777520",
+     "duration_sec": 390,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-15T18:44:00",
+    "rec_id": "CDR00511",
+    "row_sha256": "b6232228f78d37f2ada96d5cc116a6bef96a34bbe764213137c7fa93e9d76a62",
+    "detail": {
+     "direction": "in",
+     "other": "+917455623869",
+     "to": "+918094777520",
+     "duration_sec": 364,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-15T19:11:00",
+    "rec_id": "TXN00058",
+    "row_sha256": "54d1f869dff9630a7d0899c9513a0485fd95d34514bf3d2779497504664afcfc",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 2500,
+     "channel": "IMPS",
+     "narration": "DTH"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T19:21:00",
+    "rec_id": "IPDR00230",
+    "row_sha256": "1973d7a2b2a7a2e196fe0075a7a69aeec7b4e111ef53b47e4e5db6da4a9cce23",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "browsing",
+     "bytes_up": 35700000,
+     "bytes_down": 222100000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-15T21:48:00",
+    "rec_id": "IPDR00229",
+    "row_sha256": "eb22123d47ef970513d261ba65e748469f04011c89d33a3009d1bba050b99e78",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 18500000,
+     "bytes_down": 260600000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T07:31:00",
+    "rec_id": "CDR00583",
+    "row_sha256": "f388485e141cbb9544bb789d5d1317c22559ff65c9774fc40a96d974db2e0dad",
+    "detail": {
+     "direction": "in",
+     "other": "+918024994717",
+     "to": "+918094777520",
+     "duration_sec": 357,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T09:10:00",
+    "rec_id": "CDR00587",
+    "row_sha256": "e13302b653dbb002db094ef3b3b26ee75aec4e4c262f4161219cd48faa9b780c",
+    "detail": {
+     "direction": "in",
+     "other": "+917859770348",
+     "to": "+918094777520",
+     "duration_sec": 73,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T11:09:00",
+    "rec_id": "CDR00549",
+    "row_sha256": "d7059e4a49b9bf5eeb12d07eb4f4124f8b3c1b6df89f8cb05c4f75398265db3d",
+    "detail": {
+     "direction": "in",
+     "other": "+917787133150",
+     "to": "+918094777520",
+     "duration_sec": 260,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T13:45:00",
+    "rec_id": "CDR00577",
+    "row_sha256": "319146c068ce8f905b9ca4a0c8ea60be0e0c79fe340b25142ca103f41200c52f",
+    "detail": {
+     "direction": "out",
+     "other": "+917241904966",
+     "from": "+918094777520",
+     "duration_sec": 329,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T15:00:00",
+    "rec_id": "CDR00578",
+    "row_sha256": "49eb65f8da2f55925ff660c2a1912855d3ca6dab6f03298f58a7ed53955ce016",
+    "detail": {
+     "direction": "out",
+     "other": "+917529042284",
+     "from": "+918094777520",
+     "duration_sec": 173,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T17:42:00",
+    "rec_id": "CDR01116",
+    "row_sha256": "cc2401adc3bf515219d9393a29e1a00cc49ef4d271ce389aab3f6816ad652d05",
+    "detail": {
+     "direction": "in",
+     "other": "+918159212499",
+     "to": "+918094777520",
+     "duration_sec": 199,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-16T18:27:00",
+    "rec_id": "IPDR00275",
+    "row_sha256": "c76399a3f3efa1a9027924c9433d848b07c50109f0edf2a8266195b348cbe146",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "messaging",
+     "bytes_up": 34400000,
+     "bytes_down": 272000000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-16T19:39:00",
+    "rec_id": "CDR00596",
+    "row_sha256": "8c337434b17f882858ee090196ee52b3dfee7a0357a71d9a005ccb41923ee7af",
+    "detail": {
+     "direction": "in",
+     "other": "+917221969379",
+     "to": "+918094777520",
+     "duration_sec": 109,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T20:05:00",
+    "rec_id": "TXN00381",
+    "row_sha256": "d8ac0f425069e5c45e8080730515f04965d1cf32ec9966253f9aea7ae7958c96",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-16T20:05:00",
+    "rec_id": "TXN00382",
+    "row_sha256": "e03a8fca82ad84d7f3399efa70e42fdf11a55f35309b0973f4fdeeaf72ec0659",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 10735,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T11:28:00",
+    "rec_id": "IPDR00316",
+    "row_sha256": "43df21363f13048bf2befe2dbc5658c36a870b226ace0dfb5bbce30309746628",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 33900000,
+     "bytes_down": 285900000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T13:30:00",
+    "rec_id": "CDR00661",
+    "row_sha256": "0edf9b14ad128ca6bf271ff77d3b95f73c1383c037a86177e9ece5b2feba6378",
+    "detail": {
+     "direction": "out",
+     "other": "+917221969379",
+     "from": "+918094777520",
+     "duration_sec": 381,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-17T13:41:00",
+    "rec_id": "TXN00059",
+    "row_sha256": "8c5490607d541d17e6e295ec029e70236da314dc0ef04e3e8d9c34b047e92de1",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 2500,
+     "channel": "IMPS",
+     "narration": "DTH"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T13:54:00",
+    "rec_id": "CDR00662",
+    "row_sha256": "aee1439f8e97963cbd313f8c5130dac7fcf3cd4fcb6daa7e3306a5635c6c5d12",
+    "detail": {
+     "direction": "out",
+     "other": "+917053315869",
+     "from": "+918094777520",
+     "duration_sec": 322,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T15:49:00",
+    "rec_id": "CDR00660",
+    "row_sha256": "12dc34387a9f64b06e693ca5b3ae83f0df84566465b9e760074267b06887f6a0",
+    "detail": {
+     "direction": "out",
+     "other": "+917734670656",
+     "from": "+918094777520",
+     "duration_sec": 78,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T15:56:00",
+    "rec_id": "IPDR00317",
+    "row_sha256": "c7d5ce2397fc53a490709225e076af5644871e8c2bc54966af448e76ac129e82",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "video",
+     "bytes_up": 39100000,
+     "bytes_down": 21800000
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-17T19:54:00",
+    "rec_id": "IPDR00318",
+    "row_sha256": "b836b4d5bea1636635e5dccf124ffec98c20642827700c1ee71cb9f00bafcff5",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "browsing",
+     "bytes_up": 16100000,
+     "bytes_down": 141400000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T20:15:00",
+    "rec_id": "CDR00659",
+    "row_sha256": "c5f1cb0f751357a9899f6b1d89cade16bc176e72efc495701d9b90b17d3edaa2",
+    "detail": {
+     "direction": "out",
+     "other": "+917957015430",
+     "from": "+918094777520",
+     "duration_sec": 336,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-17T22:48:00",
+    "rec_id": "CDR00674",
+    "row_sha256": "3239d67b7e6ba9cfd0fc2f11b05015d8112852f62a880be95107b128b248de6e",
+    "detail": {
+     "direction": "in",
+     "other": "+917859770348",
+     "to": "+918094777520",
+     "duration_sec": 123,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T08:19:00",
+    "rec_id": "CDR00748",
+    "row_sha256": "e4e19d090be6d31d1d3823f4b68f9138a4b5c85f3052b27eaef257dcd40bfc04",
+    "detail": {
+     "direction": "out",
+     "other": "+918489638346",
+     "from": "+918094777520",
+     "duration_sec": 58,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T12:50:00",
+    "rec_id": "CDR00728",
+    "row_sha256": "c75c79de8db1af3adea47af1d4d2cb313aa4d299a3c5f1d9d09711696774d720",
+    "detail": {
+     "direction": "in",
+     "other": "+918738721489",
+     "to": "+918094777520",
+     "duration_sec": 125,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T16:44:00",
+    "rec_id": "CDR00945",
+    "row_sha256": "f13d1fb964f12c6f70134d5b023032c78cd5b2159592c9418e6ad337dceddaa6",
+    "detail": {
+     "direction": "in",
+     "other": "+918024994717",
+     "to": "+918094777520",
+     "duration_sec": 114,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-18T19:43:00",
+    "rec_id": "IPDR00355",
+    "row_sha256": "9100d53733644b5ef5376bf20d9d01fd5d6e3e69049c5a5f7ee8c72e4830982f",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "messaging",
+     "bytes_up": 19800000,
+     "bytes_down": 119200000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T21:31:00",
+    "rec_id": "CDR00744",
+    "row_sha256": "efcd4b719846430d7cf7fb65bfc525fb3795b742f94f25a304fad3fcdaa89a73",
+    "detail": {
+     "direction": "in",
+     "other": "+918701436349",
+     "to": "+918094777520",
+     "duration_sec": 348,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-18T21:34:00",
+    "rec_id": "CDR00791",
+    "row_sha256": "65a9b296ba551d119c5f9e235a2dfdc6f906af9bc86048ceaae6f73d4a4a05c0",
+    "detail": {
+     "direction": "in",
+     "other": "+917049451983",
+     "to": "+918094777520",
+     "duration_sec": 113,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-18T23:14:00",
+    "rec_id": "IPDR00354",
+    "row_sha256": "f542dcc2321820125d2581dd68aa704c0ddb70fa9ca92b4b196fe9f072cf19dc",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "video",
+     "bytes_up": 19600000,
+     "bytes_down": 235600000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T11:30:00",
+    "rec_id": "CDR01118",
+    "row_sha256": "99bc0c6131f9259821909cb434579d0ac3fe048015cf0d67374b9f40466bcf28",
+    "detail": {
+     "direction": "in",
+     "other": "+918159212499",
+     "to": "+918094777520",
+     "duration_sec": 191,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T12:21:00",
+    "rec_id": "TXN00060",
+    "row_sha256": "b3d657d00e2bd0c2473faa91b665a076deab562111d1743e8d59b99d88803426",
+    "detail": {
+     "direction": "debit",
+     "from": "ICIC96499091334",
+     "to": null,
+     "amount": 2500,
+     "channel": "IMPS",
+     "narration": "Fuel"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T13:23:00",
+    "rec_id": "CDR00848",
+    "row_sha256": "fa73194004e9bfba9f5e6920837057051dbb1a28c7791b9cdea64c9e47b55c78",
+    "detail": {
+     "direction": "out",
+     "other": "+916462704828",
+     "from": "+918094777520",
+     "duration_sec": 294,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T14:56:00",
+    "rec_id": "CDR00837",
+    "row_sha256": "a30cad5def9eb8fec19f35fea27fb2a128088e9ae2bb2fbe66036d51c16031ba",
+    "detail": {
+     "direction": "in",
+     "other": "+917734670656",
+     "to": "+918094777520",
+     "duration_sec": 169,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "session",
+    "ts": "2026-08-19T15:11:00",
+    "rec_id": "IPDR00398",
+    "row_sha256": "2c60e8cbcf1879279f9b10eccd949f1b31b4656164dfbc942aa9f6a1e51f1196",
+    "detail": {
+     "msisdn": "+918094777520",
+     "ip": "106.122.88.142",
+     "app_hint": "social",
+     "bytes_up": 17300000,
+     "bytes_down": 136800000
+    }
+   },
+   {
+    "kind": "call",
+    "ts": "2026-08-19T15:29:00",
+    "rec_id": "CDR00856",
+    "row_sha256": "57e088bd15c52faf2fd1e02dad89a514e7c3dfa38eb9acd1361b8b1653cf89e2",
+    "detail": {
+     "direction": "in",
+     "other": "+917859770348",
+     "to": "+918094777520",
+     "duration_sec": 123,
+     "call_type": "voice"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:42:00",
+    "rec_id": "TXN00402",
+    "row_sha256": "5d361ef56db915d52fdc2b5e3d64311e4538bf2c61886d5e2e49fb21fa949331",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief disbursement"
+    }
+   },
+   {
+    "kind": "txn",
+    "ts": "2026-08-19T20:42:00",
+    "rec_id": "TXN00403",
+    "row_sha256": "afc15bf4790c0e68b6d2f88199b62ac89828715d77ebb516d5f5b4a9ff7278a2",
+    "detail": {
+     "direction": "credit",
+     "to": "ICIC96499091334",
+     "from": "ICIC27111161528",
+     "amount": 8043.33,
+     "channel": "IMPS",
+     "narration": "relief"
+    }
+   }
+  ],
+  "engine": "local"
+ }
+}

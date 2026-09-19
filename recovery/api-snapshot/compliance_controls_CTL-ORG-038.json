@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-038",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-038",
+  "domain": "Organizational Security",
+  "name": "Statement of applicability completed",
+  "description": "Applicable controls are formally identified.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "This catalogue is the statement of applicability: every control is present with an owner, a status and its justification.",
+  "observations": [
+   "125 controls across 10 domains.",
+   "Exclusions carry a stated reason rather than an omission."
+  ]
+ }
+}

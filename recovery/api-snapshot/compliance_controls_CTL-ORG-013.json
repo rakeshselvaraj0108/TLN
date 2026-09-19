@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-013",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-013",
+  "domain": "Organizational Security",
+  "name": "Information security policy established",
+  "description": "An information security policy is maintained.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the information security policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "url": "/integrity/verify?source_type=alpr",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "all_intact": true,
+  "batches": [
+   {
+    "source_type": "alpr",
+    "batch_id": "f0c3221018ce13fc115155965cae5061",
+    "filename": "alpr.csv",
+    "intact": true,
+    "records": 140,
+    "verified_through_seq": 140,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "16b6f250c01f6958827ed34ad55703ac70b65aed539af0a02cfb0ae05e771407"
+   }
+  ],
+  "batch_count": 1,
+  "total_records": 140,
+  "compromised_batches": 0,
+  "summary": "140 records across 1 batches re-hashed and verified against the chain recorded at ingest."
+ }
+}

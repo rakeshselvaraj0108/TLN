@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-INF-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-005",
+  "domain": "Infrastructure Security",
+  "name": "Buckets not exposed publicly",
+  "description": "Object storage is not publicly readable.",
+  "owner": "platform",
+  "status": "not_applicable",
+  "detail": "this deployment uses no object storage; all state is in Postgres and Neo4j",
+  "observations": []
+ }
+}

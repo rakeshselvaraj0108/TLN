@@ -1,0 +1,122 @@
+{
+ "url": "/verify/selfeval",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "total": 9,
+  "correct": 9,
+  "accuracy": 1,
+  "per_kind": {
+   "missing": {
+    "total": 2,
+    "correct": 2
+   },
+   "altered": {
+    "total": 1,
+    "correct": 1
+   },
+   "unsupported_figure": {
+    "total": 2,
+    "correct": 2
+   },
+   "resolvable": {
+    "total": 2,
+    "correct": 2
+   },
+   "honest_refusal": {
+    "total": 2,
+    "correct": 2
+   }
+  },
+  "cases": [
+   {
+    "trap_id": "TRAP-FAB-01",
+    "claim": "A transfer of 250000 was made to account HDFC0000000000.",
+    "expected": "fabricated",
+    "predicted": "fabricated",
+    "correct": true,
+    "reason": "1 of 1 cited record(s) do not exist: TRAP-NONEXISTENT-RECORD. A citation that resolves to nothing is a fabrication, not a judgement call.",
+    "why_it_matters": "Cites a record id that was never ingested. This is the canonical hallucination: a fluent, specific, entirely invented claim. It must be caught by arithmetic alone, with no model involved."
+   },
+   {
+    "trap_id": "TRAP-FAB-02",
+    "claim": "The subject received 3 payments from account SBIN0000000001 on 12 August.",
+    "expected": "fabricated",
+    "predicted": "fabricated",
+    "correct": true,
+    "reason": "1 of 1 cited record(s) do not exist: TRAP-NONEXISTENT-RECORD. A citation that resolves to nothing is a fabrication, not a judgement call.",
+    "why_it_matters": "A second invented citation, phrased with the specificity that makes it convincing."
+   },
+   {
+    "trap_id": "TRAP-TAM-01",
+    "claim": "A transfer of 480000 was made from SBIN1234567890 to HDFC9988776655.",
+    "expected": "tampered",
+    "predicted": "tampered",
+    "correct": true,
+    "reason": "1 cited record(s) no longer hash to their ingest value. The evidence under this claim was altered after entry.",
+    "why_it_matters": "The claim is faithful to what was ingested, but the stored record no longer hashes to its ingest value. The verifier must report the evidence as altered rather than pass the claim — an accurate statement resting on tampered evidence is not usable in court."
+   },
+   {
+    "trap_id": "TRAP-UNS-01",
+    "claim": "A transfer of 999999 was made from SBIN1234567890.",
+    "expected": "unsupported",
+    "predicted": "unsupported",
+    "correct": true,
+    "reason": "The claim asserts 999999, which does not appear in the evidence resolved for it.",
+    "why_it_matters": "The cited record exists and is intact, but asserts a figure the evidence does not contain. Grounding alone would pass this — it is what the judged layer is for."
+   },
+   {
+    "trap_id": "TRAP-UNS-02",
+    "claim": "The account SBIN1234567890 sent 47 separate transfers totalling 12000000.",
+    "expected": "unsupported",
+    "predicted": "unsupported",
+    "correct": true,
+    "reason": "The claim asserts 12000000, which does not appear in the evidence resolved for it.",
+    "why_it_matters": "A quantified claim vastly exceeding what the single cited record supports."
+   },
+   {
+    "trap_id": "TRAP-OK-01",
+    "claim": "A transfer of 480000 was made from SBIN1234567890 to HDFC9988776655 by IMPS.",
+    "expected": "verified",
+    "predicted": "verified",
+    "correct": true,
+    "reason": "All 1 cited record(s) resolved and every content hash matches the value recorded at ingest.",
+    "why_it_matters": "Faithful to the cited record, which resolves and hashes correctly. A verifier that flags this is useless: over-flagging trains investigators to ignore it."
+   },
+   {
+    "trap_id": "TRAP-OK-02",
+    "claim": "Account HDFC9988776655 received 480000 on 14 August 2026.",
+    "expected": "verified",
+    "predicted": "verified",
+    "correct": true,
+    "reason": "All 1 cited record(s) resolved and every content hash matches the value recorded at ingest.",
+    "why_it_matters": "The same fact stated from the other side; still fully supported."
+   },
+   {
+    "trap_id": "TRAP-HON-01",
+    "claim": "I can't answer that from the data available.",
+    "expected": "not_a_claim",
+    "predicted": "not_a_claim",
+    "correct": true,
+    "reason": "Correctly not treated as a factual assertion.",
+    "why_it_matters": "An honest refusal is the behaviour this whole system exists to encourage. A verifier that penalises it teaches the agent to guess instead of hedge, producing exactly the confident fabrication we are defending against."
+   },
+   {
+    "trap_id": "TRAP-HON-02",
+    "claim": "No data was found for that account. Try asking about a different identifier.",
+    "expected": "not_a_claim",
+    "predicted": "not_a_claim",
+    "correct": true,
+    "reason": "Correctly not treated as a factual assertion.",
+    "why_it_matters": "A refusal that offers a next step is still a refusal, not an assertion to audit."
+   }
+  ],
+  "judges_used": [
+   "rule"
+  ],
+  "evaluated_at": "2026-09-17T04:39:15.415721+00:00",
+  "fabrication_recall": 1,
+  "honest_refusal_respected": true,
+  "note": "Measured by running the production verifier over hand-labelled cases whose correct verdict is known in advance. Trap records are written inside a rolled-back transaction and never persist. Reported as measured — a poor score here is a finding about the verifier, not something to suppress."
+ }
+}

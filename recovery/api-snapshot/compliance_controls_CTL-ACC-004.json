@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ACC-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-004",
+  "domain": "Access Control and Authorization",
+  "name": "Employee access regularly reviewed",
+  "description": "Access rights are reviewed at least annually.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "The platform records access reviews when they are run, but none has been logged yet.",
+  "observations": [
+   "Log one with audit action 'access.review' to evidence this control.",
+   "The mechanism exists; the periodic operation is the agency's."
+  ]
+ }
+}

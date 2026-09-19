@@ -1,0 +1,129 @@
+{
+ "url": "/intel/entity/P0020",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0020",
+  "risk_score": 0.796,
+  "band": "high",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 7,
+   "n_devices": 1,
+   "n_accounts": 0,
+   "n_ips_shared": 1,
+   "max_imei_sim_count": 7,
+   "has_call_debit_coupling": 0,
+   "call_debit_speed_score": 0,
+   "n_call_debit_links": 0,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 0,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 0,
+   "coupled_calls_out": 1,
+   "callee_money_movers": 1
+  },
+  "top_factors": [
+   {
+    "feature": "n_phones",
+    "value": 7,
+    "shap": 1.2712,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 1,
+    "shap": 0.8153,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_imei_sim_count",
+    "value": 7,
+    "shap": 0.6136,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 0,
+    "shap": -0.4411,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.4338,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0,
+    "shap": -0.3908,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "287101226916693"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916462704828"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916489325288"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916784801845"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917787133150"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917911718227"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917957015430"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+918489638346"
+    }
+   },
+   {
+    "kind": "SocialHandle",
+    "props": {
+     "handle": "@quickcash_jobs",
+     "platform": "telegram"
+    }
+   }
+  ],
+  "call_to_debit_links": [],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

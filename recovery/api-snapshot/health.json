@@ -1,0 +1,30 @@
+{
+ "url": "/health",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "status": "degraded",
+  "version": "0.1.0",
+  "services": [
+   {
+    "name": "postgres",
+    "ok": true,
+    "detail": null
+   },
+   {
+    "name": "neo4j",
+    "ok": false,
+    "detail": null
+   },
+   {
+    "name": "llm",
+    "ok": true,
+    "detail": "provider=stub"
+   }
+  ],
+  "llm": {
+   "provider": "stub",
+   "ready": true
+  }
+ }
+}

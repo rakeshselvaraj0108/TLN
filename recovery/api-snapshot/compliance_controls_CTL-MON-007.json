@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-007",
+  "domain": "Monitoring and Incident Response",
+  "name": "Infrastructure performance monitored",
+  "description": "Component health is observed.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Liveness of every backing service is exposed at /health; there is no metrics history or alerting.",
+  "observations": [
+   "Postgres, Neo4j and the LLM provider are each probed.",
+   "The UI degrades honestly when one is down rather than showing a blank panel that reads as 'no findings'."
+  ]
+ }
+}

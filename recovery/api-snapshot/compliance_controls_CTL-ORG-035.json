@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-035",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-035",
+  "domain": "Organizational Security",
+  "name": "Security awareness training conducted",
+  "description": "Staff receive annual security awareness training.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: security awareness training is delivered by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

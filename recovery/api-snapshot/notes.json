@@ -1,0 +1,9 @@
+{
+ "url": "/notes",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "notes": [],
+  "total": 0
+ }
+}

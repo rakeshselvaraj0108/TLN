@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-ACC-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-001",
+  "domain": "Access Control and Authorization",
+  "name": "Access granting process used",
+  "description": "New access is granted on least privilege, with each grant attributable.",
+  "owner": "platform",
+  "status": "satisfied",
+  "detail": "2 users provisioned, every one holding a defined role; 5 actions are restricted to supervisors.",
+  "observations": [
+   "roles in use: investigator, supervisor",
+   "privileged actions: case.action_withdrawn, case.close, case.freeze_request, case.sar_draft, evidence.package.export",
+   "Access is granted by provisioning a row in app_user; an unprovisioned identity is rejected at the door with 401."
+  ]
+ }
+}

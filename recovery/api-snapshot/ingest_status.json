@@ -1,0 +1,50 @@
+{
+ "url": "/ingest/status",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "sources": {
+   "alpr": {
+    "records": 140,
+    "batches": 1
+   },
+   "bank": {
+    "records": 407,
+    "batches": 1
+   },
+   "cdr": {
+    "records": 1119,
+    "batches": 1
+   },
+   "ipdr": {
+    "records": 449,
+    "batches": 1
+   },
+   "social": {
+    "records": 4,
+    "batches": 1
+   }
+  },
+  "total_records": 2119,
+  "graph": {
+   "nodes": 2147,
+   "relationships": 3397,
+   "by_label": {
+    "Account": 17,
+    "Call": 1119,
+    "DataSession": 449,
+    "Device": 21,
+    "Ip": 16,
+    "Person": 20,
+    "Phone": 37,
+    "Post": 4,
+    "Sim": 37,
+    "SocialHandle": 3,
+    "Txn": 407,
+    "UpiId": 17
+   }
+  },
+  "graph_engine": "local",
+  "graph_error": null
+ }
+}

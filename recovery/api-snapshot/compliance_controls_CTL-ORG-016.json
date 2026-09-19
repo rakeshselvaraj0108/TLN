@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ORG-016",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-016",
+  "domain": "Organizational Security",
+  "name": "Internal security audit performed",
+  "description": "An internal audit evaluates control effectiveness.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "This report is a continuous internal audit of the application's own controls; it is not a substitute for an independent one.",
+  "observations": [
+   "Self-assessment by the party being assessed is a starting point, not an assurance opinion. Stated so it is not mistaken for one."
+  ]
+ }
+}

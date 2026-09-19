@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-INF-012",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-012",
+  "domain": "Infrastructure Security",
+  "name": "Infrastructure deployed using an infrastructure-as-code tool",
+  "description": "The environment is reproducible from declarative definitions.",
+  "owner": "platform",
+  "status": "partial",
+  "detail": "No infrastructure-as-code definition found at the repository root.",
+  "observations": []
+ }
+}

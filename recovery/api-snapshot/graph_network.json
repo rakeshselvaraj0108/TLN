@@ -1,0 +1,5518 @@
+{
+ "url": "/graph/network",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "nodes": [
+   {
+    "entity_id": "P0006",
+    "name": "Meera Kulkarni",
+    "risk_score": 0.8673,
+    "band": "high",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 39,
+    "connected": true
+   },
+   {
+    "entity_id": "P0008",
+    "name": "Ritu Iyer",
+    "risk_score": 0.8604,
+    "band": "high",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 44,
+    "connected": true
+   },
+   {
+    "entity_id": "P0004",
+    "name": "Deepa Chopra",
+    "risk_score": 0.8425,
+    "band": "high",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 29,
+    "connected": true
+   },
+   {
+    "entity_id": "P0020",
+    "name": "Unknown Handler",
+    "risk_score": 0.796,
+    "band": "high",
+    "accounts": 0,
+    "phones": 7,
+    "devices": 1,
+    "degree": 55,
+    "connected": true
+   },
+   {
+    "entity_id": "P0012",
+    "name": "Meera Joshi",
+    "risk_score": 0.5165,
+    "band": "elevated",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 34,
+    "connected": true
+   },
+   {
+    "entity_id": "P0018",
+    "name": "Manish Bose",
+    "risk_score": 0.4446,
+    "band": "elevated",
+    "accounts": 0,
+    "phones": 9,
+    "devices": 1,
+    "degree": 52,
+    "connected": true
+   },
+   {
+    "entity_id": "P0015",
+    "name": "Amit Verma",
+    "risk_score": 0.2248,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 18,
+    "connected": true
+   },
+   {
+    "entity_id": "P0002",
+    "name": "Meera Singh",
+    "risk_score": 0.1737,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 33,
+    "connected": true
+   },
+   {
+    "entity_id": "P0017",
+    "name": "Karthik Das",
+    "risk_score": 0.161,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 36,
+    "connected": true
+   },
+   {
+    "entity_id": "P0009",
+    "name": "Neha Chopra",
+    "risk_score": 0.1578,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 39,
+    "connected": true
+   },
+   {
+    "entity_id": "P0011",
+    "name": "Priya Gupta",
+    "risk_score": 0.1031,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 27,
+    "connected": true
+   },
+   {
+    "entity_id": "P0013",
+    "name": "Sanjay Joshi",
+    "risk_score": 0.0507,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 36,
+    "connected": true
+   },
+   {
+    "entity_id": "P0005",
+    "name": "Ritu Reddy",
+    "risk_score": 0.0438,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 27,
+    "connected": true
+   },
+   {
+    "entity_id": "P0014",
+    "name": "Rohit Singh",
+    "risk_score": 0.0427,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 39,
+    "connected": true
+   },
+   {
+    "entity_id": "P0016",
+    "name": "Amit Iyer",
+    "risk_score": 0.0214,
+    "band": "low",
+    "accounts": 1,
+    "phones": 3,
+    "devices": 1,
+    "degree": 49,
+    "connected": true
+   },
+   {
+    "entity_id": "P0010",
+    "name": "Sharma Traders",
+    "risk_score": 0.02,
+    "band": "low",
+    "accounts": 1,
+    "phones": 2,
+    "devices": 2,
+    "degree": 51,
+    "connected": true
+   },
+   {
+    "entity_id": "P0001",
+    "name": "Ramesh Gupta",
+    "risk_score": 0.0196,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 25,
+    "connected": true
+   },
+   {
+    "entity_id": "P0007",
+    "name": "Ritu Mehta",
+    "risk_score": 0.0171,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 37,
+    "connected": true
+   },
+   {
+    "entity_id": "P0003",
+    "name": "Seva Relief Trust",
+    "risk_score": 0.0144,
+    "band": "low",
+    "accounts": 1,
+    "phones": 1,
+    "devices": 1,
+    "degree": 33,
+    "connected": true
+   },
+   {
+    "entity_id": "P0019",
+    "name": "Pooja Rao",
+    "risk_score": 0.0043,
+    "band": "low",
+    "accounts": 0,
+    "phones": 1,
+    "devices": 1,
+    "degree": 23,
+    "connected": true
+   }
+  ],
+  "edges": [
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0020",
+    "directed": true,
+    "count": 73,
+    "value": 9528,
+    "rec_ids": [
+     "CDR00070",
+     "CDR00072",
+     "CDR00074",
+     "CDR00086",
+     "CDR00087",
+     "CDR00089",
+     "CDR00092",
+     "CDR00160",
+     "CDR00161",
+     "CDR00163",
+     "CDR00241",
+     "CDR00244",
+     "CDR00249",
+     "CDR00250",
+     "CDR00258",
+     "CDR00263",
+     "CDR00326",
+     "CDR00332",
+     "CDR00340",
+     "CDR00342",
+     "CDR00343",
+     "CDR00346",
+     "CDR00350",
+     "CDR00424",
+     "CDR00430"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0018",
+    "directed": true,
+    "count": 38,
+    "value": 8738,
+    "rec_ids": [
+     "CDR00004",
+     "CDR00010",
+     "CDR00104",
+     "CDR00108",
+     "CDR00109",
+     "CDR00110",
+     "CDR00111",
+     "CDR00114",
+     "CDR00186",
+     "CDR00189",
+     "CDR00191",
+     "CDR00194",
+     "CDR00201",
+     "CDR00277",
+     "CDR00279",
+     "CDR00281",
+     "CDR00286",
+     "CDR00288",
+     "CDR00366",
+     "CDR00376",
+     "CDR00379",
+     "CDR00453",
+     "CDR00459",
+     "CDR00460",
+     "CDR00463"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0016",
+    "directed": true,
+    "count": 29,
+    "value": 2899,
+    "rec_ids": [
+     "CDR00066",
+     "CDR00079",
+     "CDR00088",
+     "CDR00243",
+     "CDR00248",
+     "CDR00438",
+     "CDR00440",
+     "CDR00508",
+     "CDR00522",
+     "CDR00686",
+     "CDR00774",
+     "CDR00780",
+     "CDR00866",
+     "CDR00952",
+     "CDR00954",
+     "CDR00962",
+     "CDR00971",
+     "CDR00978",
+     "CDR00985",
+     "CDR01000",
+     "CDR01009",
+     "CDR01026",
+     "CDR01030",
+     "CDR01035",
+     "CDR01044"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0018",
+    "directed": true,
+    "count": 20,
+    "value": 3869,
+    "rec_ids": [
+     "CDR00052",
+     "CDR00053",
+     "CDR00056",
+     "CDR00152",
+     "CDR00228",
+     "CDR00230",
+     "CDR00233",
+     "CDR00415",
+     "CDR00582",
+     "CDR00584",
+     "CDR00669",
+     "CDR00671",
+     "CDR00752",
+     "CDR00755",
+     "CDR00756",
+     "CDR00854",
+     "CDR00922",
+     "CDR00933",
+     "CDR00940",
+     "CDR00948"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0010",
+    "directed": true,
+    "count": 19,
+    "value": 4229,
+    "rec_ids": [
+     "CDR00065",
+     "CDR00068",
+     "CDR00077",
+     "CDR00081",
+     "CDR00091",
+     "CDR00162",
+     "CDR00170",
+     "CDR00247",
+     "CDR00345",
+     "CDR00428",
+     "CDR00509",
+     "CDR00607",
+     "CDR00683",
+     "CDR00688",
+     "CDR00771",
+     "CDR00779",
+     "CDR00879",
+     "CDR00986",
+     "CDR01065"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0020",
+    "directed": true,
+    "count": 19,
+    "value": 3368,
+    "rec_ids": [
+     "CDR00231",
+     "CDR00232",
+     "CDR00409",
+     "CDR00412",
+     "CDR00494",
+     "CDR00495",
+     "CDR00499",
+     "CDR00500",
+     "CDR00502",
+     "CDR00585",
+     "CDR00663",
+     "CDR00664",
+     "CDR00666",
+     "CDR00670",
+     "CDR00672",
+     "CDR00851",
+     "CDR00927",
+     "CDR00930",
+     "CDR00944"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0006",
+    "directed": true,
+    "count": 16,
+    "value": 1664,
+    "rec_ids": [
+     "CDR00171",
+     "CDR00246",
+     "CDR00254",
+     "CDR00437",
+     "CDR00521",
+     "CDR00680",
+     "CDR00869",
+     "CDR00993",
+     "CDR00995",
+     "CDR01007",
+     "CDR01011",
+     "CDR01045",
+     "CDR01058",
+     "CDR01088",
+     "CDR01090",
+     "CDR01097"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0016",
+    "directed": true,
+    "count": 14,
+    "value": 2854,
+    "rec_ids": [
+     "CDR00008",
+     "CDR00013",
+     "CDR00119",
+     "CDR00190",
+     "CDR00192",
+     "CDR00280",
+     "CDR00364",
+     "CDR00381",
+     "CDR00462",
+     "CDR00619",
+     "CDR00623",
+     "CDR00629",
+     "CDR00815",
+     "CDR00816"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0016",
+    "directed": true,
+    "count": 14,
+    "value": 2608,
+    "rec_ids": [
+     "CDR00136",
+     "CDR00567",
+     "CDR00743",
+     "CDR00840",
+     "CDR00900",
+     "CDR00902",
+     "CDR00904",
+     "CDR00906",
+     "CDR00908",
+     "CDR00910",
+     "CDR00912",
+     "CDR00914",
+     "CDR00916",
+     "CDR00918"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0017",
+    "directed": true,
+    "count": 14,
+    "value": 1641,
+    "rec_ids": [
+     "CDR00167",
+     "CDR00168",
+     "CDR00169",
+     "CDR00335",
+     "CDR00347",
+     "CDR00423",
+     "CDR00425",
+     "CDR00694",
+     "CDR00867",
+     "CDR00880",
+     "CDR00950",
+     "CDR00982",
+     "CDR01016",
+     "CDR01075"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0018",
+    "directed": true,
+    "count": 13,
+    "value": 3536,
+    "rec_ids": [
+     "CDR00038",
+     "CDR00138",
+     "CDR00402",
+     "CDR00485",
+     "CDR00489",
+     "CDR00568",
+     "CDR00572",
+     "CDR00653",
+     "CDR00739",
+     "CDR00839",
+     "CDR00841",
+     "CDR00842",
+     "CDR00843"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0009",
+    "directed": true,
+    "count": 13,
+    "value": 1754,
+    "rec_ids": [
+     "CDR00078",
+     "CDR00513",
+     "CDR00516",
+     "CDR00593",
+     "CDR00678",
+     "CDR00691",
+     "CDR00868",
+     "CDR00877",
+     "CDR00963",
+     "CDR00964",
+     "CDR01002",
+     "CDR01022",
+     "CDR01069"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0004",
+    "directed": true,
+    "count": 13,
+    "value": 1332,
+    "rec_ids": [
+     "CDR00093",
+     "CDR00259",
+     "CDR00330",
+     "CDR00439",
+     "CDR00687",
+     "CDR00974",
+     "CDR00994",
+     "CDR01010",
+     "CDR01018",
+     "CDR01028",
+     "CDR01038",
+     "CDR01050",
+     "CDR01081"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0007",
+    "directed": true,
+    "count": 12,
+    "value": 1487,
+    "rec_ids": [
+     "CDR00490",
+     "CDR00571",
+     "CDR00899",
+     "CDR00901",
+     "CDR00903",
+     "CDR00905",
+     "CDR00907",
+     "CDR00909",
+     "CDR00911",
+     "CDR00913",
+     "CDR00915",
+     "CDR00917"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0013",
+    "directed": true,
+    "count": 11,
+    "value": 1388,
+    "rec_ids": [
+     "CDR00064",
+     "CDR00158",
+     "CDR00165",
+     "CDR00251",
+     "CDR00328",
+     "CDR00337",
+     "CDR00427",
+     "CDR00975",
+     "CDR00998",
+     "CDR01001",
+     "CDR01101"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0010",
+    "target": "P0007",
+    "directed": true,
+    "count": 10,
+    "value": 523000,
+    "rec_ids": [
+     "TXN00121",
+     "TXN00138",
+     "TXN00157",
+     "TXN00179",
+     "TXN00193",
+     "TXN00212",
+     "TXN00232",
+     "TXN00247",
+     "TXN00262",
+     "TXN00276"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0010",
+    "target": "P0016",
+    "directed": true,
+    "count": 10,
+    "value": 515000,
+    "rec_ids": [
+     "TXN00122",
+     "TXN00139",
+     "TXN00158",
+     "TXN00180",
+     "TXN00194",
+     "TXN00213",
+     "TXN00233",
+     "TXN00248",
+     "TXN00263",
+     "TXN00277"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0012",
+    "directed": true,
+    "count": 10,
+    "value": 1109,
+    "rec_ids": [
+     "CDR00084",
+     "CDR00172",
+     "CDR00333",
+     "CDR00765",
+     "CDR00767",
+     "CDR00773",
+     "CDR00777",
+     "CDR00988",
+     "CDR01034",
+     "CDR01082"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0011",
+    "directed": true,
+    "count": 10,
+    "value": 1385,
+    "rec_ids": [
+     "CDR00252",
+     "CDR00256",
+     "CDR00422",
+     "CDR00523",
+     "CDR00872",
+     "CDR00973",
+     "CDR00983",
+     "CDR01003",
+     "CDR01020",
+     "CDR01079"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0015",
+    "directed": true,
+    "count": 10,
+    "value": 322,
+    "rec_ids": [
+     "CDR00344",
+     "CDR00958",
+     "CDR01017",
+     "CDR01051",
+     "CDR01052",
+     "CDR01073",
+     "CDR01078",
+     "CDR01080",
+     "CDR01095",
+     "CDR01102"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0020",
+    "directed": true,
+    "count": 9,
+    "value": 2010,
+    "rec_ids": [
+     "CDR00034",
+     "CDR00036",
+     "CDR00039",
+     "CDR00214",
+     "CDR00312",
+     "CDR00654",
+     "CDR00737",
+     "CDR00741",
+     "CDR00742"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0007",
+    "directed": true,
+    "count": 9,
+    "value": 834,
+    "rec_ids": [
+     "CDR00075",
+     "CDR00434",
+     "CDR00599",
+     "CDR00768",
+     "CDR00977",
+     "CDR01060",
+     "CDR01070",
+     "CDR01084",
+     "CDR01089"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0018",
+    "directed": true,
+    "count": 9,
+    "value": 2449,
+    "rec_ids": [
+     "CDR00184",
+     "CDR00275",
+     "CDR00362",
+     "CDR00363",
+     "CDR00450",
+     "CDR00534",
+     "CDR00706",
+     "CDR00793",
+     "CDR00795"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0014",
+    "directed": true,
+    "count": 9,
+    "value": 1250,
+    "rec_ids": [
+     "CDR00239",
+     "CDR00433",
+     "CDR00514",
+     "CDR00591",
+     "CDR00684",
+     "CDR00970",
+     "CDR00997",
+     "CDR01005",
+     "CDR01039"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0003",
+    "directed": true,
+    "count": 9,
+    "value": 1178,
+    "rec_ids": [
+     "CDR00426",
+     "CDR00600",
+     "CDR00679",
+     "CDR00865",
+     "CDR00878",
+     "CDR00956",
+     "CDR01013",
+     "CDR01053",
+     "CDR01104"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0010",
+    "directed": true,
+    "count": 9,
+    "value": 449499,
+    "rec_ids": [
+     "CDR00247",
+     "TXN00158",
+     "CDR00081",
+     "TXN00122",
+     "CDR00683",
+     "TXN00049",
+     "CDR00065",
+     "CDR00345",
+     "TXN00179",
+     "TXN00121",
+     "TXN00157",
+     "TXN00180",
+     "CDR00068"
+    ],
+    "detail": "2153s after the call ended, 45,000 left PUNB35454948083"
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0014",
+    "target": "P0004",
+    "directed": true,
+    "count": 8,
+    "value": 415496.5399999999,
+    "rec_ids": [
+     "TXN00288",
+     "TXN00289",
+     "TXN00302",
+     "TXN00303",
+     "TXN00308",
+     "TXN00309",
+     "TXN00320",
+     "TXN00321"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0014",
+    "target": "P0006",
+    "directed": true,
+    "count": 8,
+    "value": 415496.5399999999,
+    "rec_ids": [
+     "TXN00294",
+     "TXN00295",
+     "TXN00304",
+     "TXN00305",
+     "TXN00306",
+     "TXN00307",
+     "TXN00322",
+     "TXN00323"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0003",
+    "target": "P0005",
+    "directed": true,
+    "count": 8,
+    "value": 66879.98,
+    "rec_ids": [
+     "TXN00338",
+     "TXN00339",
+     "TXN00360",
+     "TXN00361",
+     "TXN00381",
+     "TXN00382",
+     "TXN00402",
+     "TXN00403"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0003",
+    "target": "P0016",
+    "directed": true,
+    "count": 8,
+    "value": 66879.98,
+    "rec_ids": [
+     "TXN00340",
+     "TXN00341",
+     "TXN00362",
+     "TXN00363",
+     "TXN00383",
+     "TXN00384",
+     "TXN00404",
+     "TXN00405"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0003",
+    "target": "P0010",
+    "directed": true,
+    "count": 8,
+    "value": 66879.98,
+    "rec_ids": [
+     "TXN00342",
+     "TXN00343",
+     "TXN00364",
+     "TXN00365",
+     "TXN00385",
+     "TXN00386",
+     "TXN00406",
+     "TXN00407"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0017",
+    "directed": true,
+    "count": 8,
+    "value": 1446,
+    "rec_ids": [
+     "CDR00007",
+     "CDR00014",
+     "CDR00193",
+     "CDR00282",
+     "CDR00291",
+     "CDR00374",
+     "CDR00632",
+     "CDR00803"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0020",
+    "directed": true,
+    "count": 8,
+    "value": 1872,
+    "rec_ids": [
+     "CDR00025",
+     "CDR00128",
+     "CDR00390",
+     "CDR00391",
+     "CDR00475",
+     "CDR00827",
+     "CDR00828",
+     "CDR00829"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0020",
+    "directed": true,
+    "count": 8,
+    "value": 1583,
+    "rec_ids": [
+     "CDR00042",
+     "CDR00141",
+     "CDR00142",
+     "CDR00491",
+     "CDR00574",
+     "CDR00656",
+     "CDR00658",
+     "CDR00745"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0011",
+    "directed": true,
+    "count": 8,
+    "value": 1241,
+    "rec_ids": [
+     "CDR00048",
+     "CDR00051",
+     "CDR00146",
+     "CDR00147",
+     "CDR00151",
+     "CDR00227",
+     "CDR00924",
+     "CDR00935"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0018",
+    "directed": true,
+    "count": 8,
+    "value": 1630,
+    "rec_ids": [
+     "CDR00060",
+     "CDR00062",
+     "CDR00419",
+     "CDR00506",
+     "CDR00761",
+     "CDR00762",
+     "CDR00763",
+     "CDR00860"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0019",
+    "directed": true,
+    "count": 8,
+    "value": 646,
+    "rec_ids": [
+     "CDR00090",
+     "CDR00348",
+     "CDR00519",
+     "CDR00782",
+     "CDR00871",
+     "CDR00969",
+     "CDR01019",
+     "CDR01108"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0005",
+    "directed": true,
+    "count": 8,
+    "value": 1238,
+    "rec_ids": [
+     "CDR00159",
+     "CDR00245",
+     "CDR00331",
+     "CDR00511",
+     "CDR00596",
+     "CDR00967",
+     "CDR00996",
+     "CDR01004"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0001",
+    "directed": true,
+    "count": 8,
+    "value": 1230,
+    "rec_ids": [
+     "CDR00238",
+     "CDR00510",
+     "CDR00603",
+     "CDR00696",
+     "CDR00772",
+     "CDR00976",
+     "CDR01072",
+     "CDR01096"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0018",
+    "directed": true,
+    "count": 8,
+    "value": 1853,
+    "rec_ids": [
+     "CDR00417",
+     "CDR00503",
+     "CDR00504",
+     "CDR00588",
+     "CDR00675",
+     "CDR00757",
+     "CDR00760",
+     "CDR00857"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0008",
+    "directed": true,
+    "count": 8,
+    "value": 461100,
+    "rec_ids": [
+     "CDR00455",
+     "TXN00013",
+     "CDR00378",
+     "TXN00088",
+     "TXN00091",
+     "TXN00094",
+     "TXN00097",
+     "TXN00100",
+     "TXN00103",
+     "CDR00631",
+     "TXN00014"
+    ],
+    "detail": "3454s after the call ended, 150 left KKBK91183842513"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0004",
+    "target": "P0008",
+    "directed": false,
+    "count": 8,
+    "value": 8,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0004",
+    "target": "P0009",
+    "directed": false,
+    "count": 8,
+    "value": 8,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0008",
+    "target": "P0009",
+    "directed": false,
+    "count": 8,
+    "value": 8,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0002",
+    "directed": true,
+    "count": 7,
+    "value": 1313,
+    "rec_ids": [
+     "CDR00003",
+     "CDR00456",
+     "CDR00464",
+     "CDR00539",
+     "CDR00716",
+     "CDR00805",
+     "CDR00806"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0010",
+    "directed": true,
+    "count": 7,
+    "value": 1040,
+    "rec_ids": [
+     "CDR00015",
+     "CDR00107",
+     "CDR00365",
+     "CDR00373",
+     "CDR00627",
+     "CDR00628",
+     "CDR00796"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0018",
+    "directed": true,
+    "count": 7,
+    "value": 1415,
+    "rec_ids": [
+     "CDR00017",
+     "CDR00123",
+     "CDR00552",
+     "CDR00635",
+     "CDR00637",
+     "CDR00719",
+     "CDR00817"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0018",
+    "directed": true,
+    "count": 7,
+    "value": 1752,
+    "rec_ids": [
+     "CDR00021",
+     "CDR00205",
+     "CDR00295",
+     "CDR00384",
+     "CDR00470",
+     "CDR00639",
+     "CDR00641"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0018",
+    "directed": true,
+    "count": 7,
+    "value": 1771,
+    "rec_ids": [
+     "CDR00045",
+     "CDR00145",
+     "CDR00221",
+     "CDR00222",
+     "CDR00406",
+     "CDR00407",
+     "CDR00661"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0002",
+    "directed": true,
+    "count": 7,
+    "value": 719,
+    "rec_ids": [
+     "CDR00082",
+     "CDR00166",
+     "CDR00338",
+     "CDR00769",
+     "CDR00990",
+     "CDR01014",
+     "CDR01094"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0020",
+    "directed": true,
+    "count": 7,
+    "value": 1762,
+    "rec_ids": [
+     "CDR00095",
+     "CDR00266",
+     "CDR00352",
+     "CDR00527",
+     "CDR00697",
+     "CDR00883",
+     "CDR00884"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0018",
+    "directed": true,
+    "count": 7,
+    "value": 1874,
+    "rec_ids": [
+     "CDR00131",
+     "CDR00210",
+     "CDR00304",
+     "CDR00477",
+     "CDR00648",
+     "CDR00830",
+     "CDR00831"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0020",
+    "directed": true,
+    "count": 7,
+    "value": 1424,
+    "rec_ids": [
+     "CDR00183",
+     "CDR00185",
+     "CDR00274",
+     "CDR00361",
+     "CDR00535",
+     "CDR00708",
+     "CDR00794"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0003",
+    "directed": true,
+    "count": 7,
+    "value": 985,
+    "rec_ids": [
+     "CDR00199",
+     "CDR00292",
+     "CDR00617",
+     "CDR00620",
+     "CDR00625",
+     "CDR00630",
+     "CDR00713"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0013",
+    "directed": true,
+    "count": 7,
+    "value": 1464,
+    "rec_ids": [
+     "CDR00229",
+     "CDR00317",
+     "CDR00410",
+     "CDR00493",
+     "CDR00753",
+     "CDR00754",
+     "CDR00932"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0012",
+    "directed": true,
+    "count": 7,
+    "value": 1211,
+    "rec_ids": [
+     "CDR00413",
+     "CDR00414",
+     "CDR00580",
+     "CDR00665",
+     "CDR00849",
+     "CDR00921",
+     "CDR00931"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0004",
+    "target": "P0020",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0004",
+    "target": "P0006",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0008",
+    "target": "P0020",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0009",
+    "target": "P0020",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00015",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0006",
+    "target": "P0008",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0006",
+    "target": "P0009",
+    "directed": false,
+    "count": 7,
+    "value": 7,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00002",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0009",
+    "target": "P0014",
+    "directed": true,
+    "count": 6,
+    "value": 485270.1,
+    "rec_ids": [
+     "TXN00286",
+     "TXN00287",
+     "TXN00296",
+     "TXN00297",
+     "TXN00312",
+     "TXN00313"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0008",
+    "directed": true,
+    "count": 6,
+    "value": 1182,
+    "rec_ids": [
+     "CDR00005",
+     "CDR00378",
+     "CDR00455",
+     "CDR00631",
+     "CDR00714",
+     "CDR00799"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0018",
+    "directed": true,
+    "count": 6,
+    "value": 1449,
+    "rec_ids": [
+     "CDR00023",
+     "CDR00024",
+     "CDR00302",
+     "CDR00474",
+     "CDR00644",
+     "CDR00826"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0020",
+    "directed": true,
+    "count": 6,
+    "value": 907,
+    "rec_ids": [
+     "CDR00031",
+     "CDR00032",
+     "CDR00311",
+     "CDR00397",
+     "CDR00484",
+     "CDR00736"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0020",
+    "directed": true,
+    "count": 6,
+    "value": 1072,
+    "rec_ids": [
+     "CDR00155",
+     "CDR00156",
+     "CDR00234",
+     "CDR00586",
+     "CDR00676",
+     "CDR00759"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0020",
+    "directed": true,
+    "count": 6,
+    "value": 1320,
+    "rec_ids": [
+     "CDR00178",
+     "CDR00356",
+     "CDR00357",
+     "CDR00358",
+     "CDR00445",
+     "CDR00530"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0018",
+    "target": "P0008",
+    "directed": true,
+    "count": 6,
+    "value": 692,
+    "rec_ids": [
+     "CDR00327",
+     "CDR00432",
+     "CDR00874",
+     "CDR00959",
+     "CDR00991",
+     "CDR01047"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0016",
+    "directed": true,
+    "count": 6,
+    "value": 1280,
+    "rec_ids": [
+     "CDR00885",
+     "CDR00888",
+     "CDR01113",
+     "CDR01115",
+     "CDR01117",
+     "CDR01119"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0003",
+    "target": "P0008",
+    "directed": true,
+    "count": 6,
+    "value": 460800,
+    "rec_ids": [
+     "CDR00443",
+     "TXN00088",
+     "TXN00091",
+     "TXN00094",
+     "TXN00097",
+     "TXN00100",
+     "TXN00103"
+    ],
+    "detail": "8221s after the call ended, 76,800 left KKBK91183842513"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0006",
+    "target": "P0020",
+    "directed": false,
+    "count": 6,
+    "value": 6,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00001",
+     "ALP00022",
+     "ALP00018",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0007",
+    "directed": true,
+    "count": 5,
+    "value": 1112,
+    "rec_ids": [
+     "CDR00011",
+     "CDR00106",
+     "CDR00284",
+     "CDR00369",
+     "CDR00801"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0020",
+    "directed": true,
+    "count": 5,
+    "value": 1084,
+    "rec_ids": [
+     "CDR00029",
+     "CDR00308",
+     "CDR00309",
+     "CDR00480",
+     "CDR00834"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0018",
+    "directed": true,
+    "count": 5,
+    "value": 1079,
+    "rec_ids": [
+     "CDR00030",
+     "CDR00307",
+     "CDR00565",
+     "CDR00731",
+     "CDR00732"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0008",
+    "directed": true,
+    "count": 5,
+    "value": 1163,
+    "rec_ids": [
+     "CDR00035",
+     "CDR00040",
+     "CDR00403",
+     "CDR00487",
+     "CDR00651"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0009",
+    "directed": true,
+    "count": 5,
+    "value": 1069,
+    "rec_ids": [
+     "CDR00049",
+     "CDR00319",
+     "CDR00498",
+     "CDR00673",
+     "CDR00925"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0017",
+    "directed": true,
+    "count": 5,
+    "value": 1562,
+    "rec_ids": [
+     "CDR00058",
+     "CDR00149",
+     "CDR00226",
+     "CDR00321",
+     "CDR00853"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0018",
+    "directed": true,
+    "count": 5,
+    "value": 1228,
+    "rec_ids": [
+     "CDR00100",
+     "CDR00271",
+     "CDR00448",
+     "CDR00532",
+     "CDR00703"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0020",
+    "directed": true,
+    "count": 5,
+    "value": 773,
+    "rec_ids": [
+     "CDR00132",
+     "CDR00303",
+     "CDR00392",
+     "CDR00479",
+     "CDR00832"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0020",
+    "directed": true,
+    "count": 5,
+    "value": 1103,
+    "rec_ids": [
+     "CDR00204",
+     "CDR00385",
+     "CDR00553",
+     "CDR00640",
+     "CDR00822"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0020",
+    "directed": true,
+    "count": 5,
+    "value": 1071,
+    "rec_ids": [
+     "CDR00315",
+     "CDR00405",
+     "CDR00659",
+     "CDR00748",
+     "CDR00848"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0001",
+    "directed": true,
+    "count": 5,
+    "value": 20817,
+    "rec_ids": [
+     "CDR00544",
+     "CDR00893",
+     "CDR00894",
+     "CDR00895",
+     "CDR00896"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0004",
+    "target": "P0007",
+    "directed": false,
+    "count": 5,
+    "value": 5,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00022",
+     "ALP00002",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0007",
+    "target": "P0008",
+    "directed": false,
+    "count": 5,
+    "value": 5,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00022",
+     "ALP00002",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0006",
+    "target": "P0007",
+    "directed": false,
+    "count": 5,
+    "value": 5,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00022",
+     "ALP00002",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0007",
+    "target": "P0009",
+    "directed": false,
+    "count": 5,
+    "value": 5,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00022",
+     "ALP00002",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0002",
+    "target": "P0014",
+    "directed": true,
+    "count": 4,
+    "value": 257587.14,
+    "rec_ids": [
+     "TXN00282",
+     "TXN00283",
+     "TXN00310",
+     "TXN00311"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0014",
+    "target": "P0009",
+    "directed": true,
+    "count": 4,
+    "value": 198118.14,
+    "rec_ids": [
+     "TXN00290",
+     "TXN00291",
+     "TXN00318",
+     "TXN00319"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0014",
+    "target": "P0013",
+    "directed": true,
+    "count": 4,
+    "value": 198118.14,
+    "rec_ids": [
+     "TXN00292",
+     "TXN00293",
+     "TXN00316",
+     "TXN00317"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0013",
+    "target": "P0014",
+    "directed": true,
+    "count": 4,
+    "value": 232825.94,
+    "rec_ids": [
+     "TXN00298",
+     "TXN00299",
+     "TXN00314",
+     "TXN00315"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0013",
+    "directed": true,
+    "count": 4,
+    "value": 868,
+    "rec_ids": [
+     "CDR00002",
+     "CDR00112",
+     "CDR00370",
+     "CDR00798"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0016",
+    "directed": true,
+    "count": 4,
+    "value": 813,
+    "rec_ids": [
+     "CDR00046",
+     "CDR00223",
+     "CDR00408",
+     "CDR00492"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0007",
+    "directed": true,
+    "count": 4,
+    "value": 657,
+    "rec_ids": [
+     "CDR00047",
+     "CDR00496",
+     "CDR00926",
+     "CDR00929"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0020",
+    "directed": true,
+    "count": 4,
+    "value": 477,
+    "rec_ids": [
+     "CDR00098",
+     "CDR00176",
+     "CDR00354",
+     "CDR00442"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0018",
+    "directed": true,
+    "count": 4,
+    "value": 1241,
+    "rec_ids": [
+     "CDR00099",
+     "CDR00179",
+     "CDR00268",
+     "CDR00531"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0002",
+    "directed": true,
+    "count": 4,
+    "value": 655,
+    "rec_ids": [
+     "CDR00102",
+     "CDR00360",
+     "CDR00451",
+     "CDR00452"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0015",
+    "directed": true,
+    "count": 4,
+    "value": 1101,
+    "rec_ids": [
+     "CDR00148",
+     "CDR00318",
+     "CDR00852",
+     "CDR00941"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0008",
+    "directed": true,
+    "count": 4,
+    "value": 678,
+    "rec_ids": [
+     "CDR00150",
+     "CDR00501",
+     "CDR00750",
+     "CDR00942"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0002",
+    "directed": true,
+    "count": 4,
+    "value": 642,
+    "rec_ids": [
+     "CDR00153",
+     "CDR00225",
+     "CDR00667",
+     "CDR00937"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0018",
+    "directed": true,
+    "count": 4,
+    "value": 618,
+    "rec_ids": [
+     "CDR00174",
+     "CDR00525",
+     "CDR01110",
+     "CDR01111"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0016",
+    "directed": true,
+    "count": 4,
+    "value": 1102,
+    "rec_ids": [
+     "CDR00180",
+     "CDR00447",
+     "CDR00614",
+     "CDR00891"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0016",
+    "directed": true,
+    "count": 4,
+    "value": 967,
+    "rec_ids": [
+     "CDR00207",
+     "CDR00298",
+     "CDR00387",
+     "CDR00556"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0011",
+    "directed": true,
+    "count": 4,
+    "value": 1284,
+    "rec_ids": [
+     "CDR00289",
+     "CDR00382",
+     "CDR00621",
+     "CDR00800"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0010",
+    "directed": true,
+    "count": 4,
+    "value": 592,
+    "rec_ids": [
+     "CDR00320",
+     "CDR00749",
+     "CDR00923",
+     "CDR00943"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0016",
+    "directed": true,
+    "count": 4,
+    "value": 1041,
+    "rec_ids": [
+     "CDR00393",
+     "CDR00481",
+     "CDR00564",
+     "CDR00730"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0014",
+    "directed": true,
+    "count": 4,
+    "value": 555,
+    "rec_ids": [
+     "CDR00928",
+     "CDR00936",
+     "CDR00938",
+     "CDR00946"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0005",
+    "directed": true,
+    "count": 4,
+    "value": 669,
+    "rec_ids": [
+     "CDR01112",
+     "CDR01114",
+     "CDR01116",
+     "CDR01118"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0017",
+    "directed": true,
+    "count": 4,
+    "value": 4978,
+    "rec_ids": [
+     "CDR00291",
+     "TXN00072",
+     "CDR00282",
+     "CDR00803",
+     "TXN00075",
+     "CDR00632",
+     "TXN00074"
+    ],
+    "detail": "371s after the call ended, 499 left YESB17187026217"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0017",
+    "target": "P0014",
+    "directed": true,
+    "count": 4,
+    "value": 203617.88,
+    "rec_ids": [
+     "CDR00237",
+     "TXN00288",
+     "TXN00294",
+     "TXN00290",
+     "TXN00292"
+    ],
+    "detail": "1287s after the call ended, 50,904 left SBIN90847007661"
+   },
+   {
+    "type": "SEEN_AT",
+    "source": "P0007",
+    "target": "P0020",
+    "directed": false,
+    "count": 4,
+    "value": 4,
+    "rec_ids": [
+     "ALP00014",
+     "ALP00003",
+     "ALP00022",
+     "ALP00009"
+    ],
+    "detail": "CAM01 - Sector 17 Plaza entry"
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0004",
+    "directed": true,
+    "count": 3,
+    "value": 491,
+    "rec_ids": [
+     "CDR00006",
+     "CDR00711",
+     "CDR00811"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0002",
+    "directed": true,
+    "count": 3,
+    "value": 712,
+    "rec_ids": [
+     "CDR00028",
+     "CDR00563",
+     "CDR00646"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0003",
+    "directed": true,
+    "count": 3,
+    "value": 739,
+    "rec_ids": [
+     "CDR00050",
+     "CDR00224",
+     "CDR00850"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0019",
+    "directed": true,
+    "count": 3,
+    "value": 344,
+    "rec_ids": [
+     "CDR00055",
+     "CDR00057",
+     "CDR00751"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0019",
+    "directed": true,
+    "count": 3,
+    "value": 434,
+    "rec_ids": [
+     "CDR00105",
+     "CDR00113",
+     "CDR00371"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0012",
+    "directed": true,
+    "count": 3,
+    "value": 667,
+    "rec_ids": [
+     "CDR00117",
+     "CDR00197",
+     "CDR00808"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0017",
+    "directed": true,
+    "count": 3,
+    "value": 1133,
+    "rec_ids": [
+     "CDR00121",
+     "CDR00383",
+     "CDR00636"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0008",
+    "directed": true,
+    "count": 3,
+    "value": 907,
+    "rec_ids": [
+     "CDR00177",
+     "CDR00443",
+     "CDR00787"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0005",
+    "directed": true,
+    "count": 3,
+    "value": 763,
+    "rec_ids": [
+     "CDR00196",
+     "CDR00458",
+     "CDR00549"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0004",
+    "directed": true,
+    "count": 3,
+    "value": 453,
+    "rec_ids": [
+     "CDR00208",
+     "CDR00558",
+     "CDR00559"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0010",
+    "directed": true,
+    "count": 3,
+    "value": 712,
+    "rec_ids": [
+     "CDR00211",
+     "CDR00729",
+     "CDR00833"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0005",
+    "directed": true,
+    "count": 3,
+    "value": 1381,
+    "rec_ids": [
+     "CDR00220",
+     "CDR00744",
+     "CDR00919"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0016",
+    "directed": true,
+    "count": 3,
+    "value": 809,
+    "rec_ids": [
+     "CDR00276",
+     "CDR00616",
+     "CDR00709"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0009",
+    "directed": true,
+    "count": 3,
+    "value": 936,
+    "rec_ids": [
+     "CDR00278",
+     "CDR00367",
+     "CDR00375"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0016",
+    "directed": true,
+    "count": 3,
+    "value": 437,
+    "rec_ids": [
+     "CDR00323",
+     "CDR00324",
+     "CDR00505"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0009",
+    "directed": true,
+    "count": 3,
+    "value": 496,
+    "rec_ids": [
+     "CDR00401",
+     "CDR00655",
+     "CDR00738"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0011",
+    "directed": true,
+    "count": 3,
+    "value": 736,
+    "rec_ids": [
+     "CDR00404",
+     "CDR00576",
+     "CDR00747"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0016",
+    "directed": true,
+    "count": 3,
+    "value": 716,
+    "rec_ids": [
+     "CDR00441",
+     "CDR00611",
+     "CDR00698"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0018",
+    "directed": true,
+    "count": 3,
+    "value": 828,
+    "rec_ids": [
+     "CDR00444",
+     "CDR00788",
+     "CDR00887"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0018",
+    "directed": true,
+    "count": 3,
+    "value": 341,
+    "rec_ids": [
+     "CDR00472",
+     "CDR00473",
+     "CDR00642"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0018",
+    "directed": true,
+    "count": 3,
+    "value": 685,
+    "rec_ids": [
+     "CDR00483",
+     "CDR00650",
+     "CDR00838"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0005",
+    "directed": true,
+    "count": 3,
+    "value": 831,
+    "rec_ids": [
+     "CDR00497",
+     "CDR00583",
+     "CDR00945"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0005",
+    "directed": true,
+    "count": 3,
+    "value": 319,
+    "rec_ids": [
+     "CDR00587",
+     "CDR00674",
+     "CDR00856"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0004",
+    "directed": true,
+    "count": 3,
+    "value": 395,
+    "rec_ids": [
+     "CDR00920",
+     "CDR00934",
+     "CDR00949"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0003",
+    "directed": true,
+    "count": 3,
+    "value": 23559.989999999998,
+    "rec_ids": [
+     "CDR00292",
+     "TXN00364",
+     "TXN00360",
+     "TXN00362"
+    ],
+    "detail": "46s after the call ended, 7,853 left ICIC27111161528"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0013",
+    "directed": true,
+    "count": 3,
+    "value": 8900,
+    "rec_ids": [
+     "CDR01001",
+     "TXN00032",
+     "CDR00158",
+     "TXN00031",
+     "CDR00998"
+    ],
+    "detail": "1320s after the call ended, 3,200 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0010",
+    "directed": true,
+    "count": 3,
+    "value": 104499,
+    "rec_ids": [
+     "CDR00943",
+     "TXN00049",
+     "CDR00320",
+     "TXN00179",
+     "TXN00180"
+    ],
+    "detail": "1404s after the call ended, 499 left PUNB35454948083"
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0001",
+    "target": "P0008",
+    "directed": true,
+    "count": 2,
+    "value": 960000,
+    "rec_ids": [
+     "TXN00086",
+     "TXN00087"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0006",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00088",
+     "TXN00089"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0004",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00091",
+     "TXN00092"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0009",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00094",
+     "TXN00095"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0013",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00097",
+     "TXN00098"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0012",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00100",
+     "TXN00101"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0008",
+    "target": "P0002",
+    "directed": true,
+    "count": 2,
+    "value": 153600,
+    "rec_ids": [
+     "TXN00103",
+     "TXN00104"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0007",
+    "target": "P0005",
+    "directed": true,
+    "count": 2,
+    "value": 76000,
+    "rec_ids": [
+     "TXN00279",
+     "TXN00280"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0006",
+    "target": "P0014",
+    "directed": true,
+    "count": 2,
+    "value": 139904.98,
+    "rec_ids": [
+     "TXN00284",
+     "TXN00285"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0012",
+    "target": "P0014",
+    "directed": true,
+    "count": 2,
+    "value": 149596.72,
+    "rec_ids": [
+     "TXN00300",
+     "TXN00301"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0007",
+    "directed": true,
+    "count": 2,
+    "value": 164,
+    "rec_ids": [
+     "CDR00001",
+     "CDR00702"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0014",
+    "directed": true,
+    "count": 2,
+    "value": 284,
+    "rec_ids": [
+     "CDR00012",
+     "CDR00457"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 534,
+    "rec_ids": [
+     "CDR00016",
+     "CDR00018"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0011",
+    "directed": true,
+    "count": 2,
+    "value": 445,
+    "rec_ids": [
+     "CDR00019",
+     "CDR00022"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 326,
+    "rec_ids": [
+     "CDR00026",
+     "CDR00645"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0018",
+    "directed": true,
+    "count": 2,
+    "value": 274,
+    "rec_ids": [
+     "CDR00041",
+     "CDR00746"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0017",
+    "directed": true,
+    "count": 2,
+    "value": 481,
+    "rec_ids": [
+     "CDR00043",
+     "CDR00847"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0009",
+    "directed": true,
+    "count": 2,
+    "value": 365,
+    "rec_ids": [
+     "CDR00059",
+     "CDR00855"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0002",
+    "directed": true,
+    "count": 2,
+    "value": 398,
+    "rec_ids": [
+     "CDR00063",
+     "CDR00862"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0001",
+    "directed": true,
+    "count": 2,
+    "value": 388,
+    "rec_ids": [
+     "CDR00096",
+     "CDR00351"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0012",
+    "directed": true,
+    "count": 2,
+    "value": 461,
+    "rec_ids": [
+     "CDR00097",
+     "CDR00175"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0001",
+    "directed": true,
+    "count": 2,
+    "value": 340,
+    "rec_ids": [
+     "CDR00122",
+     "CDR00550"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0002",
+    "directed": true,
+    "count": 2,
+    "value": 326,
+    "rec_ids": [
+     "CDR00127",
+     "CDR00643"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0001",
+    "directed": true,
+    "count": 2,
+    "value": 216,
+    "rec_ids": [
+     "CDR00130",
+     "CDR00647"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0002",
+    "directed": true,
+    "count": 2,
+    "value": 135,
+    "rec_ids": [
+     "CDR00134",
+     "CDR00396"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0005",
+    "directed": true,
+    "count": 2,
+    "value": 195,
+    "rec_ids": [
+     "CDR00135",
+     "CDR00837"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0011",
+    "directed": true,
+    "count": 2,
+    "value": 701,
+    "rec_ids": [
+     "CDR00139",
+     "CDR00216"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 539,
+    "rec_ids": [
+     "CDR00143",
+     "CDR00577"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0004",
+    "directed": true,
+    "count": 2,
+    "value": 606,
+    "rec_ids": [
+     "CDR00144",
+     "CDR00662"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0020",
+    "directed": true,
+    "count": 2,
+    "value": 514,
+    "rec_ids": [
+     "CDR00157",
+     "CDR00418"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0007",
+    "directed": true,
+    "count": 2,
+    "value": 763,
+    "rec_ids": [
+     "CDR00181",
+     "CDR00701"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0020",
+    "directed": true,
+    "count": 2,
+    "value": 325,
+    "rec_ids": [
+     "CDR00182",
+     "CDR00704"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0015",
+    "directed": true,
+    "count": 2,
+    "value": 310,
+    "rec_ids": [
+     "CDR00187",
+     "CDR00897"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0019",
+    "directed": true,
+    "count": 2,
+    "value": 352,
+    "rec_ids": [
+     "CDR00209",
+     "CDR00301"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0003",
+    "directed": true,
+    "count": 2,
+    "value": 462,
+    "rec_ids": [
+     "CDR00213",
+     "CDR00835"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0004",
+    "directed": true,
+    "count": 2,
+    "value": 527,
+    "rec_ids": [
+     "CDR00217",
+     "CDR00652"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0005",
+    "directed": true,
+    "count": 2,
+    "value": 634,
+    "rec_ids": [
+     "CDR00235",
+     "CDR00507"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0015",
+    "directed": true,
+    "count": 2,
+    "value": 469,
+    "rec_ids": [
+     "CDR00236",
+     "CDR00420"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 531,
+    "rec_ids": [
+     "CDR00269",
+     "CDR00892"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0003",
+    "directed": true,
+    "count": 2,
+    "value": 386,
+    "rec_ids": [
+     "CDR00272",
+     "CDR00705"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 288,
+    "rec_ids": [
+     "CDR00294",
+     "CDR00720"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0007",
+    "directed": true,
+    "count": 2,
+    "value": 272,
+    "rec_ids": [
+     "CDR00297",
+     "CDR00820"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0003",
+    "directed": true,
+    "count": 2,
+    "value": 365,
+    "rec_ids": [
+     "CDR00299",
+     "CDR00824"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0017",
+    "directed": true,
+    "count": 2,
+    "value": 651,
+    "rec_ids": [
+     "CDR00305",
+     "CDR00478"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0012",
+    "directed": true,
+    "count": 2,
+    "value": 254,
+    "rec_ids": [
+     "CDR00314",
+     "CDR00844"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0013",
+    "directed": true,
+    "count": 2,
+    "value": 233,
+    "rec_ids": [
+     "CDR00353",
+     "CDR00881"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0006",
+    "directed": true,
+    "count": 2,
+    "value": 640,
+    "rec_ids": [
+     "CDR00355",
+     "CDR00612"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0014",
+    "directed": true,
+    "count": 2,
+    "value": 580,
+    "rec_ids": [
+     "CDR00386",
+     "CDR00722"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 322,
+    "rec_ids": [
+     "CDR00399",
+     "CDR00482"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0004",
+    "directed": true,
+    "count": 2,
+    "value": 122,
+    "rec_ids": [
+     "CDR00400",
+     "CDR00733"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0005",
+    "directed": true,
+    "count": 2,
+    "value": 449,
+    "rec_ids": [
+     "CDR00446",
+     "CDR00791"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0007",
+    "directed": true,
+    "count": 2,
+    "value": 518,
+    "rec_ids": [
+     "CDR00466",
+     "CDR00638"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0009",
+    "directed": true,
+    "count": 2,
+    "value": 161,
+    "rec_ids": [
+     "CDR00468",
+     "CDR00551"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0013",
+    "directed": true,
+    "count": 2,
+    "value": 318,
+    "rec_ids": [
+     "CDR00471",
+     "CDR00821"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 676,
+    "rec_ids": [
+     "CDR00476",
+     "CDR00727"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0006",
+    "directed": true,
+    "count": 2,
+    "value": 660,
+    "rec_ids": [
+     "CDR00488",
+     "CDR00570"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 266,
+    "rec_ids": [
+     "CDR00526",
+     "CDR00786"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 483,
+    "rec_ids": [
+     "CDR00533",
+     "CDR00792"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0002",
+    "directed": true,
+    "count": 2,
+    "value": 205,
+    "rec_ids": [
+     "CDR00569",
+     "CDR00740"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 328,
+    "rec_ids": [
+     "CDR00573",
+     "CDR00846"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0006",
+    "directed": true,
+    "count": 2,
+    "value": 316,
+    "rec_ids": [
+     "CDR00590",
+     "CDR00677"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0013",
+    "directed": true,
+    "count": 2,
+    "value": 292,
+    "rec_ids": [
+     "CDR00613",
+     "CDR00889"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0001",
+    "directed": true,
+    "count": 2,
+    "value": 231,
+    "rec_ids": [
+     "CDR00700",
+     "CDR00898"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0009",
+    "directed": true,
+    "count": 2,
+    "value": 522,
+    "rec_ids": [
+     "CDR00790",
+     "CDR00890"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0017",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 2999,
+    "rec_ids": [
+     "CDR00505",
+     "TXN00063",
+     "CDR00324",
+     "TXN00062"
+    ],
+    "detail": "299s after the call ended, 2,500 left UTIB68071545168"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0016",
+    "directed": true,
+    "count": 2,
+    "value": 649,
+    "rec_ids": [
+     "CDR01000",
+     "TXN00062",
+     "CDR01068",
+     "TXN00064"
+    ],
+    "detail": "480s after the call ended, 499 left UTIB68071545168"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0017",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 104000,
+    "rec_ids": [
+     "CDR00325",
+     "TXN00179",
+     "TXN00180"
+    ],
+    "detail": "865s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0005",
+    "directed": true,
+    "count": 2,
+    "value": 3700,
+    "rec_ids": [
+     "CDR00511",
+     "TXN00058",
+     "CDR00967",
+     "TXN00056"
+    ],
+    "detail": "1256s after the call ended, 2,500 left ICIC96499091334"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0010",
+    "target": "P0007",
+    "directed": true,
+    "count": 2,
+    "value": 5199,
+    "rec_ids": [
+     "CDR00917",
+     "TXN00055",
+     "CDR00490",
+     "TXN00053"
+    ],
+    "detail": "1453s after the call ended, 1,999 left KKBK41343524082"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0012",
+    "directed": true,
+    "count": 2,
+    "value": 147758.36,
+    "rec_ids": [
+     "CDR00580",
+     "TXN00300",
+     "CDR00414",
+     "TXN00102"
+    ],
+    "detail": "1661s after the call ended, 74,798 left PUNB90967054668"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0003",
+    "directed": true,
+    "count": 2,
+    "value": 7588.33,
+    "rec_ids": [
+     "CDR01104",
+     "TXN00085",
+     "CDR00956",
+     "TXN00342"
+    ],
+    "detail": "1680s after the call ended, 780 left ICIC27111161528"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0014",
+    "directed": true,
+    "count": 2,
+    "value": 5000,
+    "rec_ids": [
+     "CDR00514",
+     "TXN00078",
+     "CDR01039"
+    ],
+    "detail": "3186s after the call ended, 2,500 left SBIN90847007661"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0017",
+    "directed": true,
+    "count": 2,
+    "value": 998,
+    "rec_ids": [
+     "CDR00347",
+     "TXN00072",
+     "CDR00168",
+     "TXN00071"
+    ],
+    "detail": "3239s after the call ended, 499 left YESB17187026217"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0014",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 53999,
+    "rec_ids": [
+     "CDR00526",
+     "TXN00213",
+     "TXN00048"
+    ],
+    "detail": "3559s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0006",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 104000,
+    "rec_ids": [
+     "CDR00296",
+     "TXN00179",
+     "TXN00180"
+    ],
+    "detail": "5931s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0001",
+    "target": "P0010",
+    "directed": true,
+    "count": 2,
+    "value": 48200,
+    "rec_ids": [
+     "CDR00533",
+     "TXN00233",
+     "CDR00792",
+     "TXN00050"
+    ],
+    "detail": "5942s after the call ended, 45,000 left PUNB35454948083"
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0013",
+    "target": "P0012",
+    "directed": true,
+    "count": 1,
+    "value": 72960,
+    "rec_ids": [
+     "TXN00099"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0012",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 72960,
+    "rec_ids": [
+     "TXN00102"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "MONEY_TO",
+    "source": "P0002",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 72960,
+    "rec_ids": [
+     "TXN00105"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 216,
+    "rec_ids": [
+     "CDR00020"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0004",
+    "directed": true,
+    "count": 1,
+    "value": 134,
+    "rec_ids": [
+     "CDR00027"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0012",
+    "directed": true,
+    "count": 1,
+    "value": 165,
+    "rec_ids": [
+     "CDR00033"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0015",
+    "directed": true,
+    "count": 1,
+    "value": 341,
+    "rec_ids": [
+     "CDR00037"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 283,
+    "rec_ids": [
+     "CDR00044"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 264,
+    "rec_ids": [
+     "CDR00061"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 369,
+    "rec_ids": [
+     "CDR00094"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 41,
+    "rec_ids": [
+     "CDR00101"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0020",
+    "directed": true,
+    "count": 1,
+    "value": 180,
+    "rec_ids": [
+     "CDR00120"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 181,
+    "rec_ids": [
+     "CDR00124"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 373,
+    "rec_ids": [
+     "CDR00125"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 220,
+    "rec_ids": [
+     "CDR00126"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 261,
+    "rec_ids": [
+     "CDR00129"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 320,
+    "rec_ids": [
+     "CDR00133"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 399,
+    "rec_ids": [
+     "CDR00140"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0015",
+    "directed": true,
+    "count": 1,
+    "value": 308,
+    "rec_ids": [
+     "CDR00173"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 319,
+    "rec_ids": [
+     "CDR00203"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0020",
+    "directed": true,
+    "count": 1,
+    "value": 378,
+    "rec_ids": [
+     "CDR00206"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 297,
+    "rec_ids": [
+     "CDR00212"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 337,
+    "rec_ids": [
+     "CDR00215"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 102,
+    "rec_ids": [
+     "CDR00218"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 185,
+    "rec_ids": [
+     "CDR00219"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 93,
+    "rec_ids": [
+     "CDR00237"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 342,
+    "rec_ids": [
+     "CDR00265"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 249,
+    "rec_ids": [
+     "CDR00267"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 255,
+    "rec_ids": [
+     "CDR00270"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 344,
+    "rec_ids": [
+     "CDR00273"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 225,
+    "rec_ids": [
+     "CDR00293"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 249,
+    "rec_ids": [
+     "CDR00296"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 151,
+    "rec_ids": [
+     "CDR00300"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 377,
+    "rec_ids": [
+     "CDR00306"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 222,
+    "rec_ids": [
+     "CDR00310"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 335,
+    "rec_ids": [
+     "CDR00313"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0004",
+    "directed": true,
+    "count": 1,
+    "value": 254,
+    "rec_ids": [
+     "CDR00322"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 35,
+    "rec_ids": [
+     "CDR00325"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0016",
+    "directed": true,
+    "count": 1,
+    "value": 324,
+    "rec_ids": [
+     "CDR00359"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 316,
+    "rec_ids": [
+     "CDR00388"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 29,
+    "rec_ids": [
+     "CDR00389"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 108,
+    "rec_ids": [
+     "CDR00394"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 376,
+    "rec_ids": [
+     "CDR00395"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 263,
+    "rec_ids": [
+     "CDR00398"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0016",
+    "directed": true,
+    "count": 1,
+    "value": 133,
+    "rec_ids": [
+     "CDR00416"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 257,
+    "rec_ids": [
+     "CDR00421"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 390,
+    "rec_ids": [
+     "CDR00449"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0020",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 53,
+    "rec_ids": [
+     "CDR00461"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 31,
+    "rec_ids": [
+     "CDR00467"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 107,
+    "rec_ids": [
+     "CDR00469"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0010",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 272,
+    "rec_ids": [
+     "CDR00486"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 152,
+    "rec_ids": [
+     "CDR00528"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0019",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 45,
+    "rec_ids": [
+     "CDR00529"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 191,
+    "rec_ids": [
+     "CDR00536"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0012",
+    "directed": true,
+    "count": 1,
+    "value": 147,
+    "rec_ids": [
+     "CDR00537"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0012",
+    "directed": true,
+    "count": 1,
+    "value": 339,
+    "rec_ids": [
+     "CDR00554"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 114,
+    "rec_ids": [
+     "CDR00555"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 121,
+    "rec_ids": [
+     "CDR00557"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 127,
+    "rec_ids": [
+     "CDR00560"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 384,
+    "rec_ids": [
+     "CDR00561"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 213,
+    "rec_ids": [
+     "CDR00562"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 350,
+    "rec_ids": [
+     "CDR00566"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 161,
+    "rec_ids": [
+     "CDR00575"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 173,
+    "rec_ids": [
+     "CDR00578"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0016",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 282,
+    "rec_ids": [
+     "CDR00579"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 169,
+    "rec_ids": [
+     "CDR00589"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 66,
+    "rec_ids": [
+     "CDR00610"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0001",
+    "target": "P0004",
+    "directed": true,
+    "count": 1,
+    "value": 350,
+    "rec_ids": [
+     "CDR00615"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0012",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 389,
+    "rec_ids": [
+     "CDR00649"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0015",
+    "directed": true,
+    "count": 1,
+    "value": 196,
+    "rec_ids": [
+     "CDR00657"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0005",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 78,
+    "rec_ids": [
+     "CDR00660"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0015",
+    "directed": true,
+    "count": 1,
+    "value": 298,
+    "rec_ids": [
+     "CDR00699"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0015",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 232,
+    "rec_ids": [
+     "CDR00707"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 195,
+    "rec_ids": [
+     "CDR00721"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0006",
+    "target": "P0015",
+    "directed": true,
+    "count": 1,
+    "value": 282,
+    "rec_ids": [
+     "CDR00723"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 90,
+    "rec_ids": [
+     "CDR00724"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 122,
+    "rec_ids": [
+     "CDR00725"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0009",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 273,
+    "rec_ids": [
+     "CDR00726"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0013",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 125,
+    "rec_ids": [
+     "CDR00728"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 24,
+    "rec_ids": [
+     "CDR00734"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0016",
+    "directed": true,
+    "count": 1,
+    "value": 310,
+    "rec_ids": [
+     "CDR00735"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0006",
+    "directed": true,
+    "count": 1,
+    "value": 315,
+    "rec_ids": [
+     "CDR00758"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 179,
+    "rec_ids": [
+     "CDR00789"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 184,
+    "rec_ids": [
+     "CDR00818"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0008",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 172,
+    "rec_ids": [
+     "CDR00819"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 138,
+    "rec_ids": [
+     "CDR00823"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0004",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 270,
+    "rec_ids": [
+     "CDR00825"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0002",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 198,
+    "rec_ids": [
+     "CDR00836"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0007",
+    "target": "P0019",
+    "directed": true,
+    "count": 1,
+    "value": 125,
+    "rec_ids": [
+     "CDR00845"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0011",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 165,
+    "rec_ids": [
+     "CDR00858"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 134,
+    "rec_ids": [
+     "CDR00859"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0017",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 307,
+    "rec_ids": [
+     "CDR00861"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 263,
+    "rec_ids": [
+     "CDR00882"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0003",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 162,
+    "rec_ids": [
+     "CDR00886"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALLED",
+    "source": "P0014",
+    "target": "P0004",
+    "directed": true,
+    "count": 1,
+    "value": 48,
+    "rec_ids": [
+     "CDR01109"
+    ],
+    "detail": ""
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 480000,
+    "rec_ids": [
+     "CDR00893",
+     "TXN00086"
+    ],
+    "detail": "360s after the call ended, 480,000 left HDFC61559407816"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0008",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 81453.68,
+    "rec_ids": [
+     "CDR00551",
+     "TXN00296"
+    ],
+    "detail": "545s after the call ended, 81,454 left KKBK94680443699"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0007",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00919",
+     "TXN00056"
+    ],
+    "detail": "1020s after the call ended, 1,200 left ICIC96499091334"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0010",
+    "target": "P0016",
+    "directed": true,
+    "count": 1,
+    "value": 499,
+    "rec_ids": [
+     "CDR00840",
+     "TXN00065"
+    ],
+    "detail": "1184s after the call ended, 499 left UTIB68071545168"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0013",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 81453.68,
+    "rec_ids": [
+     "CDR00562",
+     "TXN00296"
+    ],
+    "detail": "1347s after the call ended, 81,454 left KKBK94680443699"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0016",
+    "directed": true,
+    "count": 1,
+    "value": 1999,
+    "rec_ids": [
+     "CDR00119",
+     "TXN00061"
+    ],
+    "detail": "1924s after the call ended, 1,999 left UTIB68071545168"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0011",
+    "target": "P0004",
+    "directed": true,
+    "count": 1,
+    "value": 150,
+    "rec_ids": [
+     "CDR00322",
+     "TXN00022"
+    ],
+    "detail": "2506s after the call ended, 150 left ICIC41458685014"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0019",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00700",
+     "TXN00004"
+    ],
+    "detail": "2564s after the call ended, 1,200 left HDFC61559407816"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0005",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00660",
+     "TXN00044"
+    ],
+    "detail": "2742s after the call ended, 3,200 left ICIC17080531003"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0008",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00638",
+     "TXN00054"
+    ],
+    "detail": "2834s after the call ended, 3,200 left KKBK41343524082"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0003",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 2500,
+    "rec_ids": [
+     "CDR01118",
+     "TXN00060"
+    ],
+    "detail": "2869s after the call ended, 2,500 left ICIC96499091334"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00496",
+     "TXN00053"
+    ],
+    "detail": "3368s after the call ended, 3,200 left KKBK41343524082"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0019",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00889",
+     "TXN00035"
+    ],
+    "detail": "3389s after the call ended, 1,200 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0012",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 52000,
+    "rec_ids": [
+     "CDR00729",
+     "TXN00263"
+    ],
+    "detail": "3405s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0019",
+    "target": "P0007",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00701",
+     "TXN00054"
+    ],
+    "detail": "4490s after the call ended, 3,200 left KKBK41343524082"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0010",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 780,
+    "rec_ids": [
+     "CDR00313",
+     "TXN00057"
+    ],
+    "detail": "4825s after the call ended, 780 left ICIC96499091334"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00146",
+     "TXN00066"
+    ],
+    "detail": "5152s after the call ended, 3,200 left PUNB37826398214"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 60000,
+    "rec_ids": [
+     "CDR00365",
+     "TXN00193"
+    ],
+    "detail": "5244s after the call ended, 60,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0017",
+    "target": "P0005",
+    "directed": true,
+    "count": 1,
+    "value": 2500,
+    "rec_ids": [
+     "CDR00507",
+     "TXN00058"
+    ],
+    "detail": "5250s after the call ended, 2,500 left ICIC96499091334"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0002",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 60000,
+    "rec_ids": [
+     "CDR00399",
+     "TXN00194"
+    ],
+    "detail": "5438s after the call ended, 60,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0010",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 150,
+    "rec_ids": [
+     "CDR00651",
+     "TXN00014"
+    ],
+    "detail": "5620s after the call ended, 150 left KKBK91183842513"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0012",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 72960,
+    "rec_ids": [
+     "CDR00394",
+     "TXN00099"
+    ],
+    "detail": "5892s after the call ended, 72,960 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0015",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 52000,
+    "rec_ids": [
+     "CDR00707",
+     "TXN00263"
+    ],
+    "detail": "6008s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0003",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00886",
+     "TXN00035"
+    ],
+    "detail": "6078s after the call ended, 1,200 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0006",
+    "target": "P0017",
+    "directed": true,
+    "count": 1,
+    "value": 499,
+    "rec_ids": [
+     "CDR00124",
+     "TXN00071"
+    ],
+    "detail": "6419s after the call ended, 499 left YESB17187026217"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0008",
+    "directed": true,
+    "count": 1,
+    "value": 780,
+    "rec_ids": [
+     "CDR00150",
+     "TXN00011"
+    ],
+    "detail": "6558s after the call ended, 780 left KKBK91183842513"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0011",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 780,
+    "rec_ids": [
+     "CDR00858",
+     "TXN00085"
+    ],
+    "detail": "6615s after the call ended, 780 left ICIC27111161528"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0020",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00456",
+     "TXN00043"
+    ],
+    "detail": "6924s after the call ended, 1,200 left ICIC17080531003"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0003",
+    "target": "P0010",
+    "directed": true,
+    "count": 1,
+    "value": 52000,
+    "rec_ids": [
+     "CDR00789",
+     "TXN00263"
+    ],
+    "detail": "6961s after the call ended, 52,000 left PUNB35454948083"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0013",
+    "target": "P0011",
+    "directed": true,
+    "count": 1,
+    "value": 3200,
+    "rec_ids": [
+     "CDR00129",
+     "TXN00066"
+    ],
+    "detail": "6999s after the call ended, 3,200 left PUNB37826398214"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 48563.56,
+    "rec_ids": [
+     "CDR00753",
+     "TXN00314"
+    ],
+    "detail": "7947s after the call ended, 48,564 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0012",
+    "target": "P0002",
+    "directed": true,
+    "count": 1,
+    "value": 72960,
+    "rec_ids": [
+     "CDR00396",
+     "TXN00105"
+    ],
+    "detail": "8329s after the call ended, 72,960 left ICIC17080531003"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0011",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 1999,
+    "rec_ids": [
+     "CDR00855",
+     "TXN00030"
+    ],
+    "detail": "8455s after the call ended, 1,999 left KKBK94680443699"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0014",
+    "target": "P0013",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00881",
+     "TXN00035"
+    ],
+    "detail": "8502s after the call ended, 1,200 left SBIN87083172788"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0010",
+    "target": "P0009",
+    "directed": true,
+    "count": 1,
+    "value": 81240.45,
+    "rec_ids": [
+     "CDR00738",
+     "TXN00312"
+    ],
+    "detail": "8668s after the call ended, 81,240 left KKBK94680443699"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0012",
+    "target": "P0003",
+    "directed": true,
+    "count": 1,
+    "value": 1200,
+    "rec_ids": [
+     "CDR00310",
+     "TXN00082"
+    ],
+    "detail": "8838s after the call ended, 1,200 left ICIC27111161528"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0016",
+    "target": "P0014",
+    "directed": true,
+    "count": 1,
+    "value": 2500,
+    "rec_ids": [
+     "CDR00936",
+     "TXN00078"
+    ],
+    "detail": "9539s after the call ended, 2,500 left SBIN90847007661"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0012",
+    "directed": true,
+    "count": 1,
+    "value": 499,
+    "rec_ids": [
+     "CDR01034",
+     "TXN00038"
+    ],
+    "detail": "10020s after the call ended, 499 left PUNB90967054668"
+   },
+   {
+    "type": "CALL_THEN_DEBIT",
+    "source": "P0018",
+    "target": "P0001",
+    "directed": true,
+    "count": 1,
+    "value": 150,
+    "rec_ids": [
+     "CDR01096",
+     "TXN00005"
+    ],
+    "detail": "10800s after the call ended, 150 left HDFC61559407816"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0006",
+    "target": "P0009",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0006",
+    "target": "P0012",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0006",
+    "target": "P0017",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0006",
+    "target": "P0018",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0006",
+    "target": "P0020",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0009",
+    "target": "P0012",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0009",
+    "target": "P0017",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0009",
+    "target": "P0018",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0009",
+    "target": "P0020",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0012",
+    "target": "P0017",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0012",
+    "target": "P0018",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0012",
+    "target": "P0020",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0017",
+    "target": "P0018",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0017",
+    "target": "P0020",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   },
+   {
+    "type": "SHARED_IP",
+    "source": "P0018",
+    "target": "P0020",
+    "directed": false,
+    "count": 1,
+    "value": 1,
+    "rec_ids": [],
+    "detail": "ip 100.91.29.149"
+   }
+  ],
+  "by_type": {
+   "MONEY_TO": 25,
+   "CALLED": 249,
+   "CALL_THEN_DEBIT": 59,
+   "SHARED_IP": 15,
+   "SEEN_AT": 15
+  },
+  "engine": "local"
+ }
+}

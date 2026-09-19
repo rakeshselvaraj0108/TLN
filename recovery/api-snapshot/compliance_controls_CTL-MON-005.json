@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-005",
+  "domain": "Monitoring and Incident Response",
+  "name": "Incident response exercises performed",
+  "description": "Incident response is rehearsed.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: incident response exercises are run by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

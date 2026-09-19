@@ -1,0 +1,24 @@
+{
+ "url": "/graph",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "nodes": 2147,
+  "relationships": 3397,
+  "by_label": {
+   "Account": 17,
+   "Call": 1119,
+   "DataSession": 449,
+   "Device": 21,
+   "Ip": 16,
+   "Person": 20,
+   "Phone": 37,
+   "Post": 4,
+   "Sim": 37,
+   "SocialHandle": 3,
+   "Txn": 407,
+   "UpiId": 17
+  },
+  "engine": "local"
+ }
+}

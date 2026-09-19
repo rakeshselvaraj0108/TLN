@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ORG-022",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-022",
+  "domain": "Organizational Security",
+  "name": "Onboarding process established",
+  "description": "New staff receive appropriate access.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Access begins with an explicit provisioning act — a row with a named role — and never by default.",
+  "observations": [
+   "An unprovisioned identity is rejected, so 'forgot to set permissions' fails closed rather than open."
+  ]
+ }
+}

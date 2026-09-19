@@ -1,0 +1,90 @@
+{
+ "url": "/geo/proximity?lat=30.71577&lon=76.78556&at=2026-08-14T10:00:00",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "centre": {
+   "lat": 30.71577,
+   "lon": 76.78556
+  },
+  "at": "2026-08-14T10:00:00",
+  "window_minutes": 30,
+  "radius_km": 2,
+  "window": {
+   "start": "2026-08-14T09:30:00",
+   "end": "2026-08-14T10:30:00"
+  },
+  "observations": [
+   {
+    "rec_id": "CDR01026",
+    "msisdn": "+916611724005",
+    "entity_id": "P0018",
+    "ts": "2026-08-14T09:31:00",
+    "call_type": "sms",
+    "duration_sec": 0,
+    "cell_key": "8682-67961",
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "distance_km": 0
+   },
+   {
+    "rec_id": "CDR01024",
+    "msisdn": "+916611724005",
+    "entity_id": "P0018",
+    "ts": "2026-08-14T09:39:00",
+    "call_type": "sms",
+    "duration_sec": 0,
+    "cell_key": "8682-67961",
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "distance_km": 0
+   },
+   {
+    "rec_id": "CDR00429",
+    "msisdn": "+917374740748",
+    "entity_id": "P0018",
+    "ts": "2026-08-14T10:30:00",
+    "call_type": "voice",
+    "duration_sec": 383,
+    "cell_key": "8682-67961",
+    "lat": 30.71577,
+    "lon": 76.78556,
+    "distance_km": 0
+   },
+   {
+    "rec_id": "CDR00893",
+    "msisdn": "+916489325288",
+    "entity_id": "P0020",
+    "ts": "2026-08-14T10:01:00",
+    "call_type": "video",
+    "duration_sec": 18720,
+    "cell_key": "4770-75570",
+    "lat": 30.70705,
+    "lon": 76.77017,
+    "distance_km": 1.762
+   }
+  ],
+  "subjects": [
+   {
+    "key": "P0018",
+    "msisdn": "+916611724005",
+    "entity_id": "P0018",
+    "observations": 3,
+    "closest_km": 0,
+    "closest_ts": "2026-08-14T09:31:00",
+    "cell_key": "8682-67961"
+   },
+   {
+    "key": "P0020",
+    "msisdn": "+916489325288",
+    "entity_id": "P0020",
+    "observations": 1,
+    "closest_km": 1.762,
+    "closest_ts": "2026-08-14T10:01:00",
+    "cell_key": "4770-75570"
+   }
+  ],
+  "total_observations": 4,
+  "engine": "local"
+ }
+}

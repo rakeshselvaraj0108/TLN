@@ -1,0 +1,190 @@
+{
+ "url": "/hunt/report/P0007",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0007",
+  "title": "Investigation report — P0007",
+  "generated_at": "2026-09-17T04:40:15+00:00",
+  "generated_by": "investigator",
+  "summary": "3 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0003. ₹48,379 at risk, ₹968 assessed as still recoverable. 0 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Linked to P0005 by funds",
+    "detail": "2 transfer(s) totalling 76,000 concentrated in 1 day(s)",
+    "confidence": "probable",
+    "evidence_rows": [
+     "TXN00279",
+     "TXN00280"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0007",
+     "P0005"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Associated with operation OP-P0003",
+    "detail": "Money-mule network: 5 entities joined by 6 funds link(s). Cohesion 60%, confidence 30%, exposure ₹1,314,640. Linked to 4 other entities: P0003, P0005, P0010, P0016",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00279",
+     "TXN00280",
+     "TXN00121",
+     "TXN00138",
+     "TXN00157"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0003",
+     "P0005",
+     "P0007",
+     "P0010",
+     "P0016"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0010 by funds",
+    "detail": "10 transfers totalling 523,000 across 10 days — a standing payment relationship, weak evidence of a ring",
+    "confidence": "possible",
+    "evidence_rows": [
+     "TXN00121",
+     "TXN00138",
+     "TXN00157",
+     "TXN00179",
+     "TXN00193"
+    ],
+    "sources": [
+     "funds"
+    ],
+    "entities": [
+     "P0007",
+     "P0010"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-11T09:20:00",
+    "kind": "txn",
+    "detail": "UPI debit 1,200 — Electricity"
+   },
+   {
+    "ts": "2026-08-11T19:22:00",
+    "kind": "txn",
+    "detail": "IMPS debit 38,000 — home"
+   },
+   {
+    "ts": "2026-08-13T16:07:00",
+    "kind": "txn",
+    "detail": "UPI debit 780 — Fuel"
+   },
+   {
+    "ts": "2026-08-15T12:06:00",
+    "kind": "txn",
+    "detail": "UPI debit 3,200 — DTH"
+   },
+   {
+    "ts": "2026-08-17T16:19:00",
+    "kind": "txn",
+    "detail": "UPI debit 3,200 — DTH"
+   },
+   {
+    "ts": "2026-08-19T15:55:00",
+    "kind": "txn",
+    "detail": "IMPS debit 1,999 — Electricity"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0007",
+    "risk_score": 0.0171,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 48379,
+   "recoverable_inr": 967.58,
+   "already_lost_inr": 47411.42,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00051",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 883.3,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00279",
+     "amount": 38000,
+     "band": "cold",
+     "hours_elapsed": 873.3,
+     "recoverable": 760,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00052",
+     "amount": 780,
+     "band": "cold",
+     "hours_elapsed": 828.6,
+     "recoverable": 15.6,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00053",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 784.6,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00054",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 732.4,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00055",
+     "amount": 1999,
+     "band": "cold",
+     "hours_elapsed": 684.8,
+     "recoverable": 39.98,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0007 in the low band (0.02); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned."
+  ]
+ }
+}

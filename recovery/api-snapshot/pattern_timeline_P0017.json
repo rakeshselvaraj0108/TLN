@@ -1,0 +1,79 @@
+{
+ "url": "/pattern/timeline/P0017",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0017",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00071",
+    "ts": "2026-08-11T20:17:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "YESB17187026217",
+    "row_sha256": "53b5ee7c497a7145d3599895c049de156f6d9d31a8947f01981d6246632230a6",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00072",
+    "ts": "2026-08-13T13:23:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "Grocery",
+    "account": "YESB17187026217",
+    "row_sha256": "537ce76c28891442b953f7dc8a6f41739cf18776073e02e97826a58e4ed90d3c",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00073",
+    "ts": "2026-08-15T20:22:00+00:00",
+    "amount": 1200,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "YESB17187026217",
+    "row_sha256": "f7d1a566cb7180c98d77bcda4c11f63b1305b26a8537db1162caa37b074af558",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00074",
+    "ts": "2026-08-17T13:27:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "YESB17187026217",
+    "row_sha256": "dd36f7d5e45abccf915c79df5405cf691ef8646d0024facf35bbf36a8ef0de2d",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00075",
+    "ts": "2026-08-19T09:48:00+00:00",
+    "amount": 780,
+    "channel": "UPI",
+    "narration": "Fuel",
+    "account": "YESB17187026217",
+    "row_sha256": "1b51a29a34858a8c24dbd9b028251356b3e66b09abcca54253e51ca28cdb73cc",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 5,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

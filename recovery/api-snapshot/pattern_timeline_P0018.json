@@ -1,0 +1,23 @@
+{
+ "url": "/pattern/timeline/P0018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0018",
+  "engine": "local",
+  "events": [],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 0,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

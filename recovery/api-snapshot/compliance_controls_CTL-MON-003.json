@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-003",
+  "domain": "Monitoring and Incident Response",
+  "name": "Breach notification process established",
+  "description": "A breach can be notified within required timelines.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: breach notification timelines and recipients are set by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

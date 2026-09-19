@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-018",
+  "domain": "Organizational Security",
+  "name": "Leadership security commitment established",
+  "description": "Leadership actively oversees security.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: leadership commitment is demonstrated by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

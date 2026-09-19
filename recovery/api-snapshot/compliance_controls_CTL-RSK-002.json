@@ -1,0 +1,20 @@
+{
+ "url": "/compliance/controls/CTL-RSK-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-002",
+  "domain": "Risk Management",
+  "name": "Data Protection Impact Assessment (DPIA) completed",
+  "description": "A DPIA has been completed for high-risk processing.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "No formal DPIA is on file, but the design decisions a DPIA would interrogate are documented and defensible.",
+  "observations": [
+   "Data minimisation: only the fields each analysis needs are projected into the graph.",
+   "Explainability: every risk score ships its own attribution, so an adverse inference can be contested.",
+   "Exculpatory surfacing: the report generator carries evidence that cuts against the hypothesis, not only for it.",
+   "A signed DPIA remains the agency's to complete."
+  ]
+ }
+}

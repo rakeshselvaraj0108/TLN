@@ -1,0 +1,11 @@
+{
+ "url": "/auth/me",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "username": "investigator",
+  "display_name": "Demo Investigator",
+  "role": "investigator",
+  "is_supervisor": false
+ }
+}

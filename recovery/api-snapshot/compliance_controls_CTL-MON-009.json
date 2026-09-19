@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-MON-009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-MON-009",
+  "domain": "Monitoring and Incident Response",
+  "name": "Logging and monitoring policy established",
+  "description": "Logging requirements are documented.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the logging and monitoring policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

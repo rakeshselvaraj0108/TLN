@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-001",
+  "domain": "Disaster Recovery",
+  "name": "Automated backups enabled",
+  "description": "Critical data is backed up automatically.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Backups are the responsibility of the platform this is deployed on.",
+  "observations": [
+   "State lives in two places only — Postgres (system of record) and Neo4j (derived graph) — which makes the backup scope small and clear.",
+   "Neo4j is fully rebuildable from Postgres by re-running the graph build, so the irreplaceable backup target is Postgres alone."
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+ "url": "/verify/panel",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "judges": [
+   "rule"
+  ],
+  "count": 1,
+  "independent_families": 1,
+  "air_gapped": true,
+  "note": "All judging is local. No claim text or evidence leaves this deployment.",
+  "llm_provider": "stub"
+ }
+}

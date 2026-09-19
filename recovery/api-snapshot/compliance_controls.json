@@ -1,0 +1,1616 @@
+{
+ "url": "/compliance/controls",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "generated_at": "2026-09-17T04:39:14.128793+00:00",
+  "domains": [
+   "Access Control and Authorization",
+   "Data Management and Protection",
+   "Disaster Recovery",
+   "Email Security",
+   "Endpoint Security",
+   "Infrastructure Security",
+   "Monitoring and Incident Response",
+   "Organizational Security",
+   "Risk Management",
+   "Vulnerability Management"
+  ],
+  "filters": {
+   "domain": null,
+   "status": null,
+   "owner": null
+  },
+  "count": 125,
+  "total_controls": 125,
+  "controls": [
+   {
+    "id": "CTL-ACC-006",
+    "domain": "Access Control and Authorization",
+    "name": "MFA required for infrastructure access",
+    "description": "Multi-factor authentication protects sensitive infrastructure.",
+    "owner": "shared",
+    "status": "gap",
+    "detail": "The application performs no multi-factor authentication of its own.",
+    "observations": [
+     "Stated plainly rather than deferred: the demo identity model is a bearer username, which is single-factor at best.",
+     "Remediation: front the API with the agency's identity provider and require MFA there."
+    ]
+   },
+   {
+    "id": "CTL-INF-018",
+    "domain": "Infrastructure Security",
+    "name": "Unique production database authentication enforced",
+    "description": "Production databases use unique, non-default credentials.",
+    "owner": "platform",
+    "status": "gap",
+    "detail": "The database is using the shipped development password.",
+    "observations": [
+     "Reported as a gap rather than hidden: this is exactly the finding a compliance report exists to surface.",
+     "Override POSTGRES_PASSWORD and NEO4J_PASSWORD before any real deployment."
+    ]
+   },
+   {
+    "id": "CTL-ORG-037",
+    "domain": "Organizational Security",
+    "name": "Software development lifecycle established",
+    "description": "A documented SDLC governs changes to the software.",
+    "owner": "platform",
+    "status": "gap",
+    "detail": "No automated test suite found.",
+    "observations": []
+   },
+   {
+    "id": "CTL-RSK-008",
+    "domain": "Risk Management",
+    "name": "Software supply chain risks monitored",
+    "description": "Third-party and open-source components are assessed.",
+    "owner": "platform",
+    "status": "gap",
+    "detail": "No dependency manifest or lockfile found.",
+    "observations": []
+   },
+   {
+    "id": "CTL-VLN-003",
+    "domain": "Vulnerability Management",
+    "name": "Penetration testing performed within the last 12 months",
+    "description": "An independent penetration test is performed annually.",
+    "owner": "shared",
+    "status": "gap",
+    "detail": "No penetration test has been performed against this application.",
+    "observations": [
+     "Required before any deployment handling real evidence."
+    ]
+   },
+   {
+    "id": "CTL-VLN-004",
+    "domain": "Vulnerability Management",
+    "name": "Vulnerabilities scanned",
+    "description": "Systems, applications and repositories are scanned regularly.",
+    "owner": "shared",
+    "status": "gap",
+    "detail": "No automated vulnerability scanning runs against this codebase or its images.",
+    "observations": [
+     "Recorded as a gap rather than omitted. Remediation is routine: dependency audit plus image scanning in CI."
+    ]
+   },
+   {
+    "id": "CTL-ACC-004",
+    "domain": "Access Control and Authorization",
+    "name": "Employee access regularly reviewed",
+    "description": "Access rights are reviewed at least annually.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "The platform records access reviews when they are run, but none has been logged yet.",
+    "observations": [
+     "Log one with audit action 'access.review' to evidence this control.",
+     "The mechanism exists; the periodic operation is the agency's."
+    ]
+   },
+   {
+    "id": "CTL-ACC-005",
+    "domain": "Access Control and Authorization",
+    "name": "Key inventory maintained",
+    "description": "An inventory of shared and production access tokens is kept.",
+    "owner": "platform",
+    "status": "partial",
+    "detail": "Every credential in use is inventoried, but the API bearer token is the username itself — deliberately minimal, and not deployable as-is.",
+    "observations": [
+     "app_user rows are the full inventory of API identities.",
+     "Service credentials: the Postgres DSN and Neo4j auth, both from environment.",
+     "GAP BY DESIGN: the token carries no secret. Production must terminate on the agency's SSO/PKI; tracex_api.auth.get_principal is shaped as the single seam that changes, so routers stay untouched."
+    ]
+   },
+   {
+    "id": "CTL-DAT-002",
+    "domain": "Data Management and Protection",
+    "name": "Data deletion enforced",
+    "description": "Data is securely deleted when no longer needed.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Case workspace data is deletable; ingested evidence deliberately is not.",
+    "observations": [
+     "Cases cascade-delete their pinned entities and notes.",
+     "ingested_record is append-only on purpose: a hash chain that permits silent deletion is not tamper-evident. Removing a row breaks the chain, and /integrity/verify reports exactly where.",
+     "TENSION, STATED: retention-driven erasure therefore means disposing of a whole batch and recording the disposal, not editing rows. That procedure is the agency's to write."
+    ]
+   },
+   {
+    "id": "CTL-DAT-004",
+    "domain": "Data Management and Protection",
+    "name": "Data encrypted in-transit",
+    "description": "Data is encrypted across internal and external networks.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "No plaintext non-local origin is configured, but the app serves HTTP and relies on a TLS terminator in front of it.",
+    "observations": [
+     "CORS origins: https://tracex-web.onrender.com, http://localhost:3000, http://127.0.0.1:3000",
+     "Inter-service traffic runs on a private container network."
+    ]
+   },
+   {
+    "id": "CTL-DAT-012",
+    "domain": "Data Management and Protection",
+    "name": "Key management process implemented",
+    "description": "Cryptographic keys are managed across their lifecycle.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Hashing needs no keys; the service credentials that do exist come from environment configuration with no rotation mechanism.",
+    "observations": [
+     "SHA-256 chaining is keyless, so there is no signing key to steal — the trade-off is that the chain proves integrity, not origin.",
+     "Postgres and Neo4j credentials are injected from environment.",
+     "GAP: development defaults ship in config. A real deployment must override every one and rotate on a schedule."
+    ]
+   },
+   {
+    "id": "CTL-DR-004",
+    "domain": "Disaster Recovery",
+    "name": "Data recovery process established",
+    "description": "A documented process restores data after loss or corruption.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "The recovery path is short and documented: restore Postgres, then rebuild the graph from it.",
+    "observations": [
+     "Neo4j is fully derivable from Postgres, so it never needs its own restore.",
+     "Writing and owning the runbook step is the agency's."
+    ]
+   },
+   {
+    "id": "CTL-INF-012",
+    "domain": "Infrastructure Security",
+    "name": "Infrastructure deployed using an infrastructure-as-code tool",
+    "description": "The environment is reproducible from declarative definitions.",
+    "owner": "platform",
+    "status": "partial",
+    "detail": "No infrastructure-as-code definition found at the repository root.",
+    "observations": []
+   },
+   {
+    "id": "CTL-INF-013",
+    "domain": "Infrastructure Security",
+    "name": "Key management policy established",
+    "description": "Key lifecycle processes are defined.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Hashing needs no keys; the service credentials that do exist come from environment configuration with no rotation mechanism.",
+    "observations": [
+     "SHA-256 chaining is keyless, so there is no signing key to steal — the trade-off is that the chain proves integrity, not origin.",
+     "Postgres and Neo4j credentials are injected from environment.",
+     "GAP: development defaults ship in config. A real deployment must override every one and rotate on a schedule."
+    ]
+   },
+   {
+    "id": "CTL-INF-015",
+    "domain": "Infrastructure Security",
+    "name": "Production and test environments separated",
+    "description": "Test activity cannot reach production data.",
+    "owner": "platform",
+    "status": "partial",
+    "detail": "Running in demo mode: the tamper drill is enabled, so this instance must be treated as non-production.",
+    "observations": [
+     "TRACEX_DEMO_MODE=true permits /integrity/drill to mutate a stored record. Correct for a demonstration, unacceptable for an instance holding real evidence.",
+     "Set TRACEX_DEMO_MODE=false in production; the drill then refuses.",
+     "seed_on_boot=True"
+    ]
+   },
+   {
+    "id": "CTL-INF-020",
+    "domain": "Infrastructure Security",
+    "name": "Web Application Firewall (WAF) used",
+    "description": "A WAF protects the application from common web attacks.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "No WAF is deployed in front of the application; the injection class a WAF usually catches is closed at the source instead.",
+    "observations": [
+     "Every Cypher query is parameterised and covered by a contract test.",
+     "Relational access goes through the ORM.",
+     "A WAF remains advisable at the perimeter and is the agency's to add."
+    ]
+   },
+   {
+    "id": "CTL-MON-007",
+    "domain": "Monitoring and Incident Response",
+    "name": "Infrastructure performance monitored",
+    "description": "Component health is observed.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Liveness of every backing service is exposed at /health; there is no metrics history or alerting.",
+    "observations": [
+     "Postgres, Neo4j and the LLM provider are each probed.",
+     "The UI degrades honestly when one is down rather than showing a blank panel that reads as 'no findings'."
+    ]
+   },
+   {
+    "id": "CTL-MON-008",
+    "domain": "Monitoring and Incident Response",
+    "name": "Log management used",
+    "description": "Logs are centralised for review and correlation.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Application audit events are centralised in Postgres; container and system logs are not aggregated.",
+    "observations": [
+     "The security-relevant stream — who did what to which record — is the one that is centralised, indexed and queryable."
+    ]
+   },
+   {
+    "id": "CTL-MON-011",
+    "domain": "Monitoring and Incident Response",
+    "name": "Threat intelligence established",
+    "description": "Threat information is gathered and applied.",
+    "owner": "platform",
+    "status": "partial",
+    "detail": "The watchlist and campaign-signature mechanisms exist but hold no entries yet.",
+    "observations": [
+     "A target is a marker, never a score: an investigator's attention is deliberately excluded from the model's features, so the system cannot simply confirm whatever it was pointed at."
+    ]
+   },
+   {
+    "id": "CTL-ORG-012",
+    "domain": "Organizational Security",
+    "name": "Information security in project management integrated",
+    "description": "Security is considered at every project stage.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Security properties are treated as product requirements with tests, not as a review gate at the end.",
+    "observations": [
+     "Tamper-evidence, the supervisor gate and score integrity each have adversarial test coverage.",
+     "The formal project-management standard is the agency's."
+    ]
+   },
+   {
+    "id": "CTL-ORG-016",
+    "domain": "Organizational Security",
+    "name": "Internal security audit performed",
+    "description": "An internal audit evaluates control effectiveness.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "This report is a continuous internal audit of the application's own controls; it is not a substitute for an independent one.",
+    "observations": [
+     "Self-assessment by the party being assessed is a starting point, not an assurance opinion. Stated so it is not mistaken for one."
+    ]
+   },
+   {
+    "id": "CTL-ORG-020",
+    "domain": "Organizational Security",
+    "name": "Non-conformance and corrective action procedures established",
+    "description": "Non-conformities are recorded and corrected.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Every failing control in this report is a recorded non-conformity with a named remediation; tracking them to closure is the agency's process.",
+    "observations": []
+   },
+   {
+    "id": "CTL-ORG-021",
+    "domain": "Organizational Security",
+    "name": "Offboarding process established",
+    "description": "Departing staff lose access promptly.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Removing an app_user row revokes all access immediately, because identity is resolved against that table on every request.",
+    "observations": [
+     "No session or token survives the removal — there is nothing to expire.",
+     "Triggering offboarding on a leaver is the agency's process."
+    ]
+   },
+   {
+    "id": "CTL-ORG-022",
+    "domain": "Organizational Security",
+    "name": "Onboarding process established",
+    "description": "New staff receive appropriate access.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Access begins with an explicit provisioning act — a row with a named role — and never by default.",
+    "observations": [
+     "An unprovisioned identity is rejected, so 'forgot to set permissions' fails closed rather than open."
+    ]
+   },
+   {
+    "id": "CTL-RSK-002",
+    "domain": "Risk Management",
+    "name": "Data Protection Impact Assessment (DPIA) completed",
+    "description": "A DPIA has been completed for high-risk processing.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "No formal DPIA is on file, but the design decisions a DPIA would interrogate are documented and defensible.",
+    "observations": [
+     "Data minimisation: only the fields each analysis needs are projected into the graph.",
+     "Explainability: every risk score ships its own attribution, so an adverse inference can be contested.",
+     "Exculpatory surfacing: the report generator carries evidence that cuts against the hypothesis, not only for it.",
+     "A signed DPIA remains the agency's to complete."
+    ]
+   },
+   {
+    "id": "CTL-RSK-007",
+    "domain": "Risk Management",
+    "name": "Risk treatment plans established",
+    "description": "Identified risks have documented treatment plans.",
+    "owner": "shared",
+    "status": "partial",
+    "detail": "Each gap in this report carries a concrete remediation; formal treatment plans with owners and dates are the agency's to maintain.",
+    "observations": []
+   },
+   {
+    "id": "CTL-ACC-008",
+    "domain": "Access Control and Authorization",
+    "name": "Password management policy established",
+    "description": "A policy mandates strong passwords and prohibits reuse.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: password policy is set and enforced by the agency's identity provider.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DAT-003",
+    "domain": "Data Management and Protection",
+    "name": "Data encrypted at rest",
+    "description": "Sensitive data is encrypted in storage.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Encryption at rest is a property of the volumes this runs on, which the application cannot observe.",
+    "observations": [
+     "Postgres and Neo4j both persist to host-managed volumes.",
+     "The application adds integrity (SHA-256 chaining), which is a different property from confidentiality and not a substitute for it.",
+     "Attest with the storage layer's encryption configuration."
+    ]
+   },
+   {
+    "id": "CTL-DAT-007",
+    "domain": "Data Management and Protection",
+    "name": "Data management and retention policy established",
+    "description": "Retention periods and lifecycle management are defined.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: a retention schedule must be set by the agency against its own evidential handling rules; the platform timestamps every record at ingest, so any schedule the agency sets is enforceable against real dates.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DAT-011",
+    "domain": "Data Management and Protection",
+    "name": "External privacy inquiries managed",
+    "description": "Subject and third-party privacy inquiries are handled.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: external privacy inquiries are handled by the agency's information-rights team.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DAT-013",
+    "domain": "Data Management and Protection",
+    "name": "Privacy disclosure and notification mechanisms established",
+    "description": "Affected parties can be notified of a privacy incident.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: breach notification to data subjects is an agency obligation.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DAT-014",
+    "domain": "Data Management and Protection",
+    "name": "Privacy policy created and maintained",
+    "description": "A privacy policy is published and kept current.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the published privacy policy belongs to the deploying agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DR-001",
+    "domain": "Disaster Recovery",
+    "name": "Automated backups enabled",
+    "description": "Critical data is backed up automatically.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Backups are the responsibility of the platform this is deployed on.",
+    "observations": [
+     "State lives in two places only — Postgres (system of record) and Neo4j (derived graph) — which makes the backup scope small and clear.",
+     "Neo4j is fully rebuildable from Postgres by re-running the graph build, so the irreplaceable backup target is Postgres alone."
+    ]
+   },
+   {
+    "id": "CTL-DR-002",
+    "domain": "Disaster Recovery",
+    "name": "Business continuity and disaster recovery policy established",
+    "description": "A BC/DR policy defines the response to disruptive incidents.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the BC/DR policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DR-003",
+    "domain": "Disaster Recovery",
+    "name": "Data backup and recovery policy established",
+    "description": "Backup scope, frequency and retention are defined.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: backup policy is set by whoever operates the host.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DR-005",
+    "domain": "Disaster Recovery",
+    "name": "Data recovery tested",
+    "description": "Restores are exercised, not assumed.",
+    "owner": "shared",
+    "status": "manual",
+    "detail": "No recovery exercise has been logged. The platform will record one (audit action 'dr.test') but cannot perform it.",
+    "observations": []
+   },
+   {
+    "id": "CTL-DR-006",
+    "domain": "Disaster Recovery",
+    "name": "Disaster recovery plans tested",
+    "description": "DR plans are exercised periodically.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: DR exercises are run by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-DR-007",
+    "domain": "Disaster Recovery",
+    "name": "Recovery data isolated",
+    "description": "Backups are isolated from production.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: isolation of recovery data from production is an infrastructure property.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-INF-010",
+    "domain": "Infrastructure Security",
+    "name": "Infrastructure changes logged",
+    "description": "Changes to infrastructure are recorded.",
+    "owner": "shared",
+    "status": "manual",
+    "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+    "observations": [
+     "No git metadata visible from the runtime."
+    ]
+   },
+   {
+    "id": "CTL-INF-011",
+    "domain": "Infrastructure Security",
+    "name": "Infrastructure changes require review",
+    "description": "Changes are reviewed before they are applied.",
+    "owner": "shared",
+    "status": "manual",
+    "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+    "observations": [
+     "No git metadata visible from the runtime."
+    ]
+   },
+   {
+    "id": "CTL-INF-014",
+    "domain": "Infrastructure Security",
+    "name": "Network security policy established",
+    "description": "Network security requirements are documented.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the network security policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-MON-003",
+    "domain": "Monitoring and Incident Response",
+    "name": "Breach notification process established",
+    "description": "A breach can be notified within required timelines.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: breach notification timelines and recipients are set by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-MON-005",
+    "domain": "Monitoring and Incident Response",
+    "name": "Incident response exercises performed",
+    "description": "Incident response is rehearsed.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: incident response exercises are run by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-MON-006",
+    "domain": "Monitoring and Incident Response",
+    "name": "Incident response policy established",
+    "description": "A policy defines detection, response and recovery.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: an incident response plan and its exercises belong to the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-MON-009",
+    "domain": "Monitoring and Incident Response",
+    "name": "Logging and monitoring policy established",
+    "description": "Logging requirements are documented.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the logging and monitoring policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-001",
+    "domain": "Organizational Security",
+    "name": "Acceptable use policy established",
+    "description": "Permissible use of systems and data is defined.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the acceptable use policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-003",
+    "domain": "Organizational Security",
+    "name": "Asset management policy established",
+    "description": "Assets are managed across their lifecycle.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the asset management policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-004",
+    "domain": "Organizational Security",
+    "name": "Change management policy established",
+    "description": "Changes are controlled and documented.",
+    "owner": "shared",
+    "status": "manual",
+    "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+    "observations": [
+     "No git metadata visible from the runtime."
+    ]
+   },
+   {
+    "id": "CTL-ORG-005",
+    "domain": "Organizational Security",
+    "name": "Code of conduct established",
+    "description": "Expected behaviour and ethics are defined.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the code of conduct is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-006",
+    "domain": "Organizational Security",
+    "name": "Company security commitments externally communicated",
+    "description": "Security commitments are published to users.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: external security commitments are published by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-007",
+    "domain": "Organizational Security",
+    "name": "Confidentiality Agreement acknowledged by employees",
+    "description": "Staff have signed confidentiality agreements.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: confidentiality agreements are held by the agency's HR function.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-009",
+    "domain": "Organizational Security",
+    "name": "Employment contracts used",
+    "description": "Contracts set out security responsibilities.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: employment contracts are held by the agency's HR function.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-010",
+    "domain": "Organizational Security",
+    "name": "Human resource security policy established",
+    "description": "Security spans the employment lifecycle.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the HR security policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-011",
+    "domain": "Organizational Security",
+    "name": "Information security communities identified",
+    "description": "Engagement with the wider security community is maintained.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: professional community engagement is an agency activity.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-013",
+    "domain": "Organizational Security",
+    "name": "Information security policy established",
+    "description": "An information security policy is maintained.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the information security policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-014",
+    "domain": "Organizational Security",
+    "name": "Information security program established",
+    "description": "A security programme is defined and resourced.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the security programme is established by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-015",
+    "domain": "Organizational Security",
+    "name": "Internal privacy policies established",
+    "description": "Internal handling of personal data is governed.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: internal privacy policies are agency documents.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-017",
+    "domain": "Organizational Security",
+    "name": "Internal security communication maintained",
+    "description": "Security updates reach staff.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: internal security communication is an agency function.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-018",
+    "domain": "Organizational Security",
+    "name": "Leadership security commitment established",
+    "description": "Leadership actively oversees security.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: leadership commitment is demonstrated by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-019",
+    "domain": "Organizational Security",
+    "name": "Management review implemented",
+    "description": "Management reviews the programme periodically.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: management review is an agency governance activity.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-023",
+    "domain": "Organizational Security",
+    "name": "Operational procedures maintained",
+    "description": "Standard operating procedures are documented.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: operating procedures are maintained by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-026",
+    "domain": "Organizational Security",
+    "name": "Physical security policy established",
+    "description": "Physical protection of assets is governed.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the physical security policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-027",
+    "domain": "Organizational Security",
+    "name": "Policies signed by relevant personnel",
+    "description": "Staff have acknowledged the policies that apply to them.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: policy acknowledgements are held by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-028",
+    "domain": "Organizational Security",
+    "name": "Policy for compelled disclosure from law enforcement established",
+    "description": "Compelled disclosure requests are handled under a defined process.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the response to compelled disclosure is a legal function; note that this deployment is itself typically operated BY such an agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-030",
+    "domain": "Organizational Security",
+    "name": "Relevant authorities identified",
+    "description": "Supervisory authorities and contact channels are recorded.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the relevant supervisory authorities are identified by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-031",
+    "domain": "Organizational Security",
+    "name": "Remote work policy established",
+    "description": "Secure remote working is governed.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the remote work policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-032",
+    "domain": "Organizational Security",
+    "name": "Resources for ISMS available",
+    "description": "The ISMS is adequately resourced.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: ISMS resourcing is demonstrated by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-035",
+    "domain": "Organizational Security",
+    "name": "Security awareness training conducted",
+    "description": "Staff receive annual security awareness training.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: security awareness training is delivered by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-039",
+    "domain": "Organizational Security",
+    "name": "System changes externally communicated",
+    "description": "Users are told about changes that affect them.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: external change communication is an agency function.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-040",
+    "domain": "Organizational Security",
+    "name": "System changes internally communicated",
+    "description": "Teams are told about changes that affect them.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: internal change communication is an agency function.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ORG-041",
+    "domain": "Organizational Security",
+    "name": "Vendor agreements established",
+    "description": "Third-party agreements set security expectations.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: vendor agreements are held by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-001",
+    "domain": "Risk Management",
+    "name": "Compliance policy established",
+    "description": "Regulatory and contractual obligations are tracked.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the compliance policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-003",
+    "domain": "Risk Management",
+    "name": "Internal audit program defined",
+    "description": "An internal audit programme evaluates the ISMS.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the internal audit programme is defined by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-004",
+    "domain": "Risk Management",
+    "name": "Risk assessments performed",
+    "description": "Risks are assessed at least annually.",
+    "owner": "shared",
+    "status": "manual",
+    "detail": "Risk assessment is an agency process; the platform will record it when run (audit action 'risk.assessment').",
+    "observations": []
+   },
+   {
+    "id": "CTL-RSK-005",
+    "domain": "Risk Management",
+    "name": "Risk management policy established",
+    "description": "The approach to identifying and treating risk is defined.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the risk management policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-006",
+    "domain": "Risk Management",
+    "name": "Risk owners identified",
+    "description": "Each risk has a named owner.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: risk ownership is assigned by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-009",
+    "domain": "Risk Management",
+    "name": "Vendor inventory maintained",
+    "description": "Vendors and their access are inventoried.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the vendor inventory is maintained by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-010",
+    "domain": "Risk Management",
+    "name": "Vendor management policy established",
+    "description": "Third-party risk is governed by policy.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the vendor management policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-RSK-011",
+    "domain": "Risk Management",
+    "name": "Vendor management program established",
+    "description": "Vendors are assessed and monitored.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the vendor management programme is run by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-VLN-005",
+    "domain": "Vulnerability Management",
+    "name": "Vulnerability management policy acknowledged by employees",
+    "description": "Staff have acknowledged the vulnerability management policy.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: policy acknowledgements are held by the agency.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-VLN-006",
+    "domain": "Vulnerability Management",
+    "name": "Vulnerability management policy established",
+    "description": "Identification, assessment and remediation of vulnerabilities is governed.",
+    "owner": "agency",
+    "status": "manual",
+    "detail": "Not evidenced by the platform: the vulnerability management policy is an agency document.",
+    "observations": [
+     "Owned by the deploying agency; no technical check applies.",
+     "Counts as unclaimed in the readiness score until attested."
+    ]
+   },
+   {
+    "id": "CTL-ACC-007",
+    "domain": "Access Control and Authorization",
+    "name": "Password management policy enforced",
+    "description": "Password standards are technically enforced.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "The application stores no passwords, so it cannot enforce a password policy.",
+    "observations": [
+     "No credential store, no hashing, no reset flow — by design, because authentication is intended to be delegated.",
+     "The control transfers to the agency's identity provider."
+    ]
+   },
+   {
+    "id": "CTL-DAT-001",
+    "domain": "Data Management and Protection",
+    "name": "Consent for collecting and managing data obtained",
+    "description": "A lawful basis for processing is established and recorded.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Data here is obtained under lawful authority, not consent.",
+    "observations": [
+     "CDR/IPDR, banking and social records reach an investigation via legal process. Consent is the wrong lawful basis, and claiming it would misdescribe the deployment.",
+     "The control that actually applies is authorisation and audit — see CTL-MON-002."
+    ]
+   },
+   {
+    "id": "CTL-EML-001",
+    "domain": "Email Security",
+    "name": "DMARC policy and verification used",
+    "description": "Email spoofing defences are in place on the corporate domain.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: corporate email domain configuration.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-EML-002",
+    "domain": "Email Security",
+    "name": "Email account access restricted",
+    "description": "Mailbox delegation is limited to administrators.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: corporate mailbox administration.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-EML-003",
+    "domain": "Email Security",
+    "name": "Email settings block malicious content",
+    "description": "Malicious attachments, links and scripts are filtered.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: corporate mail filtering.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-END-001",
+    "domain": "Endpoint Security",
+    "name": "Anti-malware deployed on end-user devices",
+    "description": "Workstations run endpoint protection.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: investigator workstation build.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-END-002",
+    "domain": "Endpoint Security",
+    "name": "Data encrypted on end-user devices",
+    "description": "Device storage is encrypted.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: workstation full-disk encryption.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-END-003",
+    "domain": "Endpoint Security",
+    "name": "Firewall maintained on end-user devices",
+    "description": "Host firewalls are enabled and maintained.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: workstation host firewall.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-END-004",
+    "domain": "Endpoint Security",
+    "name": "Software inventory on end-user devices maintained",
+    "description": "Installed software is inventoried.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: workstation software inventory.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-001",
+    "domain": "Infrastructure Security",
+    "name": "Active discovery tools used",
+    "description": "Assets on the network are discovered continuously.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: network asset discovery.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-003",
+    "domain": "Infrastructure Security",
+    "name": "Anti-malware deployed on infrastructure",
+    "description": "Servers run malware protection.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: server anti-malware.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-004",
+    "domain": "Infrastructure Security",
+    "name": "Automated security scanning performed on infrastructure",
+    "description": "Infrastructure is scanned automatically.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: infrastructure scanning.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-005",
+    "domain": "Infrastructure Security",
+    "name": "Buckets not exposed publicly",
+    "description": "Object storage is not publicly readable.",
+    "owner": "platform",
+    "status": "not_applicable",
+    "detail": "this deployment uses no object storage; all state is in Postgres and Neo4j",
+    "observations": []
+   },
+   {
+    "id": "CTL-INF-008",
+    "domain": "Infrastructure Security",
+    "name": "Firewall restricts public access to infrastructure",
+    "description": "Network access to infrastructure is restricted.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: network perimeter firewalling.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-009",
+    "domain": "Infrastructure Security",
+    "name": "High availability infrastructure used",
+    "description": "Redundancy protects against component failure.",
+    "owner": "platform",
+    "status": "not_applicable",
+    "detail": "Single-node by design: an air-gapped investigative deployment, not a public service.",
+    "observations": [
+     "Availability here is a recovery concern, not a redundancy one."
+    ]
+   },
+   {
+    "id": "CTL-INF-016",
+    "domain": "Infrastructure Security",
+    "name": "Production deployment access restricted",
+    "description": "Only authorised personnel can deploy.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: deployment pipeline access.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-017",
+    "domain": "Infrastructure Security",
+    "name": "Unauthorized assets addressed and removed",
+    "description": "Unauthorised assets are found and removed.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: asset audit.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-INF-019",
+    "domain": "Infrastructure Security",
+    "name": "VPN used",
+    "description": "Remote access is tunnelled.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: remote access VPN.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-MON-010",
+    "domain": "Monitoring and Incident Response",
+    "name": "Network infrastructure monitored",
+    "description": "Network activity is monitored for anomalies.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: network monitoring.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-ORG-002",
+    "domain": "Organizational Security",
+    "name": "Asset inventory maintained",
+    "description": "Assets that store or process data are inventoried.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: corporate asset inventory.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-ORG-024",
+    "domain": "Organizational Security",
+    "name": "Performance evaluations conducted",
+    "description": "Staff performance is reviewed.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: HR performance management.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-ORG-025",
+    "domain": "Organizational Security",
+    "name": "Physical access restricted",
+    "description": "Facilities and equipment are physically secured.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: facility physical security.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-ORG-029",
+    "domain": "Organizational Security",
+    "name": "Reference checks performed for employees",
+    "description": "Candidate backgrounds are verified.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: pre-employment screening.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-VLN-001",
+    "domain": "Vulnerability Management",
+    "name": "Automated software patch management performed",
+    "description": "Patches are deployed promptly and automatically.",
+    "owner": "agency",
+    "status": "not_applicable",
+    "detail": "Outside the application boundary: host patch management.",
+    "observations": [
+     "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+    ]
+   },
+   {
+    "id": "CTL-VLN-002",
+    "domain": "Vulnerability Management",
+    "name": "Penetration testing findings remediated",
+    "description": "Findings from penetration tests are fixed.",
+    "owner": "shared",
+    "status": "not_applicable",
+    "detail": "no penetration test has been performed, so there are no findings to remediate; the missing test itself is reported at CTL-VLN-003",
+    "observations": []
+   },
+   {
+    "id": "CTL-ACC-001",
+    "domain": "Access Control and Authorization",
+    "name": "Access granting process used",
+    "description": "New access is granted on least privilege, with each grant attributable.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "2 users provisioned, every one holding a defined role; 5 actions are restricted to supervisors.",
+    "observations": [
+     "roles in use: investigator, supervisor",
+     "privileged actions: case.action_withdrawn, case.close, case.freeze_request, case.sar_draft, evidence.package.export",
+     "Access is granted by provisioning a row in app_user; an unprovisioned identity is rejected at the door with 401."
+    ]
+   },
+   {
+    "id": "CTL-ACC-002",
+    "domain": "Access Control and Authorization",
+    "name": "Access management policy established",
+    "description": "Systematic controls govern user access rights to systems and data.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Access rules are enforced server-side in tracex_api.auth, not in the UI.",
+    "observations": [
+     "Two roles: investigator (read, ingest, analyse, work cases) and supervisor (all of that, plus closure, export, and any action with an external consequence).",
+     "The frontend hides privileged controls as a convenience; the API refuses them as the control. A hidden button is not a permission.",
+     "5 privileged actions declared."
+    ]
+   },
+   {
+    "id": "CTL-ACC-003",
+    "domain": "Access Control and Authorization",
+    "name": "Dedicated administrator accounts used",
+    "description": "Elevated privileges are confined to dedicated accounts.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "1 of 2 users hold supervisor rights; the rest operate unprivileged.",
+    "observations": [
+     "supervisors: supervisor"
+    ]
+   },
+   {
+    "id": "CTL-DAT-005",
+    "domain": "Data Management and Protection",
+    "name": "Data inventory maintained",
+    "description": "An accurate inventory of data assets is maintained.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Live inventory across 5 source type(s), 2119 records total — derived from storage, not maintained by hand.",
+    "observations": [
+     "alpr: 140 records across 1 batch(es)",
+     "bank: 407 records across 1 batch(es)",
+     "cdr: 1119 records across 1 batch(es)",
+     "ipdr: 449 records across 1 batch(es)",
+     "social: 4 records across 1 batch(es)",
+     "Every row records its source file, batch, ingest time and ingesting user."
+    ]
+   },
+   {
+    "id": "CTL-DAT-006",
+    "domain": "Data Management and Protection",
+    "name": "Data labeled according to classification level",
+    "description": "Data carries a classification that drives its handling.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Every record is classified by source type at ingest and carries that label for its whole life.",
+    "observations": [
+     "classes present: alpr, bank, cdr, ipdr, social",
+     "The label drives handling: source type selects the parser, the graph projection, and which analyses may read the row."
+    ]
+   },
+   {
+    "id": "CTL-DAT-008",
+    "domain": "Data Management and Protection",
+    "name": "Data masking procedures used",
+    "description": "Non-production environments do not contain live sensitive data.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Non-production data is synthetic, not masked production data.",
+    "observations": [
+     "The seed corpus is generated, so there is no real subject to re-identify.",
+     "This is the stronger form of the control: masking can be undone by correlation, and synthetic data has nothing to be undone to."
+    ]
+   },
+   {
+    "id": "CTL-DAT-009",
+    "domain": "Data Management and Protection",
+    "name": "Data processing integrity and output validated",
+    "description": "Processing is complete, accurate and tamper-evident end to end.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "All 2119 records across 5 batch(es) re-hashed and every chain re-walked; no discrepancy.",
+    "observations": [
+     "This is a full re-hash of stored payloads, not a link-only check — the latter would miss an edit made directly in the database.",
+     "The same check is exposed at /integrity/verify, and /integrity/drill will break it on demand so the verifier can be watched catching it."
+    ]
+   },
+   {
+    "id": "CTL-DAT-010",
+    "domain": "Data Management and Protection",
+    "name": "Data transfer mechanisms established",
+    "description": "Data leaves the system only through controlled, audited paths.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Evidence leaves the system only through the export path, which is supervisor-gated, hash-certified and audited.",
+    "observations": [
+     "5 export-related audit entries recorded.",
+     "Exports carry a BSA s.65B-style certificate binding the package to the hash chain it was drawn from.",
+     "No outbound egress: the LLM provider is local (stub or Ollama) and no cloud API is called."
+    ]
+   },
+   {
+    "id": "CTL-INF-002",
+    "domain": "Infrastructure Security",
+    "name": "Administrator access restricted",
+    "description": "Elevated permissions are granted narrowly and revoked promptly.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Elevated actions are enumerated and enforced at the API boundary.",
+    "observations": [
+     "Restricted: case.action_withdrawn, case.close, case.freeze_request, case.sar_draft, evidence.package.export",
+     "Each one has an external consequence — closing a case, exporting evidence, asking a bank to freeze funds, filing a regulatory report. Read and analysis are unrestricted, because an investigator who cannot look at the data cannot investigate."
+    ]
+   },
+   {
+    "id": "CTL-INF-006",
+    "domain": "Infrastructure Security",
+    "name": "Clock synchronization enforced",
+    "description": "System clocks are synchronised to a reliable source.",
+    "owner": "shared",
+    "status": "satisfied",
+    "detail": "Every timestamp the application writes is timezone-aware UTC, taken from the host clock.",
+    "observations": [
+     "Records, audit entries and case events all use datetime.now(dt.UTC).",
+     "This matters evidentially: a timeline correlating CDR, banking and social events across sources is only sound if all of them are on one clock. Host NTP remains the agency's to maintain."
+    ]
+   },
+   {
+    "id": "CTL-INF-007",
+    "domain": "Infrastructure Security",
+    "name": "Configuration management system established",
+    "description": "Configuration is managed and version-controlled.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "All runtime configuration is environment-driven through a single typed settings object, with defaults visible in source.",
+    "observations": [
+     "No configuration is read from an unversioned host file.",
+     "A reviewer can see which values produced a given verdict — analysis thresholds are echoed in the responses that used them."
+    ]
+   },
+   {
+    "id": "CTL-MON-001",
+    "domain": "Monitoring and Incident Response",
+    "name": "Audit log management process maintained",
+    "description": "Audit logs are captured, retained and reviewable.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "The audit log is append-only in application code and queryable through a filtered, paginated route.",
+    "observations": [
+     "No route updates or deletes an audit row.",
+     "Indexed on timestamp, actor and action so a review is practical, not theoretical.",
+     "LIMIT, STATED: append-only is enforced by the application, not the database. A holder of direct database credentials could still edit it; the ingested-record hash chain is what defends the evidence itself."
+    ]
+   },
+   {
+    "id": "CTL-MON-002",
+    "domain": "Monitoring and Incident Response",
+    "name": "Audit logs collected",
+    "description": "Security-relevant events are logged from critical components.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "170 audit entries from 4 distinct actor(s), across 8+ action types.",
+    "observations": [
+     "timeline.entity.view: 42",
+     "intel.analyze: 24",
+     "intel.entity.view: 23",
+     "spatial.reconstruct: 13",
+     "spatial.layers: 13",
+     "ask.query: 12",
+     "benchmark.run: 6",
+     "hunt.sweep: 6",
+     "The actor is derived from the request identity, never accepted as a client-supplied field — an audit log the caller can forge is decoration."
+    ]
+   },
+   {
+    "id": "CTL-MON-004",
+    "domain": "Monitoring and Incident Response",
+    "name": "Compliance monitoring processes defined and implemented",
+    "description": "Control effectiveness is monitored on an ongoing basis.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Compliance posture is computed from the live system on request, not maintained as a spreadsheet.",
+    "observations": [
+     "Every control in this catalogue carries a verifier that inspects the running deployment; results are recomputed on each call.",
+     "Controls nothing can verify are reported as unclaimed rather than assumed to pass, and they lower the readiness score."
+    ]
+   },
+   {
+    "id": "CTL-ORG-008",
+    "domain": "Organizational Security",
+    "name": "Data-flow diagrams maintained",
+    "description": "Data flows across systems are documented and current.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "The data flow is documented and, more usefully, inspectable at runtime.",
+    "observations": [
+     "Ingest -> hash chain -> entity resolution -> graph projection -> analysis -> case -> certified export.",
+     "Each stage is a named service module, and the agent pipeline view renders the actual path a record took rather than an idealised drawing."
+    ]
+   },
+   {
+    "id": "CTL-ORG-033",
+    "domain": "Organizational Security",
+    "name": "Roles and responsibilities specified",
+    "description": "Duties and accountabilities are defined.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Two roles are defined with explicit duties, and the boundary between them is enforced rather than described.",
+    "observations": []
+   },
+   {
+    "id": "CTL-ORG-034",
+    "domain": "Organizational Security",
+    "name": "Scope for compliance framework established",
+    "description": "The boundary of the framework is defined.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "Scope is declared explicitly and every control is attributed to an owner inside or outside it.",
+    "observations": [
+     "In scope: the TRACE-X application, its two datastores, and the evidence lifecycle from ingest to certified export.",
+     "Out of scope: the agency's corporate estate — email, endpoints, network, premises and HR. Those controls are listed and marked, never silently dropped, so the boundary itself is auditable."
+    ]
+   },
+   {
+    "id": "CTL-ORG-036",
+    "domain": "Organizational Security",
+    "name": "Service description communicated",
+    "description": "Scope, features and limitations are communicated to users.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "The service, its scope and its stated limits are documented in-product.",
+    "observations": [
+     "OpenAPI at /docs; every analytical view states its method and its caveats."
+    ]
+   },
+   {
+    "id": "CTL-ORG-038",
+    "domain": "Organizational Security",
+    "name": "Statement of applicability completed",
+    "description": "Applicable controls are formally identified.",
+    "owner": "platform",
+    "status": "satisfied",
+    "detail": "This catalogue is the statement of applicability: every control is present with an owner, a status and its justification.",
+    "observations": [
+     "125 controls across 10 domains.",
+     "Exclusions carry a stated reason rather than an omission."
+    ]
+   }
+  ]
+ }
+}

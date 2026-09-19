@@ -1,0 +1,8 @@
+{
+ "url": "/records/alpr?page=1&page_size=10&search=a",
+ "status": 400,
+ "contentType": "application/json",
+ "body": {
+  "detail": "source_type must be one of ['cdr', 'ipdr', 'bank', 'social']"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "url": "/evidence/counterfactual/P0018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0018",
+  "risk_score": 0.4446,
+  "band": "elevated",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": [
+   {
+    "driver": "n_ips_shared",
+    "feature": "n_ips_shared",
+    "observed_value": 1,
+    "observed": "Shared 1 IP address(es) with other flagged entities",
+    "boundary": "If fewer than 0.9 IPs were shared, this would be treated as coincidental.",
+    "flip_value": 0.9376,
+    "flip_reachable": true,
+    "weight_hint": 0.6143,
+    "method": "model_probe"
+   }
+  ]
+ }
+}

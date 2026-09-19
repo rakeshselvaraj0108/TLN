@@ -1,0 +1,235 @@
+{
+ "url": "/graph/paths?source=P0001&target=P0002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source": "P0001",
+  "target": "P0002",
+  "paths": [
+   {
+    "hops": [
+     {
+      "from": "P0001",
+      "to": "P0002",
+      "type": "CALLED",
+      "count": 1,
+      "value": 255,
+      "detail": "",
+      "rec_ids": [
+       "CDR00270"
+      ],
+      "along_direction": true,
+      "directed": true
+     }
+    ],
+    "length": 1,
+    "rec_ids": [
+     "CDR00270"
+    ]
+   },
+   {
+    "hops": [
+     {
+      "from": "P0001",
+      "to": "P0018",
+      "type": "CALLED",
+      "count": 8,
+      "value": 1230,
+      "detail": "",
+      "rec_ids": [
+       "CDR00238",
+       "CDR00510",
+       "CDR00603",
+       "CDR00696",
+       "CDR00772",
+       "CDR00976",
+       "CDR01072",
+       "CDR01096"
+      ],
+      "along_direction": false,
+      "directed": true
+     },
+     {
+      "from": "P0018",
+      "to": "P0002",
+      "type": "CALLED",
+      "count": 7,
+      "value": 719,
+      "detail": "",
+      "rec_ids": [
+       "CDR00082",
+       "CDR00166",
+       "CDR00338",
+       "CDR00769",
+       "CDR00990",
+       "CDR01014",
+       "CDR01094"
+      ],
+      "along_direction": true,
+      "directed": true
+     }
+    ],
+    "length": 2,
+    "rec_ids": [
+     "CDR00238",
+     "CDR00510",
+     "CDR00603",
+     "CDR00696",
+     "CDR00772",
+     "CDR00976",
+     "CDR01072",
+     "CDR01096",
+     "CDR00082",
+     "CDR00166",
+     "CDR00338",
+     "CDR00769",
+     "CDR00990",
+     "CDR01014",
+     "CDR01094"
+    ]
+   },
+   {
+    "hops": [
+     {
+      "from": "P0001",
+      "to": "P0020",
+      "type": "CALLED",
+      "count": 5,
+      "value": 20817,
+      "detail": "",
+      "rec_ids": [
+       "CDR00544",
+       "CDR00893",
+       "CDR00894",
+       "CDR00895",
+       "CDR00896"
+      ],
+      "along_direction": false,
+      "directed": true
+     },
+     {
+      "from": "P0020",
+      "to": "P0002",
+      "type": "CALLED",
+      "count": 7,
+      "value": 1313,
+      "detail": "",
+      "rec_ids": [
+       "CDR00003",
+       "CDR00456",
+       "CDR00464",
+       "CDR00539",
+       "CDR00716",
+       "CDR00805",
+       "CDR00806"
+      ],
+      "along_direction": true,
+      "directed": true
+     }
+    ],
+    "length": 2,
+    "rec_ids": [
+     "CDR00544",
+     "CDR00893",
+     "CDR00894",
+     "CDR00895",
+     "CDR00896",
+     "CDR00003",
+     "CDR00456",
+     "CDR00464",
+     "CDR00539",
+     "CDR00716",
+     "CDR00805",
+     "CDR00806"
+    ]
+   },
+   {
+    "hops": [
+     {
+      "from": "P0001",
+      "to": "P0020",
+      "type": "CALLED",
+      "count": 5,
+      "value": 20817,
+      "detail": "",
+      "rec_ids": [
+       "CDR00544",
+       "CDR00893",
+       "CDR00894",
+       "CDR00895",
+       "CDR00896"
+      ],
+      "along_direction": false,
+      "directed": true
+     },
+     {
+      "from": "P0020",
+      "to": "P0002",
+      "type": "CALL_THEN_DEBIT",
+      "count": 1,
+      "value": 1200,
+      "detail": "6924s after the call ended, 1,200 left ICIC17080531003",
+      "rec_ids": [
+       "CDR00456",
+       "TXN00043"
+      ],
+      "along_direction": true,
+      "directed": true
+     }
+    ],
+    "length": 2,
+    "rec_ids": [
+     "CDR00544",
+     "CDR00893",
+     "CDR00894",
+     "CDR00895",
+     "CDR00896",
+     "CDR00456",
+     "TXN00043"
+    ]
+   },
+   {
+    "hops": [
+     {
+      "from": "P0001",
+      "to": "P0008",
+      "type": "MONEY_TO",
+      "count": 2,
+      "value": 960000,
+      "detail": "",
+      "rec_ids": [
+       "TXN00086",
+       "TXN00087"
+      ],
+      "along_direction": true,
+      "directed": true
+     },
+     {
+      "from": "P0008",
+      "to": "P0002",
+      "type": "MONEY_TO",
+      "count": 2,
+      "value": 153600,
+      "detail": "",
+      "rec_ids": [
+       "TXN00103",
+       "TXN00104"
+      ],
+      "along_direction": true,
+      "directed": true
+     }
+    ],
+    "length": 2,
+    "rec_ids": [
+     "TXN00086",
+     "TXN00087",
+     "TXN00103",
+     "TXN00104"
+    ]
+   }
+  ],
+  "count": 5,
+  "max_hops": 4,
+  "engine": "local"
+ }
+}

@@ -1,0 +1,112 @@
+{
+ "url": "/pattern/timeline/P0013",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0013",
+  "engine": "local",
+  "events": [
+   {
+    "kind": "txn",
+    "rec_id": "TXN00031",
+    "ts": "2026-08-11T18:00:00+00:00",
+    "amount": 2500,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "SBIN87083172788",
+    "row_sha256": "d37f1bee54d95165d40a87e648b51c81ab03cfbd5d009304a95319e3de8db0db",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00032",
+    "ts": "2026-08-13T20:55:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "Fuel",
+    "account": "SBIN87083172788",
+    "row_sha256": "f1bba246e6806db212180ec465081eccde8ca294bd0e4ea0d504c1bfb9bd28d9",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00099",
+    "ts": "2026-08-14T10:17:00+00:00",
+    "amount": 72960,
+    "channel": "UPI",
+    "narration": "onward",
+    "account": "SBIN87083172788",
+    "row_sha256": "3e3b80fa83560aafd512d4cbd652413b560e7a3fc269c4a42b0b93536bc721af",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00033",
+    "ts": "2026-08-15T18:57:00+00:00",
+    "amount": 499,
+    "channel": "IMPS",
+    "narration": "Electricity",
+    "account": "SBIN87083172788",
+    "row_sha256": "52782e1ed90ecd2eca2b0431327b93d4c803339922e71ed86accb4bc3034d033",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00298",
+    "ts": "2026-08-16T14:00:00+00:00",
+    "amount": 67849.41,
+    "channel": "IMPS",
+    "narration": "transfer",
+    "account": "SBIN87083172788",
+    "row_sha256": "c2817a70aca25b633f2062d233245b2e132f6f77fb406be28ff48e7c71f7c8bb",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00034",
+    "ts": "2026-08-17T18:54:00+00:00",
+    "amount": 3200,
+    "channel": "IMPS",
+    "narration": "DTH",
+    "account": "SBIN87083172788",
+    "row_sha256": "192dc5d9781a7f110f8509941708ebcc9bb17cd0f458af7f4cd1563522975857",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00314",
+    "ts": "2026-08-18T11:21:00+00:00",
+    "amount": 48563.56,
+    "channel": "IMPS",
+    "narration": "transfer",
+    "account": "SBIN87083172788",
+    "row_sha256": "b4af51473e8db41675b813c6246f45177a2e48f5d321f8c3e06ce4a2b3265a14",
+    "corroborations": []
+   },
+   {
+    "kind": "txn",
+    "rec_id": "TXN00035",
+    "ts": "2026-08-19T14:24:00+00:00",
+    "amount": 1200,
+    "channel": "IMPS",
+    "narration": "Electricity",
+    "account": "SBIN87083172788",
+    "row_sha256": "7860fa48b75fb83ae802d77370f5a77aea12a348e7546fc95d1e2ab758f51829",
+    "corroborations": []
+   }
+  ],
+  "counts": {
+   "alpr_reads": 0,
+   "debits": 8,
+   "corroborated_debits": 0
+  },
+  "contradictions": [],
+  "thresholds": {
+   "corroboration_window_min": 15,
+   "camera_covers_poi_km": 0.5,
+   "max_plausible_kmh": 200,
+   "habitual_day_share": 0.4
+  },
+  "note": "Corroboration strength is computed against each plate's own baseline at each camera. A vehicle that habitually passes a camera is reported as weak evidence, however close in time it sits to the event."
+ }
+}

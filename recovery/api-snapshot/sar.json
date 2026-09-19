@@ -1,0 +1,9 @@
+{
+ "url": "/sar",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "drafts": [],
+  "total": 0
+ }
+}

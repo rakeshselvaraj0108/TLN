@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-ORG-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-004",
+  "domain": "Organizational Security",
+  "name": "Change management policy established",
+  "description": "Changes are controlled and documented.",
+  "owner": "shared",
+  "status": "manual",
+  "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+  "observations": [
+   "No git metadata visible from the runtime."
+  ]
+ }
+}

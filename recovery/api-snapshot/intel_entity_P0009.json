@@ -1,0 +1,161 @@
+{
+ "url": "/intel/entity/P0009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0009",
+  "risk_score": 0.1578,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 1,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 1,
+   "n_call_debit_links": 4,
+   "max_passthrough_ratio": 0.95,
+   "max_fanout_hop_count": 1,
+   "total_fanout_inbound_inr": 76800,
+   "inbound_txn_count": 3,
+   "outbound_txn_count": 9,
+   "distinct_counterparties": 1,
+   "counterparty_stability": 0.8333,
+   "txn_velocity": 3,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "outbound_txn_count",
+    "value": 9,
+    "shap": -0.8311,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_call_debit_links",
+    "value": 4,
+    "shap": -0.66,
+    "direction": "lowers"
+   },
+   {
+    "feature": "inbound_txn_count",
+    "value": 3,
+    "shap": 0.5102,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 1,
+    "shap": 0.4805,
+    "direction": "raises"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 1,
+    "shap": -0.4589,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 1,
+    "shap": 0.4164,
+    "direction": "raises"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "KKBK94680443699",
+     "ifsc": "KKBK0000234"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "608835615951489"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916569816934"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0009",
+    "call_rec_id": "CDR00551",
+    "call_end": "2026-08-16T13:50:55",
+    "caller": "+916081219136",
+    "debit_rec_id": "TXN00296",
+    "debit_time": "2026-08-16T14:00:00",
+    "amount": 81453.68,
+    "latency_s": 545,
+    "src_account": "KKBK94680443699",
+    "dst_account": "SBIN90847007661",
+    "narration": "transfer"
+   },
+   {
+    "person": "P0009",
+    "call_rec_id": "CDR00562",
+    "call_end": "2026-08-16T13:37:33",
+    "caller": "+918738721489",
+    "debit_rec_id": "TXN00296",
+    "debit_time": "2026-08-16T14:00:00",
+    "amount": 81453.68,
+    "latency_s": 1347,
+    "src_account": "KKBK94680443699",
+    "dst_account": "SBIN90847007661",
+    "narration": "transfer"
+   },
+   {
+    "person": "P0009",
+    "call_rec_id": "CDR00855",
+    "call_end": "2026-08-19T16:53:05",
+    "caller": "+917859770348",
+    "debit_rec_id": "TXN00030",
+    "debit_time": "2026-08-19T19:14:00",
+    "amount": 1999,
+    "latency_s": 8455,
+    "src_account": "KKBK94680443699",
+    "dst_account": null,
+    "narration": "DTH"
+   },
+   {
+    "person": "P0009",
+    "call_rec_id": "CDR00738",
+    "call_end": "2026-08-18T08:55:32",
+    "caller": "+916271937452",
+    "debit_rec_id": "TXN00312",
+    "debit_time": "2026-08-18T11:20:00",
+    "amount": 81240.45,
+    "latency_s": 8668,
+    "src_account": "KKBK94680443699",
+    "dst_account": "SBIN90847007661",
+    "narration": "transfer"
+   }
+  ],
+  "fanout_links": [
+   {
+    "person": "P0009",
+    "inbound_rec_id": "TXN00095",
+    "inbound_time": "2026-08-14T10:13:00",
+    "inbound_amount": 76800,
+    "inbound_account": "KKBK94680443699",
+    "outbound_rec_ids": [
+     "TXN00096"
+    ],
+    "outbound_total": 72960,
+    "passthrough_ratio": 0.95,
+    "window_s": 1800,
+    "hop_count": 1
+   }
+  ],
+  "engine": "local"
+ }
+}

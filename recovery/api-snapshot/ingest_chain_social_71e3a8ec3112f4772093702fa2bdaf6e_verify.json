@@ -1,0 +1,12 @@
+{
+ "url": "/ingest/chain/social/71e3a8ec3112f4772093702fa2bdaf6e/verify",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "social",
+  "batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+  "records": 4,
+  "chain_intact": true,
+  "chain_head": "dc934f1f117a855406e7eec0b8f5cd7ce66386cd3a4f1843cc325cfeea156242"
+ }
+}

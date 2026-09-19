@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ACC-006",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ACC-006",
+  "domain": "Access Control and Authorization",
+  "name": "MFA required for infrastructure access",
+  "description": "Multi-factor authentication protects sensitive infrastructure.",
+  "owner": "shared",
+  "status": "gap",
+  "detail": "The application performs no multi-factor authentication of its own.",
+  "observations": [
+   "Stated plainly rather than deferred: the demo identity model is a bearer username, which is single-factor at best.",
+   "Remediation: front the API with the agency's identity provider and require MFA there."
+  ]
+ }
+}

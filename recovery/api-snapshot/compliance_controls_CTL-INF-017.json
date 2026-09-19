@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-017",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-017",
+  "domain": "Infrastructure Security",
+  "name": "Unauthorized assets addressed and removed",
+  "description": "Unauthorised assets are found and removed.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: asset audit.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

@@ -1,0 +1,185 @@
+{
+ "url": "/intel/entity/P0003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0003",
+  "risk_score": 0.0144,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 0,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 1,
+   "n_call_debit_links": 7,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 60,
+   "outbound_txn_count": 17,
+   "distinct_counterparties": 3,
+   "counterparty_stability": 0.875,
+   "txn_velocity": 5.6667,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "inbound_txn_count",
+    "value": 60,
+    "shap": -1.8737,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 0,
+    "shap": -1.0337,
+    "direction": "lowers"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 17,
+    "shap": -0.6393,
+    "direction": "lowers"
+   },
+   {
+    "feature": "total_fanout_inbound_inr",
+    "value": 0,
+    "shap": -0.4209,
+    "direction": "lowers"
+   },
+   {
+    "feature": "callee_money_movers",
+    "value": 0,
+    "shap": -0.3625,
+    "direction": "lowers"
+   },
+   {
+    "feature": "distinct_counterparties",
+    "value": 3,
+    "shap": 0.3136,
+    "direction": "raises"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "ICIC27111161528",
+     "ifsc": "ICIC0008901"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "698478961183676"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+918159212499"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00292",
+    "call_end": "2026-08-13T20:48:14",
+    "caller": "+917787133150",
+    "debit_rec_id": "TXN00364",
+    "debit_time": "2026-08-13T20:49:00",
+    "amount": 7853.33,
+    "latency_s": 46,
+    "src_account": "ICIC27111161528",
+    "dst_account": "PUNB35454948083",
+    "narration": "relief disbursement"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR01104",
+    "call_end": "2026-08-19T16:55:00",
+    "caller": "+918953394210",
+    "debit_rec_id": "TXN00085",
+    "debit_time": "2026-08-19T17:23:00",
+    "amount": 780,
+    "latency_s": 1680,
+    "src_account": "ICIC27111161528",
+    "dst_account": null,
+    "narration": "Recharge"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00858",
+    "call_end": "2026-08-19T15:32:45",
+    "caller": "+917859770348",
+    "debit_rec_id": "TXN00085",
+    "debit_time": "2026-08-19T17:23:00",
+    "amount": 780,
+    "latency_s": 6615,
+    "src_account": "ICIC27111161528",
+    "dst_account": null,
+    "narration": "Recharge"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00292",
+    "call_end": "2026-08-13T20:48:14",
+    "caller": "+917787133150",
+    "debit_rec_id": "TXN00360",
+    "debit_time": "2026-08-13T22:51:00",
+    "amount": 7853.33,
+    "latency_s": 7366,
+    "src_account": "ICIC27111161528",
+    "dst_account": "ICIC96499091334",
+    "narration": "relief disbursement"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00292",
+    "call_end": "2026-08-13T20:48:14",
+    "caller": "+917787133150",
+    "debit_rec_id": "TXN00362",
+    "debit_time": "2026-08-13T22:57:00",
+    "amount": 7853.33,
+    "latency_s": 7726,
+    "src_account": "ICIC27111161528",
+    "dst_account": "UTIB68071545168",
+    "narration": "relief disbursement"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00310",
+    "call_end": "2026-08-13T13:34:42",
+    "caller": "+918277434873",
+    "debit_rec_id": "TXN00082",
+    "debit_time": "2026-08-13T16:02:00",
+    "amount": 1200,
+    "latency_s": 8838,
+    "src_account": "ICIC27111161528",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0003",
+    "call_rec_id": "CDR00956",
+    "call_end": "2026-08-10T18:03:00",
+    "caller": "+917455623869",
+    "debit_rec_id": "TXN00342",
+    "debit_time": "2026-08-10T20:38:00",
+    "amount": 6808.33,
+    "latency_s": 9300,
+    "src_account": "ICIC27111161528",
+    "dst_account": "PUNB35454948083",
+    "narration": "relief disbursement"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

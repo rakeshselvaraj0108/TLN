@@ -1,0 +1,185 @@
+{
+ "url": "/intel/entity/P0017",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0017",
+  "risk_score": 0.161,
+  "band": "low",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 1,
+   "n_devices": 1,
+   "n_accounts": 1,
+   "n_ips_shared": 1,
+   "max_imei_sim_count": 1,
+   "has_call_debit_coupling": 1,
+   "call_debit_speed_score": 1,
+   "n_call_debit_links": 7,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 5,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 1.25,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_call_debit_links",
+    "value": 7,
+    "shap": -0.7703,
+    "direction": "lowers"
+   },
+   {
+    "feature": "outbound_txn_count",
+    "value": 5,
+    "shap": 0.7067,
+    "direction": "raises"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 1,
+    "shap": 0.6459,
+    "direction": "raises"
+   },
+   {
+    "feature": "call_debit_speed_score",
+    "value": 1,
+    "shap": -0.5697,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_fanout_hop_count",
+    "value": 0,
+    "shap": -0.5637,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 1,
+    "shap": 0.4278,
+    "direction": "raises"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Account",
+    "props": {
+     "number": "YESB17187026217",
+     "ifsc": "YESB0000678"
+    }
+   },
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "558867533963601"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+919044997278"
+    }
+   }
+  ],
+  "call_to_debit_links": [
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00291",
+    "call_end": "2026-08-13T13:16:49",
+    "caller": "+917787133150",
+    "debit_rec_id": "TXN00072",
+    "debit_time": "2026-08-13T13:23:00",
+    "amount": 499,
+    "latency_s": 371,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Grocery"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00282",
+    "call_end": "2026-08-13T12:56:29",
+    "caller": "+916489325288",
+    "debit_rec_id": "TXN00072",
+    "debit_time": "2026-08-13T13:23:00",
+    "amount": 499,
+    "latency_s": 1591,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Grocery"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00803",
+    "call_end": "2026-08-19T09:06:14",
+    "caller": "+916489325288",
+    "debit_rec_id": "TXN00075",
+    "debit_time": "2026-08-19T09:48:00",
+    "amount": 780,
+    "latency_s": 2506,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00347",
+    "call_end": "2026-08-13T12:29:01",
+    "caller": "+918953394210",
+    "debit_rec_id": "TXN00072",
+    "debit_time": "2026-08-13T13:23:00",
+    "amount": 499,
+    "latency_s": 3239,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Grocery"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00168",
+    "call_end": "2026-08-11T18:34:58",
+    "caller": "+917064090974",
+    "debit_rec_id": "TXN00071",
+    "debit_time": "2026-08-11T20:17:00",
+    "amount": 499,
+    "latency_s": 6122,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00124",
+    "call_end": "2026-08-11T18:30:01",
+    "caller": "+916980841241",
+    "debit_rec_id": "TXN00071",
+    "debit_time": "2026-08-11T20:17:00",
+    "amount": 499,
+    "latency_s": 6419,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Fuel"
+   },
+   {
+    "person": "P0017",
+    "call_rec_id": "CDR00632",
+    "call_end": "2026-08-17T10:51:23",
+    "caller": "+918489638346",
+    "debit_rec_id": "TXN00074",
+    "debit_time": "2026-08-17T13:27:00",
+    "amount": 3200,
+    "latency_s": 9337,
+    "src_account": "YESB17187026217",
+    "dst_account": null,
+    "narration": "Fuel"
+   }
+  ],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

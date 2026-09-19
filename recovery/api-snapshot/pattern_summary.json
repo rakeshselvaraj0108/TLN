@@ -1,0 +1,13 @@
+{
+ "url": "/pattern/summary",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "reads": 140,
+  "vehicles": 6,
+  "cameras": 8,
+  "pois": 6,
+  "engine": "local",
+  "generated_at": "2026-09-17T04:39:14.980374+00:00"
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "url": "/ingest/chain/ipdr/951295eb92521845564dfa6eb48f60cd/verify",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "ipdr",
+  "batch_id": "951295eb92521845564dfa6eb48f60cd",
+  "records": 449,
+  "chain_intact": true,
+  "chain_head": "079322366282f9bbf2dd51035c63c2661153fcbe2089d29b70ece03a11bd5c33"
+ }
+}

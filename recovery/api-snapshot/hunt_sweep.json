@@ -1,0 +1,559 @@
+{
+ "url": "/hunt/sweep",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "campaigns": [
+   {
+    "campaign_id": "OP-P0002",
+    "members": [
+     "P0001",
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "links": [
+     {
+      "a": "P0006",
+      "b": "P0009",
+      "kind": "synchronised",
+      "strength": 0.955,
+      "detail": "both acted within 3 min (ATM cash-out at 10:12, ATM cash-out at 10:15)",
+      "evidence": [
+       "TXN00090",
+       "TXN00096"
+      ]
+     },
+     {
+      "a": "P0004",
+      "b": "P0009",
+      "kind": "synchronised",
+      "strength": 0.94,
+      "detail": "both acted within 4 min (ATM cash-out at 10:15, ATM cash-out at 10:19)",
+      "evidence": [
+       "TXN00096",
+       "TXN00093"
+      ]
+     },
+     {
+      "a": "P0004",
+      "b": "P0006",
+      "kind": "synchronised",
+      "strength": 0.895,
+      "detail": "both acted within 7 min (ATM cash-out at 10:12, ATM cash-out at 10:19)",
+      "evidence": [
+       "TXN00090",
+       "TXN00093"
+      ]
+     },
+     {
+      "a": "P0001",
+      "b": "P0008",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 960,000 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00086",
+       "TXN00087"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0008",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00088",
+       "TXN00089"
+      ]
+     },
+     {
+      "a": "P0004",
+      "b": "P0008",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00091",
+       "TXN00092"
+      ]
+     },
+     {
+      "a": "P0008",
+      "b": "P0009",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00094",
+       "TXN00095"
+      ]
+     },
+     {
+      "a": "P0008",
+      "b": "P0013",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00097",
+       "TXN00098"
+      ]
+     },
+     {
+      "a": "P0012",
+      "b": "P0013",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "1 transfer(s) totalling 72,960 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00099"
+      ]
+     },
+     {
+      "a": "P0008",
+      "b": "P0012",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00100",
+       "TXN00101"
+      ]
+     },
+     {
+      "a": "P0002",
+      "b": "P0012",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "1 transfer(s) totalling 72,960 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00102"
+      ]
+     },
+     {
+      "a": "P0002",
+      "b": "P0008",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 153,600 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00103",
+       "TXN00104"
+      ]
+     },
+     {
+      "a": "P0002",
+      "b": "P0006",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "1 transfer(s) totalling 72,960 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00105"
+      ]
+     },
+     {
+      "a": "P0012",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 149,597 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00300",
+       "TXN00301"
+      ]
+     },
+     {
+      "a": "P0002",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.7,
+      "detail": "4 transfer(s) totalling 257,587 concentrated in 2 day(s)",
+      "evidence": [
+       "TXN00282",
+       "TXN00283",
+       "TXN00310",
+       "TXN00311"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.7,
+      "detail": "10 transfer(s) totalling 555,402 concentrated in 3 day(s)",
+      "evidence": [
+       "TXN00284",
+       "TXN00285",
+       "TXN00294",
+       "TXN00295",
+       "TXN00304",
+       "TXN00305",
+       "TXN00306",
+       "TXN00307"
+      ]
+     },
+     {
+      "a": "P0009",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.7,
+      "detail": "10 transfer(s) totalling 683,388 concentrated in 3 day(s)",
+      "evidence": [
+       "TXN00286",
+       "TXN00287",
+       "TXN00290",
+       "TXN00291",
+       "TXN00296",
+       "TXN00297",
+       "TXN00312",
+       "TXN00313"
+      ]
+     },
+     {
+      "a": "P0004",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.7,
+      "detail": "8 transfer(s) totalling 415,497 concentrated in 3 day(s)",
+      "evidence": [
+       "TXN00288",
+       "TXN00289",
+       "TXN00302",
+       "TXN00303",
+       "TXN00308",
+       "TXN00309",
+       "TXN00320",
+       "TXN00321"
+      ]
+     },
+     {
+      "a": "P0013",
+      "b": "P0014",
+      "kind": "funds",
+      "strength": 0.7,
+      "detail": "8 transfer(s) totalling 430,944 concentrated in 3 day(s)",
+      "evidence": [
+       "TXN00292",
+       "TXN00293",
+       "TXN00298",
+       "TXN00299",
+       "TXN00314",
+       "TXN00315",
+       "TXN00316",
+       "TXN00317"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0009",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0012",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0017",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0018",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0006",
+      "b": "P0020",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0009",
+      "b": "P0012",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0009",
+      "b": "P0017",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0009",
+      "b": "P0018",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0009",
+      "b": "P0020",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0012",
+      "b": "P0017",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0012",
+      "b": "P0018",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0012",
+      "b": "P0020",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0017",
+      "b": "P0018",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0017",
+      "b": "P0020",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     },
+     {
+      "a": "P0018",
+      "b": "P0020",
+      "kind": "ip",
+      "strength": 0.2,
+      "detail": "share ip 100.91.29.149 (6 entities on it)",
+      "evidence": [
+       "100.91.29.149"
+      ]
+     }
+    ],
+    "link_kinds": {
+     "funds": 16,
+     "ip": 15,
+     "synchronised": 3
+    },
+    "cohesion": 0.5,
+    "confidence": 0.5588,
+    "exposure_inr": 4592894.24,
+    "first_activity": null,
+    "last_activity": null,
+    "typology": "mule_network",
+    "summary": "Money-mule network: 12 entities joined by 16 funds, 3 synchronised, 15 ip link(s). Cohesion 50%, confidence 56%, exposure ₹4,592,894."
+   },
+   {
+    "campaign_id": "OP-P0003",
+    "members": [
+     "P0003",
+     "P0005",
+     "P0007",
+     "P0010",
+     "P0016"
+    ],
+    "links": [
+     {
+      "a": "P0005",
+      "b": "P0007",
+      "kind": "funds",
+      "strength": 0.85,
+      "detail": "2 transfer(s) totalling 76,000 concentrated in 1 day(s)",
+      "evidence": [
+       "TXN00279",
+       "TXN00280"
+      ]
+     },
+     {
+      "a": "P0007",
+      "b": "P0010",
+      "kind": "funds",
+      "strength": 0.35,
+      "detail": "10 transfers totalling 523,000 across 10 days — a standing payment relationship, weak evidence of a ring",
+      "evidence": [
+       "TXN00121",
+       "TXN00138",
+       "TXN00157",
+       "TXN00179",
+       "TXN00193",
+       "TXN00212",
+       "TXN00232",
+       "TXN00247"
+      ]
+     },
+     {
+      "a": "P0010",
+      "b": "P0016",
+      "kind": "funds",
+      "strength": 0.35,
+      "detail": "10 transfers totalling 515,000 across 10 days — a standing payment relationship, weak evidence of a ring",
+      "evidence": [
+       "TXN00122",
+       "TXN00139",
+       "TXN00158",
+       "TXN00180",
+       "TXN00194",
+       "TXN00213",
+       "TXN00233",
+       "TXN00248"
+      ]
+     },
+     {
+      "a": "P0003",
+      "b": "P0005",
+      "kind": "funds",
+      "strength": 0.35,
+      "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+      "evidence": [
+       "TXN00338",
+       "TXN00339",
+       "TXN00360",
+       "TXN00361",
+       "TXN00381",
+       "TXN00382",
+       "TXN00402",
+       "TXN00403"
+      ]
+     },
+     {
+      "a": "P0003",
+      "b": "P0016",
+      "kind": "funds",
+      "strength": 0.35,
+      "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+      "evidence": [
+       "TXN00340",
+       "TXN00341",
+       "TXN00362",
+       "TXN00363",
+       "TXN00383",
+       "TXN00384",
+       "TXN00404",
+       "TXN00405"
+      ]
+     },
+     {
+      "a": "P0003",
+      "b": "P0010",
+      "kind": "funds",
+      "strength": 0.35,
+      "detail": "8 transfers totalling 66,880 across 4 days — a standing payment relationship, weak evidence of a ring",
+      "evidence": [
+       "TXN00342",
+       "TXN00343",
+       "TXN00364",
+       "TXN00365",
+       "TXN00385",
+       "TXN00386",
+       "TXN00406",
+       "TXN00407"
+      ]
+     }
+    ],
+    "link_kinds": {
+     "funds": 6
+    },
+    "cohesion": 0.6,
+    "confidence": 0.3033,
+    "exposure_inr": 1314639.94,
+    "first_activity": null,
+    "last_activity": null,
+    "typology": "mule_network",
+    "summary": "Money-mule network: 5 entities joined by 6 funds link(s). Cohesion 60%, confidence 30%, exposure ₹1,314,640."
+   }
+  ],
+  "portfolio": {
+   "campaigns": 2,
+   "entities_implicated": 17,
+   "total_exposure_inr": 5907534.18,
+   "by_typology": {
+    "mule_network": 2
+   },
+   "largest": "OP-P0002"
+  },
+  "links_examined": 40,
+  "engine": "local",
+  "thresholds": {
+   "min_members": 3,
+   "min_confidence": 0,
+   "dna_link": 0.82,
+   "sync_window_min": 30,
+   "ongoing_relationship_days": 4
+  },
+  "note": "A campaign is a lead, not a determination. Ranking reflects the evidence binding the members together, and a standing payment relationship is downgraded because routine commerce generates more transfers than fraud."
+ }
+}

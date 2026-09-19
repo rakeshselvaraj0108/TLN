@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-DR-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DR-002",
+  "domain": "Disaster Recovery",
+  "name": "Business continuity and disaster recovery policy established",
+  "description": "A BC/DR policy defines the response to disruptive incidents.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the BC/DR policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

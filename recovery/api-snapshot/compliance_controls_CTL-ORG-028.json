@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-028",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-028",
+  "domain": "Organizational Security",
+  "name": "Policy for compelled disclosure from law enforcement established",
+  "description": "Compelled disclosure requests are handled under a defined process.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the response to compelled disclosure is a legal function; note that this deployment is itself typically operated BY such an agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

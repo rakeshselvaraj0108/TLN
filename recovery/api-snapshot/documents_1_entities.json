@@ -1,0 +1,14 @@
+{
+ "url": "/documents/1/entities",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "document_id": 1,
+  "filename": "CPH 26 Final PPT Template.pptx (1).pdf",
+  "hits": [],
+  "amounts": [],
+  "dates": [],
+  "flags": [],
+  "read_at": "2026-09-16T04:29:14.579139+00:00"
+ }
+}

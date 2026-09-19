@@ -1,0 +1,74 @@
+{
+ "url": "/integrity/verify",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "all_intact": true,
+  "batches": [
+   {
+    "source_type": "alpr",
+    "batch_id": "f0c3221018ce13fc115155965cae5061",
+    "filename": "alpr.csv",
+    "intact": true,
+    "records": 140,
+    "verified_through_seq": 140,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "16b6f250c01f6958827ed34ad55703ac70b65aed539af0a02cfb0ae05e771407"
+   },
+   {
+    "source_type": "bank",
+    "batch_id": "835be63e0925b0610253c258636be036",
+    "filename": "bank_statements.csv",
+    "intact": true,
+    "records": 407,
+    "verified_through_seq": 407,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "2a3521e47877e0c16b3b1fa79ec2004b80fb2439171f0064c0e64346f4d99aeb"
+   },
+   {
+    "source_type": "cdr",
+    "batch_id": "832279ccb407938aa069e20008b4e250",
+    "filename": "cdr.csv",
+    "intact": true,
+    "records": 1119,
+    "verified_through_seq": 1119,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "27a61a99f774066fd11be2d4579aa41f8ef589157b934d8db51b0c09eea6b122"
+   },
+   {
+    "source_type": "ipdr",
+    "batch_id": "951295eb92521845564dfa6eb48f60cd",
+    "filename": "ipdr.csv",
+    "intact": true,
+    "records": 449,
+    "verified_through_seq": 449,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "079322366282f9bbf2dd51035c63c2661153fcbe2089d29b70ece03a11bd5c33"
+   },
+   {
+    "source_type": "social",
+    "batch_id": "71e3a8ec3112f4772093702fa2bdaf6e",
+    "filename": "social_posts.csv",
+    "intact": true,
+    "records": 4,
+    "verified_through_seq": 4,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "dc934f1f117a855406e7eec0b8f5cd7ce66386cd3a4f1843cc325cfeea156242"
+   }
+  ],
+  "batch_count": 5,
+  "total_records": 2119,
+  "compromised_batches": 0,
+  "summary": "2119 records across 5 batches re-hashed and verified against the chain recorded at ingest."
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-005",
+  "domain": "Risk Management",
+  "name": "Risk management policy established",
+  "description": "The approach to identifying and treating risk is defined.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the risk management policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

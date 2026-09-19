@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-END-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-END-004",
+  "domain": "Endpoint Security",
+  "name": "Software inventory on end-user devices maintained",
+  "description": "Installed software is inventoried.",
+  "owner": "agency",
+  "status": "not_applicable",
+  "detail": "Outside the application boundary: workstation software inventory.",
+  "observations": [
+   "TRACE-X is a self-hosted analytics application. This control belongs to the deploying agency's corporate estate and is listed here only so the boundary is explicit rather than silently omitted."
+  ]
+ }
+}

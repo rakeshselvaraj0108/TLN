@@ -1,0 +1,19 @@
+{
+ "url": "/compliance/controls/CTL-DAT-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-DAT-003",
+  "domain": "Data Management and Protection",
+  "name": "Data encrypted at rest",
+  "description": "Sensitive data is encrypted in storage.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Encryption at rest is a property of the volumes this runs on, which the application cannot observe.",
+  "observations": [
+   "Postgres and Neo4j both persist to host-managed volumes.",
+   "The application adds integrity (SHA-256 chaining), which is a different property from confidentiality and not a substitute for it.",
+   "Attest with the storage layer's encryption configuration."
+  ]
+ }
+}

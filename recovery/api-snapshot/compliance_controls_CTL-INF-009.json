@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-009",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-009",
+  "domain": "Infrastructure Security",
+  "name": "High availability infrastructure used",
+  "description": "Redundancy protects against component failure.",
+  "owner": "platform",
+  "status": "not_applicable",
+  "detail": "Single-node by design: an air-gapped investigative deployment, not a public service.",
+  "observations": [
+   "Availability here is a recovery concern, not a redundancy one."
+  ]
+ }
+}

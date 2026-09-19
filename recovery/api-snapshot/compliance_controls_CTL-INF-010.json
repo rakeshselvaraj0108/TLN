@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-INF-010",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-INF-010",
+  "domain": "Infrastructure Security",
+  "name": "Infrastructure changes logged",
+  "description": "Changes to infrastructure are recorded.",
+  "owner": "shared",
+  "status": "manual",
+  "detail": "Every change is version-controlled and attributable; branch protection and mandatory review are repository settings the application cannot read.",
+  "observations": [
+   "No git metadata visible from the runtime."
+  ]
+ }
+}

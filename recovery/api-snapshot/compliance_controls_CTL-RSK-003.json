@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-RSK-003",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-003",
+  "domain": "Risk Management",
+  "name": "Internal audit program defined",
+  "description": "An internal audit programme evaluates the ISMS.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the internal audit programme is defined by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

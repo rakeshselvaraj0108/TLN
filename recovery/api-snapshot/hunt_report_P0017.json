@@ -1,0 +1,227 @@
+{
+ "url": "/hunt/report/P0017",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "case_ref": "AGENT-P0017",
+  "title": "Investigation report — P0017",
+  "generated_at": "2026-09-17T04:41:21+00:00",
+  "generated_by": "investigator",
+  "summary": "6 finding(s) across 1 entities. Lead finding: Associated with operation OP-P0002. ₹6,178 at risk, ₹124 assessed as still recoverable. 0 recommendation(s) for review.",
+  "findings": [
+   {
+    "title": "Associated with operation OP-P0002",
+    "detail": "Money-mule network: 12 entities joined by 16 funds, 3 synchronised, 15 ip link(s). Cohesion 50%, confidence 56%, exposure ₹4,592,894. Linked to 11 other entities: P0001, P0002, P0004, P0006, P0008, P0009, P0012, P0013, P0014, P0018, P0020",
+    "confidence": "probable",
+    "evidence_rows": [
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149",
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0001",
+     "P0002",
+     "P0004",
+     "P0006",
+     "P0008",
+     "P0009",
+     "P0012",
+     "P0013",
+     "P0014",
+     "P0017",
+     "P0018",
+     "P0020"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0006 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0017",
+     "P0006"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0009 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0017",
+     "P0009"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0012 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0017",
+     "P0012"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0018 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0017",
+     "P0018"
+    ],
+    "occurred_at": null
+   },
+   {
+    "title": "Linked to P0020 by ip",
+    "detail": "share ip 100.91.29.149 (6 entities on it)",
+    "confidence": "possible",
+    "evidence_rows": [
+     "100.91.29.149"
+    ],
+    "sources": [
+     "ip"
+    ],
+    "entities": [
+     "P0017",
+     "P0020"
+    ],
+    "occurred_at": null
+   }
+  ],
+  "timeline": [
+   {
+    "ts": "2026-08-11T20:17:00",
+    "kind": "txn",
+    "detail": "IMPS debit 499 — Fuel"
+   },
+   {
+    "ts": "2026-08-13T13:23:00",
+    "kind": "txn",
+    "detail": "IMPS debit 499 — Grocery"
+   },
+   {
+    "ts": "2026-08-15T20:22:00",
+    "kind": "txn",
+    "detail": "IMPS debit 1,200 — Fuel"
+   },
+   {
+    "ts": "2026-08-17T13:27:00",
+    "kind": "txn",
+    "detail": "IMPS debit 3,200 — Fuel"
+   },
+   {
+    "ts": "2026-08-19T09:48:00",
+    "kind": "txn",
+    "detail": "UPI debit 780 — Fuel"
+   }
+  ],
+  "entities": [
+   {
+    "entity_id": "P0017",
+    "risk_score": 0.161,
+    "band": "low",
+    "hypothesis": null
+   }
+  ],
+  "recommendations": [],
+  "loss_prevented": {
+   "at_risk_inr": 6178,
+   "recoverable_inr": 123.56,
+   "already_lost_inr": 6054.44,
+   "basis": "Per-event estimate: each debit is placed in a recovery band by how long ago it settled, and the band's assumed recovery share is applied. Funds already withdrawn as cash are counted as unrecoverable.",
+   "assumptions": [
+    "immediate: 85% recoverable within 1h",
+    "same_day: 45% recoverable within 24h",
+    "next_day: 15% recoverable within 72h",
+    "cold: 2% recoverable thereafter",
+    "Assumes a freeze request is actioned promptly by the receiving bank.",
+    "An estimate for prioritisation, not a forecast of actual recovery."
+   ],
+   "per_event": [
+    {
+     "rec_id": "TXN00071",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 872.4,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00072",
+     "amount": 499,
+     "band": "cold",
+     "hours_elapsed": 831.3,
+     "recoverable": 9.98,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00073",
+     "amount": 1200,
+     "band": "cold",
+     "hours_elapsed": 776.3,
+     "recoverable": 24,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00074",
+     "amount": 3200,
+     "band": "cold",
+     "hours_elapsed": 735.2,
+     "recoverable": 64,
+     "reason": "2% recovery assumed for the cold band"
+    },
+    {
+     "rec_id": "TXN00075",
+     "amount": 780,
+     "band": "cold",
+     "hours_elapsed": 690.9,
+     "recoverable": 15.6,
+     "reason": "2% recovery assumed for the cold band"
+    }
+   ]
+  },
+  "exculpatory": [
+   {
+    "detail": "The model places P0017 in the low band (0.16); the findings below run against that."
+   }
+  ],
+  "caveats": [
+   "Every finding here is a lead for human review. Nothing in this report is a determination of guilt.",
+   "Risk scores rank the review queue; they are not evidence and are not presented as such.",
+   "No finding reached 'confirmed'. The case rests on probable and possible inferences, and should be treated accordingly.",
+   "The recoverable figure is an estimate from stated assumptions, not a commitment that those funds will be returned."
+  ]
+ }
+}

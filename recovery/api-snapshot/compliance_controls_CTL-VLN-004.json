@@ -1,0 +1,17 @@
+{
+ "url": "/compliance/controls/CTL-VLN-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-004",
+  "domain": "Vulnerability Management",
+  "name": "Vulnerabilities scanned",
+  "description": "Systems, applications and repositories are scanned regularly.",
+  "owner": "shared",
+  "status": "gap",
+  "detail": "No automated vulnerability scanning runs against this codebase or its images.",
+  "observations": [
+   "Recorded as a gap rather than omitted. Remediation is routine: dependency audit plus image scanning in CI."
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-039",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-039",
+  "domain": "Organizational Security",
+  "name": "System changes externally communicated",
+  "description": "Users are told about changes that affect them.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: external change communication is an agency function.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

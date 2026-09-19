@@ -1,0 +1,558 @@
+{
+ "url": "/pattern/cameras",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "cameras": [
+   {
+    "camera_id": "CAM01",
+    "name": "Sector 17 Plaza entry",
+    "lat": 30.736713,
+    "lon": 76.778267,
+    "facing": "N",
+    "poi_id": "POI001",
+    "poi_name": "HDFC ATM Sector 17",
+    "poi_category": "atm",
+    "reads": 11,
+    "vehicles": 6,
+    "first_read": "2026-08-11T09:08:00",
+    "last_read": "2026-08-19T21:50:00",
+    "mean_confidence": 0.892,
+    "top_plates": [
+     {
+      "plate": "CH01BM8823",
+      "reads": 3,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "HR26DQ5510",
+      "reads": 2,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 2,
+      "entity_id": "P0008"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 2,
+      "entity_id": "P0006"
+     },
+     {
+      "plate": "PB10GG7781",
+      "reads": 1,
+      "entity_id": "P0007"
+     }
+    ],
+    "entities": [
+     "P0004",
+     "P0020",
+     "P0008",
+     "P0006",
+     "P0007",
+     "P0009"
+    ],
+    "rec_ids": [
+     "ALP00014",
+     "ALP00030",
+     "ALP00032",
+     "ALP00044",
+     "ALP00045",
+     "ALP00089",
+     "ALP00113",
+     "ALP00117",
+     "ALP00119",
+     "ALP00134",
+     "ALP00139"
+    ]
+   },
+   {
+    "camera_id": "CAM02",
+    "name": "Sector 22 market approach",
+    "lat": 30.723866,
+    "lon": 76.782839,
+    "facing": "E",
+    "poi_id": "POI002",
+    "poi_name": "Kotak ATM Sector 22",
+    "poi_category": "atm",
+    "reads": 32,
+    "vehicles": 6,
+    "first_read": "2026-08-10T09:13:00",
+    "last_read": "2026-08-19T18:37:00",
+    "mean_confidence": 0.943,
+    "top_plates": [
+     {
+      "plate": "PB10GG7781",
+      "reads": 22,
+      "entity_id": "P0007"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 4,
+      "entity_id": "P0006"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 2,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "HR26DQ5510",
+      "reads": 2,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 1,
+      "entity_id": "P0008"
+     }
+    ],
+    "entities": [
+     "P0007",
+     "P0006",
+     "P0009",
+     "P0020",
+     "P0008",
+     "P0004"
+    ],
+    "rec_ids": [
+     "ALP00003",
+     "ALP00005",
+     "ALP00006",
+     "ALP00007",
+     "ALP00013",
+     "ALP00019",
+     "ALP00025",
+     "ALP00029",
+     "ALP00035",
+     "ALP00040",
+     "ALP00047",
+     "ALP00053",
+     "ALP00058",
+     "ALP00062",
+     "ALP00067",
+     "ALP00069",
+     "ALP00076",
+     "ALP00078",
+     "ALP00081",
+     "ALP00082",
+     "ALP00087",
+     "ALP00088",
+     "ALP00093",
+     "ALP00100",
+     "ALP00107",
+     "ALP00115",
+     "ALP00116",
+     "ALP00125",
+     "ALP00128",
+     "ALP00132",
+     "ALP00136",
+     "ALP00137"
+    ]
+   },
+   {
+    "camera_id": "CAM03",
+    "name": "Sector 35 rotary",
+    "lat": 30.720313,
+    "lon": 76.757693,
+    "facing": "S",
+    "poi_id": "POI003",
+    "poi_name": "ICICI ATM Sector 35",
+    "poi_category": "atm",
+    "reads": 13,
+    "vehicles": 5,
+    "first_read": "2026-08-10T07:35:00",
+    "last_read": "2026-08-18T16:38:00",
+    "mean_confidence": 0.923,
+    "top_plates": [
+     {
+      "plate": "CH01BM8823",
+      "reads": 4,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "HR26DQ5510",
+      "reads": 4,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 2,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 2,
+      "entity_id": "P0006"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 1,
+      "entity_id": "P0008"
+     }
+    ],
+    "entities": [
+     "P0004",
+     "P0020",
+     "P0009",
+     "P0006",
+     "P0008"
+    ],
+    "rec_ids": [
+     "ALP00001",
+     "ALP00016",
+     "ALP00027",
+     "ALP00033",
+     "ALP00057",
+     "ALP00059",
+     "ALP00064",
+     "ALP00073",
+     "ALP00083",
+     "ALP00095",
+     "ALP00105",
+     "ALP00120",
+     "ALP00121"
+    ]
+   },
+   {
+    "camera_id": "CAM04",
+    "name": "Mohali Phase 7 junction",
+    "lat": 30.705024,
+    "lon": 76.722921,
+    "facing": "W",
+    "poi_id": "POI004",
+    "poi_name": "Kotak ATM Mohali Phase 7",
+    "poi_category": "atm",
+    "reads": 15,
+    "vehicles": 6,
+    "first_read": "2026-08-11T21:04:00",
+    "last_read": "2026-08-19T12:54:00",
+    "mean_confidence": 0.907,
+    "top_plates": [
+     {
+      "plate": "CH01BM8823",
+      "reads": 4,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "HR26DQ5510",
+      "reads": 4,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 3,
+      "entity_id": "P0008"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 2,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "PB10GG7781",
+      "reads": 1,
+      "entity_id": "P0007"
+     }
+    ],
+    "entities": [
+     "P0004",
+     "P0020",
+     "P0008",
+     "P0009",
+     "P0007",
+     "P0006"
+    ],
+    "rec_ids": [
+     "ALP00022",
+     "ALP00028",
+     "ALP00041",
+     "ALP00051",
+     "ALP00061",
+     "ALP00063",
+     "ALP00068",
+     "ALP00092",
+     "ALP00096",
+     "ALP00097",
+     "ALP00104",
+     "ALP00118",
+     "ALP00122",
+     "ALP00129",
+     "ALP00135"
+    ]
+   },
+   {
+    "camera_id": "CAM05",
+    "name": "Elante approach road",
+    "lat": 30.705537,
+    "lon": 76.800405,
+    "facing": "N",
+    "poi_id": "POI006",
+    "poi_name": "Elante Mall",
+    "poi_category": "retail",
+    "reads": 6,
+    "vehicles": 4,
+    "first_read": "2026-08-11T09:56:00",
+    "last_read": "2026-08-17T20:54:00",
+    "mean_confidence": 0.893,
+    "top_plates": [
+     {
+      "plate": "HR26DQ5510",
+      "reads": 2,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 2,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "CH01BM8823",
+      "reads": 1,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 1,
+      "entity_id": "P0008"
+     }
+    ],
+    "entities": [
+     "P0020",
+     "P0009",
+     "P0004",
+     "P0008"
+    ],
+    "rec_ids": [
+     "ALP00015",
+     "ALP00031",
+     "ALP00065",
+     "ALP00066",
+     "ALP00098",
+     "ALP00111"
+    ]
+   },
+   {
+    "camera_id": "CAM06",
+    "name": "ISBT 43 exit",
+    "lat": 30.711776,
+    "lon": 76.750211,
+    "facing": "S",
+    "poi_id": "POI007",
+    "poi_name": "ISBT Sector 43",
+    "poi_category": "transport_hub",
+    "reads": 36,
+    "vehicles": 5,
+    "first_read": "2026-08-10T08:56:00",
+    "last_read": "2026-08-19T18:52:00",
+    "mean_confidence": 0.945,
+    "top_plates": [
+     {
+      "plate": "PB10GG7781",
+      "reads": 21,
+      "entity_id": "P0007"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 6,
+      "entity_id": "P0008"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 5,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "CH01BM8823",
+      "reads": 3,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 1,
+      "entity_id": "P0006"
+     }
+    ],
+    "entities": [
+     "P0007",
+     "P0008",
+     "P0009",
+     "P0004",
+     "P0006"
+    ],
+    "rec_ids": [
+     "ALP00002",
+     "ALP00004",
+     "ALP00008",
+     "ALP00010",
+     "ALP00011",
+     "ALP00012",
+     "ALP00020",
+     "ALP00024",
+     "ALP00026",
+     "ALP00034",
+     "ALP00036",
+     "ALP00039",
+     "ALP00046",
+     "ALP00048",
+     "ALP00052",
+     "ALP00070",
+     "ALP00075",
+     "ALP00079",
+     "ALP00080",
+     "ALP00084",
+     "ALP00085",
+     "ALP00086",
+     "ALP00091",
+     "ALP00094",
+     "ALP00099",
+     "ALP00101",
+     "ALP00108",
+     "ALP00109",
+     "ALP00114",
+     "ALP00123",
+     "ALP00124",
+     "ALP00126",
+     "ALP00130",
+     "ALP00131",
+     "ALP00133",
+     "ALP00138"
+    ]
+   },
+   {
+    "camera_id": "CAM07",
+    "name": "Madhya Marg checkpoint",
+    "lat": 30.747816,
+    "lon": 76.783482,
+    "facing": "E",
+    "poi_id": null,
+    "poi_name": null,
+    "poi_category": null,
+    "reads": 14,
+    "vehicles": 5,
+    "first_read": "2026-08-11T15:13:00",
+    "last_read": "2026-08-18T19:24:00",
+    "mean_confidence": 0.928,
+    "top_plates": [
+     {
+      "plate": "HR26DQ5510",
+      "reads": 7,
+      "entity_id": "P0020"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 3,
+      "entity_id": "P0008"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 2,
+      "entity_id": "P0006"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 1,
+      "entity_id": "P0009"
+     },
+     {
+      "plate": "CH01BM8823",
+      "reads": 1,
+      "entity_id": "P0004"
+     }
+    ],
+    "entities": [
+     "P0020",
+     "P0008",
+     "P0006",
+     "P0009",
+     "P0004"
+    ],
+    "rec_ids": [
+     "ALP00018",
+     "ALP00021",
+     "ALP00037",
+     "ALP00038",
+     "ALP00049",
+     "ALP00050",
+     "ALP00054",
+     "ALP00055",
+     "ALP00056",
+     "ALP00060",
+     "ALP00074",
+     "ALP00077",
+     "ALP00106",
+     "ALP00127"
+    ]
+   },
+   {
+    "camera_id": "CAM08",
+    "name": "Airport Road toll",
+    "lat": 30.673108,
+    "lon": 76.797825,
+    "facing": "S",
+    "poi_id": null,
+    "poi_name": null,
+    "poi_category": null,
+    "reads": 13,
+    "vehicles": 6,
+    "first_read": "2026-08-10T20:48:00",
+    "last_read": "2026-08-19T21:57:00",
+    "mean_confidence": 0.895,
+    "top_plates": [
+     {
+      "plate": "CH01BM8823",
+      "reads": 3,
+      "entity_id": "P0004"
+     },
+     {
+      "plate": "PB10GG7781",
+      "reads": 3,
+      "entity_id": "P0007"
+     },
+     {
+      "plate": "CH03AF2264",
+      "reads": 2,
+      "entity_id": "P0008"
+     },
+     {
+      "plate": "PB65AK4471",
+      "reads": 2,
+      "entity_id": "P0006"
+     },
+     {
+      "plate": "PB11CE1907",
+      "reads": 2,
+      "entity_id": "P0009"
+     }
+    ],
+    "entities": [
+     "P0004",
+     "P0007",
+     "P0008",
+     "P0006",
+     "P0009",
+     "P0020"
+    ],
+    "rec_ids": [
+     "ALP00009",
+     "ALP00017",
+     "ALP00023",
+     "ALP00042",
+     "ALP00043",
+     "ALP00071",
+     "ALP00072",
+     "ALP00090",
+     "ALP00102",
+     "ALP00103",
+     "ALP00110",
+     "ALP00112",
+     "ALP00140"
+    ]
+   }
+  ],
+  "count": 8,
+  "engine": "local",
+  "reads": 140
+ }
+}

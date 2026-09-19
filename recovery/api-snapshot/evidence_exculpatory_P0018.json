@@ -1,0 +1,98 @@
+{
+ "url": "/evidence/exculpatory/P0018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0018",
+  "original_risk_score": 0.4446,
+  "total_confidence_reduction": 0,
+  "raw_reduction": 0,
+  "adjusted_risk_score": 0.4446,
+  "capped": false,
+  "method": "reference_class_similarity",
+  "note": "Each reduction is the check's ceiling scaled by how closely this entity resembles the legitimate reference pattern, and by how much evidence supports the comparison. Checks can lower a machine score but never zero it out. Final assessment requires human review.",
+  "findings": [
+   {
+    "check": "stable_counterparties",
+    "applies": false,
+    "confidence_reduction": 0,
+    "reason": "Volume resembles a trading account (0.0 txn/day across 0 legs), but counterparty stability is only 0.00 — the money reaches largely fresh payees. That is the opposite of a settled supplier relationship, so the business explanation does not hold.",
+    "fit": 0,
+    "evidence": 0,
+    "max_weight": 0.3,
+    "contributions": [
+     {
+      "feature": "counterparty_stability",
+      "value": 0,
+      "reference": 0.85,
+      "similarity": 0
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 0,
+      "reference": 8,
+      "similarity": 0
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 0,
+      "reference": 10,
+      "similarity": 0
+     }
+    ]
+   },
+   {
+    "check": "fixed_beneficiary_no_onward",
+    "applies": false,
+    "confidence_reduction": 0,
+    "reason": "No call-to-debit coupling to reinterpret.",
+    "fit": 0,
+    "evidence": 0,
+    "max_weight": 0.25,
+    "contributions": []
+   },
+   {
+    "check": "longlived_sims_no_money_coupling",
+    "applies": false,
+    "confidence_reduction": 0,
+    "reason": "The 9-SIM handset carries no banking signal, but it egresses through 1 IP address(es) also used by other flagged entities. Shared infrastructure at this SIM count fits a SIM farm, not a household phone.",
+    "fit": 0.9334,
+    "evidence": 0,
+    "max_weight": 0.2,
+    "contributions": [
+     {
+      "feature": "has_call_debit_coupling",
+      "value": 0,
+      "reference": 0,
+      "similarity": 1
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "reference": 0,
+      "similarity": 1
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "reference": 0,
+      "similarity": 1
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "reference": 0,
+      "similarity": 1
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "reference": 0,
+      "similarity": 0.667
+     }
+    ]
+   }
+  ],
+  "applied": []
+ }
+}

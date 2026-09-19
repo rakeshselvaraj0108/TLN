@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-021",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-021",
+  "domain": "Organizational Security",
+  "name": "Offboarding process established",
+  "description": "Departing staff lose access promptly.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Removing an app_user row revokes all access immediately, because identity is resolved against that table on every request.",
+  "observations": [
+   "No session or token survives the removal — there is nothing to expire.",
+   "Triggering offboarding on a leaver is the agency's process."
+  ]
+ }
+}

@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-012",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-012",
+  "domain": "Organizational Security",
+  "name": "Information security in project management integrated",
+  "description": "Security is considered at every project stage.",
+  "owner": "shared",
+  "status": "partial",
+  "detail": "Security properties are treated as product requirements with tests, not as a review gate at the end.",
+  "observations": [
+   "Tamper-evidence, the supervisor gate and score integrity each have adversarial test coverage.",
+   "The formal project-management standard is the agency's."
+  ]
+ }
+}

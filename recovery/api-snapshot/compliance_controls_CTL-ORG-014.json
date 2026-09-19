@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-014",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-014",
+  "domain": "Organizational Security",
+  "name": "Information security program established",
+  "description": "A security programme is defined and resourced.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the security programme is established by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

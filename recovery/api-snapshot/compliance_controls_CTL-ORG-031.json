@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-031",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-031",
+  "domain": "Organizational Security",
+  "name": "Remote work policy established",
+  "description": "Secure remote working is governed.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the remote work policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

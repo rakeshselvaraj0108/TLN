@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-RSK-004",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-004",
+  "domain": "Risk Management",
+  "name": "Risk assessments performed",
+  "description": "Risks are assessed at least annually.",
+  "owner": "shared",
+  "status": "manual",
+  "detail": "Risk assessment is an agency process; the platform will record it when run (audit action 'risk.assessment').",
+  "observations": []
+ }
+}

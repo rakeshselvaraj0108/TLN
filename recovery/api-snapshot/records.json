@@ -1,0 +1,15 @@
+{
+ "url": "/records",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "counts": {
+   "ipdr": 449,
+   "alpr": 140,
+   "bank": 407,
+   "cdr": 1119,
+   "social": 4
+  },
+  "total": 2119
+ }
+}

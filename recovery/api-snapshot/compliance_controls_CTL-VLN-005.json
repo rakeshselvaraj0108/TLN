@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-VLN-005",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-005",
+  "domain": "Vulnerability Management",
+  "name": "Vulnerability management policy acknowledged by employees",
+  "description": "Staff have acknowledged the vulnerability management policy.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: policy acknowledgements are held by the agency.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

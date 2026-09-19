@@ -1,0 +1,134 @@
+{
+ "url": "/intel/entity/P0018",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0018",
+  "risk_score": 0.4446,
+  "band": "elevated",
+  "model": "xgboost",
+  "features": {
+   "n_phones": 9,
+   "n_devices": 1,
+   "n_accounts": 0,
+   "n_ips_shared": 1,
+   "max_imei_sim_count": 9,
+   "has_call_debit_coupling": 0,
+   "call_debit_speed_score": 0,
+   "n_call_debit_links": 0,
+   "max_passthrough_ratio": 0,
+   "max_fanout_hop_count": 0,
+   "total_fanout_inbound_inr": 0,
+   "inbound_txn_count": 0,
+   "outbound_txn_count": 0,
+   "distinct_counterparties": 0,
+   "counterparty_stability": 0,
+   "txn_velocity": 0,
+   "coupled_calls_out": 0,
+   "callee_money_movers": 0
+  },
+  "top_factors": [
+   {
+    "feature": "n_phones",
+    "value": 9,
+    "shap": 1.3053,
+    "direction": "raises"
+   },
+   {
+    "feature": "callee_money_movers",
+    "value": 0,
+    "shap": -0.7086,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_accounts",
+    "value": 0,
+    "shap": -0.7027,
+    "direction": "lowers"
+   },
+   {
+    "feature": "n_ips_shared",
+    "value": 1,
+    "shap": 0.6143,
+    "direction": "raises"
+   },
+   {
+    "feature": "coupled_calls_out",
+    "value": 0,
+    "shap": -0.494,
+    "direction": "lowers"
+   },
+   {
+    "feature": "max_passthrough_ratio",
+    "value": 0,
+    "shap": -0.4595,
+    "direction": "lowers"
+   }
+  ],
+  "identifiers": [
+   {
+    "kind": "Device",
+    "props": {
+     "imei": "158657809134318"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+916611724005"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917064090974"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917175946474"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917221969379"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917374740748"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917455623869"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+917709521456"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+918671369594"
+    }
+   },
+   {
+    "kind": "Phone",
+    "props": {
+     "msisdn": "+918953394210"
+    }
+   }
+  ],
+  "call_to_debit_links": [],
+  "fanout_links": [],
+  "engine": "local"
+ }
+}

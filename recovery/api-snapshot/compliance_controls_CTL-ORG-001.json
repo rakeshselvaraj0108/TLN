@@ -1,0 +1,18 @@
+{
+ "url": "/compliance/controls/CTL-ORG-001",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-ORG-001",
+  "domain": "Organizational Security",
+  "name": "Acceptable use policy established",
+  "description": "Permissible use of systems and data is defined.",
+  "owner": "agency",
+  "status": "manual",
+  "detail": "Not evidenced by the platform: the acceptable use policy is an agency document.",
+  "observations": [
+   "Owned by the deploying agency; no technical check applies.",
+   "Counts as unclaimed in the readiness score until attested."
+  ]
+ }
+}

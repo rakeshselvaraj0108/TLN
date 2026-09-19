@@ -1,0 +1,13 @@
+{
+ "url": "/evidence/counterfactual/P0019",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "entity_id": "P0019",
+  "risk_score": 0.0043,
+  "band": "low",
+  "flag_threshold": 0.33,
+  "method": "Each boundary is found by holding this entity's other features fixed and binary-searching the probed feature against the live scorer until the prediction crosses the flag threshold.",
+  "counterfactuals": []
+ }
+}

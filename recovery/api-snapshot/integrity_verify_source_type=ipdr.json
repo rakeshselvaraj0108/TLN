@@ -1,0 +1,26 @@
+{
+ "url": "/integrity/verify?source_type=ipdr",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "all_intact": true,
+  "batches": [
+   {
+    "source_type": "ipdr",
+    "batch_id": "951295eb92521845564dfa6eb48f60cd",
+    "filename": "ipdr.csv",
+    "intact": true,
+    "records": 449,
+    "verified_through_seq": 449,
+    "first_breach": null,
+    "breaches": [],
+    "breach_count": 0,
+    "chain_head": "079322366282f9bbf2dd51035c63c2661153fcbe2089d29b70ece03a11bd5c33"
+   }
+  ],
+  "batch_count": 1,
+  "total_records": 449,
+  "compromised_batches": 0,
+  "summary": "449 records across 1 batches re-hashed and verified against the chain recorded at ingest."
+ }
+}

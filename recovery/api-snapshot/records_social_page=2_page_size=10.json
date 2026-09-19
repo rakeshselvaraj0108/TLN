@@ -1,0 +1,24 @@
+{
+ "url": "/records/social?page=2&page_size=10",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "source_type": "social",
+  "columns": [
+   "record_id",
+   "platform",
+   "handle",
+   "linked_msisdn",
+   "post_time",
+   "post_type",
+   "text",
+   "mentions",
+   "url"
+  ],
+  "rows": [],
+  "total": 4,
+  "page": 2,
+  "page_size": 10,
+  "total_pages": 1
+ }
+}

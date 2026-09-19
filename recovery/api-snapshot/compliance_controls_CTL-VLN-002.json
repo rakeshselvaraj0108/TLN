@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-VLN-002",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-VLN-002",
+  "domain": "Vulnerability Management",
+  "name": "Penetration testing findings remediated",
+  "description": "Findings from penetration tests are fixed.",
+  "owner": "shared",
+  "status": "not_applicable",
+  "detail": "no penetration test has been performed, so there are no findings to remediate; the missing test itself is reported at CTL-VLN-003",
+  "observations": []
+ }
+}

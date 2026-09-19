@@ -1,0 +1,15 @@
+{
+ "url": "/compliance/controls/CTL-RSK-008",
+ "status": 200,
+ "contentType": "application/json",
+ "body": {
+  "id": "CTL-RSK-008",
+  "domain": "Risk Management",
+  "name": "Software supply chain risks monitored",
+  "description": "Third-party and open-source components are assessed.",
+  "owner": "platform",
+  "status": "gap",
+  "detail": "No dependency manifest or lockfile found.",
+  "observations": []
+ }
+}
