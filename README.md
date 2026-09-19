@@ -88,7 +88,7 @@ flowchart TB
     class Q q
 ```
 
-An investigator today closes this gap with a spreadsheet, a whiteboard and three weeks. **TRACE X closes it in 40 milliseconds — and, critically, can prove every step afterwards in court.**
+An investigator today closes this gap with a spreadsheet, a whiteboard and three weeks. **TRACE X closes it in about a tenth of a second — and, critically, can prove every step afterwards in court.** *(Measured on the seeded case: 138 ms to build the full dataset, resolve entities and score everyone cold; 4–5 ms per query once warm.)*
 
 ---
 
