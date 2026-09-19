@@ -1,0 +1,24 @@
+{
+    admin off
+    local_certs
+}
+
+trace-x.localhost {
+    reverse_proxy web:3000
+}
+
+api.trace-x.localhost {
+    reverse_proxy api:8000
+}
+
+neo4j.trace-x.localhost {
+    reverse_proxy neo4j:7474
+}
+
+:8000 {
+    reverse_proxy api:8000
+}
+
+:3000 {
+    reverse_proxy web:3000
+}

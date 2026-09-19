@@ -19,6 +19,7 @@ View in depth: [`docs/PROJECT_DOCUMENTATION.md`](docs/PROJECT_DOCUMENTATION.md).
 | [`api/tracex_api/agentic/`](api/tracex_api/agentic/) | Tool-use investigation agent: provider abstraction (Claude, Ollama, deterministic), read-only tools, citation verification. |
 | [`frontend/`](frontend/) | Next.js 14 app: landing page, investigation workbench, God's Eye View (Cesium globe), model monitor, agent pages. |
 | [`recovery/`](recovery/) | How the project was reconstructed from the live deployment, plus the captured snapshots used as test fixtures. |
+| `backend/`, `tests/` | An earlier, separate scaffold. Not used by the running application. |
 
 ## Run locally
 
