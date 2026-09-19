@@ -1,0 +1,633 @@
+{
+ "name": "TRACE-X entity risk model",
+ "algorithm": "XGBoost gradient-boosted trees (binary:logistic), monotone-constrained, isotonic-calibrated",
+ "trained_at": "2026-09-19T05:52:42.830072+00:00",
+ "training_seconds": 35.4,
+ "intended_use": "Rank an investigator's review queue by likelihood of involvement in a coordinated scam/mule operation. A score is a lead, never a verdict, and is always shown with the counter-evidence check.",
+ "not_intended_for": "Automated adverse action against a person; use outside the feature definitions in engine/scoring.py; populations unlike the archetype sampler.",
+ "features": [
+  "n_phones",
+  "n_devices",
+  "n_accounts",
+  "n_ips_shared",
+  "max_imei_sim_count",
+  "has_call_debit_coupling",
+  "call_debit_speed_score",
+  "n_call_debit_links",
+  "max_passthrough_ratio",
+  "max_fanout_hop_count",
+  "total_fanout_inbound_inr",
+  "inbound_txn_count",
+  "outbound_txn_count",
+  "distinct_counterparties",
+  "counterparty_stability",
+  "txn_velocity",
+  "coupled_calls_out",
+  "callee_money_movers"
+ ],
+ "monotone_constraints": {
+  "n_phones": 0,
+  "n_devices": 0,
+  "n_accounts": 0,
+  "n_ips_shared": 1,
+  "max_imei_sim_count": 1,
+  "has_call_debit_coupling": 0,
+  "call_debit_speed_score": 0,
+  "n_call_debit_links": 0,
+  "max_passthrough_ratio": 1,
+  "max_fanout_hop_count": 1,
+  "total_fanout_inbound_inr": 0,
+  "inbound_txn_count": 0,
+  "outbound_txn_count": 0,
+  "distinct_counterparties": 0,
+  "counterparty_stability": 0,
+  "txn_velocity": 0,
+  "coupled_calls_out": 1,
+  "callee_money_movers": 1
+ },
+ "data": {
+  "source": "synthetic archetype sampler (ml/sampler.py)",
+  "n_total": 8000,
+  "n_train": 5600,
+  "n_validation": 1200,
+  "n_test": 1200,
+  "seed": 7,
+  "sampler_version": 2,
+  "fraud_rate": 0.3,
+  "mix": {
+   "mule": 0.12,
+   "layering": 0.04,
+   "handler": 0.04,
+   "sim_farm": 0.03,
+   "associate": 0.07,
+   "victim": 0.08,
+   "legit_business": 0.14,
+   "legit_charity": 0.06,
+   "legit_family": 0.14,
+   "legit_household": 0.1,
+   "traveller": 0.04,
+   "bystander": 0.14
+  }
+ },
+ "hyperparameters": {
+  "max_depth": 4,
+  "min_child_weight": 1,
+  "n_estimators": 320,
+  "reg_lambda": 1.0
+ },
+ "cross_validation": {
+  "folds": 5,
+  "metric": "neg_log_loss",
+  "best_mean": -0.0616,
+  "top_configs": [
+   {
+    "params": {
+     "max_depth": 4,
+     "min_child_weight": 1,
+     "n_estimators": 320,
+     "reg_lambda": 1.0
+    },
+    "mean_neg_log_loss": -0.0616,
+    "std": 0.0063
+   },
+   {
+    "params": {
+     "max_depth": 4,
+     "min_child_weight": 5,
+     "n_estimators": 320,
+     "reg_lambda": 1.0
+    },
+    "mean_neg_log_loss": -0.0694,
+    "std": 0.0068
+   },
+   {
+    "params": {
+     "max_depth": 4,
+     "min_child_weight": 1,
+     "n_estimators": 320,
+     "reg_lambda": 5.0
+    },
+    "mean_neg_log_loss": -0.0699,
+    "std": 0.0056
+   },
+   {
+    "params": {
+     "max_depth": 3,
+     "min_child_weight": 1,
+     "n_estimators": 320,
+     "reg_lambda": 1.0
+    },
+    "mean_neg_log_loss": -0.0746,
+    "std": 0.0058
+   },
+   {
+    "params": {
+     "max_depth": 4,
+     "min_child_weight": 5,
+     "n_estimators": 320,
+     "reg_lambda": 5.0
+    },
+    "mean_neg_log_loss": -0.0747,
+    "std": 0.007
+   }
+  ]
+ },
+ "test": {
+  "roc_auc": 0.9978,
+  "pr_auc": 0.9936,
+  "brier": 0.0175,
+  "log_loss": 0.0611,
+  "precision@0.33": 0.9439,
+  "recall@0.33": 0.9806,
+  "f1@0.33": 0.9619,
+  "raw_uncalibrated": {
+   "roc_auc": 0.9976,
+   "pr_auc": 0.9948,
+   "brier": 0.0169,
+   "log_loss": 0.0604,
+   "precision@0.33": 0.9537,
+   "recall@0.33": 0.9722,
+   "f1@0.33": 0.9629
+  },
+  "expected_calibration_error": 0.0123
+ },
+ "baselines": {
+  "majority_class": {
+   "roc_auc": 0.5,
+   "note": "always predicts the training prior (0.300); flags nothing at 0.33"
+  },
+  "logistic_regression": {
+   "roc_auc": 0.96,
+   "pr_auc": 0.9287,
+   "brier": 0.0682,
+   "log_loss": 0.2255,
+   "precision@0.33": 0.8067,
+   "recall@0.33": 0.8694,
+   "f1@0.33": 0.8369
+  },
+  "hand_written_rule_scorer": {
+   "roc_auc": 0.7758,
+   "pr_auc": 0.5062,
+   "brier": 0.2992,
+   "log_loss": 1.3497,
+   "precision@0.33": 0.422,
+   "recall@0.33": 0.9389,
+   "f1@0.33": 0.5823
+  }
+ },
+ "per_archetype_test": [
+  {
+   "archetype": "associate",
+   "n": 84,
+   "label": 1,
+   "mean_score": 0.951,
+   "flag_rate": 0.964
+  },
+  {
+   "archetype": "handler",
+   "n": 48,
+   "label": 1,
+   "mean_score": 0.922,
+   "flag_rate": 0.979
+  },
+  {
+   "archetype": "layering",
+   "n": 48,
+   "label": 1,
+   "mean_score": 0.994,
+   "flag_rate": 1.0
+  },
+  {
+   "archetype": "mule",
+   "n": 144,
+   "label": 1,
+   "mean_score": 0.934,
+   "flag_rate": 0.979
+  },
+  {
+   "archetype": "sim_farm",
+   "n": 36,
+   "label": 1,
+   "mean_score": 0.995,
+   "flag_rate": 1.0
+  },
+  {
+   "archetype": "bystander",
+   "n": 168,
+   "label": 0,
+   "mean_score": 0.015,
+   "flag_rate": 0.0
+  },
+  {
+   "archetype": "legit_business",
+   "n": 168,
+   "label": 0,
+   "mean_score": 0.005,
+   "flag_rate": 0.0
+  },
+  {
+   "archetype": "legit_charity",
+   "n": 72,
+   "label": 0,
+   "mean_score": 0.022,
+   "flag_rate": 0.014
+  },
+  {
+   "archetype": "legit_family",
+   "n": 168,
+   "label": 0,
+   "mean_score": 0.018,
+   "flag_rate": 0.012
+  },
+  {
+   "archetype": "legit_household",
+   "n": 120,
+   "label": 0,
+   "mean_score": 0.07,
+   "flag_rate": 0.075
+  },
+  {
+   "archetype": "traveller",
+   "n": 48,
+   "label": 0,
+   "mean_score": 0.165,
+   "flag_rate": 0.188
+  },
+  {
+   "archetype": "victim",
+   "n": 96,
+   "label": 0,
+   "mean_score": 0.007,
+   "flag_rate": 0.0
+  }
+ ],
+ "reliability_test": [
+  {
+   "bin": "0.0-0.1",
+   "n": 791,
+   "mean_predicted": 0.009,
+   "observed_rate": 0.003
+  },
+  {
+   "bin": "0.1-0.2",
+   "n": 34,
+   "mean_predicted": 0.141,
+   "observed_rate": 0.147
+  },
+  {
+   "bin": "0.2-0.3",
+   "n": 1,
+   "mean_predicted": 0.245,
+   "observed_rate": 0.0
+  },
+  {
+   "bin": "0.3-0.4",
+   "n": 12,
+   "mean_predicted": 0.358,
+   "observed_rate": 0.5
+  },
+  {
+   "bin": "0.4-0.5",
+   "n": 1,
+   "mean_predicted": 0.499,
+   "observed_rate": 1.0
+  },
+  {
+   "bin": "0.5-0.6",
+   "n": 9,
+   "mean_predicted": 0.51,
+   "observed_rate": 0.667
+  },
+  {
+   "bin": "0.7-0.8",
+   "n": 6,
+   "mean_predicted": 0.769,
+   "observed_rate": 0.167
+  },
+  {
+   "bin": "0.8-0.9",
+   "n": 9,
+   "mean_predicted": 0.837,
+   "observed_rate": 0.667
+  },
+  {
+   "bin": "0.9-1.0",
+   "n": 337,
+   "mean_predicted": 0.99,
+   "observed_rate": 0.988
+  }
+ ],
+ "feature_importance": [
+  {
+   "feature": "inbound_txn_count",
+   "mean_abs_shap": 1.6498
+  },
+  {
+   "feature": "n_phones",
+   "mean_abs_shap": 0.9554
+  },
+  {
+   "feature": "n_accounts",
+   "mean_abs_shap": 0.9497
+  },
+  {
+   "feature": "n_ips_shared",
+   "mean_abs_shap": 0.6959
+  },
+  {
+   "feature": "call_debit_speed_score",
+   "mean_abs_shap": 0.6752
+  },
+  {
+   "feature": "n_call_debit_links",
+   "mean_abs_shap": 0.5785
+  },
+  {
+   "feature": "max_passthrough_ratio",
+   "mean_abs_shap": 0.5642
+  },
+  {
+   "feature": "n_devices",
+   "mean_abs_shap": 0.5398
+  },
+  {
+   "feature": "txn_velocity",
+   "mean_abs_shap": 0.462
+  },
+  {
+   "feature": "max_imei_sim_count",
+   "mean_abs_shap": 0.437
+  },
+  {
+   "feature": "outbound_txn_count",
+   "mean_abs_shap": 0.4278
+  },
+  {
+   "feature": "max_fanout_hop_count",
+   "mean_abs_shap": 0.2968
+  },
+  {
+   "feature": "total_fanout_inbound_inr",
+   "mean_abs_shap": 0.2957
+  },
+  {
+   "feature": "counterparty_stability",
+   "mean_abs_shap": 0.1982
+  },
+  {
+   "feature": "coupled_calls_out",
+   "mean_abs_shap": 0.1916
+  },
+  {
+   "feature": "distinct_counterparties",
+   "mean_abs_shap": 0.1903
+  },
+  {
+   "feature": "has_call_debit_coupling",
+   "mean_abs_shap": 0.1126
+  },
+  {
+   "feature": "callee_money_movers",
+   "mean_abs_shap": 0.0
+  }
+ ],
+ "external_validation": {
+  "n_entities": 20,
+  "n_graded": 18,
+  "victims_excluded": 2,
+  "trained_on_captured_vectors": {
+   "roc_auc": 1.0,
+   "pr_auc": 1.0,
+   "brier": 0.2202,
+   "log_loss": 0.6214,
+   "precision@0.33": 1.0,
+   "recall@0.33": 0.75,
+   "f1@0.33": 0.8571
+  },
+  "recorded_original": {
+   "roc_auc": 0.9861,
+   "pr_auc": 0.9936,
+   "brier": 0.2982,
+   "log_loss": 0.8954,
+   "precision@0.33": 1.0,
+   "recall@0.33": 0.5,
+   "f1@0.33": 0.6667
+  },
+  "note": "roles are the generator's planted labels; n is tiny \u2014 a sanity check, not a benchmark.",
+  "entities": [
+   {
+    "entity_id": "P0006",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.7291,
+    "trained_score_captured_features": 0.995,
+    "recorded_original_score": 0.8673
+   },
+   {
+    "entity_id": "P0008",
+    "role": "associate",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.995,
+    "trained_score_captured_features": 0.995,
+    "recorded_original_score": 0.8604
+   },
+   {
+    "entity_id": "P0004",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.1,
+    "trained_score_captured_features": 0.96,
+    "recorded_original_score": 0.8425
+   },
+   {
+    "entity_id": "P0020",
+    "role": "handler",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.995,
+    "trained_score_captured_features": 0.995,
+    "recorded_original_score": 0.796
+   },
+   {
+    "entity_id": "P0012",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.4708,
+    "trained_score_captured_features": 0.461,
+    "recorded_original_score": 0.5165
+   },
+   {
+    "entity_id": "P0018",
+    "role": "sim_farm",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.995,
+    "trained_score_captured_features": 0.995,
+    "recorded_original_score": 0.4446
+   },
+   {
+    "entity_id": "P0015",
+    "role": "victim",
+    "fraud_role": false,
+    "victim": true,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.5,
+    "recorded_original_score": 0.2248
+   },
+   {
+    "entity_id": "P0002",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.0678,
+    "trained_score_captured_features": 0.1,
+    "recorded_original_score": 0.1737
+   },
+   {
+    "entity_id": "P0017",
+    "role": "associate",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.0449,
+    "trained_score_captured_features": 0.0449,
+    "recorded_original_score": 0.161
+   },
+   {
+    "entity_id": "P0009",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.3333,
+    "trained_score_captured_features": 0.3636,
+    "recorded_original_score": 0.1578
+   },
+   {
+    "entity_id": "P0011",
+    "role": "associate",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.3636,
+    "recorded_original_score": 0.1031
+   },
+   {
+    "entity_id": "P0013",
+    "role": "mule",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.1667,
+    "trained_score_captured_features": 0.3333,
+    "recorded_original_score": 0.0507
+   },
+   {
+    "entity_id": "P0005",
+    "role": "legit_family",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0438
+   },
+   {
+    "entity_id": "P0014",
+    "role": "layering",
+    "fraud_role": true,
+    "victim": false,
+    "trained_score_live_features": 0.1667,
+    "trained_score_captured_features": 0.1667,
+    "recorded_original_score": 0.0427
+   },
+   {
+    "entity_id": "P0016",
+    "role": "legit_household",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0214
+   },
+   {
+    "entity_id": "P0010",
+    "role": "legit_business",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.02
+   },
+   {
+    "entity_id": "P0001",
+    "role": "victim",
+    "fraud_role": false,
+    "victim": true,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0196
+   },
+   {
+    "entity_id": "P0007",
+    "role": "legit_family",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0171
+   },
+   {
+    "entity_id": "P0003",
+    "role": "legit_charity",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0144
+   },
+   {
+    "entity_id": "P0019",
+    "role": "bystander",
+    "fraud_role": false,
+    "victim": false,
+    "trained_score_live_features": 0.005,
+    "trained_score_captured_features": 0.005,
+    "recorded_original_score": 0.0043
+   }
+  ],
+  "trained_on_live_features": {
+   "roc_auc": 0.9583,
+   "pr_auc": 0.9722,
+   "brier": 0.3205,
+   "log_loss": 1.0662,
+   "precision@0.33": 1.0,
+   "recall@0.33": 0.5,
+   "f1@0.33": 0.6667
+  },
+  "feature_skew": {
+   "entities_with_different_features": 17,
+   "of": 20,
+   "mean_abs_score_change": 0.1109,
+   "max_abs_score_change": 0.86
+  }
+ },
+ "limitations": [
+  "Trained on synthetic data from a hand-authored archetype sampler. Test-split metrics measure fit to that sampler and are optimistic by construction.",
+  "Train/serve skew: the four approximated features are computed differently by this codebase than in the captured vectors, and the model is sensitive to them \u2014 see external_validation.feature_skew for the measured effect. The live-feature external result is the one that reflects deployed behaviour.",
+  "The 20-entity external check is tiny (n=18 graded) and drawn from one planted scenario; it demonstrates the model transfers sanely, not that it generalises. It is also not independent: the sampler's author had seen those feature vectors (units/magnitudes) before writing the archetypes.",
+  "The sampler was revised once (v1 -> v2) after error analysis showed the model shortcutting on transaction volume; volume features (inbound_txn_count) are still the largest contributor, so a high-volume mule is scored lower than a low-volume one \u2014 an evasion route the counter-evidence check and human review exist to cover.",
+  "Known weak spots on the synthetic test split: roaming travellers and shared-handset households are flagged more often than any other legitimate class (see per_archetype_test).",
+  "Feature definitions for counterparty_stability, txn_velocity, coupled_calls_out and callee_money_movers are approximations of an earlier system's; scores there are less comparable.",
+  "No fairness or subgroup analysis is possible: the data contains no protected attributes and none should be added without a governance review."
+ ],
+ "environment": {
+  "python_xgboost": "2.1.3",
+  "scikit_learn": "1.5.2",
+  "numpy": "2.2.1"
+ },
+ "artifacts": {
+  "risk_model.json": "f1fc1cd9dd020e19749f93161e705077c4433a72a3e8a22865394aa691630822",
+  "calibration.json": "36ca29eb53f9cca75fd78d0a568b69ac66c0d82a153c25a63f3ca1cec1b646be"
+ }
+}
