@@ -1,0 +1,57 @@
+[
+ {
+  "id": 1,
+  "filename": "CPH 26 Final PPT Template.pptx (1).pdf",
+  "sha256": "a5ef1b7c82328ebbb81318087069b78ad53640ae197a61f9a1a5acbd5e7ff4c8",
+  "size_bytes": 246491,
+  "extraction_method": "narrative",
+  "page_count": 9,
+  "char_count": 474,
+  "identifier_count": 0,
+  "known_count": 0,
+  "entities": [],
+  "top_risk": 0,
+  "case_id": null,
+  "ingested_batch_id": null,
+  "uploaded_by": "investigator",
+  "uploaded_at": "2026-09-16T04:29:14.579139+00:00",
+  "analysis": {
+   "filename": "CPH 26 Final PPT Template.pptx (1).pdf",
+   "size_bytes": 246491,
+   "sha256": "a5ef1b7c82328ebbb81318087069b78ad53640ae197a61f9a1a5acbd5e7ff4c8",
+   "extraction_method": "narrative",
+   "extraction_note": "read as prose — no ruled table in this document",
+   "is_transcription": false,
+   "page_count": 9,
+   "mean_ocr_confidence": null,
+   "char_count": 474,
+   "text_preview": "HACKATHON\nTEAM NAME:\nTEAM LEADER NAME:\nINSTITUTION :\nPROBLEM STATEMENT:\nProblem Statement\nChandigarh Police Hackathon 2026\nKey Features\nChandigarh Police Hackathon 2026\nUnique Value Proposition\nChandigarh Police Hackathon 2026\nWorkflow / Architecture & Tech Stack\nChandigarh Police Hackathon 2026\nFeasibility and Viability\nChandigarh Police Hackathon 2026\nDeliverables / Proposed outcome\nChandigarh Police Hackathon 2026\nReferences\nChandigarh Police Hackathon 2026\nTHANK YOU",
+   "hits": [],
+   "amounts": [],
+   "dates": [],
+   "flags": [],
+   "rows": [],
+   "row_columns": [],
+   "warnings": [
+    "page 1: no recognised statement columns in ['', '', '']",
+    "page 1: no recognised statement columns in ['', '', '']",
+    "page 1: no recognised statement columns in ['', '', '']",
+    "page 1: no recognised statement columns in ['', '', '']",
+    "page 1: no recognised statement columns in ['', '', '']",
+    "page 9: no recognised statement columns in ['', '', '']",
+    "page 9: no recognised statement columns in ['', '', '']"
+   ],
+   "analysed_at": "2026-09-16T04:29:14.577151+00:00",
+   "summary": {
+    "identifiers": 0,
+    "by_kind": {},
+    "already_known": 0,
+    "resolved_entities": [],
+    "highest_known_score": null,
+    "models": [],
+    "rows_parsed": 0
+   },
+   "ingested": null
+  }
+ }
+]

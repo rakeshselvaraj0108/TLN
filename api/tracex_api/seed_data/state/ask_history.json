@@ -1,0 +1,406 @@
+{
+ "turns": [
+  {
+   "id": 1,
+   "question": "Which entity moved money fastest after a call?",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:13:22.208106+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 2,
+   "question": "Why is P0006 risky?",
+   "source": "text",
+   "intent": "why_risky",
+   "entity_id": "P0006",
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:13:43.557629+00:00",
+   "answer": {
+    "answer": "P0006 is assessed at 87 out of 100 (high band) by the xgboost model. What raises it: inbound txn count = 5; n accounts = 1; n ips shared = 1; txn velocity = 7. Pulling the other way: max fanout hop count, distinct counterparties. A score ranks the review queue. It is not a finding, and this entity still requires human review.",
+    "intent": "why_risky",
+    "confidence": 0.95,
+    "data": {
+     "entity_id": "P0006",
+     "risk_score": 86.72999999999999,
+     "band": "high",
+     "model": "xgboost",
+     "top_factors": [
+      {
+       "feature": "inbound_txn_count",
+       "value": 5,
+       "shap": 0.7252,
+       "direction": "raises"
+      },
+      {
+       "feature": "n_accounts",
+       "value": 1,
+       "shap": 0.6668,
+       "direction": "raises"
+      },
+      {
+       "feature": "n_ips_shared",
+       "value": 1,
+       "shap": 0.4364,
+       "direction": "raises"
+      },
+      {
+       "feature": "max_fanout_hop_count",
+       "value": 1,
+       "shap": -0.3655,
+       "direction": "lowers"
+      },
+      {
+       "feature": "distinct_counterparties",
+       "value": 1,
+       "shap": -0.3099,
+       "direction": "lowers"
+      },
+      {
+       "feature": "txn_velocity",
+       "value": 7,
+       "shap": 0.2823,
+       "direction": "raises"
+      }
+     ],
+     "evidence_rows": [
+      "TXN00089",
+      "TXN00090"
+     ]
+    },
+    "sources": [
+     "postgres"
+    ],
+    "suggestions": [
+     "Show the transactions behind P0006",
+     "What has the agent concluded about P0006?",
+     "Tell me about P0006"
+    ],
+    "link": "/queue/P0006",
+    "claims": [
+     {
+      "claim": "P0006 is assessed at 87 out of 100 (high band) by the xgboost model.",
+      "cited": [
+       "TXN00089",
+       "TXN00090"
+      ],
+      "basis": "computed"
+     },
+     {
+      "claim": "What raises it: inbound txn count = 5; n accounts = 1; n ips shared = 1; txn velocity = 7.",
+      "cited": [
+       "TXN00089",
+       "TXN00090"
+      ],
+      "basis": "computed"
+     },
+     {
+      "claim": "Pulling the other way: max fanout hop count, distinct counterparties.",
+      "cited": [
+       "TXN00089",
+       "TXN00090"
+      ],
+      "basis": "computed"
+     }
+    ],
+    "entity_id": "P0006"
+   }
+  },
+  {
+   "id": 3,
+   "question": "Entire report.",
+   "source": "voice",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:18.523579+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 4,
+   "question": "Entire report.",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:21.830466+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 5,
+   "question": "Entire report.",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:23.499132+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 6,
+   "question": "Entire report.",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:24.397288+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 7,
+   "question": "Entire report.",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:47.165242+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 8,
+   "question": "Entire report.",
+   "source": "text",
+   "intent": "unknown",
+   "entity_id": null,
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:32:49.569739+00:00",
+   "answer": {
+    "answer": "I can't answer that from the data I hold. I only report what is in this system — I don't speculate.",
+    "intent": "unknown",
+    "confidence": 0,
+    "data": {},
+    "sources": [],
+    "suggestions": [
+     "Who are the highest-risk entities?",
+     "Why is P0006 risky?",
+     "Show the transactions behind P0006",
+     "How many records have we ingested?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?",
+     "What has the agent found?"
+    ],
+    "link": null,
+    "claims": [],
+    "entity_id": null
+   }
+  },
+  {
+   "id": 9,
+   "question": "Show the transactions behind P0006",
+   "source": "text",
+   "intent": "entity_records",
+   "entity_id": "P0006",
+   "verdict": "off",
+   "trust": 0,
+   "at": "2026-09-08T13:33:00.641706+00:00",
+   "answer": {
+    "answer": "2 record(s) tie to P0006: 2 bank. Each one is cited by id below and re-hashed against its ingest value. TXN00089: CREDIT of 76,800 from KKBK91183842513 to KKBK01128059826 at 2026-08-14T10:09:00. TXN00090: DEBIT of 72,960 from KKBK01128059826 to unknown at 2026-08-14T10:12:00.",
+    "intent": "entity_records",
+    "confidence": 0.95,
+    "data": {
+     "entity_id": "P0006",
+     "count": 2,
+     "evidence_rows": [
+      "TXN00089",
+      "TXN00090"
+     ],
+     "records": [
+      {
+       "rec_id": "TXN00089",
+       "source_type": "bank",
+       "row_sha256": "d014ce9e940d4301075d980c4e530f1fff29c33be7eeaa3141d3761e6324e92b",
+       "payload": {
+        "amount": "76800.0",
+        "balance_after": "78389.78",
+        "channel": "IMPS",
+        "direction": "CREDIT",
+        "dst_account": "KKBK01128059826",
+        "dst_ifsc": "KKBK0000234",
+        "dst_name": "Meera Kulkarni",
+        "narration": "IMPS IN",
+        "record_id": "TXN00089",
+        "src_account": "KKBK91183842513",
+        "src_ifsc": "KKBK0000234",
+        "src_name": "Ritu Iyer",
+        "txn_time": "2026-08-14T10:09:00"
+       }
+      },
+      {
+       "rec_id": "TXN00090",
+       "source_type": "bank",
+       "row_sha256": "a801514b805aefba6e27f73be1d2471ba83d509e3075451e6e51271850c2df39",
+       "payload": {
+        "amount": "72960.0",
+        "balance_after": "3840.0",
+        "channel": "ATM",
+        "direction": "DEBIT",
+        "dst_account": "",
+        "dst_ifsc": "",
+        "dst_name": "",
+        "narration": "ATM WDL 157.184",
+        "record_id": "TXN00090",
+        "src_account": "KKBK01128059826",
+        "src_ifsc": "KKBK0000234",
+        "src_name": "Meera Kulkarni",
+        "txn_time": "2026-08-14T10:12:00"
+       }
+      }
+     ]
+    },
+    "sources": [
+     "postgres"
+    ],
+    "suggestions": [
+     "Why is P0006 risky?",
+     "Show the fan-out patterns",
+     "Which calls were followed by a debit?"
+    ],
+    "link": "/profiles/P0006",
+    "claims": [
+     {
+      "claim": "2 record(s) tie to P0006: 2 bank. Each one is cited by id below and re-hashed against its ingest value.",
+      "cited": [
+       "TXN00089",
+       "TXN00090"
+      ],
+      "basis": "computed"
+     },
+     {
+      "claim": "TXN00089: CREDIT of 76,800 from KKBK91183842513 to KKBK01128059826 at 2026-08-14T10:09:00.",
+      "cited": [
+       "TXN00089"
+      ],
+      "basis": "record"
+     },
+     {
+      "claim": "TXN00090: DEBIT of 72,960 from KKBK01128059826 to unknown at 2026-08-14T10:12:00.",
+      "cited": [
+       "TXN00090"
+      ],
+      "basis": "record"
+     }
+    ],
+    "entity_id": "P0006"
+   }
+  }
+ ],
+ "session_key": "default"
+}

@@ -1,0 +1,396 @@
+[
+ {
+  "id": 1,
+  "case_code": "TRX-2026-0001",
+  "title": "Digital arrest scam - coordinated mule network",
+  "status": "open",
+  "created_by": "investigator",
+  "created_at": "2026-09-08T13:03:38.901064+00:00",
+  "entities": [
+   {
+    "entity_id": "P0006",
+    "entity_kind": "person",
+    "label": "high risk (0.87)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904145+00:00",
+    "risk_score": 0.8673,
+    "band": "high",
+    "top_factors": [
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.7252,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.6668,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4364,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3655,
+      "direction": "lowers"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 1,
+      "shap": -0.3099,
+      "direction": "lowers"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 7,
+      "shap": 0.2823,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0008",
+    "entity_kind": "person",
+    "label": "high risk (0.86)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904149+00:00",
+    "risk_score": 0.8604,
+    "band": "high",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5029,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 480000,
+      "shap": 1.1435,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 6,
+      "shap": 0.7119,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.6221,
+      "direction": "raises"
+     },
+     {
+      "feature": "distinct_counterparties",
+      "value": 6,
+      "shap": 0.4638,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 16,
+      "shap": -0.3819,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0004",
+    "entity_kind": "person",
+    "label": "high risk (0.84)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904149+00:00",
+    "risk_score": 0.8425,
+    "band": "high",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.3563,
+      "direction": "lowers"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 6,
+      "shap": 1.1212,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 5,
+      "shap": 0.8586,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4628,
+      "direction": "raises"
+     },
+     {
+      "feature": "txn_velocity",
+      "value": 6,
+      "shap": 0.4318,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "shap": 0.2974,
+      "direction": "raises"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0020",
+    "entity_kind": "person",
+    "label": "high risk (0.80)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904150+00:00",
+    "risk_score": 0.796,
+    "band": "high",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 7,
+      "shap": 1.2712,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.8153,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_imei_sim_count",
+      "value": 7,
+      "shap": 0.6136,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.4411,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.4338,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.3908,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0012",
+    "entity_kind": "person",
+    "label": "elevated risk (0.52)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904150+00:00",
+    "risk_score": 0.5165,
+    "band": "elevated",
+    "top_factors": [
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.6229,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.4796,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 1,
+      "shap": 0.4609,
+      "direction": "raises"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.4599,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.454,
+      "direction": "lowers"
+     },
+     {
+      "feature": "call_debit_speed_score",
+      "value": 0.896,
+      "shap": -0.3738,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0018",
+    "entity_kind": "person",
+    "label": "elevated risk (0.44)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904151+00:00",
+    "risk_score": 0.4446,
+    "band": "elevated",
+    "top_factors": [
+     {
+      "feature": "n_phones",
+      "value": 9,
+      "shap": 1.3053,
+      "direction": "raises"
+     },
+     {
+      "feature": "callee_money_movers",
+      "value": 0,
+      "shap": -0.7086,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_accounts",
+      "value": 0,
+      "shap": -0.7027,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_ips_shared",
+      "value": 1,
+      "shap": 0.6143,
+      "direction": "raises"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.494,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0,
+      "shap": -0.4595,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0016",
+    "entity_kind": "person",
+    "label": "low risk (0.02)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904151+00:00",
+    "risk_score": 0.0214,
+    "band": "low",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.7832,
+      "direction": "lowers"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 6,
+      "shap": -0.8343,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 4,
+      "shap": 0.8049,
+      "direction": "raises"
+     },
+     {
+      "feature": "outbound_txn_count",
+      "value": 5,
+      "shap": 0.6558,
+      "direction": "raises"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 0,
+      "shap": -0.5625,
+      "direction": "lowers"
+     },
+     {
+      "feature": "total_fanout_inbound_inr",
+      "value": 0,
+      "shap": -0.4915,
+      "direction": "lowers"
+     }
+    ]
+   },
+   {
+    "entity_id": "P0002",
+    "entity_kind": "person",
+    "label": "low risk (0.17)",
+    "added_by": "investigator",
+    "added_at": "2026-09-08T13:03:38.904152+00:00",
+    "risk_score": 0.1737,
+    "band": "low",
+    "top_factors": [
+     {
+      "feature": "n_ips_shared",
+      "value": 0,
+      "shap": -1.5805,
+      "direction": "lowers"
+     },
+     {
+      "feature": "inbound_txn_count",
+      "value": 1,
+      "shap": 0.6808,
+      "direction": "raises"
+     },
+     {
+      "feature": "n_call_debit_links",
+      "value": 3,
+      "shap": -0.5736,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_passthrough_ratio",
+      "value": 0.95,
+      "shap": 0.3189,
+      "direction": "raises"
+     },
+     {
+      "feature": "coupled_calls_out",
+      "value": 0,
+      "shap": -0.3082,
+      "direction": "lowers"
+     },
+     {
+      "feature": "max_fanout_hop_count",
+      "value": 1,
+      "shap": -0.3051,
+      "direction": "lowers"
+     }
+    ]
+   }
+  ],
+  "notes": [
+   {
+    "id": 1,
+    "body": "Opened on the call-to-debit correlation. Complainant reports a five-hour video call from a caller claiming to be CBI, followed by a transfer described as a 'security deposit for case clearance'. Pulling the handset's SIM history and the onward hops next. Exculpatory review to be completed before any action is proposed.",
+    "author": "investigator",
+    "created_at": "2026-09-08T13:03:38.907079+00:00"
+   }
+  ]
+ }
+]

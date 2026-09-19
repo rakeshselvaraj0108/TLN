@@ -1,0 +1,204 @@
+[
+ {
+  "id": 1,
+  "entity_id": "P0006",
+  "trigger": "manual",
+  "risk_score": 86.72999999999999,
+  "confidence": 1,
+  "tier": "critical",
+  "hypothesis": "legitimate",
+  "dna_signature": null,
+  "campaign_id": null,
+  "steps": [
+   {
+    "ts": "2026-09-08T13:37:57.270+00:00",
+    "phase": "observe",
+    "message": "Event received for P0006",
+    "detail": {
+     "trigger": "manual"
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.300+00:00",
+    "phase": "observe",
+    "message": "Model risk score on file: 87",
+    "detail": {
+     "band": "high",
+     "model": "xgboost"
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.320+00:00",
+    "phase": "hypothesize",
+    "message": "Considering 7 candidate explanations",
+    "detail": {}
+   },
+   {
+    "ts": "2026-09-08T13:37:57.330+00:00",
+    "phase": "observe",
+    "message": "7 evidence source(s) unavailable",
+    "detail": {
+     "sources": [
+      "contact_graph",
+      "device_rotation",
+      "message_content",
+      "shared_infrastructure",
+      "domain_intel",
+      "banking_events",
+      "physical_presence"
+     ]
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.390+00:00",
+    "phase": "investigate",
+    "message": "Queried phone_reputation → nothing of note",
+    "detail": {
+     "source": "phone_reputation",
+     "provenance": "mock",
+     "findings": []
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.450+00:00",
+    "phase": "investigate",
+    "message": "Queried threat_intel → nothing of note",
+    "detail": {
+     "source": "threat_intel",
+     "provenance": "mock",
+     "findings": []
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.470+00:00",
+    "phase": "decide",
+    "message": "No further sources available",
+    "detail": {}
+   },
+   {
+    "ts": "2026-09-08T13:37:57.480+00:00",
+    "phase": "score",
+    "message": "Assessment is partial — one or more evidence sources were unreachable, so this score is a floor, not a conclusion.",
+    "detail": {
+     "skipped": [
+      {
+       "source": "contact_graph",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "device_rotation",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "message_content",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "shared_infrastructure",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "domain_intel",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "banking_events",
+       "reason": "source unavailable in this deployment"
+      },
+      {
+       "source": "physical_presence",
+       "reason": "source unavailable in this deployment"
+      }
+     ]
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.510+00:00",
+    "phase": "score",
+    "message": "Risk assessed at 87 · tier critical · trajectory steady",
+    "detail": {
+     "trajectory": {
+      "series": [
+       86.72999999999999,
+       86.72999999999999
+      ],
+      "current": 86.73,
+      "velocity": 0,
+      "acceleration": 0,
+      "band": "steady",
+      "projected_next": 86.73,
+      "reason": "risk is flat or falling (87)"
+     }
+    }
+   },
+   {
+    "ts": "2026-09-08T13:37:57.540+00:00",
+    "phase": "propose",
+    "message": "3 action(s) recommended; top: Escalate to the fraud team",
+    "detail": {
+     "requires_approval": "supervisor"
+    }
+   }
+  ],
+  "findings": [],
+  "proposals": [
+   {
+    "action": "escalate_campaign",
+    "title": "Escalate to the fraud team",
+    "confidence": 0.56,
+    "severity": 0.8672999999999998,
+    "impact": 0.8,
+    "urgency": 0.35,
+    "reversibility": "partially_reversible",
+    "expected_benefit": "Brings specialist review to a case above routine threshold.",
+    "downside": "Consumes scarce specialist capacity; a wrong association pollutes the campaign's evidence set.",
+    "evidence": [],
+    "affected_entities": [
+     "P0006"
+    ],
+    "approval": "supervisor",
+    "score": 10.2,
+    "rank_reason": "Highest combined expected benefit for the risk it carries."
+   },
+   {
+    "action": "flag_identifier",
+    "title": "Flag / watchlist the identifier",
+    "confidence": 0.51,
+    "severity": 0.8672999999999998,
+    "impact": 0.65,
+    "urgency": 0.35,
+    "reversibility": "reversible",
+    "expected_benefit": "Marks the identifier across every view, so any analyst who meets it next inherits this investigation instead of repeating it.",
+    "downside": "A watchlisted identifier attracts scrutiny; if the attribution is wrong that scrutiny follows an innocent subscriber.",
+    "evidence": [],
+    "affected_entities": [
+     "P0006"
+    ],
+    "approval": "investigator",
+    "score": 10.06,
+    "rank_reason": "Ranked below “Escalate to the fraud team”: lower expected impact, lower confidence."
+   },
+   {
+    "action": "increase_monitoring",
+    "title": "Increase monitoring",
+    "confidence": 0.61,
+    "severity": 0.8672999999999998,
+    "impact": 0.45,
+    "urgency": 0.3,
+    "reversibility": "reversible",
+    "expected_benefit": "Raises sampling on this entity so a further escalation is caught in minutes rather than at the next sweep.",
+    "downside": "Analyst attention is finite; over-watching dilutes it.",
+    "evidence": [],
+    "affected_entities": [
+     "P0006"
+    ],
+    "approval": "auto",
+    "score": 7.14,
+    "rank_reason": "Ranked below “Flag / watchlist the identifier”: lower expected impact, less time-critical."
+   }
+  ],
+  "elapsed_ms": 7,
+  "created_by": "investigator",
+  "created_at": "2026-09-08T13:37:57.278916+00:00"
+ }
+]
