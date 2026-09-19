@@ -548,7 +548,7 @@
     "kind": "post",
     "ts": "2026-08-15T18:00:00",
     "rec_id": "SOC00003",
-    "row_sha256": "c7a7a86fd38ad977a68ef7c2104747fb1e0eef5f592e9e23ce0390c91beea997",
+    "row_sha256": "2b01dabb7ca6805c8da3114bd4a5ea04e8e8176e2a05e432e6eeb5e7f13bc6ed",
     "detail": {
      "platform": "x",
      "handle": "@RameshG_official",

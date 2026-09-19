@@ -12,6 +12,14 @@ This directory holds what was captured from the running deployment and the scrip
 | `deployed-snapshot/` | **Not included in this repository.** Regenerate it with `tools/crawl.mjs` (site bundle, HTML/RSC payloads, OpenAPI document) |
 | `tools/` | Recovery pipeline (below) |
 
+### Redactions
+
+The captured fixtures and the seed data were edited to remove one agency name: a social-post mention became
+`@CityPolice`, and the extracted text of one sample document lost the name (its character count was updated to match).
+Because a row's SHA-256 covers its content, the affected row hash and the social batch's chain values were recomputed
+and replaced consistently everywhere they are stored (seed CSV, `integrity_*`, `ingest_chain_*`, BSA certificates and the
+timeline fixture). The parity result is unchanged by this. Everything else in the fixtures is as captured.
+
 ## Pipeline
 
 1. **Mirror** (`crawl.mjs`): crawl routes from links in HTML/JS, download all `/_next` assets, public
