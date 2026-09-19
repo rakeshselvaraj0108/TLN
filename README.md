@@ -302,7 +302,7 @@ flowchart TB
         R1 ~~~ R2 ~~~ R3 ~~~ R4
     end
 
-    UF{{"⚙️ <b>Union-Find</b> with path compression — O(α(n))"}}
+    UF{{"⚙️ <b>Union-Find</b> — union-by-size + path compression, O(α(n))"}}
 
     OUT["👤 <b>Resolved entities</b><br/><b>P0006</b> · 2 phones, 2 devices, 3 accounts — <i>0.87 high</i><br/><b>P0020</b> handler — <i>0.80 high</i><br/><b>P0003</b> charity — <i>0.01 low, correctly</i>"]
 
@@ -384,7 +384,7 @@ Plus the **deterministic algorithm layer** — not "AI", and deliberately so, be
 
 | Algorithm | Applied to |
 |---|---|
-| **Union-find** with path compression | Entity resolution across 5 sources |
+| **Union-find** with union-by-size and path compression — O(α(n)) amortized (Tarjan) | Entity resolution across 5 sources |
 | **Connected components** over weighted evidence edges | Campaign / fraud-ring detection |
 | **Cosine similarity** over a 12-trait behavioural vector | "Fraud DNA" — matching entities that *operate* alike with zero shared identifiers |
 | **BFS shortest paths** (≤4 hops) | "How is P0006 connected to P0020?" |

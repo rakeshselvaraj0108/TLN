@@ -19,11 +19,16 @@ if TYPE_CHECKING:
 
 
 class UnionFind:
+    """Union by size plus full path compression: O(α(n)) amortized per operation (Tarjan 1975)."""
+
     def __init__(self) -> None:
         self.parent: dict[str, str] = {}
+        self.size: dict[str, int] = {}
 
     def find(self, x: str) -> str:
-        self.parent.setdefault(x, x)
+        if x not in self.parent:
+            self.parent[x] = x
+            self.size[x] = 1
         root = x
         while self.parent[root] != root:
             root = self.parent[root]
@@ -33,8 +38,12 @@ class UnionFind:
 
     def union(self, a: str, b: str) -> None:
         ra, rb = self.find(a), self.find(b)
-        if ra != rb:
-            self.parent[ra] = rb
+        if ra == rb:
+            return
+        if self.size[ra] > self.size[rb]:
+            ra, rb = rb, ra
+        self.parent[ra] = rb
+        self.size[rb] += self.size[ra]
 
 
 def resolve(ds: "Dataset") -> dict[str, "Person"]:
