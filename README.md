@@ -59,11 +59,11 @@ The evidence exists. It is simply **in five different buildings**.
 flowchart TB
     subgraph SILOS["🔒 Five custodians. Five formats. Zero shared view."]
         direction LR
-        T["📞 <b>Telecom</b><br/>CDR / IPDR<br/><i>who called whom,<br/>from which handset</i>"]
-        B["🏦 <b>Banks</b><br/>Statements<br/><i>what moved,<br/>where, when</i>"]
-        S["💬 <b>Platforms</b><br/>Social posts<br/><i>handles, victims,<br/>recruitment ads</i>"]
-        C["📷 <b>City cameras</b><br/>ALPR reads<br/><i>which vehicle,<br/>which junction</i>"]
-        R["🗂️ <b>Registries</b><br/>Subscribers<br/><i>who owns<br/>what identifier</i>"]
+        T["📞 <b>Telecom</b><br/>CDR / IPDR<br/><i>who called<br/>whom</i>"]
+        B["🏦 <b>Banks</b><br/>Statements<br/><i>what moved,<br/>when</i>"]
+        S["💬 <b>Platforms</b><br/>Social posts<br/><i>handles,<br/>victims</i>"]
+        C["📷 <b>Cameras</b><br/>ALPR reads<br/><i>which vehicle,<br/>where</i>"]
+        R["🗂️ <b>Registries</b><br/>Subscribers<br/><i>who owns<br/>what</i>"]
     end
 
     T --> Q{"❓ The question<br/>nobody can answer<br/>from one silo"}
@@ -124,24 +124,23 @@ TRACE X is a full-stack investigation workbench that ingests multi-source eviden
 > Fastest possible path to "this is real." Local run recommended (the hosted API cold-starts slowly).
 
 ```mermaid
-flowchart LR
-    S(["▶️ Start"]) --> A["<b>1. /queue</b><br/>20 entities ranked by<br/>calibrated risk score"]
-    A --> B["<b>2. Click P0006</b><br/>TreeSHAP attribution:<br/>exactly why it scored 0.87"]
-    B --> C["<b>3. /evidence</b><br/>The devil's advocate:<br/>3 innocent explanations,<br/>scored and capped"]
-    C --> D["<b>4. /integrity</b> 💥<br/>Run the tamper drill.<br/>Watch ₹4,80,000 → ₹1<br/>and the chain break"]
-    D --> E["<b>5. /agents</b><br/>Launch the investigator.<br/>Read tools → cited answer"]
-    E --> F["<b>6. Verification panel</b><br/>Every claim re-hashed<br/>against source rows"]
-    F --> G["<b>7. /chat</b> 🎯<br/>Click <i>Try a fabrication</i><br/>— watch it get caught"]
-    G --> H["<b>8. /eye</b><br/>Drag the time machine.<br/>128 steps assemble<br/>on the map"]
-    H --> I["<b>9. /gods-eye</b> 🌍<br/>Live aircraft + satellites<br/>on a 3D globe"]
-    I --> Z(["🏁 Done"])
+flowchart TB
+    A["<b>1 · /queue</b> — 20 entities ranked by calibrated risk"]
+    B["<b>2 · /queue/P0006</b> — TreeSHAP attribution:<br/>exactly why it scored 0.87"]
+    C["<b>3 · /evidence</b> — the devil's advocate:<br/>3 innocent explanations, scored and capped"]
+    D["<b>4 · /integrity</b> 💥 — run the tamper drill.<br/>Watch ₹4,80,000 become ₹1 and the chain break"]
+    E["<b>5 · /agents</b> — launch the investigator:<br/>read-only tools, then a cited answer"]
+    F["<b>6 · Verification panel</b> — every claim re-hashed<br/>against its source rows"]
+    G["<b>7 · /chat</b> 🎯 — click <i>Try a fabrication</i><br/>and watch it get caught"]
+    H["<b>8 · /eye</b> — drag the time machine;<br/>128 steps assemble on the map"]
+    I["<b>9 · /gods-eye</b> 🌍 — live aircraft and satellites"]
+
+    A --> B --> C --> D --> E --> F --> G --> H --> I
 
     classDef step fill:#0c4a6e,stroke:#0ea5e9,color:#e0f2fe
     classDef hero fill:#78350f,stroke:#d97706,color:#fef3c7
-    classDef ends fill:#14532d,stroke:#16a34a,color:#dcfce7
     class A,B,C,E,F,H,I step
     class D,G hero
-    class S,Z ends
 ```
 
 **The two moments that matter:** step 4 (the system proves its own evidence integrity by breaking it in front of you) and step 7 (the system catches an AI lying, live, using arithmetic rather than another AI).
@@ -152,73 +151,28 @@ flowchart LR
 
 ```mermaid
 flowchart TB
-    subgraph CLIENT["🖥️ PRESENTATION — Next.js 14 App Router · 36 routes · 36 components"]
-        direction LR
-        UI["Investigation workbench<br/><i>queue · graph · timeline · cases</i>"]
-        EYE["Investigation Eye<br/><i>canvas 3D + SVG plan</i>"]
-        GEV["God's Eye View<br/><i>CesiumJS globe, iframe-isolated</i>"]
-        LAND["Public site<br/><i>landing · privacy · terms</i>"]
-    end
+    C["🖥️ <b>PRESENTATION</b> · Next.js 14 App Router<br/>36 routes · 36 components<br/><i>workbench · Investigation Eye · God's Eye · public site</i>"]
+    A["⚙️ <b>API</b> · FastAPI<br/>124 endpoints · 30 routers · thin, validation only<br/><i>auth + RBAC (HMAC) · append-only audit</i>"]
 
-    subgraph API["⚙️ API — FastAPI · 124 endpoints · 30 routers · thin, validation only"]
-        direction LR
-        AUTH["Auth + RBAC<br/><i>HMAC tokens</i>"]
-        ROUTE["Routers"]
-        AUDIT["Append-only audit"]
-    end
-
-    subgraph ENGINE["🧬 ANALYTICS ENGINE — 19 pure-Python modules, deterministic and explainable"]
+    subgraph E["🧬 ANALYTICS ENGINE — 19 deterministic Python modules"]
         direction TB
         DS["<b>Dataset</b> — typed, cached, version-invalidated snapshot"]
-        RES["Entity resolution<br/><i>union-find, R1–R4</i>"]
-        COR["Correlation<br/><i>call→debit · fan-out · SIM</i>"]
-        SCO["Scoring<br/><i>18 features, 3 back-ends</i>"]
-        GRA["Graphs<br/><i>identity · behaviour · paths</i>"]
-        HUN["Campaign hunt<br/><i>connected components</i>"]
-        PAT["Pattern of life<br/><i>ALPR × money</i>"]
-        SPA["Spatial<br/><i>reconstruct · cross-border</i>"]
-        EVI["Evidentiary<br/><i>exculpatory · counterfactual</i>"]
-        VER["<b>Verifier</b><br/><i>the truth gate</i>"]
-        DS --> RES --> COR --> SCO
-        SCO --> GRA & HUN & PAT & SPA & EVI
+        L1["entity resolution → correlation → scoring<br/><i>union-find R1–R4 · call→debit · fan-out · 18 features</i>"]
+        L2["graphs · campaign hunt · pattern of life<br/>spatial reconstruction · evidentiary review"]
+        L3["<b>verifier</b> — the truth gate"]
+        DS --> L1 --> L2 --> L3
     end
 
-    subgraph ML["🧠 MODEL LAYER — tracex_api/ml"]
-        direction LR
-        SAMP["Archetype sampler<br/><i>12 archetypes</i>"]
-        TRAIN["XGBoost + 5-fold CV<br/><i>monotone-constrained</i>"]
-        CAL["Isotonic calibrator"]
-        SHAP["Exact TreeSHAP"]
-        PIN["🔐 SHA-256 artifact pinning"]
-        SAMP --> TRAIN --> CAL --> SHAP --> PIN
-    end
+    M["🧠 <b>MODEL LAYER</b> · tracex_api/ml<br/>sampler → XGBoost + 5-fold CV → isotonic → TreeSHAP<br/>🔐 SHA-256-pinned artifacts"]
+    AG["🤖 <b>AGENT MESH</b> · tracex_api/agentic<br/>8-stage pipeline · response agent · tool-use investigator<br/><i>9 read-only tools</i>"]
+    S["🔗 <b>SYSTEM OF RECORD</b> · SQLite WAL<br/><i>records: payload + row_sha256 + chain_hash</i><br/>batches · docs · cases · audit"]
+    X["🌐 <b>Optional external</b><br/>Ollama local · Claude API <i>explicit opt-in</i><br/>OpenSky · CelesTrak · Esri"]
 
-    subgraph AGENTS["🤖 AGENT MESH — tracex_api/agentic + engine"]
-        direction LR
-        P8["8-stage pipeline"]
-        RA["Response agent"]
-        LLM["Tool-use investigator<br/><i>9 read-only tools</i>"]
-    end
-
-    subgraph STORE["🔗 SYSTEM OF RECORD — SQLite (WAL)"]
-        direction LR
-        REC["records<br/><i>payload + row_sha256 + chain_hash</i>"]
-        BAT["batches<br/><i>genesis + chain_head</i>"]
-        DOC["docs<br/><i>reasoning ledgers, traces</i>"]
-        CASE["cases · actions · notes · targets"]
-    end
-
-    EXT["🌐 Optional external<br/>Ollama (local) · Claude API (explicit opt-in)<br/>OpenSky · CelesTrak · Esri"]
-
-    CLIENT -->|"REST + Bearer identity"| API
-    API --> ENGINE
-    ENGINE --> ML
-    ENGINE --> AGENTS
-    AGENTS -.->|"read-only tools"| ENGINE
-    AGENTS -.->|"never auto-selects cloud"| EXT
-    ENGINE <--> STORE
-    API --> AUDIT
-    VER -.->|"re-hash every citation"| REC
+    C -->|"REST + Bearer identity"| A --> E --> M --> AG
+    AG -.->|"read-only tools"| E
+    AG -.->|"never auto-selects cloud"| X
+    E <--> S
+    L3 -.->|"re-hash every citation"| S
 
     classDef client fill:#1e1b4b,stroke:#6366f1,color:#e0e7ff
     classDef api fill:#0c4a6e,stroke:#0ea5e9,color:#e0f2fe
@@ -227,13 +181,13 @@ flowchart TB
     classDef agent fill:#581c87,stroke:#a855f7,color:#f3e8ff
     classDef store fill:#334155,stroke:#94a3b8,color:#f1f5f9
     classDef ext fill:#450a0a,stroke:#ef4444,color:#fee2e2
-    class UI,EYE,GEV,LAND client
-    class AUTH,ROUTE,AUDIT api
-    class DS,RES,COR,SCO,GRA,HUN,PAT,SPA,EVI,VER eng
-    class SAMP,TRAIN,CAL,SHAP,PIN ml
-    class P8,RA,LLM agent
-    class REC,BAT,DOC,CASE store
-    class EXT ext
+    class C client
+    class A api
+    class DS,L1,L2,L3 eng
+    class M ml
+    class AG agent
+    class S store
+    class X ext
 ```
 
 **The one design decision everything else follows from:** the engine is *pure, deterministic Python* reading from a single cached `Dataset` snapshot. Models and agents are **consumers** of that engine, never the source of truth. That is why an LLM can go rogue in this system and still not corrupt a single figure a human sees.
@@ -249,56 +203,53 @@ flowchart TB
 ```mermaid
 sequenceDiagram
     autonumber
-    participant I as 👮 Investigator
-    participant API as FastAPI /ingest/upload
-    participant P as Parser
+    participant I as 👮 Analyst
+    participant API as /ingest/upload
     participant H as hashing.py
-    participant DB as SQLite (one transaction)
-    participant A as Audit log
+    participant DB as SQLite
 
-    I->>API: Upload cdr.csv (as received)
+    I->>API: Upload cdr.csv
     API->>API: SHA-256 the whole file
-    API->>DB: Seen this file hash before?
-    DB-->>API: No → proceed (yes → skip, never double-ingest)
-    API->>P: Validate header against source schema
-    P-->>API: 1,119 canonical rows (or 422 naming the bad line)
+    API->>DB: Seen this file hash?
+    DB-->>API: No → proceed<br/>(yes → skip, never double-ingest)
+    API->>API: Validate header vs schema
+    Note over API: 1,119 canonical rows,<br/>or 422 naming the bad line
 
     loop every row, in order
-        API->>H: row_sha256(canonical JSON, keys sorted)
+        API->>H: row_sha256(canonical JSON)
         H-->>API: row hash
-        API->>H: link(previous_chain, row_hash)
+        API->>H: link(prev_chain, row_hash)
         H-->>API: new chain value
-        API->>DB: INSERT payload + row_sha256 + chain_hash
+        API->>DB: INSERT payload + hashes
     end
 
     API->>DB: UPDATE batch SET chain_head
-    API->>A: actor, action, batch, row count
-    Note over DB,A: One transaction. A crash leaves<br/>no half-ingested batch.
-    API-->>I: batch_id + chain_head + rows persisted
+    Note over API,DB: One transaction — a crash leaves<br/>no half-ingested batch. Audit row written.
+    API-->>I: batch_id + chain_head
 ```
 
 ### 5.2 The chain, and what breaks it
 
 ```mermaid
-flowchart LR
-    G["<b>genesis</b><br/>SHA-256 of ''<br/><code>e3b0c442…</code>"]
-    R1["<b>Row 1</b><br/>CDR00001<br/><code>row_sha256</code>"]
-    R2["<b>Row 2</b><br/>CDR00002<br/><code>row_sha256</code>"]
-    R3["<b>Row 3</b><br/>CDR00003<br/><code>row_sha256</code>"]
-    RN["<b>Row N</b><br/>…"]
-    HEAD["🏁 <b>chain_head</b><br/>stored on the batch"]
+flowchart TB
+    G["<b>genesis</b> = SHA-256 of '' → <code>e3b0c442…</code>"]
+    R1["<b>Row 1</b> · CDR00001 · <code>row_sha256</code>"]
+    R2["<b>Row 2</b> · CDR00002 · <code>row_sha256</code>"]
+    R3["<b>Row 3</b> · CDR00003 · <code>row_sha256</code>"]
+    RN["<b>Row N</b> · …"]
+    HEAD["🏁 <b>chain_head</b> — stored on the batch"]
 
     G -->|"link()"| R1 -->|"link()"| R2 -->|"link()"| R3 -->|"link()"| RN --> HEAD
 
-    T1["✏️ <b>Edit a field</b><br/>row no longer hashes<br/>to its stored value"]
-    T2["🗑️ <b>Delete a row</b><br/>sequence numbers skip,<br/>chain never reaches head"]
-    T3["➕ <b>Insert a row</b><br/>every downstream link<br/>diverges"]
-    T4["🔀 <b>Reorder rows</b><br/>every link after the<br/>swap changes"]
+    T1["✏️ <b>Edit a field</b> → the row no longer hashes<br/>to its stored value · <code>content_altered</code>"]
+    T2["🗑️ <b>Delete a row</b> → sequence skips, the chain<br/>never reaches the head · <code>link_broken</code>"]
+    T3["➕ <b>Insert a row</b> → every downstream link<br/>diverges · <code>chain_recomputed</code>"]
+    T4["🔀 <b>Reorder rows</b> → every link after the swap<br/>changes · <code>chain_recomputed</code>"]
 
-    T1 -.->|"content_altered"| R2
-    T2 -.->|"link_broken"| R3
-    T3 -.->|"chain_recomputed"| R3
-    T4 -.->|"chain_recomputed"| RN
+    R2 -.-> T1
+    R3 -.-> T2
+    R3 -.-> T3
+    RN -.-> T4
 
     classDef chain fill:#312e81,stroke:#6366f1,color:#e0e7ff
     classDef head fill:#14532d,stroke:#22c55e,color:#dcfce7
@@ -340,47 +291,34 @@ Records contain identifiers. Investigations are about **people**. Bridging that 
 
 ```mermaid
 flowchart TB
-    subgraph RAW["📥 Raw identifiers — no person anywhere in the data"]
-        direction LR
-        P1["📱 +9191043…"]
-        P2["📱 +9188219…"]
-        D1["📟 IMEI 3571…"]
-        D2["📟 IMEI 8695…"]
-        A1["🏦 HDFC6155…"]
-        A2["🏦 KKBK9118…"]
-        H1["💬 @quickcash_jobs"]
+    RAW["📥 <b>Raw identifiers</b> — no person anywhere in the data<br/>📱 +9191043… 📱 +9188219… 📟 IMEI 3571…<br/>🏦 HDFC6155… 🏦 KKBK9118… 💬 @quickcash_jobs"]
+
+    subgraph RULES["🔗 Four deterministic rules"]
+        direction TB
+        R1["<b>R1</b> — a number and the handset it was used in<br/>are one person <i>(every CDR + IPDR pair)</i>"]
+        R2["<b>R2</b> — an account belongs to its registered holder"]
+        R3["<b>R3</b> — groups sharing a subscriber registration merge"]
+        R4["<b>R4</b> — a handle belongs to the holder of its number"]
+        R1 ~~~ R2 ~~~ R3 ~~~ R4
     end
 
-    subgraph RULES["🔗 Four deterministic rules, union-find merged"]
-        R1["<b>R1</b> — a number and the handset<br/>it was used in are one person<br/><i>every CDR + IPDR pair</i>"]
-        R2["<b>R2</b> — an account belongs to its<br/>registered holder name"]
-        R3["<b>R3</b> — identifier groups sharing a<br/>subscriber registration merge"]
-        R4["<b>R4</b> — a handle belongs to the holder<br/>of the number it is linked to"]
-    end
+    UF{{"⚙️ <b>Union-Find</b> with path compression — O(α(n))"}}
 
-    UF{{"⚙️ <b>Union-Find</b><br/>path compression<br/>O(α(n)) — effectively constant"}}
+    OUT["👤 <b>Resolved entities</b><br/><b>P0006</b> · 2 phones, 2 devices, 3 accounts — <i>0.87 high</i><br/><b>P0020</b> handler — <i>0.80 high</i><br/><b>P0003</b> charity — <i>0.01 low, correctly</i>"]
 
-    subgraph OUT["👤 Resolved entities — every link carries the rule that made it"]
-        E1["<b>P0006</b> · Meera Kulkarni<br/>2 phones · 2 devices · 3 accounts · 1 handle<br/><i>risk 0.87 — high</i>"]
-        E2["<b>P0020</b> · handler<br/><i>risk 0.80 — high</i>"]
-        E3["<b>P0003</b> · legitimate charity<br/><i>risk 0.01 — low, correctly</i>"]
-    end
+    NOTE["🔍 <b>Auditable by construction</b> — every identifier stores<br/>which of R1–R4 attached it, so an analyst can challenge<br/><i>why</i> two identifiers became one person. Groups matching no<br/>registered subscriber become <i>Unregistered subscriber Pnnnn</i>:<br/>never silently dropped, never silently merged."]
 
-    P1 & P2 & D1 & D2 & A1 & A2 & H1 --> RULES
-    R1 & R2 & R3 & R4 --> UF --> OUT
-
-    NOTE["🔍 <b>Auditable by construction:</b> every identifier stores which of R1–R4 attached it,<br/>so an analyst can challenge <i>why</i> two identifiers were called one person.<br/>Groups matching no registered subscriber become named <i>Unregistered subscriber Pnnnn</i> —<br/>never silently dropped, never silently merged."]
-    OUT --> NOTE
+    RAW --> RULES --> UF --> OUT --> NOTE
 
     classDef raw fill:#334155,stroke:#94a3b8,color:#f1f5f9
     classDef rule fill:#0c4a6e,stroke:#0ea5e9,color:#e0f2fe
     classDef uf fill:#78350f,stroke:#f59e0b,color:#fef3c7
     classDef ent fill:#14532d,stroke:#22c55e,color:#dcfce7
     classDef note fill:#1e1b4b,stroke:#6366f1,color:#e0e7ff
-    class P1,P2,D1,D2,A1,A2,H1 raw
+    class RAW raw
     class R1,R2,R3,R4 rule
     class UF uf
-    class E1,E2,E3 ent
+    class OUT ent
     class NOTE note
 ```
 
@@ -393,33 +331,30 @@ This is the heart of the product. Three detectors, each returning explicit recor
 ```mermaid
 sequenceDiagram
     autonumber
-    participant H as 🎭 Handler (P0020)
-    participant V as 😰 Victim (P0001)
-    participant M as 💰 Mule (P0006)
-    participant F as 🕸️ Fan-out accounts
-    participant ATM as 🏧 ATM
+    participant H as 🎭 Handler
+    participant V as 😰 Victim
+    participant M as 💰 Mule
+    participant F as 🕸️ Fan-out + ATM
 
     rect rgba(217,119,6,0.12)
-    Note over H,V: DETECTOR 1 — call → debit coupling
+    Note over H,V: DETECTOR 1 — call → debit
     H->>V: Coercive call · CDR00019
-    Note right of V: latency measured from call END —<br/>or from call START if the debit<br/>happened while still connected
     V->>M: ₹4,80,000 · TXN00086
-    Note over H,M: ⚡ 11 minutes. Bank sees a legal IMPS.<br/>Telco sees a normal call. Only the JOIN is suspicious.
+    Note over H,M: ⚡ 11 minutes.<br/>Bank sees a legal IMPS.<br/>Telco sees a normal call.<br/>Only the JOIN is suspicious.
     end
 
     rect rgba(14,165,233,0.12)
-    Note over M,F: DETECTOR 2 — fan-out / pass-through
-    M->>F: 96 percent passed on across 6 accounts, under 30 min
-    Note right of F: ratio between 0.7 and 1.5 of the credit.<br/>Money in, money straight out = mule signature
-    F->>ATM: Cash-out legs · channel = ATM
+    Note over M,F: DETECTOR 2 — fan-out
+    M->>F: 96% onward, 6 accounts
+    Note right of F: ratio 0.7–1.5 of the credit:<br/>money in, money straight out
+    M->>F: Cash-out · ATM
     end
 
     rect rgba(168,85,247,0.12)
-    Note over H: DETECTOR 3 — SIM rotation
-    Note over H: One handset, 4 IMSIs.<br/>Burner rotation shielding the handler.
+    Note over H: DETECTOR 3 — SIM rotation:<br/>one handset, 4 IMSIs
     end
 
-    Note over H,ATM: 🎯 Three ordinary facts. One coordinated network.<br/>Every edge carries its source record ids — re-hashable, not believable.
+    Note over H,F: 🎯 Three ordinary facts. One network.<br/>Every edge carries its record ids.
 ```
 
 And, crucially, the **campaign hunt** flips the ranking logic entirely:
@@ -567,33 +502,22 @@ flowchart TD
 "Multi-agent" here means three genuinely different architectures, each chosen because the others would be wrong for the job.
 
 ```mermaid
-flowchart LR
-    subgraph A1["① Deterministic pipeline — <i>reproducible</i>"]
-        direction TB
-        A1a["8 named roles, fixed order"]
-        A1b["Calls deterministic services"]
-        A1c["LLM may word the report — nothing else"]
-    end
-    subgraph A2["② Response agent — <i>adversarial</i>"]
-        direction TB
-        A2a["7 competing hypotheses"]
-        A2b["8 evidence sources"]
-        A2c["Proposes; a human approves"]
-    end
-    subgraph A3["③ Tool-use investigator — <i>open-ended</i>"]
-        direction TB
-        A3a["LLM picks from 9 read-only tools"]
-        A3b["Cites record ids per sentence"]
-        A3c["Verified, then repaired, then reported"]
-    end
+flowchart TB
+    Q["🎯 Investigator's question"]
+    A1["① <b>Deterministic pipeline</b> — <i>reproducible</i><br/>8 named roles in fixed order, calling deterministic services.<br/>An LLM may word the report — nothing else."]
+    A2["② <b>Response agent</b> — <i>adversarial</i><br/>7 competing hypotheses weighed across 8 evidence sources.<br/>It proposes; a named human approves."]
+    A3["③ <b>Tool-use investigator</b> — <i>open-ended</i><br/>An LLM picks from 9 read-only tools and cites record ids<br/>per sentence. Verified, repaired, then reported."]
+    L["📒 <b>Shared reasoning ledger</b><br/><i>claims · hypotheses · contradictions · replayable trace</i>"]
+    HUMAN(["👤 <b>Human decision</b> — recorded with the score it was taken against"])
 
-    Q["🎯 Investigator's question"] --> A1 & A2 & A3
-    A1 & A2 & A3 --> L["📒 Shared reasoning ledger<br/><i>claims · hypotheses · contradictions · replayable trace</i>"]
-    L --> HUMAN(["👤 <b>Human decision</b><br/>recorded with the score it was taken against"])
+    Q --> A1 --> L
+    Q --> A2 --> L
+    Q --> A3 --> L
+    L --> HUMAN
 
     classDef a fill:#581c87,stroke:#a855f7,color:#f3e8ff
     classDef h fill:#14532d,stroke:#22c55e,color:#dcfce7
-    class A1a,A1b,A1c,A2a,A2b,A2c,A3a,A3b,A3c a
+    class A1,A2,A3 a
     class HUMAN,L h
 ```
 
@@ -602,20 +526,22 @@ flowchart LR
 Most "agent pipelines" are a prompt chain that agrees with itself. This one contains an adversary whose only job is to **argue against the analyst**.
 
 ```mermaid
-flowchart LR
-    P["🗺️ <b>Planner</b><br/>sets 4 questions —<br/>including <i>'is there an<br/>innocent explanation?'</i>"]
-    I["📥 <b>Investigator</b><br/>graph state"]
-    C["🔗 <b>Correlator</b><br/>identifiers → actors"]
-    AN["📊 <b>Analyst</b><br/>scores all; opens a<br/>hypothesis per flagged entity"]
-    CR["⚔️ <b>Critic</b><br/>runs exculpatory checks;<br/>links counter-evidence"]
-    V["🔍 <b>Verifier</b><br/>re-hashes every<br/>pinned claim"]
-    R["📋 <b>Responder</b><br/>proposals for surviving<br/>hypotheses only"]
-    AU["📝 <b>Auditor</b><br/>writes the report"]
+flowchart TB
+    P["🗺️ <b>1 · Planner</b> — sets four questions, including<br/><i>'is there an innocent explanation?'</i>"]
+    I["📥 <b>2 · Investigator</b> — graph state"]
+    C["🔗 <b>3 · Correlator</b> — identifiers → actors"]
+    AN["📊 <b>4 · Analyst</b> — scores everyone; opens a hypothesis<br/>for each flagged entity"]
+    CR["⚔️ <b>5 · Critic</b> — runs the exculpatory checks and links<br/>counter-evidence against each hypothesis"]
+    V["🔍 <b>6 · Verifier</b> — re-hashes every pinned claim"]
+    R["📋 <b>7 · Responder</b> — proposals for surviving hypotheses only"]
+    AU["📝 <b>8 · Auditor</b> — writes the run report"]
+
+    REF["❌ <b>Hypothesis REFUTED</b> — the Responder skips the subject.<br/><i>The system talks itself out of accusing people.</i>"]
+    REJ["🚫 <b>LLM prose REJECTED</b> — falls back to the deterministic template.<br/><i>A model may choose words, never numbers.</i>"]
 
     P --> I --> C --> AN --> CR --> V --> R --> AU
-
-    CR -.->|"confidence < 0.2"| REF["❌ <b>Hypothesis REFUTED</b><br/>subject skipped by the Responder —<br/><i>the system talks itself out of<br/>accusing people</i>"]
-    AU -.->|"figure not in the facts"| REJ["🚫 <b>LLM prose REJECTED</b><br/>falls back to the deterministic<br/>template. A model may choose<br/>words, never numbers."]
+    CR -.->|"confidence below 0.2"| REF
+    AU -.->|"figure not in the facts"| REJ
 
     classDef stage fill:#0c4a6e,stroke:#0ea5e9,color:#e0f2fe
     classDef adv fill:#78350f,stroke:#f59e0b,color:#fef3c7
@@ -730,29 +656,30 @@ flowchart TB
 
 ```mermaid
 flowchart TD
-    CLAIM(["📝 Claim<br/><i>'₹4,80,000 was transferred from<br/>HDFC61559407816' [TXN00086]'</i>"]) --> RESOLVE{"1️⃣ Does every cited<br/>record exist?"}
+    CLAIM(["📝 <i>'₹4,80,000 was transferred from HDFC61559407816'</i> [TXN00086]"])
+    CLAIM --> C0{"Does the sentence<br/>cite any record?"}
 
-    RESOLVE -->|"❌ no"| FAB["🚨 <b>FABRICATED</b><br/><i>'A citation that resolves to nothing<br/>is a fabrication, not a judgement call.'</i>"]
-    RESOLVE -->|"✅ yes"| HASH{"2️⃣ Does each record still<br/>re-hash to its ingest value?"}
+    C0 -->|"no"| NONE["❔ <b>UNCITED</b> if it asserts a figure · ➖ <b>UNVERIFIABLE</b> if it does not<br/><i>neither means 'false' — absence of evidence is not evidence of absence</i>"]
+    C0 -->|"yes"| R1{"1️⃣ Does every cited record exist?"}
 
-    HASH -->|"❌ no"| TAMP["⛓️‍💥 <b>TAMPERED</b><br/><i>An accurate statement resting on<br/>altered evidence is not usable in court.</i>"]
-    HASH -->|"✅ yes"| FIG{"3️⃣ Does every figure,<br/>identifier and timestamp<br/>appear in the payload?"}
+    R1 -->|"❌ no"| FAB["🚨 <b>FABRICATED</b><br/><i>'A citation that resolves to nothing is a fabrication,<br/>not a judgement call.'</i>"]
+    R1 -->|"✅ yes"| R2{"2️⃣ Does each still re-hash to its ingest value?"}
 
-    FIG -->|"❌ missing"| UNS["⚠️ <b>UNSUPPORTED</b><br/><i>'The records exist and are intact,<br/>but they do not contain 12,000,000.'</i>"]
-    FIG -->|"✅ all present"| VERI["✅ <b>VERIFIED</b>"]
+    R2 -->|"❌ no"| TAMP["⛓️‍💥 <b>TAMPERED</b><br/><i>An accurate statement resting on altered evidence<br/>is not usable in court.</i>"]
+    R2 -->|"✅ yes"| R3{"3️⃣ Does every figure, identifier and<br/>timestamp appear in the payload?"}
 
-    NOCITE{"No citation at all?"} --> HASFIG{"Does it assert<br/>a figure?"}
-    HASFIG -->|yes| UNC["❔ <b>UNCITED</b>"]
-    HASFIG -->|no| UNV["➖ <b>UNVERIFIABLE</b><br/><i>not 'false' — absence of evidence<br/>is not evidence of absence</i>"]
+    R3 -->|"❌ missing"| UNS["⚠️ <b>UNSUPPORTED</b><br/><i>'The records exist and are intact, but they<br/>do not contain 12,000,000.'</i>"]
+    R3 -->|"✅ all present"| VERI["✅ <b>VERIFIED</b>"]
 
-    REFUSE(["🙏 'I can't answer that<br/>from the data I hold'"]) --> NAC["🏅 <b>NOT_A_CLAIM</b><br/><i>An honest refusal is the behaviour this<br/>system exists to encourage. Penalising it<br/>would teach the agent to GUESS.</i>"]
+    REFUSE(["🙏 <i>'I can't answer that from the data I hold'</i>"])
+    REFUSE --> NAC["🏅 <b>NOT_A_CLAIM</b><br/><i>An honest refusal is the behaviour this system exists to<br/>encourage. Penalising it would teach the agent to GUESS.</i>"]
 
     classDef ok fill:#14532d,stroke:#22c55e,color:#dcfce7
     classDef bad fill:#7f1d1d,stroke:#ef4444,color:#fee2e2
     classDef warn fill:#78350f,stroke:#f59e0b,color:#fef3c7
     class VERI,NAC ok
     class FAB,TAMP bad
-    class UNS,UNC,UNV warn
+    class UNS,NONE warn
 ```
 
 ### The verifier grades itself — in public
@@ -786,34 +713,34 @@ Each reduction scales by how closely the entity resembles the legitimate referen
 Two map surfaces, deliberately separated by an epistemic wall.
 
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph GEV["🌍 God's Eye View — CONTEXT"]
         direction TB
-        G1["CesiumJS 1.111 3D globe<br/>iframe-isolated from React"]
-        G2["✈️ <b>Live aircraft</b> — OpenSky ADS-B<br/>via same-origin proxy, 15s poll<br/><i>(OpenSky's CORS header blocks the<br/>browser; we proxy server-to-server<br/>with a 9s cache for rate limits)</i>"]
-        G3["🛰️ <b>Satellites</b> — CelesTrak TLEs<br/>propagated locally with <b>SGP4</b>, 1s tick<br/>de-duped by NORAD id, not name"]
-        G4["🗺️ Esri World Imagery, keyless"]
-        G5["🚢 Vessels · 📹 Cameras<br/><b>Registered and honestly EMPTY</b><br/><i>'Needs a feed key this deployment<br/>does not hold.' Nothing is invented.</i>"]
+        G1["CesiumJS 1.111 globe, iframe-isolated · Esri imagery, keyless"]
+        G2["✈️ <b>Live aircraft</b> — OpenSky ADS-B, 15s poll<br/><i>via a same-origin proxy: OpenSky's CORS header blocks<br/>the browser, so we fetch server-to-server, 9s cache</i>"]
+        G3["🛰️ <b>Satellites</b> — CelesTrak TLEs propagated locally<br/>with <b>SGP4</b>, 1s tick, de-duplicated by NORAD id"]
+        G5["🚢 Vessels · 📹 Cameras — <b>registered and honestly EMPTY</b><br/><i>'Needs a feed key this deployment does not hold.'</i>"]
+        G1 ~~~ G2 ~~~ G3 ~~~ G5
     end
+
+    WALL["🚧 <b>THE WALL</b> — the God's Eye header says it out loud:<br/><i>'This is context, not evidence: nothing on this globe is<br/>hash-chained or resolves to an ingested record,<br/>and no finding should rest on it.'</i>"]
 
     subgraph EYE["🔬 Investigation Eye — EVIDENCE"]
         direction TB
-        E1["Case reconstruction: <b>128 ordered steps</b><br/>61 calls · 48 coerced transfers<br/>9 layering hops · 7 funds-received · 3 cash-outs"]
-        E2["⏱️ <b>Time machine</b> — drag and watch<br/>the case assemble; toggle the<br/>30-minute 'burst the case turns on'"]
-        E3["Filters: All · Follow money · Follow device"]
-        E4["Views: canvas pseudo-3D (orbit/zoom)<br/>or flat SVG plan with towers + arcs"]
-        E5["🔐 <b>Every step and arc resolves to a<br/>hashed source row</b>"]
+        E1["Case reconstruction — <b>128 ordered steps</b><br/>61 calls · 48 coerced transfers · 9 layering hops<br/>7 funds-received · 3 cash-outs"]
+        E2["⏱️ <b>Time machine</b> — drag and watch the case assemble;<br/>toggle the 30-minute 'burst the case turns on'"]
+        E4["Filters: All · Follow money · Follow device<br/>Views: canvas pseudo-3D, or flat SVG plan"]
+        E5["🔐 <b>Every step and arc resolves to a hashed source row</b>"]
+        E1 ~~~ E2 ~~~ E4 ~~~ E5
     end
-
-    WALL["🚧 <b>THE WALL</b><br/>The God's Eye header says it out loud:<br/><i>'This is context, not evidence: nothing on this globe is<br/>hash-chained or resolves to an ingested record,<br/>and no finding should rest on it.'</i>"]
 
     GEV --- WALL --- EYE
 
     classDef ctx fill:#0c4a6e,stroke:#0ea5e9,color:#e0f2fe
     classDef ev fill:#14532d,stroke:#22c55e,color:#dcfce7
     classDef wall fill:#78350f,stroke:#d97706,color:#fef3c7
-    class G1,G2,G3,G4,G5 ctx
-    class E1,E2,E3,E4,E5 ev
+    class G1,G2,G3,G5 ctx
+    class E1,E2,E4,E5 ev
     class WALL wall
 ```
 
@@ -1087,24 +1014,16 @@ TRACEX_SCORER=trained ../.venv/Scripts/python -m uvicorn tracex_api.main:app --p
 
 ## 18. Roadmap
 
-```mermaid
-timeline
-    title From tamper-evident to tamper-proof, and beyond
-    section Integrity
-        External chain anchoring : Publish batch chain heads to write-once storage and an RFC-3161 timestamp authority, so the head no longer lives beside the data it protects
-        Cross-agency attestation : Permissioned inter-agency anchoring — the only place a distributed ledger genuinely earns its cost
-    section Models
-        Graph neural network : Message passing over the behaviour graph, benchmarked against XGBoost with the same honest external validation
-        Temporal sequence models : Model the ORDER of events, not just aggregate features
-        Live-data revalidation : Replace synthetic training with governed real data, under a fairness review the current data cannot support
-    section Agents
-        Live LLM validation : Exercise the Claude and Ollama paths against real endpoints, publish the measured grounding rate
-        Multi-judge panel : Add an independent judge family beside the rule judge, and report disagreement instead of averaging it away
-    section Platform
-        Real SSO/OIDC : Replace trusted-header demo auth
-        Streaming ingest : Move from batch files to live feeds while preserving per-record chaining
-        Close the stub : Implement the geo_financial_conflict check
-```
+| Area | Next | Why it matters |
+|---|---|---|
+| 🔗 **Integrity** | **External chain anchoring** — publish batch chain heads to write-once storage and an RFC-3161 timestamp authority | The head stops living beside the data it protects: **tamper-evident becomes tamper-proof** |
+| 🔗 **Integrity** | **Cross-agency attestation** — permissioned inter-agency anchoring | The one place a distributed ledger genuinely earns its cost |
+| 🧠 **Models** | **Graph neural network** over the behaviour graph | Message passing should beat hand-built features — benchmarked with the same honest external validation, or not shipped |
+| 🧠 **Models** | **Temporal sequence models** | Model the *order* of events, not just aggregate features |
+| 🧠 **Models** | **Live-data revalidation** | Replace synthetic training with governed real data, under a fairness review the current data cannot support |
+| 🤖 **Agents** | **Live LLM validation** | Exercise the Claude and Ollama paths against real endpoints and publish the measured grounding rate |
+| 🤖 **Agents** | **Multi-judge panel** | Add an independent judge family beside the rule judge, and **report disagreement instead of averaging it away** |
+| ⚙️ **Platform** | **Real SSO/OIDC** · **streaming ingest** · **close the `geo_financial_conflict` stub** | Replace demo auth; move from batch files to live feeds while preserving per-record chaining |
 
 ---
 
